@@ -1,0 +1,9 @@
+{
+	"recipes":[
+		{
+			"startdescription":"我对丽姬亚厄客德娜的了解增加了。如果我认真思考这件事，也许能找到邀请她来此的方法。",
+			"id":"technique.summon.echidna.learn",
+			"desc":"在荒野中，我或许能召唤厄客德娜……[你的技艺获得了一个新的性相]"
+		}
+	]
+}

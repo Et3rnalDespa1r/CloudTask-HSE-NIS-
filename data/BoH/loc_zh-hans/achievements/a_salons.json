@@ -1,0 +1,33 @@
+{
+	"achievements":[
+		{
+			"id":"A_CATEGORY_SALON",
+			"label":"沙龙成就"
+		},
+		{
+			"descriptionunlocked":"我招待宾客共进了下午茶。",
+			"id":"A_SALON_AFTERNOON_TEA",
+			"label":"超爱吃松饼"
+		},
+		{
+			"descriptionunlocked":"我招待宾客共进了野餐。",
+			"id":"A_SALON_PICNIC",
+			"label":"寒冷的日子里来点热冰淇淋"
+		},
+		{
+			"descriptionunlocked":"我招待宾客共进了午前茶。",
+			"id":"A_SALON_ELEVENSES",
+			"label":"第二顿早餐"
+		},
+		{
+			"descriptionunlocked":"我招待宾客共进了晚宴。",
+			"id":"A_SALON_SUPPER",
+			"label":"美食，欢呼，歌唱"
+		},
+		{
+			"descriptionunlocked":"我招待宾客共进了午宴。",
+			"id":"A_SALON_LUNCH",
+			"label":"派到压力消"
+		}
+	]
+}

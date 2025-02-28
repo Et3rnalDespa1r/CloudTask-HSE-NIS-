@@ -1,0 +1,58 @@
+﻿{"recipes": [
+
+
+{"id": "h.record.already",
+"label": "Эта История",
+"actionid": "*consider",
+"reqs":{"ability":1,"skill":1, "ink":1,"journal":1,"numen":1,"history":1},
+"startdescription": "Я уже записал одну Историю. Теперь я должен поднести её морю, небу и земле на Бриановом луге... во время нумы.",
+"hintonly":true
+},
+
+{"id": "h.record.aspect.hint",
+"label": "Больше?",
+"actionid": "*consider",
+"reqs":{"ability":1,"skill":1, "ink":1,"journal":1,"numen":1,"history":-1},
+"startdescription": "Я мог бы дерзнуть записать Историю – истину, что могут принять и почтить даже Часы. Но сделать это будет непросто. [Чтобы записать Историю, понадобится нумен и не менее 25-й ступени одного из принципов. Последнее проще будет осуществить, если вы уже составили как минимум одно наделённое нужным аспектом Установление.]",
+"hintonly":true
+},
+
+{"id": "h.present.journal.hint",
+"label": "Предстать пред Древом?",
+"actionid": "world.tree.gate",
+"reqs":{"journal":-1,"ability":1},
+"startdescription": "Тис Бриана стоит доныне. Что ещё пребудет вместе с ним? [Запишите Историю и возложите её к тису Бриана.]",
+"hintonly":true
+},
+
+{"id": "h.present.ability.history.hint",
+"label": "Поднести Историю?",
+"actionid": "world.tree.gate",
+"reqs":{"journal":1,"history":1,"ability":-1},
+"startdescription": "Здесь я стою. Что заберёт себе забвение? [Вы записали Историю. Готовы ли вы возложить её к тису Бриана?]",
+"hintonly":true
+},
+
+{"id": "h.present.ability.hint",
+"label": "Что поднести?",
+"actionid": "world.tree.gate",
+"reqs":{"journal":1,"history":-1,"ability":-1},
+"startdescription": "[Добавьте часть души, чтобы пройти игру. Или напишите в своём дневнике новую Историю, чтобы пройти её с триумфом.]",
+"hintonly":true
+},
+
+{"id": "h.present.journal.season.hint",
+"label": "Когда наступит нума...",
+"actionid": "world.tree.gate",
+"reqs":{"journal":1,"history":1,"ability":1},
+"extantreqs":{"season.numa":-1},
+"startdescription": "Если я желаю увековечить свою Историю, мне следует прийти сюда с дневником во время нумы.",
+"hintonly":true
+}
+
+
+
+
+
+]
+}

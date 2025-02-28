@@ -1,0 +1,164 @@
+﻿{"recipes": [
+ 
+
+    {"id":"talk.visitor.intercept.tx.agdistis", "reqs":{"agdistis":1,"tx.agdistis":1},"startdescription":"Господин Агдистис уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.aladim","reqs":{"aladim":1,"tx.aladim":1},"startdescription":"Доктор Ибн аль-Адим уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.arthur","reqs":{"arthur":1,"tx.arthur":1},"startdescription":"Лейтенант Мур уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.arun","reqs":{"arun":1,"tx.arun":1},"startdescription":"Доктор Арун Пил уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.auntmopsy","reqs":{"auntmopsy":1,"tx.auntmopsy":1},"startdescription":"Тётушка Мопси уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.azita","reqs":{"azita":1,"tx.azita":1},"startdescription":"Азита уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.chaima","reqs":{"chaima":1,"tx.chaima":1},"startdescription":"Лалла Хаима уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.connie","reqs":{"connie":1,"tx.connie":1},"startdescription":"Младший констебль-окулянт Бюро умолчания Ли уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.coquille","reqs":{"coquille":1,"tx.coquille":1},"startdescription":"Княжна Кокиль уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.corso","reqs":{"corso":1,"tx.corso":1},"startdescription":"Корсо уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.dagmar","reqs":{"dagmar":1,"tx.dagmar":1},"startdescription":"Гризельда уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.douglas","reqs":{"douglas":1,"tx.douglas":1},"startdescription":"Инспектор Бюро умолчания Дуглас Мур уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.ehsan","reqs":{"ehsan":1,"tx.ehsan":1},"startdescription":"Эхсан уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.franklin","reqs":{"franklin":1,"tx.franklin":1},"startdescription":"Лорд Банкрофт уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.fraser","reqs":{"fraser":1,"tx.fraser":1},"startdescription":"Фрейзер уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.hokobald","reqs":{"hokobald":1,"tx.hokobald":1},"startdescription":"Магистр Хокобальд уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.julian","reqs":{"julian":1,"tx.julian":1},"startdescription":"Джулиан Косли уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.morgen","reqs":{"morgen":1,"tx.morgen":1},"startdescription":"Мадемуазель Матутин уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.olympe","reqs":{"olympe":1,"tx.olympe":1},"startdescription":"Олимпия уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.rowena","reqs":{"rowena":1,"tx.rowena":1},"startdescription":"Ровена уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.serena","reqs":{"serena":1,"tx.serena":1},"startdescription":"Доктор Блэквуд уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.stanislav","reqs":{"stanislav":1,"tx.stanislav":1},"startdescription":"О. Шаллер уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.yvette","reqs":{"yvette":1,"tx.yvette":1},"startdescription":"Доктор Саути уже ознакомилась с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ей другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+    {"id":"talk.visitor.intercept.tx.zachary","reqs":{"zachary":1,"tx.zachary":1},"startdescription":"Уэйкфилд уже ознакомился с этой книгой. [Посетитель может извлечь пользу из книги только один раз; предложите ему другую.]","label": "Ничего нового","actionid": "talk","craftable":true,"hintonly":true},
+
+
+
+{"id": "talk.visitor.intercept.hokobald.bighuff",
+"label": "«Неужели это?..»",
+"actionid": "talk",
+"startdescription": "«А я боялся, что ни одного экземпляра не осталось! В мире так много злобы – так много желчи и поношений – столько презрения к заработанной тяжким трудом мудрости... Прошу прощения. Я буду рад купить у вас это сокровище, если вы согласитесь с ним расстаться. Золотой спинтрии будет достаточно?» [Хокобальд заберёт книгу и отбудет, забыв о любом текущем происшествии.]",
+"desc": "«Мне причинили так много зла. Но я могу причинить ещё больше зла в ответ. <i>Bon appetit</i>, мой дорогой библиотекарь».",
+"reqs": {"hokobald":1,"t.mydeedsmypowersmyachievementsandtheinjusticesperpetratedagainstme":1},
+"aspects":{"satisfying":1},
+"effects":{"spintria.gold":1,"t.mydeedsmypowersmyachievementsandtheinjusticesperpetratedagainstme":-1},
+"craftable":true,
+"warmup":10
+},
+
+{"id": "talk.visitor.intercept.arthur.thesunsdesign",
+"label": "«Настоящее сокровище, библиотекарь».",
+"actionid": "talk",
+"startdescription": "«Я не могу разобрать слова, библиотекарь, но я видел их раньше. В тот раз их перевёл для меня дорогой друг. «Видите ли, давным-давно я и сам совершил паломничество к пристанищу Элагабала... Впрочем, в тех землях его до сих пор называют Илла аль-Габал. Вы позволите мне осмотреть камень?» [Мур изучит книгу и вернёт вам. Он не уедет, пока не завершит свои остальные дела.]",
+"desc": "«Если дорога к смерти ведёт вниз, а к вечности – вверх, то в каких направлениях лежат жизнь и история? Это нередкая тема для обсуждения в Лабиринте. Порой я задаюсь вопросом: неужели моим почтенным учителям нечем больше было заняться все эти годы?.. Но в Лабиринте – и даже больше, чем во всех остальных местах, где я побывал, включая Эмесу – тремя непреложными условиями были Солнце, Камень и Тишина».",
+"reqs": {"arthur":1,"t.thesunsdesign":1},
+"mutations":[{"filter":"readable","mutate":"tx.arthur","level":1,"additive":true}],
+"effects":{"x.auroralcontemplations":1,"occult.scrap":1},
+"craftable":true,
+"warmup":10
+},
+
+{"id": "talk.visitor.intercept.arun.collectedhushhouselectures",
+"label": "«Я что-то такое припоминаю».",
+"actionid": "talk",
+"startdescription": "«Я и забыл, что когда-то публиковал труды в Третьей истории. Ну и ну. Позвольте взглянуть? Я не буду снимать перчатки». [Доктор Арун Пил осмотрит книгу и вернёт вам. Он не уедет, пока не завершит свои остальные дела.]",
+"desc": "«А вы знали, что «Орифламма» открылась в год Великого маскарада? Впрочем, в другой Истории. Это почти наверняка совпадение. Прошу, наклонитесь ближе – я прошепчу вам на ухо сноску».",
+"reqs": {"arun":1,"t.collectedhushhouselectures":1},
+"mutations":[{"filter":"readable","mutate":"tx.arun","level":1,"additive":true}],
+"effects":{"wormwood.dream":1},
+"craftable":true,
+"warmup":10
+},
+
+
+{"id": "talk.visitor.intercept.arun.theflayedtantra",
+"label": "«Библиотекарь, это невежливо».",
+"actionid": "talk",
+"reqs": {"arun":1,"t.theflayedtantra":1},
+"startdescription": "«Каждый из нас, живущих, сбрасывает истории, как змеи – кожу. Я сбросил эту историю много веков назад. И совершенно не желаю к ней возвращаться».",
+"hintonly":true,
+"craftable":true
+},
+
+
+{"id": "talk.visitor.intercept.arun.theradicalmeasure",
+"label": "«Я знал, что это понравится не всем».",
+"actionid": "talk",
+"reqs": {"arun":1,"t.theradicalmeasure":1},
+"startdescription": "«Как говорится, нет пророка в своём отечестве, а я теперь родом отовсюду, так что мои слова вряд ли воспримут всерьёз. Позвольте взглянуть? Я буду рад показать вам лучшие места. И я не стану снимать перчатки». [Доктор Арун Пил осмотрит книгу и вернёт вам. Он не уедет, пока не завершит свои остальные дела.]",
+"desc":"«Вот тут. И тут. А <i>эту</i> часть редактор попытался изъять. Так что мне пришлось устроить для него небольшой мотивирующий сон. Оно того стоило».",
+"mutations":[{"filter":"readable","mutate":"tx.arun","level":1,"additive":true}],
+"effects":{"x.preliminalmeter":1,"horizonsight":1},
+"craftable":true,
+"warmup":10
+},
+
+{"id": "talk.visitor.intercept.arun.theradicalmeasureglossed",
+"label": "«Версия с комментариями?",
+"actionid": "talk",
+"startdescription": "«О, я давно пытаюсь наложить руки на это издание. Вот прочитаю и решу, нужно ли наложить руки на юного Иллополи. Серебряная спинтрия вас устроит?» [Доктор Арун Пил заберёт книгу, но не уедет, пока не завершит свои остальные дела.]",
+"desc":"«Так. Та-ак. <i>Та-ак</i>. Кристофер. Кристофер, Кристофер, Кристофер...»",
+"reqs": {"arun":1,"t.theradicalmeasureglossed":1},
+"effects":{"spintria.silver":1,"t.theradicalmeasureglossed":-1},
+"craftable":true,
+"warmup":10
+},
+
+{"id": "talk.visitor.intercept.arun.thevictoryofcrowns",
+"label": "«Победа Коронованных?",
+"actionid": "talk",
+"startdescription": "«Знаете, а я ведь не уверен, написал я эту книгу или нет. Точнее, какой я её написал. Позволите её унести? Я предлагаю вам пару книг из тех, что у меня с собой. Нет, я их не покажу. В темноте камни не становятся острей». [Доктор Арун Пил заберёт «Коронованных» и отдаст две книги неизвестной природы и происхождения. Он не уедет, пока не завершит свои остальные дела.]",
+"desc":"«Это вам. А это мне».",
+"reqs": {"arun":1,"t.thevictoryofcrowns":1},
+"effects": {"t.thevictoryofcrowns":-1},
+"deckeffects":{"d.books.divers":2},
+"craftable":true,
+"warmup":10
+},
+
+
+{"id": "talk.visitor.intercept.auntmopsy.snareofthetreecollectedproverbsofauntmopsy",
+"label": "«О-о-о!»",
+"actionid": "talk",
+"startdescription": "«Та дама из Керишема. Я пообещала, что если она будет вести себя хорошо, то больше никогда меня не увидит. Слово есть слово, дорогуша, но что это была за история! Дай-ка мне эту книжечку. Я обещаю её вернуть». [Тётушка Мопси осмотрит книгу и вернёт вам. Она не уедет, пока не завершит свои остальные дела.]",
+"desc":"«Вот, дорогуша. Маленький урок для тебя сейчас. И ещё маленький урок для тебя потом».",
+"reqs": {"auntmopsy":1,"t.snareofthetreecollectedproverbsofauntmopsy":1},
+"mutations":[{"filter":"readable","mutate":"tx.auntmopsy","level":1,"additive":true},{"filter":"readable","mutate":"contamination.keeperskin","level":1,"additive":true}],
+"effects":{"x.applebrighteuphonies":1},
+"craftable":true,
+"warmup":10
+},
+
+{"id": "talk.visitor.intercept.ehsan.theseadoesnotregret",
+"label": "«Вот это да...",
+"actionid": "talk",
+"startdescription": "«Библиотекарь, это будит воспоминания! Некоторые из них... Ну, некоторые приятнее, чем другие. Можно взглянуть?» [Эхсан осмотрит книгу и вернёт вам. Он не уедет, пока не завершит свои остальные дела.]",
+"desc":"«В «Милых костях» ещё подают рыбный пирог? Может, я загляну туда по пути домой. Если подумать, это напомнило мне один рецепт. Сейчас я им поделюсь».",
+"mutations":[{"filter":"readable","mutate":"tx.ehsan","level":1,"additive":true}],
+"reqs": {"ehsan":1,"t.theseadoesnotregret":1},
+"effects":{"x.spices.savours":1},
+"craftable":true,
+"warmup":10
+},
+
+{"id": "talk.visitor.intercept.ehsan.fekrisherbary",
+"label": "«Это была неплохая попытка».",
+"actionid": "talk",
+"startdescription": "«С тех пор я узнал гораздо больше, но надеюсь, что вы всё же смогли почерпнуть что-то полезное. Можно взглянуть?» [Эхсан осмотрит книгу и вернёт вам. Он не уедет, пока не завершит свои остальные дела.]",
+"desc":"«Если и есть что-то, чего я тогда не знал, то вот...»",
+"mutations":[{"filter":"readable","mutate":"tx.ehsan","level":1,"additive":true}],
+"reqs": {"ehsan":1,"t.fekrisherbary":1},
+"effects":{"x.herbs.infusions":1},
+"craftable":true,
+"warmup":10
+},
+{"id": "talk.visitor.intercept.stanislav.deathsandtheirevasions",
+"label": "«Я её помню...»",
+"actionid": "talk",
+"reqs": {"stanislav":1,"t.deathsandtheirevasions":1},
+ "startdescription": "«Я удивлён, что она оказалась здесь... Но всё-таки это Дом безмолвия. Позвольте освежить память? Я помню, что описал ту историю с Гальмье – отнюдь не так осторожно, как следовало бы...» [Станислав осмотрит книгу и вернёт вам. Он не уедет, пока не завершит свои остальные дела.]",
+"desc":"«Закон, о котором я не стану говорить вслух – закон трёх – им можно пренебречь. Чаще всего поступать так – откровенная глупость. За неудачу платит один, а за успех – многие. Библиотекарь, я бы попросил вас помнить об этом, когда вы решите воззвать к Вечности. Но я доверяю вашим суждениям. Спасибо, что одолжили книгу».",
+"mutations":[{"filter":"readable","mutate":"tx.stanislav","level":1,"additive":true}],
+"effects":{"x.edictsliminal":1},
+"craftable":true,
+"warmup":10
+}
+
+
+
+]
+}

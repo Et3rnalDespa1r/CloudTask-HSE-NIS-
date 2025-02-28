@@ -1,0 +1,23 @@
+{
+    "legacies": [
+        {
+            "id": "librarian",
+            "label": "Бранкраг, 7 марта 1936 г.",
+			"family": "librarian",
+            "startdescription": "«Вот уже семь лет, как в Доме безмолвия нет библиотекаря. С самого пожара. Подходящие кандидатуры встречаются крайне редко, но мы надеемся, что всё же в вас не ошиблись. Будьте осторожны в пути: воды близ берегов Бранкрага коварны...»",
+            "desc": "«На Бранкраг привела она их, что и в те дни считался сокрытым местом, и основала монастырь для мужей и жён, и стала первой настоятельницей его. Но девам и невинным вход в сию обитель был закрыт. С той поры на Бранкраге находят приют те, кого мир почитает запятнанными».",
+          
+            "image": "exile",
+            "effects": {},
+			 "startup": [
+                {"id": "setup.librarian.consider","topath":"~/fixedverbs"},
+                {"id": "setup.librarian.bookcase","topath":"~/library!lodge/?"},
+                {"id": "setup.librarian.visitors","topath":"~/visitors.offstage"}
+            ],
+            "fromending": "retirement",
+            "availableWithoutEndingMatch": true,
+            "startingverbid": "consider",
+            "newstart": true
+        }
+    ]
+}

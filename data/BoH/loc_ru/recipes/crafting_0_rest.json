@@ -1,0 +1,219 @@
+﻿{"recipes": [
+
+
+  {"id":"bed.rest.malady.forge",
+  "actionid":"library.bed.rest.*",
+  "label":"Исцелить мой недуг",
+  "startdescription":"Если я хочу выздороветь, мне нужны тепло и свет. [У вас достаточно аспекта Кузни.]",
+  "desc":"Время, покой, выздоровление.",
+  "reqs":{"restorative":1,"malady.cure.forge":1,"forge":"malady.cure.forge"},
+  "aspects":{"malady.curing":1,"fatiguing":1},
+  "warmup":180,
+  "craftable":true
+  },
+
+  {"id":"bed.rest.malady.grail",
+  "actionid":"library.bed.rest.*",
+  "label":"Исцелить мой недуг",
+  "startdescription":"Сильное чувство вернёт мой блуждающий дух домой.",
+  "desc":"Время, покой, выздоровление.",
+  "reqs":{"restorative":1,"malady.cure.grail":1,"grail":"malady.cure.grail"},
+  "aspects":{"malady.curing":1,"fatiguing":1},
+  "warmup":180,
+  "craftable":true
+  },
+
+  {"id":"bed.rest.malady.heart",
+  "actionid":"library.bed.rest.*",
+  "label":"Исцелить мой недуг",
+  "startdescription":"[У вас достаточно аспекта Сердца.]",
+  "desc":"Время, покой, выздоровление.",
+  "reqs":{"restorative":1,"malady.cure.heart":1,"heart":"malady.cure.heart"},
+  "aspects":{"malady.curing":1,"fatiguing":1},
+  "warmup":180,
+  "craftable":true
+  },
+
+  {"id":"bed.rest.malady.lantern",
+  "actionid":"library.bed.rest.*",
+  "label":"Исцелить мой недуг",
+  "startdescription":"[У вас достаточно аспекта Лампады.]",
+  "desc":"Время, покой, выздоровление.",
+  "reqs":{"restorative":1,"malady.cure.lantern":1,"lantern":"malady.cure.lantern"},
+  "aspects":{"malady.curing":1,"fatiguing":1},
+  "warmup":180,
+  "craftable":true
+  },
+
+  {"id":"bed.rest.malady.moth",
+  "actionid":"library.bed.rest.*",
+  "label":"Исцелить мой недуг",
+  "startdescription":"[У вас достаточно аспекта Мотылька.]",
+  "desc":"Время, покой, выздоровление.",
+  "reqs":{"restorative":1,"malady.cure.moth":1,"moth":"malady.cure.moth"},
+  "aspects":{"malady.curing":1,"fatiguing":1},
+  "warmup":180,
+  "craftable":true
+  },
+
+  {"id":"bed.rest.malady.nectar",
+  "actionid":"library.bed.rest.*",
+  "label":"Исцелить мой недуг",
+  "startdescription":"[У вас достаточно аспекта Нектара.]",
+  "desc":"Время, покой, выздоровление.",
+  "reqs":{"restorative":1,"malady.cure.nectar":1,"nectar":"malady.cure.nectar"},
+  "aspects":{"malady.curing":1,"fatiguing":1},
+  "warmup":180,
+  "craftable":true
+  },
+
+  {"id":"bed.rest.malady.sky",
+  "actionid":"library.bed.rest.*",
+  "label":"Исцелить мой недуг",
+  "startdescription":"[У вас достаточно аспекта Неба.]",
+  "desc":"Время, покой, выздоровление.",
+  "reqs":{"restorative":1,"malady.cure.sky":1,"sky":"malady.cure.sky"},
+  "aspects":{"malady.curing":1,"fatiguing":1},
+  "warmup":180,
+  "craftable":true
+  },
+
+  {"id":"bed.rest.malady.winter",
+  "actionid":"library.bed.rest.*",
+  "label":"Исцелить мой недуг",
+  "startdescription":"[У вас достаточно аспекта Зимы.]",
+  "desc":"Время, покой, выздоровление.",
+  "reqs":{"restorative":1,"malady.cure.winter":1,"winter":"malady.cure.winter"},
+  "aspects":{"malady.curing":1,"fatiguing":1},
+  "warmup":180,
+  "craftable":true
+  },
+
+  {"id": "bed.rest",
+  "actionid": "library.bed.rest*",
+  "label":"Отдохнуть",
+  "startdescription": "Выпить чего-нибудь тёплого и придремнуть, пока снаружи ветер гонит облака, а облака мчатся за солнцем. [Это восстановит изнурённую карту души.]",
+  "desc": "Я заслужил короткий отдых.",
+  "reqs": {"ability":1,"fatigued":1,"restorative":1},
+  "aspects":{"fatiguing":1,"recovering.ability":1},
+  "warmup":90,
+"craftable":true},
+
+
+
+{"id": "bed.guest.camp",
+"actionid": "library.bed.guest.*",
+"label":"Приготовить постель",
+"startdescription": "Пока что я поселюсь здесь. [Перенести сюда ваши вещи; вы сможете отдыхать в этой постели, чтобы восстанавливать карты души или избавляться от недугов.]",
+"desc": "Теперь это тихое и безопасное место... Насколько вообще могут быть безопасны сны.",
+"extantreqs":{"mybed":-1},
+"reqs": {"ability":1,"fatigued":-1},
+"aspects":{"camping":1,"fatiguing.ability":1},
+"warmup":90,
+"craftable":true},
+
+{"id": "bed.rest.decamp",
+"label": "Застелить постель",
+"actionid": "library.bed.rest.*",
+"startdescription": "В Доме безмолвия комнат много. Я могу перебраться в другую. [Добавьте иные карты, если хотите попробовать что-то ещё.]",
+"desc": "Я собрал вещи и постелил свежее бельё на случай, если вдруг захочу принимать гостей. Пришло время двигаться дальше.",
+"reqs": {"ability":1,"skill":-1,"fatigued":-1,"malady":-1,"memory":-1,"thing":-1},
+"warmup":30,
+"aspects":{"decamping":1,"fatiguing.ability":1},
+"craftable":true},
+
+{"id": "bed.rest.ability.restable.hint",
+"label": "Отдохнуть?",
+"actionid": "library.bed.rest.*",
+"startdescription": "Я мог бы устроиться здесь с кружечкой чего-нибудь согревающего или стаканчиком чего-нибудь крепкого и вздремнуть. [Добавьте укрепляющий напиток или свежие простыни, чтобы восстановить карту души и не ждать утра.]",
+"reqs": {"ability":1,"fatigued":1,"restorative":-1},
+"hintonly":true},
+
+{"id": "bed.rest.malady.curable.hint",
+"label": "Исцелить недуг?",
+"actionid": "library.bed.rest.*",
+"startdescription": "Чтобы исцелить этот недуг, нужны постель, укрепляющее питьё и достаточная ступень соответствующего аспекта. [Описание карты с недугом подскажет, какого именно.]",
+"reqs": {"malady":1,"restorative":-1},
+"hintonly":true},
+
+
+{"id": "bed.guest.campedelsewhere.hint",
+"label": "Другая комната?",
+"actionid": "library.bed.guest.*",
+"startdescription": "Прямо сейчас я сплю в другом месте. [Примените карту души к вашей текущей постели, чтобы застелить её, а потом возвращайтесь, если хотите перебраться сюда.]",
+"extantreqs":{"mybed":1},
+"reqs": {"ability":1},
+"hintonly":true},
+
+{"id": "bed.guest.camp.hint",
+"label": "Возьми постель свою",
+"actionid": "library.bed.guest.*",
+"startdescription": "Это не моя постель... пока не моя. [Используйте карту души, чтобы принести ваши вещи и перебраться в эту постель.]",
+"extantreqs":{"mybed":-1},
+"reqs": {"fatigued":1,"ability":1},
+"hintonly":true},
+
+{"id": "bed.guest.camp.malady.hint",
+"label": "Возьми постель свою",
+"actionid": "library.bed.guest.*",
+"startdescription": "Это не моя постель... пока не моя. [Используйте карту души, чтобы принести ваши вещи и перебраться в эту постель.]",
+"extantreqs":{"mybed":-1},
+"reqs": {"malady":1},
+"hintonly":true},
+
+{"id": "bed.guest.visitor",
+"actionid": "library.bed.guest.*",
+"label":"Приготовить постель",
+"startdescription": "[Если предложить гостю подходящую постель, он согласится задержаться – на случай, если вам нужно время, чтобы подобрать нужную книгу.]",
+"desc": "Мой гость теряет терпение...",
+"reqs": {"visitor":1},
+"warmup":180,
+"craftable":true},
+
+{"id":"bed.rest.memory",
+"actionid":"library.bed.rest.*",
+"label":"Удержать воспоминание",
+"startdescription":"Теперь, когда наступила ночь, я могу отдохнуть – и поразмыслить о дневных трудах. [Удержав в памяти воспоминание, вы сбережёте его от рассвета; оно будет доступно и на следующий день.]", 
+"desc":"Я пронёс воспоминание, как факел, сквозь лабиринты ночи. [Действие закончится с наступлением рассвета.]",
+"reqs":{"memory":1,"fatigued":-1,"malady":-1,"weather":-1},
+"extantreqs":{"sleepytime":1},
+"warmup":30,
+"craftable":true,
+"linked":[{"id":"bed.rest.memory.finish"}]
+},
+{"id":"bed.rest.memory.finish",
+"actionid":"library.bed.rest.*",
+"label":"Удержать воспоминание",
+
+"reqs":{"memory":1,"fatigued":-1,"malady":-1,"weather":-1},
+"extantreqs":{"sleepytime":1},
+"warmup":30,
+"linked":[{"id":"bed.rest.memory.finish"}]
+},
+
+{"id":"bed.rest.memory.hint",
+"actionid":"library.bed.rest.*",
+"label":"Удержать воспоминание?",
+"startdescription":"Ночь ещё не пришла. Но когда она наступит, я смогу отдохнуть – и поразмыслить о дневных трудах. [Удержав в памяти воспоминание, вы сбережёте его от рассвета; оно будет доступно и на следующий день. После заката солнца вложите сюда воспоминание.]",
+"reqs":{"memory":1,"fatigued":-1,"malady":-1,"weather":-1},
+"hintonly":true
+},
+{"id":"bed.rest.memory.weather.hint",
+"actionid":"library.bed.rest.*",
+"label":"Удержать воспоминание?",
+"startdescription":"Когда наступит ночь, я смогу отдохнуть – и поразмыслить о дневных трудах. [Удержав в памяти воспоминание, вы сбережёте его от рассвета – однако это не распространяется на погоду.]",
+"reqs":{"memory":1,"fatigued":-1,"malady":-1,"weather":1},
+"hintonly":true
+},
+
+{"id":"bed.rest.crafting.blocker",
+"actionid":"library.bed.rest.*",
+"label":"Работать в постели небезопасно",
+"startdescription":"Если я хочу что-нибудь создать, мне придётся вылезти из постели – но если мне нужно исцелить недуг, я мог бы использовать навык или воспоминание с чем-нибудь укрепляющим, таким как напиток или свежие простыни.",
+"reqs":{"skill":1,"ability":1},
+"craftable":true,
+"hintonly":true
+}
+
+]
+}

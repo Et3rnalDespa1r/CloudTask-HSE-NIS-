@@ -1,0 +1,454 @@
+﻿{"recipes": [
+
+{"id": "_write.order",
+"actionid": "*.consider",
+"craftable":true,
+"warmup":5,
+"reqs":{"encaustum":-1}
+},
+
+{"id": "study.form.hint",
+"label": "Заказать товары?",
+"actionid": "*.consider",
+"comments":"That dot rules out base Consider",
+"startdescription": "[Воспользуйтесь чернилами.]",
+"reqs": {"form.order":1,"ink":-1},
+"hintonly":true},
+
+{"id": "study.form.hint.consider.base",
+"label": "Заказать товары?",
+"actionid": "consider",
+"startdescription": "[Отнесите бланк к письменному столу, чтобы заказать по почте товары.]",
+"reqs": {"form.order":1,"ink":-1},
+"hintonly":true},
+
+
+{"id": "write.order.encaustum",
+"label": "Великое сокровище Дома",
+"actionid": "*.consider",
+"reqs": {"form.order":1,"encaustum":1},
+"startdescription": "Библиотекарю не подобает заказывать бакалейные товары с помощью Великих чернил. Если, конечно, этот библиотекарь не Тирза Блейк.",
+"craftable":true,
+"hintonly":true
+
+},
+
+
+{"id": "write.order.ch.dripping",
+"label": "Заказать топлёный жир (6 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» банку топлёного говяжьего жира.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.dripping","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+{"id": "write.order.ch.flour",
+"label": "Заказать муку (3 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» мешок муки.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.flour","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":3,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+{"id": "write.order.ch.milk",
+"label": "Заказать молоко (3 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» бутылку молока.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.milk","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":3,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+{"id": "write.order.ch.potatoes",
+"label": "Заказать картошку (3 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» мешок картошки.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.potatoes","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":3,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+{"id": "write.order.ch.butter",
+"label": "Заказать сливочное масло (3 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» пачку масла.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.butter","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":3,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+{"id": "write.order.ch.sugar",
+"label": "Заказать сахар (6 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» пакет сахара.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.sugar","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+
+
+{"id": "write.order.ch.tea.lapsang",
+"label": "Заказать чай лапсанг сушонг (1/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» пачку чая лапсанг сушонг.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.tea.lapsang","filter":"form.order.ch","level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":12,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+
+},
+
+{"id": "write.order.ch.tea.assam",
+"label": "Заказать чай ассам (1/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» пачку чая ассам.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.tea.assam","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":12,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+{"id": "write.order.ch.oil.umbrous",
+"label": "Заказать пенумбратическое масло (1/6)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» банку пенумбратического масла.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.oil.moon","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":18,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+{"id": "write.order.ch.oil.oscillate",
+"label": "Заказать осциллическое масло (1/6)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» банку осциллического масла.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.oil.moth","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":18,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+{"id": "write.order.ch.oil.scintillate",
+"label": "Заказать сцинтиллическое масло (1/6)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» банку сцинтиллического масла.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.oil.forge","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":18,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+{"id": "write.order.ch.quire.paper",
+"label": "Заказать десть бумаги (6 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» десть писчей бумаги.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.quire.paper","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+{"id": "write.order.ch.coffee.dawnlion",
+"label": "Заказать кофе «Лев на рассвете» (1/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» пачку кофе «Лев на рассвете».",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.coffee.dawnlion","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":12,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+{"id": "write.order.ch.coffee.eveningisles",
+"label": "Заказать кофе «Сумеречные острова» (1/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» пачку кофе «Сумеречные острова».",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.coffee.eveningisles","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":12,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+
+{"id": "write.order.ch.ham",
+"label": "Заказать ветчину (6 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» банку консервированной ветчины.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.ham.canned","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+{"id": "write.order.ch.glue",
+"label": "Заказать клей (6 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» банку клея.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.glue","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+{"id": "write.order.ch.wire.copper",
+"label": "Заказать медную проволоку (2/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"startdescription": "Заказать у компании «Кейтер и Хиро» катушку медной проволоки.",
+"desc":"Заполнить хлипкий бланк, стараясь не процарапать бумагу насквозь.",
+"mutations":[{"mutate":"orderplaced.wire.copper","filter":"form.order.ch", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.ch","level":24,"additive":true},
+{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+},
+
+
+
+
+{"id": "write.order.ch.reset",
+"label": "Начать с начала",
+"startdescription": "Осторожно зачеркнуть всё написанное на бланке «К. и Х.» и начать с начала...",
+"inherits":"_write.order",
+"reqs": {"form.order.ch":1,"ink":1},
+"warmup":5,
+"mutations":[{"mutate":"orderplaced.*","filter":"form.order.ch", "level":-1,"additive":false},
+{"mutate":"cost.pence","filter":"form.order.ch","level":-1,"additive":false},
+{"mutate":"post.ready","filter":"form.order.ch","level":-1,"additive":false}]
+},
+
+{"id": "write.order.trn.almonds",
+"label": "Заказать миндаль (3 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited баночку миндаля.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.almonds","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":3,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+
+{"id": "write.order.trn.beef",
+"label": "Заказать говядину (1/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited кусок говядины.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.beef","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":12,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+
+{"id": "write.order.trn.plums",
+"label": "Заказать сливы (6 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited немного слив.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.plums","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":6,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+{"id": "write.order.trn.pheasant",
+"label": "Заказать фазана (6 п.)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited тушку фазана.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.pheasant","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":6,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+
+{"id": "write.order.trn.packet.cocoa",
+"label": "Заказать какао (1/6)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited пачку их знаменитого какао.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.packet.cocoa","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":18,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+{"id": "write.order.trn.bottle.armagnac",
+"label": "Заказать арманьяк (7/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited бутыль арманьяка д'Ис.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.bottle.armagnac","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":84,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+
+{"id": "write.order.trn.bottle.lambig",
+"label": "Заказать ламбиг (7/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited бутыль ламбига «Броселианд».",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.bottle.lambig","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":84,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+
+{"id": "write.order.trn.bottle.raveline",
+"label": "Заказать вино «Домен Равелин» (7/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited бутыль вина «Домен Равелин».",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.bottle.raveline","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":84,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+
+{"id": "write.order.trn.bottle.roscraggan",
+"label": "Заказать роскрагганский виски (5/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited бутыль роскрагганского виски.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.bottle.roscraggan","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":60,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+{"id": "write.order.trn.bottle.strathcoyne",
+"label": "Заказать стрэткойновский виски (5/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited бутыль стрэткойновского виски.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.bottle.strathcoyne","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":60,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+{"id": "write.order.trn.bottle.jannings",
+"label": "Заказать «Шлосс Яннингс» (5/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited бутыль вина «Шлосс Яннингс».",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.bottle.jannings","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":60,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+
+
+{"id": "write.order.trn.witchworms.desiccated",
+"label": "Заказать сушёных ведьминых червей (10/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited сушёных ведьминых червей. Высокая цена отражает стоимость отношений фирмы с Бюро умолчания, которое не поощряет торговлю материалами с таким уровнем онейрической опасности.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.witchworms.desiccated","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":120,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+{"id": "write.order.trn.arsenic",
+"label": "Заказать мышьяк (3/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited мышьяк – и пусть задачка, как обойти требования Закона об аптечном деле, будет их головной болью.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.arsenic","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":36,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+
+{"id": "write.order.trn.parchment.nivine",
+"label": "Заказать нивический пергамент (3/-)",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"startdescription": "Заказать у компании T.R.N. Limited десть нивического пергамента.",
+"desc":"Бережно вывести слова на кремовой бумаге.",
+"mutations":[{"mutate":"orderplaced.parchment.nivine","filter":"form.order.trn", "level":1,"additive":true},
+{"mutate":"cost.pence","filter":"form.order.trn","level":36,"additive":true},
+{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+},
+
+
+
+{"id": "write.order.trn.reset",
+"label": "Начать с начала",
+"startdescription": "Осторожно зачеркнуть всё написанное на бланке T.R.N. и начать с начала...",
+"inherits":"_write.order",
+"reqs": {"form.order.trn":1,"ink":1},
+"warmup":5,
+"mutations":[{"mutate":"orderplaced.*","filter":"form.order.trn", "level":-1,"additive":false},
+{"mutate":"cost.pence","filter":"form.order.trn","level":-1,"additive":false},
+{"mutate":"post.ready","filter":"form.order.trn","level":-1,"additive":false}]
+},
+
+
+{"id": "ch.order.send",
+"label": "Отправить заполненный бланк заказа «Кейтер и Хиро»",
+"actionid": "village.postoffice.open",
+"startdescription": "Завершить заказ.",
+"desc": "Почтмейстерша подписывает и заверяет заказ печатью, а потом кладёт его вместе с печатью туда, где и должны храниться запечатанные заказы. «Ждите три дня», – командует она.",
+"reqs": {"post.ready":1,"form.order.ch":1,"pence":"cost.pence","cost.pence":1},
+"extantreqs":{"season.numa":-1},
+"effects":{"pence":"-cost.pence"},
+"warmup":5,
+"linked":[{"id": "ch.respond.begin","topath":"~/incidents.offstage", "expulsion": {"limit": 99,"filter": {"post.ready": 1}},"additional":true}],
+"craftable":true
+},
+
+{"id": "trn.order.send",
+"label": "Отправить заполненный бланк заказа T.R.N.",
+"actionid": "village.postoffice.open",
+"startdescription": "Завершить заказ.",
+"desc": "Почтмейстерша подписывает и заверяет заказ печатью, а потом кладёт его вместе с печатью туда, где и должны храниться запечатанные заказы. «Ждите три дня», – командует она.",
+"reqs": {"post.ready":1,"form.order.trn":1,"pence":"cost.pence","cost.pence":1},
+"extantreqs":{"season.numa":-1},
+"effects":{"pence":"-cost.pence"},
+"warmup":5,
+"linked":[{"id": "trn.respond.begin","topath":"~/incidents.offstage",
+ "expulsion": {"limit": 99,"filter": {"post.ready": 1}},"additional":true}],
+"craftable":true
+},
+
+{"id": "postoffice.order.send.hint",
+"label": "Отправить заполненный бланк заказа?",
+"actionid": "village.postoffice.open",
+"startdescription": "[Приложите необходимую сумму денег. Почтмейстерша оформит почтовое поручение.]",
+"reqs": {"post.ready":1,"cost.pence":1},
+"extantreqs":{"season.numa":-1},
+"hintonly":true
+}
+
+
+    
+    ]
+    }
+    

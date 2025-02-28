@@ -1,0 +1,21 @@
+{
+	"recipes":[
+		{
+			"startdescription":"我可以以此为荣，但我没法拿它做研究。",
+			"id":"manuscript.intercept",
+			"label":"我的成果！"
+		},
+		{
+			"startdescription":"烛焰中，眸光黯淡。",
+			"id":"upgrade.altar.chancel.mihail",
+			"label":"将米哈尔安置于圣坛祭坛上",
+			"desc":"也许信使米哈尔会秉一明烛去往未建之城。当然，如今的他尚未熄灭。[圣坛祭坛现在可以接纳<b>铸</b>与<b>灯</b>相卡牌。]"
+		},
+		{
+			"startdescription":"黑暗中，眸光闪烁。",
+			"id":"upgrade.sarcophagus.columbic.mihail",
+			"label":"将米哈尔安置于石棺中",
+			"desc":"也许信使米哈尔永远不会秉火去往未建之城——但如今的他尚未熄灭。[石棺现在可以接纳<b>铸</b>与<b>灯</b>相卡牌。]"
+		}
+	]
+}

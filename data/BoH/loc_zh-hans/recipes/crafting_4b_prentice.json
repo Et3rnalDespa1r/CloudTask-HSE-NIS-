@@ -1,0 +1,814 @@
+{
+	"recipes":[
+		{
+			"Desc":"只要你换个角度，它便一目了然。",
+			"Label":"制作：混淆寓言",
+			"id":"craft.tridesmahiera_confounding.parable_moon",
+			"StartDescription":"使用姐妹会的祷词，在心中唤起一段微妙的回忆。\n\n[“三重誓之仪”加上入门级的<sprite name=moon>可制作混淆寓言。若想完成学者级制作，可以尝试如下配方：对一枚<b>卵</b>念诵这些祷词，它将孵化为某种淘气的银色生物。]"
+		},
+		{
+			"Desc":"这些可能不全是威斯考特发明的，但他知道如何让一个名字深入人心。",
+			"Label":"制作：威斯考特的混合物",
+			"id":"craft.spices.savours_material.westcott_forge",
+			"StartDescription":"分类，混合，浓缩：一组用途广泛的混合物。\n\n[“香料与滋味”加上入门级的<sprite name=forge>可制作威斯考特的混合物。若想完成学者级制作，可以尝试如下配方：在学者级的<b>铸</b>下加入<b>液体</b>，产出的精华将更难冷却，并赤化为某种更加强力之物。]"
+		},
+		{
+			"Desc":"一团狂乱缠结的线条。",
+			"Label":"制作：狼骑结印",
+			"id":"craft.horns.ivories_bisclavrets.knot_scale",
+			"StartDescription":"用土壤描画出丘陵之子们的符印。\n\n[“兽角与象牙”加上入门级的<sprite name=scale>可制作狼骑结印。若想完成学者级制作，可以尝试如下配方：加入<b>回忆</b>，以唤起某种更加古老且强力的事物。]"
+		},
+		{
+			"Desc":"最好趁热喝；然而它一直都是热的。",
+			"Label":"制作：巫魅药茶",
+			"id":"craft.leaves.thorns_witching.tisane_grail",
+			"StartDescription":"将古怪的叶片和罕见的莓果晒干后泡制成药茶。\n\n[“叶片与棘刺”加上入门级的<sprite name=grail>可制作巫魅药茶。若想完成学者级制作，可以尝试如下配方：加入<b>花</b>，该混合物便会变得令人沉醉。]"
+		},
+		{
+			"Desc":"紧紧握住。",
+			"Label":"制作：苦乐参半的必然",
+			"id":"craft.snowstories_bittersweet.certainty_winter",
+			"StartDescription":"于白雪的回忆中觅得一种阴冷洞见。\n\n[“白雪的故事”加上入门级的<sprite name=winter>可制作苦乐参半的必然。若想完成学者级制作，可以尝试如下配方：在解剖<b>遗骸</b>时让它指引我的双手，就能提取出某种暗如皮革，阴冷强力的东西。]"
+		},
+		{
+			"Desc":"一团狂乱缠结的线条。",
+			"Label":"制作：狼骑结印",
+			"id":"craft.hill.hollow_bisclavrets.knot_scale",
+			"StartDescription":"用我自己的泪水描画出悔恨的符印。\n\n[“丘陵与孔窍”加上入门级的<sprite name=scale>可制作狼骑结印。若想完成学者级制作，可以尝试如下配方：将它描画在<b>卵</b>上，就能孵化出某种让人忆起一个古早年代的生物。]"
+		},
+		{
+			"Desc":"一个仅存片刻的开放机遇。",
+			"Label":"制作：秘密门关",
+			"id":"craft.horns.ivories_secret.threshold_knock",
+			"StartDescription":"告请漫宿低层门扉之神灵，确立一道新的门关。\n\n[“兽角与象牙”加上入门级的<sprite name=knock>可制作秘密门关。若想完成学者级制作，可以尝试如下配方：将其施加于一枚<b>卵</b>，以孵化出某种没有眼睛，却涌动着潜能的生物。]"
+		},
+		{
+			"Desc":"药闻起来就该是这种味道：难闻得令人安心。",
+			"Label":"制作：雷根斯堡镇痛软膏",
+			"id":"craft.edictsinviolable_liquid.regensburg_heart",
+			"StartDescription":"混合某些驱离疾病的药物。\n\n[“无侵之敕令”加上入门级的<sprite name=heart>可制作雷根斯堡镇痛软膏。若想完成学者级制作，可以尝试如下配方：添加具有合适性相的<b>液体</b>，就能配制出某种被轰雷之皮的力量碰触的物品。]"
+		},
+		{
+			"Desc":"小心品尝。",
+			"Label":"制作：蒂尔扎利口酒",
+			"id":"craft.orchids.narcotics_liquid.thirza_nectar",
+			"StartDescription":"酿造一组麝香风味的利口酒。\n\n[“兰花与迷药”加上入门级的<sprite name=nectar>可制作蒂尔扎利口酒。若想完成学者级制作，可以尝试如下配方：将它添加在<b>饮品</b>中，就能混合出一种更加深沉且强力的液体。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：杉瘿墨",
+			"id":"craft.insects.nectars_yewgall.ink_nectar",
+			"StartDescription":"调制一瓶深黯且耐久的墨水。\n\n[“昆虫与花蜜”加上入门级的<sprite name=nectar>可制作杉瘿墨。若想完成学者级制作，可以尝试如下配方：将它添加在<b>饮品</b>中，就能混合出一种更加深沉且强力的液体。]"
+		},
+		{
+			"Desc":"只要你换个角度，它便一目了然。",
+			"Label":"制作：混淆寓言",
+			"id":"craft.skystories_confounding.parable_rose",
+			"StartDescription":"让风声徐徐唤起一段微妙的回忆。\n\n[“天空的故事”加上入门级的<sprite name=rose>可制作混淆寓言。若想完成学者级制作，可以尝试如下配方：引入另一段<b>回忆</b>，就能构思出更为高深的洞见。]"
+		},
+		{
+			"Desc":"这种物质的边界难以辨认——几乎像不存在一样。",
+			"Label":"制作：本征灰酒",
+			"id":"craft.maggephenemysteries_eigengrau_moon",
+			"StartDescription":"蒸馏出一种可能性。\n\n[“疫疠之秘”加上入门级的<sprite name=moon>可制作本征灰酒。若想完成学者级制作，可以尝试如下配方：碾碎并加入<b>花</b>，就能配制出一剂苍白而阴寒的药水。]"
+		},
+		{
+			"Desc":"这种物质的边界难以辨认——几乎像不存在一样。",
+			"Label":"制作：本征灰酒",
+			"id":"craft.auroralcontemplations_eigengrau_lantern",
+			"StartDescription":"蒸馏出一种可能性。\n\n[“曙光的静观”加上入门级的<sprite name=lantern>可制作本征灰酒。若想完成学者级制作，可以尝试如下配方：混合另一种<b>液体</b>，就能制造出一种炼金精华。]"
+		},
+		{
+			"Desc":"净化使我肌肤灼痛，牙齿打颤。角争在醒时世界的表皮下沉声轰鸣。",
+			"Label":"制作：图格的净化术",
+			"id":"craft.disciplines.thescar_torgues.cleansing_edge",
+			"StartDescription":"涤除我内在的和谐共鸣，积聚一些私有的<b>刃</b>。这过程可不会愉快。\n\n[“伤疤的戒律”加上入门级的<sprite name=edge> 可制作图格的净化术。若想完成学者级制作，可以尝试如下配方：在学者级的<b>刃</b>下加入某种具有<b>叶</b>性相之物，便能调制出一种危险的墨水。]"
+		},
+		{
+			"Desc":"如炼金公式般优雅。",
+			"Label":"制作：盐迹",
+			"id":"craft.inks.power_sign.salt_rose",
+			"StartDescription":"用初阶墨水描画感官与日落的符印。\n\n[“力量之墨”加上入门级的<sprite name=rose>可制作盐迹。若想完成学者级制作，可以尝试如下配方：如果我用<b>光源</b>描摹这种印记，就能从空气中绞出一种玫色精华。]"
+		},
+		{
+			"Desc":"紧紧握住。",
+			"Label":"制作：苦乐参半的必然",
+			"id":"craft.ouranoscopy_bittersweet.certainty_winter",
+			"StartDescription":"在星光中觅得一种阴冷洞见。\n\n[“窥天术”加上入门级的<sprite name=winter>可制作苦乐参半的必然。如果我用<b>月</b>代替<b>冬</b>，或许能在此基础上更进一步。]"
+		},
+		{
+			"Desc":"这种物质的边界难以辨认——几乎像不存在一样。",
+			"Label":"制作：本征灰酒",
+			"id":"craft.pearl.tide_eigengrau_moon",
+			"StartDescription":"蒸馏出一种可能性。\n\n[“珍珠与浪潮”加上入门级的<sprite name=moon>可制作本征灰酒。若想完成学者级制作，可以尝试如下配方：添加另一种<b>液体</b>，将其强化为一种银色的启示之墨。]"
+		},
+		{
+			"Desc":"这粒污点不应暴露于阳光下，但主要是因为它在阳光下丑得骇人。",
+			"Label":"制作：午夜污点",
+			"id":"craft.desires.dissolutions_midnight.mark_moon",
+			"StartDescription":"将夜间的共鸣集中在一个小心绘制的符印内。\n\n[“诱惑与消殒”加上入门级的<sprite name=moon>可制作午夜污点。若想完成学者级制作，可以尝试如下配方：将这种记号描绘在<b>木材</b>上，它就会绽裂出奇异的果实。]"
+		},
+		{
+			"Desc":"紧紧握住。",
+			"Label":"制作：苦乐参半的必然",
+			"id":"craft.raggedcrossroads_bittersweet.certainty_winter",
+			"StartDescription":"于懊悔的纷繁错结中觅得一种阴冷洞见。\n\n[“残破十字路”加上入门级的<sprite name=winter>可制作苦乐参半的必然。若想完成学者级制作，可以尝试如下配方：碾碎并混入<b>花</b>，就能配制出一剂苍白而阴寒的药水。]"
+		},
+		{
+			"Desc":"非明亦非暗。",
+			"Label":"制作：油漆：蛾金",
+			"id":"craft.inks.revelation_paint.moth_moth",
+			"StartDescription":"混合一份饱含渴慕的金色油漆。\n\n[“启示之墨”加上入门级的<sprite name=moth>可制作油漆：蛾金。若想完成学者级制作，可以尝试如下配方：加入<b>液体</b>，就能调制出一种银白的月之墨水。]"
+		},
+		{
+			"Desc":"最好趁热喝；然而它一直都是热的。",
+			"Label":"制作：巫魅药茶",
+			"id":"craft.thegreatsignsandthegreatscars_witching.tisane_grail",
+			"StartDescription":"在容器上涂画合适的印记，其中的药茶就会具有特定效力。\n\n[“伟大符印与伟大伤疤”加上入门级的<sprite name=grail>可制作巫魅药茶。若想完成学者级制作，可以尝试如下配方：将<b>布料</b>浸于茶中，就能将其扭变为一个富含杯相的小布娃娃。]"
+		},
+		{
+			"Desc":"这种物质的边界难以辨认——几乎像不存在一样。",
+			"Label":"制作：本征灰酒",
+			"id":"craft.sights.sensations_eigengrau_winter",
+			"StartDescription":"蒸馏出一种可能性。\n\n[“景象与感知”加上入门级的<sprite name=winter>可制作本征灰酒。若想完成学者级制作，可以尝试如下配方：碾碎并加入<b>花</b>，就能配制出一剂苍白而阴寒的药水。]"
+		},
+		{
+			"Desc":"这粒污点不应暴露于阳光下，但主要是因为它在阳光下丑得骇人。",
+			"Label":"制作：午夜污点",
+			"id":"craft.serpents.venoms_midnight.mark_moon",
+			"StartDescription":"将夜间的共鸣集中在一个小心绘制的符印内。\n\n[“群蛇与毒液”加上入门级的<sprite name=moon>可制作午夜污点。若想完成学者级制作，可以尝试如下配方：将其施加于一枚<b>卵</b>，以孵化出某种淘气的银色存在。]"
+		},
+		{
+			"Desc":"这透镜不对称——脆弱——且不稳定。而那也赋予了它力量。",
+			"Label":"制作：蒂尔黛透镜",
+			"id":"craft.pyroglyphics_dearday.lens_lantern",
+			"StartDescription":"打造一件光学装置。\n\n[“焰篆体”加上入门级的<sprite name=lantern>可制作蒂尔黛透镜。若想完成学者级制作，可以尝试如下配方：加入<b>液体</b>，就能提炼出一种更加强力的灯之精华。]"
+		},
+		{
+			"Desc":"任它在头脑与心灵中飞扬。",
+			"Label":"制作：怅惘曲调",
+			"id":"craft.bells.brazieries_music.wistful_sky",
+			"StartDescription":"回想起一首甜美而悲伤的歌。\n\n[“洪钟与铜器”加上入门级的<sprite name=sky>可制作怅惘曲调。若想完成学者级制作，可以尝试如下配方：在一件<b>乐器</b>上演奏它，将其升华为一篇更伟大的乐章。]"
+		},
+		{
+			"Desc":"一团狂乱缠结的线条。",
+			"Label":"制作：狼骑结印",
+			"id":"craft.coil.chasm_bisclavrets.knot_scale",
+			"StartDescription":"用我自己的鲜血描画出野性的符印。\n\n[“虬蟠与裂隙”加上入门级的<sprite name=scale>可制作狼骑结印。若想完成学者级制作，可以尝试如下配方：加入<b>回忆</b>，以唤起某种更加古老且强力的事物。]"
+		},
+		{
+			"Desc":"将其轻轻放下，否则它可能会滚走，甚至是逆坡而上。",
+			"Label":"制作：诳语缠结",
+			"id":"craft.rites.theroots_tanglebrag_moth",
+			"StartDescription":"缠结一件能吸引某位蛾之具名者的象征物。\n\n[“根系之仪”加上入门级的<sprite name=moth>可制作诳语缠结。若想完成学者级制作，可以尝试如下配方：制作时佐以<b>回忆</b>，就能转而记住一则谜语。]"
+		},
+		{
+			"Desc":"焕发微光吧，小小的色彩。",
+			"Label":"制作：耀素",
+			"id":"craft.inks.revelation_pigment.refulgin_lantern",
+			"StartDescription":"混合一种眩目的白色颜料，教会在《解散法》颁布之前曾将其用于各种仪式。\n\n[“启示之墨”加上入门级的<sprite name=lantern>可制作耀素。若想完成学者级制作，可以尝试如下配方：加入<b>玻璃</b>，就能将其分解为一种更为强力的灯之液体——阿夏廷的前体。]"
+		},
+		{
+			"Desc":"一团狂乱缠结的线条。",
+			"Label":"制作：狼骑结印",
+			"id":"craft.pentiments.precursors_bisclavrets.knot_scale",
+			"StartDescription":"用我自己的泪水描画出悔恨的符印。\n\n[“覆画残迹与古老前身”加上入门级的<sprite name=scale>可制作狼骑结印。若想完成学者级制作，可以尝试如下配方：将它描画在<b>卵</b>上，就能孵化出某种让人忆起一个古早年代的生物。]"
+		},
+		{
+			"Desc":"小心品尝。",
+			"Label":"制作：蒂尔扎利口酒",
+			"id":"craft.herbs.infusions_liquid.thirza_nectar",
+			"StartDescription":"酿造一组芳香的利口酒。\n\n[“草药与药汤”加上入门级的<sprite name=nectar>可制作蒂尔扎利口酒。若想完成学者级制作，可以尝试如下配方：将它添加在<b>饮品</b>中，就能混合出一种更加深沉且强力的液体。]"
+		},
+		{
+			"Desc":"任它在头脑与心灵中飞扬。",
+			"Label":"制作：怅惘曲调",
+			"id":"craft.skystories_music.wistful_sky",
+			"StartDescription":"回想起一首甜美而悲伤的歌。\n\n[“天空的故事”加上入门级的<sprite name=sky>可制作怅惘曲调。若想完成学者级制作，可以尝试如下配方：在一件<b>乐器</b>上演奏它，将其升华为一篇更伟大的乐章。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：星瘿墨",
+			"id":"craft.inks.power_stargall.ink_sky",
+			"StartDescription":"调制一瓶鲜亮且耐久的墨水。\n\n[“力量之墨”加上入门级的<sprite name=sky>可制作星瘿墨。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：杉瘿墨",
+			"id":"craft.inks.power_yewgall.ink_nectar",
+			"StartDescription":"调制一瓶深黯且耐久的墨水。\n\n[“力量之墨”加上入门级的<sprite name=nectar>可制作杉瘿墨。]"
+		},
+		{
+			"Desc":"我会把它哼上一会儿，每个碰巧路过的人也都会这么干。",
+			"Label":"制作：诱人旋律",
+			"id":"craft.tridesmahiera_music.beguiling_grail",
+			"StartDescription":"把神圣的乐句组合在一起，创造出一小段令人愉快的音乐。\n\n[“三重誓之仪”加上入门级的<sprite name=grail>可制作诱人旋律。若想完成学者级制作，可以尝试如下配方：添加<b>布料</b>，就能用哼唱为一只小布娃娃注入极其微弱的生命。]"
+		},
+		{
+			"Desc":"净化使我肌肤灼痛，牙齿打颤。角争在醒时世界的表皮下沉声轰鸣。",
+			"Label":"制作：图格的净化术",
+			"id":"craft.sharps_torgues.cleansing_edge",
+			"StartDescription":"涤除我内在的和谐共鸣，积聚一些私有的<b>刃</b>。这过程可不会愉快。\n\n[“锋锐”加上入门级的<sprite name=edge> 可制作图格的净化术。若想完成学者级制作，可以尝试如下配方：加入某种具有<b>回忆</b>性相之物，我便能制作出一份有显著<b>刃</b>相的回忆。]"
+		},
+		{
+			"Desc":"如足迹般优雅。",
+			"Label":"制作：盐迹",
+			"id":"craft.path.pilgrim_sign.salt_rose",
+			"StartDescription":"用盐描画旅途与归途的符印。\n\n[“道途与朝圣”加上入门级的<sprite name=rose>可制作盐迹。若想完成学者级制作，可以尝试如下配方：加入<b>回忆</b>，就能获得某种比这痕迹更加强力的洞见。]"
+		},
+		{
+			"Desc":"一些权威人士声称深瞑墨是很难弄丢的，然而他们从未在噤声居屋住过。",
+			"Label":"制作：深瞑墨",
+			"id":"craft.stitching.binding_perhibiate_heart",
+			"StartDescription":"并非所有束缚都是有形的。我能调制出一种系连之墨。\n\n[“缝合与装订”加上入门级的<sprite name=heart>可制作深瞑墨。若想完成学者级制作，可以尝试如下配方：用其作为接合剂将<b>布料</b>浸染，就能缝制出某种更有力量的物件。]"
+		},
+		{
+			"Desc":"这种物质的边界难以辨认——几乎像不存在一样。",
+			"Label":"制作：本征灰酒",
+			"id":"craft.inks.containment_eigengrau_winter",
+			"StartDescription":"蒸馏出一种可能性。\n\n[“收容之墨”加上入门级的<sprite name=winter>可制作本征灰酒。若想完成学者级制作，可以尝试如下配方：碾碎并加入<b>花</b>，就能配制出一剂苍白而阴寒的药水。]"
+		},
+		{
+			"Desc":"如今通用的名字是“威斯考特的混合物”，但利米亚教团要比威斯考特早上……好几个世纪，大概。毕竟众所周知，威斯考特并非长生者。",
+			"Label":"制作：威斯考特的混合物",
+			"id":"craft.sacralimiae_material.westcott_moth",
+			"StartDescription":"利米亚教团传授了如何用易逝原料制备富含铸相的化合物——这一技巧被称为“飞蛾寻火”。\n\n[“利米亚典仪”加上入门级的<sprite name=moth>可制作威斯考特的混合物。若想完成学者级制作，可以尝试如下配方：加入<b>回忆</b>并趁其还新鲜时熏制，就能得到一种谜样的洞见。]"
+		},
+		{
+			"Desc":"砰踢砰踢砰。啪咚！",
+			"Label":"制作：欢快小调",
+			"id":"craft.drums.dances_music.cheerful_heart",
+			"StartDescription":"构思或忆起一段振奋人心、朗朗上口的调子。\n\n[“鼓点与舞步”加上入门级的<sprite name=heart>可制作欢快小调。若想完成学者级制作，可以尝试如下配方：在<b>乐器</b>上演奏它，就能将其扬升为某种更加强力的东西。]"
+		},
+		{
+			"Desc":"一掠顺滑的羽翎，满溢生机。",
+			"Label":"制作：觉醒翎羽",
+			"id":"craft.stitching.binding_awakened.feather_sky",
+			"StartDescription":"将彷徨的小小生命与被遗弃的羽毛相绑定。\n\n[“缝合与装订”加上入门级的<sprite name=sky>可制作觉醒翎羽。若想完成学者级制作，可以尝试如下配方：将那生命与一枚<b>卵</b>绑定，就能孵化出某种让人忆起一个古早年代的生物。]"
+		},
+		{
+			"Desc":"深黯且刺鼻。",
+			"Label":"制作：猫瞬墨",
+			"id":"craft.inks.containment_catwink_moon",
+			"StartDescription":"调制一瓶具有驱虫功效的次级墨水。\n\n[“收容之墨”加上入门级的<sprite name=moon>可制作猫瞬墨。若想完成学者级制作，可以尝试如下配方：将它与一种<b>饮品</b>混合，就能混合出一种深色液体——同时也是一种伟大墨水的前体。]"
+		},
+		{
+			"Desc":"最好趁热喝；然而它一直都是热的。",
+			"Label":"制作：巫魅药茶",
+			"id":"craft.seastories_witching.tisane_grail",
+			"StartDescription":"于此涛声阵阵之处，我能调制一杯受潮水触碰的药茶。\n\n[“大海的故事”加上入门级的<sprite name=grail>可制作巫魅药茶。若想完成学者级制作，可以尝试如下配方：将<b>布料</b>浸于茶中，就能将其扭变为一个富含杯相的小布娃娃。]"
+		},
+		{
+			"Desc":"药闻起来就该是这种味道：难闻得令人安心。",
+			"Label":"制作：雷根斯堡镇痛软膏",
+			"id":"craft.surgeries.exsanguinations_liquid.regensburg_heart",
+			"StartDescription":"调制一剂简易的药物。\n\n[“手术与放血”加上入门级的<sprite name=heart>可制作雷根斯堡镇痛软膏。若想完成学者级制作，可以尝试如下配方：添加具有合适性相的<b>液体</b>，就能配制出某种更具潜力的东西。]"
+		},
+		{
+			"Desc":"将其轻轻放下，否则它可能会滚走，甚至是逆坡而上。",
+			"Label":"制作：诳语缠结",
+			"id":"craft.edictsliminal_tanglebrag_moth",
+			"StartDescription":"制作一件能吸引某位蛾之具名者的象征物。\n\n[“阈限之敕令”加上入门级的<sprite name=moth>可制作诳语缠结。若想完成学者级制作，可以尝试如下配方：制作时佐以<b>回忆</b>，就能转而记住一则谜语。]"
+		},
+		{
+			"Desc":"这粒污点不应暴露于阳光下，但主要是因为它在阳光下丑得骇人。",
+			"Label":"制作：午夜污点",
+			"id":"craft.rhyme.remembrance_midnight.mark_moon",
+			"StartDescription":"将夜间的共鸣集中在一个小心绘制的符印内。\n\n[“音律与铭记”加上入门级的<sprite name=moon>可制作午夜污点。若想完成学者级制作，可以尝试如下配方：将<b>卵</b>泡于浸液中，就能孵化出某种淘气的银色生物。]"
+		},
+		{
+			"Desc":"这些可能不全是威斯考特发明的，但他知道如何让一个名字深入人心。",
+			"Label":"制作：威斯考特的混合物",
+			"id":"craft.solutions.separations_material.westcott_moth",
+			"StartDescription":"一个将易逝之物转变为不稳定混合物的炼金技巧——“飞蛾寻火”。\n\n[“溶解与离析”加上入门级的<sprite name=moth>可制作威斯考特的混合物。若想完成学者级制作，可以尝试如下配方：加入<b>回忆</b>并趁其还新鲜时熏制，就能得到一种谜样的洞见。]"
+		},
+		{
+			"Desc":"这些可能不全是威斯考特发明的，但他知道如何让一个名字深入人心。",
+			"Label":"制作：威斯考特的混合物",
+			"id":"craft.meniscatereflections_material.westcott_forge",
+			"StartDescription":"倒影中包含了炼金学技术。我能用来制取一组用途广泛的混合物。\n\n[“弧月的倒影”加上入门级的<sprite name=forge>可制作威斯考特的混合物。若想完成学者级制作，可以尝试如下配方：在学者级的<b>铸</b>下加入<b>液体</b>，产出的精华将更难冷却，并赤化为某种更加强力之物。]"
+		},
+		{
+			"Desc":"深黯且刺鼻。",
+			"Label":"制作：猫瞬墨",
+			"id":"craft.putrefactions.calcinations_catwink_moon",
+			"StartDescription":"调制一瓶能驱赶书虫的墨水。\n\n[“腐化与煅烧”加上入门级的<sprite name=moon>可制作猫瞬墨。若想完成学者级制作，可以尝试如下配方：加入<b>液体</b>，就能调制出另一种更为微妙且强力的墨水。]"
+		},
+		{
+			"Desc":"酊剂在转为澄清时会剧烈颤动。这被称作“怒吠”。",
+			"Label":"制作：狻猊酊",
+			"id":"craft.sickle.eclipse_tincture.labhitic_edge",
+			"StartDescription":"汇集我自身与手边的资源，制作一小份稳定的<b>刃</b>原料。\n\n[“镰刀与日蚀”加上入门级的<sprite name=edge>可制作狻猊酊。或者加上学者级的刃，外加某种具有叶性相的东西，就可以制作出某种危险的墨水。]"
+		},
+		{
+			"Desc":"酊剂在转为澄清时会剧烈颤动。这被称作“怒吠”。",
+			"Label":"制作：狻猊酊",
+			"id":"craft.raggedcrossroads_tincture.labhitic_edge",
+			"StartDescription":"汇集我自身与手边的资源，制作一小份稳定的<b>刃</b>原料。\n\n[“残破十字路”加上入门级的<sprite name=edge>可制作狻猊酊。若要完成学者级制作，可以尝试如下配方：加入某种具有<b>回忆</b>性相之物，我便能制作出一份带有显著<b>刃</b>相的回忆。]"
+		},
+		{
+			"Desc":"小心品尝。",
+			"Label":"制作：蒂尔扎利口酒",
+			"id":"craft.coil.chasm_liquid.thirza_nectar",
+			"StartDescription":"酿造一组呛人的利口酒。\n\n[“虬蟠与裂隙”加上入门级的<sprite name=nectar>可制作蒂尔扎利口酒。若想完成学者级制作，可以尝试如下配方：将<b>木材</b>浸泡于配比恰当的此种混合物中，它就会绽裂出奇异的果实。]"
+		},
+		{
+			"Desc":"一掠顺滑的羽翎，满溢生机。",
+			"Label":"制作：觉醒翎羽",
+			"id":"craft.anbary.lapidary_awakened.feather_sky",
+			"StartDescription":"在一根被遗弃的羽毛上点燃生命的涌流。\n\n[“雕珀与琢石”加上入门级的<sprite name=sky>可制作觉醒翎羽。若想完成学者级制作，可以尝试如下配方：在<b>液体</b>中点燃这些能量，就能使其凝结为一种炼金精华。]"
+		},
+		{
+			"Desc":"只要你换个角度，它便一目了然。",
+			"Label":"制作：混淆寓言",
+			"id":"craft.sacrasolisinvicti_confounding.parable_sky",
+			"StartDescription":"回忆古老教诲中出现过的寓言。\n\n[“无敌太阳典仪”加上入门级的<sprite name=sky>可制作混淆寓言。若想完成学者级制作，可以尝试如下配方：加入<b>木材</b>，就能用此洞见为乐器祝圣。]"
+		},
+		{
+			"Desc":"这粒污点不应暴露于阳光下，但主要是因为它在阳光下丑得骇人。",
+			"Label":"制作：午夜污点",
+			"id":"craft.wolfstories_midnight.mark_moon",
+			"StartDescription":"将夜间的共鸣集中在一个小心绘制的符印内。\n\n[“狼的故事”加上入门级的<sprite name=moon>可制作午夜污点。若想完成学者级制作，可以尝试如下配方：将其用在<b>遗骸</b>上，就能提取出某种暗如皮革，阴冷强力的东西。"
+		},
+		{
+			"Desc":"这透镜不对称——脆弱——且不稳定。而那也赋予了它力量。",
+			"Label":"制作：蒂尔黛透镜",
+			"id":"craft.glaziery.lightsmithing_dearday.lens_lantern",
+			"StartDescription":"制作一件光学装置。\n\n[“玻璃与锻光”加上入门级的<sprite name=lantern>可制作蒂尔黛透镜。若想完成学者级制作，可以尝试如下配方：加入<b>玻璃</b>，就能提炼出一种更加强力的灯之液体。]"
+		},
+		{
+			"Desc":"最好趁热喝；然而它一直都是热的。",
+			"Label":"制作：巫魅药茶",
+			"id":"craft.desires.dissolutions_witching.tisane_grail",
+			"StartDescription":"噤声居屋依旧萦绕着受挫的欲望。我会把它们掺进药茶。\n\n[“诱惑与消殒”加上入门级的<sprite name=grail>可制作巫魅药茶。若想完成学者级制作，可以尝试如下配方：加入<b>花</b>，该混合物便会变得令人沉醉。]"
+		},
+		{
+			"Desc":"如光滑卵石般优雅。",
+			"Label":"制作：盐迹",
+			"id":"craft.hill.hollow_sign.salt_moon",
+			"StartDescription":"用泥土描画出银白夜晚的符印。\n\n[“丘陵与孔窍”加上入门级的<sprite name=moon>可制作盐迹。若想完成学者级制作，可以尝试如下配方：将这印记画在一枚<b>卵</b>上，就能孵化出某种没有眼睛，却涌动着潜能的生物。]"
+		},
+		{
+			"Desc":"趁疼痛尚在之时将其轻柔地转移。",
+			"Label":"制作：古老创伤",
+			"id":"craft.edictsmartial_old.wound_moon",
+			"StartDescription":"探索一道古老创伤，以唤醒内在的狂暴共鸣。\n\n[“武力之敕令”加上入门级的<sprite name=moon>可制作古老创伤。若想完成学者级制作，可以尝试如下配方：加入<b>回忆</b>，就能寻得一段苦痛更甚的梦境。]"
+		},
+		{
+			"Desc":"一掠顺滑的羽翎，满溢生机。",
+			"Label":"制作：觉醒翎羽",
+			"id":"craft.sights.sensations_awakened.feather_sky",
+			"StartDescription":"令一根被遗弃的羽毛与光的涌流相同调。\n\n[“景象与感知”加上入门级的<sprite name=sky>可制作觉醒翎羽。若想完成学者级制作，可以尝试如下配方：用羽毛擦拭<b>光源</b>，然后且看拂晓精华自空气中滴落。]"
+		},
+		{
+			"Desc":"一个仅存片刻的开放机遇。",
+			"Label":"制作：秘密门关",
+			"id":"craft.edictsliminal_secret.threshold_knock",
+			"StartDescription":"告请圣坛所具次要之名，圣化一道新的门关。\n\n[“阈限之敕令”加上入门级的<sprite name=knock>可制作秘密门关。若想完成学者级制作，可以尝试如下配方：添加<b>液体</b>，就能调制出一种强力的启之毒素。]"
+		},
+		{
+			"Desc":"这透镜不对称——脆弱——且不稳定。而那也赋予了它力量。",
+			"Label":"制作：蒂尔黛透镜",
+			"id":"craft.glassblowing.vesselcrafting_dearday.lens_sky",
+			"StartDescription":"制作一件光学装置。\n\n[“玻璃吹制与容器制造”加上入门级的<sprite name=sky>可制作蒂尔黛透镜。若想完成学者级制作，可以尝试如下配方：加入<b>玻璃</b>，就能提炼出一种更具潜力的灯之液体。]"
+		},
+		{
+			"Desc":"净化使我肌肤灼痛，牙齿打颤。角争在醒时世界的表皮下沉声轰鸣。",
+			"Label":"制作：图格的净化术",
+			"id":"craft.meniscatereflections_torgues.cleansing_edge",
+			"StartDescription":"涤除我内在的和谐共鸣，积聚一些私有的<b>刃</b>。这过程可不会愉快。\n\n[“弧月的倒影”加上入门级的<sprite name=edge> 可制作图格的净化术。若想完成学者级制作，可以尝试如下配方：加入某种具有<b>回忆</b>性相之物，我便能制作出一份有显著<b>刃</b>相的回忆。]"
+		},
+		{
+			"Desc":"这些可能不全是威斯考特发明的，但他知道如何让一个名字深入人心。",
+			"Label":"制作：威斯考特的混合物",
+			"id":"craft.pyroglyphics_material.westcott_forge",
+			"StartDescription":"分类，混合，浓缩：一组用途广泛的混合物。\n\n[“焰篆体”加上入门级的<sprite name=forge>可制作威斯考特的混合物。若想完成学者级制作，可以尝试如下配方：在学者级的<b>铸</b>下加入<b>液体</b>，产出的精华将更难冷却，并赤化为某种更加强力之物。]"
+		},
+		{
+			"Desc":"净化使我肌肤灼痛，牙齿打颤。角争在醒时世界的表皮下沉声轰鸣。",
+			"Label":"制作：图格的净化术",
+			"id":"craft.auroralcontemplations_torgues.cleansing_edge",
+			"StartDescription":"涤除我内在的和谐共鸣，积聚一些私有的<b>刃</b>。这过程可不会愉快。\n\n[“曙光的静观”加上入门级的<sprite name=edge> 可制作图格的净化术。若想完成学者级制作，可以尝试如下配方：加入某种具有<b>回忆</b>性相之物，我便能制作出一份有显著<b>刃</b>相的回忆。]"
+		},
+		{
+			"Desc":"一掠顺滑的羽翎，满溢生机。",
+			"Label":"制作：觉醒翎羽",
+			"id":"craft.lockworks.clockworks_awakened.feather_sky",
+			"StartDescription":"在一根被遗弃的羽毛上点亮生命的涌流。\n\n[“锁簧与发条”加上入门级的<sprite name=sky>可制作觉醒翎羽。若想完成学者级制作，可以尝试如下配方：在<b>金属</b>中重现这种涌流，就能将其铸成某种异域合金。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：杉瘿墨",
+			"id":"craft.inks.containment_yewgall.ink_nectar",
+			"StartDescription":"调制一瓶深黯且耐久的墨水。\n\n[“收容之墨”加上入门级的<sprite name=nectar>可制作杉瘿墨。]"
+		},
+		{
+			"Desc":"刺耳的颂音刺痛舌面。",
+			"Label":"制作：野蛮颂歌",
+			"id":"craft.drums.dances_music.savage_scale",
+			"StartDescription":"唤回山间诸异教的颂歌。\n\n[“鼓点与舞步”加上入门级的<sprite name=scale>可制作野蛮颂歌。]"
+		},
+		{
+			"Desc":"自有其用途，但这些用途没一个可称简单，且大多不安全。",
+			"Label":"制作：紫晶安瓿瓶",
+			"id":"craft.lockworks.clockworks_ampoule.amethyst_knock",
+			"StartDescription":"混合酸液，以制作一支矛盾的启之安瓿瓶。\n\n[“锁簧与发条”加上入门级的<sprite name=knock>可制作紫晶安瓿瓶。若想完成学者级制作，可以尝试如下配方：加入<b>玻璃</b>，就能制造出一种能引起最负野心的钟表匠兴趣的启之合金。]"
+		},
+		{
+			"Desc":"深黯且刺鼻。",
+			"Label":"制作：猫瞬墨",
+			"id":"craft.sickle.eclipse_catwink_moon",
+			"StartDescription":"调制一瓶能让甲虫避犹不及的墨水。\n\n[“镰刀与日蚀”加上入门级的<sprite name=moon>可制作猫瞬墨。若想完成学者级制作，可以尝试如下配方：将其用在<b>遗骸</b>上，就能提取出某种暗如皮革，阴冷强力的东西。]"
+		},
+		{
+			"Desc":"酊剂在转为澄清时会剧烈颤动。专业术语管这叫“怒吠”。",
+			"Label":"制作：狻猊酊",
+			"id":"craft.edictsmartial_tincture.labhitic_edge",
+			"StartDescription":"汇集我自身与手边的资源，制作一小份稳定的<b>刃</b>原料。\n\n[“武力之敕令”加上入门级的<sprite name=edge>可制作狻猊酊。若想完成学者级制作，可以尝试如下配方：在这过程中捣碎合适的<b>叶</b>并将其加入试剂，可制作一种危险的墨水。]"
+		},
+		{
+			"Desc":"如花瓣般优雅。",
+			"Label":"制作：盐迹",
+			"id":"craft.pearl.tide_sign.salt_rose",
+			"StartDescription":"用盐描画夜旅与暮音的符印。\n\n[“珍珠与浪潮”加上入门级的<sprite name=rose>可制作盐迹。若想完成学者级制作，可以尝试如下配方：加入<b>回忆</b>，就能获得某种比这痕迹更加强力的洞见。]"
+		},
+		{
+			"Desc":"自有其用途，但这些用途没一个可称简单，且大多不安全。",
+			"Label":"制作：紫晶安瓿瓶",
+			"id":"craft.solutions.separations_ampoule.amethyst_knock",
+			"StartDescription":"塑造并填充一支矛盾的启之安瓿瓶。\n\n[“溶解与离析”加上入门级的<sprite name=knock>可制作紫晶安瓿瓶。若想完成学者级制作，可以尝试如下配方：加入<b>液体</b>，就能调制出一种强力的启之毒素。]"
+		},
+		{
+			"Desc":"刺耳的颂音刺痛舌面。",
+			"Label":"制作：野蛮颂歌",
+			"id":"craft.drums.dances_music.savage_nectar",
+			"StartDescription":"唤回山间诸异教的颂歌。\n\n[“鼓点与舞步”加上入门级的<sprite name=nectar>可制作野蛮颂歌。若想完成学者级制作，可以尝试如下配方：在一件<b>乐器</b>上演奏它，将其分解为一段嗡嗡作响且更加古老的歌谣。]"
+		},
+		{
+			"Desc":"人<i>可以</i>拿苦黑盐做饭，但前提是得用得非常克制。",
+			"Label":"制作：苦黑盐",
+			"id":"craft.bells.brazieries_salts.bitterblack_forge",
+			"StartDescription":"将阴燃的精华结晶为一种<b>铸</b>相原料。\n\n[“洪钟与铜器”加上入门级的<sprite name=forge>可制作苦黑盐。若想完成学者级制作，可以尝试如下配方：在学者级的<b>铸</b>下加入<b>金属</b>，就能将其铸成某种异域合金。]"
+		},
+		{
+			"Desc":"这透镜不对称——脆弱——且不稳定。而那也赋予了它力量。",
+			"Label":"制作：蒂尔黛透镜",
+			"id":"craft.glassblowing.vesselcrafting_dearday.lens_lantern",
+			"StartDescription":"制作一件光学装置。\n\n[“玻璃吹制与容器制造”加上入门级的<sprite name=lantern>可制作蒂尔黛透镜。若想完成学者级制作，可以尝试如下配方：加入<b>玻璃</b>，就能提炼出一种更加强力的灯之液体。]"
+		},
+		{
+			"Desc":"小心品尝。",
+			"Label":"制作：蒂尔扎利口酒",
+			"id":"craft.spices.savours_liquid.thirza_nectar",
+			"StartDescription":"酿造一组辛香的利口酒。\n\n[“香料与滋味”加上入门级的<sprite name=nectar>可制作蒂尔扎利口酒。若想完成学者级制作，可以尝试如下配方：将<b>木材</b>浸泡于配比恰当的此种混合物中，它就会绽裂出奇异的果实。]"
+		},
+		{
+			"Desc":"这透镜不对称——脆弱——且不稳定。而那也赋予了它力量。",
+			"Label":"制作：蒂尔黛透镜",
+			"id":"craft.disciplines.thescar_dearday.lens_lantern",
+			"StartDescription":"打磨一件光学装置。\n\n[“伤疤的戒律”加上入门级的<sprite name=lantern>可制作蒂尔黛透镜。若想完成学者级制作，可以尝试如下配方：加入一份<b>回忆</b>，就能收集到一种具有些许<b>灯</b>，和更多<b>鳞</b>的强力洞见。]"
+		},
+		{
+			"Desc":"药闻起来就该是这种味道：难闻得令人安心。",
+			"Label":"制作：雷根斯堡镇痛软膏",
+			"id":"craft.herbs.infusions_liquid.regensburg_heart",
+			"StartDescription":"调制一剂草本镇痛药膏。\n\n[“草药与药汤”加上入门级的<sprite name=heart>可制作雷根斯堡镇痛软膏。若想完成学者级制作，可以尝试如下配方：添加具有合适性相的<b>液体</b>，就能配制出某种更具潜力的东西。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：杉瘿墨",
+			"id":"craft.putrefactions.calcinations_yewgall.ink_winter",
+			"StartDescription":"调制一瓶深黯且耐久的墨水。\n\n[“腐化与煅烧”加上入门级的<sprite name=winter>可制作杉瘿墨。若想完成学者级制作，可以尝试如下配方：碾碎并加入一种<b>叶</b>，就能调制出一种更为强力，且远比其危险的墨水。]"
+		},
+		{
+			"Desc":"苦黑盐曾被用作珠宝匠抛光剂的原料，但它还有许多其他用途。",
+			"Label":"制作：苦黑盐",
+			"id":"craft.anbary.lapidary_salts.bitterblack_forge",
+			"StartDescription":"属于珠宝匠技艺范畴的一个技巧：将阴燃的精华结晶为一种<b>铸</b>相原料。\n\n[“雕珀与琢石”加上入门级的<sprite name=forge>可制作苦黑盐。若想完成学者级制作，可以尝试如下配方：在学者级的<b>铸</b>下加入<b>液体</b>，产出的精华将更难冷却，并赤化为某种更加强力之物。]"
+		},
+		{
+			"Desc":"一团狂乱缠结的线条。",
+			"Label":"制作：狼骑结印",
+			"id":"craft.serpents.venoms_bisclavrets.knot_scale",
+			"StartDescription":"用我自己的泪水描画出悔恨的符印。\n\n[“群蛇与毒液”加上入门级的<sprite name=scale>可制作狼骑结印。若想完成学者级制作，可以尝试如下配方：将一种<b>液体</b>与我被圣化的眼泪混合，使其提纯为一种启之毒素。]"
+		},
+		{
+			"Desc":"踢得哩 踢得哩 踏姆 踢 嘀嗒。踏姆！",
+			"Label":"制作：欢快小调",
+			"id":"craft.strings.songs_music.cheerful_heart",
+			"StartDescription":"构思或忆起一段振奋人心、朗朗上口的调子。\n\n[“弦乐与歌谣”加上入门级的<sprite name=heart>可制作欢快小调。若想完成学者级制作，可以尝试如下配方：在<b>乐器</b>上演奏它，就能将其扬升为某种更加强力的东西。]"
+		},
+		{
+			"Desc":"一掠顺滑的羽翎，满溢生机。",
+			"Label":"制作：觉醒翎羽",
+			"id":"craft.sacralimiae_awakened.feather_sky",
+			"StartDescription":"轻语一段扬升魔咒，唤醒一片被遗弃的羽毛。\n\n[“利米亚典仪”加上入门级的<sprite name=sky>可制作觉醒翎羽。若想完成学者级制作，可以尝试如下配方：对雕琢好的<b>木材</b>轻语，就能制作一个拥有魔力的乐器。]"
+		},
+		{
+			"Desc":"将其轻轻放下，否则它可能会滚走，甚至是逆坡而上。",
+			"Label":"制作：诳语缠结",
+			"id":"craft.weaving.knotworking_tanglebrag_moth",
+			"StartDescription":"编织一件能吸引某位蛾之具名者的象征物。\n\n[“缝纫与编织”加上入门级的<sprite name=moth>可制作诳语缠结。若想完成学者级制作，可以尝试如下配方：制作时佐以<b>回忆</b>，就能转而记住一则谜语。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：杉瘿墨",
+			"id":"craft.inks.revelation_yewgall.ink_nectar",
+			"StartDescription":"调制一瓶深黯且耐久的墨水。\n\n[“启示之墨”加上入门级的<sprite name=nectar>可制作杉瘿墨。]"
+		},
+		{
+			"Desc":"小心品尝。",
+			"Label":"制作：蒂尔扎利口酒",
+			"id":"craft.stonestories_liquid.thirza_nectar",
+			"StartDescription":"酿造一组口感粗糙且多粒的利口酒。\n\n[“岩石的故事”加上入门级的<sprite name=nectar>可制作蒂尔扎利口酒。若想完成学者级制作，可以尝试如下配方：在其中加入<b>遗骸</b>，我或许就能唤起骨中深处的大地回忆。]"
+		},
+		{
+			"Desc":"这粒污点不应暴露于阳光下，但主要是因为它在阳光下丑得骇人。",
+			"Label":"制作：午夜污点",
+			"id":"craft.insects.nectars_midnight.mark_moon",
+			"StartDescription":"将夜间的共鸣集中在一个小心绘制的符印内。\n\n[“昆虫与花蜜”加上入门级的<sprite name=moon>可制作午夜污点。若想完成学者级制作，可以尝试如下配方：将其施加于一枚<b>卵</b>，以孵化出某种没有眼睛，却涌动着潜能的存在。]"
+		},
+		{
+			"Desc":"人<i>可以</i>拿苦黑盐做饭，但前提是得用得非常克制。",
+			"Label":"制作：苦黑盐",
+			"id":"craft.transformations.liberations_salts.bitterblack_forge",
+			"StartDescription":"将阴燃的精华结晶为一种<b>铸</b>相原料。\n\n[“嬗变与解放”加上入门级的<sprite name=forge>可制作苦黑盐。若想完成学者级制作，可以尝试如下配方：在学者级的<b>铸</b>下加入<b>液体</b>，产出的精华将更难冷却，并赤化为某种更加强力之物。]"
+		},
+		{
+			"Desc":"一些权威人士声称深瞑墨是很难弄丢的，然而他们从未在噤声居屋住过。",
+			"Label":"制作：深瞑墨",
+			"id":"craft.weaving.knotworking_perhibiate_heart",
+			"StartDescription":"并非所有绳结都是有形的。我能调制出一种将有名之物与其名字相绑定的墨水。\n\n[“缝纫与编织”加上入门级的<sprite name=heart>可制作深瞑墨。若想完成学者级制作，可以尝试如下配方：加入<b>布料</b>，就能将染色的丝缕编织为更为强大的束缚。]"
+		},
+		{
+			"Desc":"一团狂乱缠结的线条。",
+			"Label":"制作：狼骑结印",
+			"id":"craft.path.pilgrim_bisclavrets.knot_scale",
+			"StartDescription":"用土壤描画出丘陵之子们的符印。\n\n[“道途与朝圣”加上入门级的<sprite name=scale>可制作狼骑结印。若想完成学者级制作，可以尝试如下配方：加入<b>回忆</b>，以唤起某种更加古老且强力的事物。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：星瘿墨",
+			"id":"craft.inks.revelation_stargall.ink_sky",
+			"StartDescription":"调制一瓶鲜亮且耐久的墨水。\n\n[“启示之墨”加上入门级的<sprite name=sky>可制作星瘿墨。]"
+		},
+		{
+			"Desc":"紧紧握住。",
+			"Label":"制作：苦乐参半的必然",
+			"id":"craft.rhyme.remembrance_bittersweet.certainty_winter",
+			"StartDescription":"在记忆的迷宫中觅得一种阴冷洞见。\n\n[“音律与铭记”加上入门级的<sprite name=winter>可制作苦乐参半的必然。若想完成学者级制作，可以尝试如下配方：在解剖<b>遗骸</b>时让它指引我的双手，就能提取出某种暗如皮革，阴冷强力的东西。]"
+		},
+		{
+			"Desc":"这粒污点不应暴露于阳光下，但主要是因为它在阳光下丑得骇人。",
+			"Label":"制作：午夜污点",
+			"id":"craft.snowstories_midnight.mark_moon",
+			"StartDescription":"将夜间的共鸣集中在一个小心绘制的符印内。\n\n[“白雪的故事”加上入门级的<sprite name=moon>可制作午夜污点。若想完成学者级制作，可以尝试如下配方：将其施加于一枚<b>卵</b>，以孵化出某种淘气的银色存在。]"
+		},
+		{
+			"Desc":"药闻起来就该是这种味道：难闻得令人安心。",
+			"Label":"制作：雷根斯堡镇痛软膏",
+			"id":"craft.maggephenemysteries_liquid.regensburg_heart",
+			"StartDescription":"混合某些驱离疾病的药物。\n\n[“疫疠之秘”加上入门级的<sprite name=heart>可制作雷根斯堡镇痛软膏。若想完成学者级制作，可以尝试如下配方：添加具有合适性相的<b>液体</b>，就能配制出某种更具潜力的东西。]"
+		},
+		{
+			"Desc":"一团狂乱缠结的线条。",
+			"Label":"制作：狼骑结印",
+			"id":"craft.furs.feathers_bisclavrets.knot_scale",
+			"StartDescription":"用土壤描画出丘陵之子们的符印。\n\n[“毛皮与羽翎”加上入门级的<sprite name=scale>可制作狼骑结印。若想完成学者级制作，可以尝试如下配方：将它描画在<b>卵</b>上，就能孵化出某种让人忆起一个古早年代的生物。]"
+		},
+		{
+			"Desc":"深黯且刺鼻。",
+			"Label":"制作：猫瞬墨",
+			"id":"craft.edictsinviolable_catwink_moon",
+			"StartDescription":"调制一瓶能抵抗蠕虫的墨水……尽管只能抵抗最弱小的那类。\n\n[“无侵之敕令”加上入门级的<sprite name=moon>可制作猫瞬墨。若想完成学者级制作，可以尝试如下配方：混入一种<b>花</b>，就能得到某种更为阴寒的产物。]"
+		},
+		{
+			"Desc":"焕发微光吧，小小的色彩。",
+			"Label":"制作：耀素",
+			"id":"craft.purifications.exaltations_pigment.refulgin_lantern",
+			"StartDescription":"混合一种眩目的白色颜料。\n\n[“精炼与擢升”加上入门级的<sprite name=lantern>可制作耀素。若想完成学者级制作，可以尝试如下配方：加入<b>液体</b>，就能提炼出一种更加强力的炼金精华。]"
+		},
+		{
+			"Desc":"将其轻轻放下，否则它可能会滚走，甚至是逆坡而上。",
+			"Label":"制作：诳语缠结",
+			"id":"craft.watchmansparadoxes_tanglebrag_lantern",
+			"StartDescription":"校准阴影，以吸引某位飞蛾具名者的注意。\n\n[守夜人的悖论加上入门级的<sprite name=lantern>可制作诳语缠结。若想完成学者级制作，可以尝试如下配方：通过<b>玻璃</b>校准这些阴影，便可收获一份灯之液体。]"
+		},
+		{
+			"Desc":"一团狂乱缠结的线条。",
+			"Label":"制作：狼骑结印",
+			"id":"craft.wolfstories_bisclavrets.knot_scale",
+			"StartDescription":"用我自己的鲜血描画出野性的符印。\n\n[“狼的故事”加上入门级的<sprite name=scale>可制作狼骑结印。若想完成学者级制作，可以尝试如下配方：加入<b>回忆</b>，以唤起某种更加古老且强力的事物。]"
+		},
+		{
+			"Desc":"药闻起来就该是这种味道：难闻得令人安心。",
+			"Label":"制作：雷根斯堡镇痛软膏",
+			"id":"craft.quenchings.quellings_liquid.regensburg_heart",
+			"StartDescription":"调制一剂镇定药物。\n\n[“淬火与熄焰”加上入门级的<sprite name=heart>可制作雷根斯堡镇痛软膏。若想完成学者级制作，可以尝试如下配方：添加具有合适性相的<b>液体</b>，就能配制出某种更具潜力的东西。]"
+		},
+		{
+			"Desc":"只要你换个角度，它便一目了然。",
+			"Label":"制作：混淆寓言",
+			"id":"craft.preliminalmeter_confounding.parable_rose",
+			"StartDescription":"于声音的空隙间冥思，唤起一段微妙的回忆。\n\n[“阙前格律”加上入门级的<sprite name=rose>可制作混淆寓言。若想完成学者级制作，可以尝试如下配方：引入另一段<b>回忆</b>，就能构思出更为高深的洞见。]"
+		},
+		{
+			"Desc":"我会把它哼上一会儿，每个碰巧路过的人也都会这么干。",
+			"Label":"制作：诱人旋律",
+			"id":"craft.resurgences.emergences_music.beguiling_grail",
+			"StartDescription":"构思或忆起一小段令人愉快的音乐。\n\n[“复苏与羽化”加上入门级的<sprite name=grail>可制作诱人旋律。若想完成学者级制作，可以尝试如下配方：添加<b>布料</b>，就能用哼唱为一只小布娃娃注入极其微弱的生命。]"
+		},
+		{
+			"Desc":"刺耳的颂音刺痛舌面。",
+			"Label":"制作：野蛮颂歌",
+			"id":"craft.stonestories_music.savage_scale",
+			"StartDescription":"将大地的脉动升华为一段记忆中的音乐。\n\n[“岩石的故事”加上入门级的<sprite name=scale>可制作野蛮颂歌。若想完成学者级制作，可以尝试如下配方：对一枚<b>卵</b>低语它，就能孵化出某种让人忆起一个古早年代的生物。]"
+		},
+		{
+			"Desc":"苦黑盐曾用于迫击炮中，但它还有许多其他用途。",
+			"Label":"制作：苦黑盐",
+			"id":"craft.door.wall_salts.bitterblack_forge",
+			"StartDescription":"老石匠才知道的小窍门：将阴燃的精华结晶为一种<b>铸</b>相原料。\n\n[“门扉与墙垣”加上入门级的<sprite name=forge>可制作苦黑盐。若想完成学者级制作，可以尝试如下配方：在学者级的<b>铸</b>下加入<b>金属</b>，就能将其铸成某种异域合金。]"
+		},
+		{
+			"Desc":"这透镜不对称——脆弱——且不稳定。而那也赋予了它力量。",
+			"Label":"制作：蒂尔黛透镜",
+			"id":"craft.glaziery.lightsmithing_dearday.lens_sky",
+			"StartDescription":"制作一件光学装置。\n\n[“玻璃与锻光”加上入门级的<sprite name=sky>可制作蒂尔黛透镜。若想完成学者级制作，可以尝试如下配方：加入<b>金属</b>，就能创造出一种特性更为微妙的物质。]"
+		},
+		{
+			"Desc":"任它在头脑与心灵中飞扬。",
+			"Label":"制作：怅惘曲调",
+			"id":"craft.watchmansparadoxes_music.wistful_sky",
+			"StartDescription":"在悖谬公式的交点处寻得一首甜美而悲伤的歌。\n\n[“守夜人的悖论”加上入门级的<sprite name=sky>可制作怅惘曲调。若想完成学者级制作，可以尝试如下配方：将这公式应用于一道<b>光源</b>，然后且看玫色精华自空气中滴落。]"
+		},
+		{
+			"Desc":"将其轻轻放下，否则它可能会滚走，甚至是逆坡而上。",
+			"Label":"制作：诳语缠结",
+			"id":"craft.resurgences.emergences_tanglebrag_moth",
+			"StartDescription":"制作一件能吸引某位蛾之具名者的象征物。\n\n[“复苏与羽化”加上入门级的<sprite name=moth>可制作诳语缠结。若想完成学者级制作，可以尝试如下配方：将一枚<b>卵</b>安置于此结中，就能孵化出某种没有眼睛，却涌动着潜能的生物。]"
+		},
+		{
+			"Desc":"自有其用途，但这些用途没一个可称简单，且大多不安全。",
+			"Label":"制作：紫晶安瓿瓶",
+			"id":"craft.thegreatsignsandthegreatscars_ampoule.amethyst_knock",
+			"StartDescription":"绘制符纹，为一支矛盾的启之安瓿瓶赋予力量。\n\n[“伟大符印与伟大伤疤”加上入门级的<sprite name=knock>可制作紫晶安瓿瓶。若想完成学者级制作，可以尝试如下配方：加入一份<b>回忆</b>，就能让自己吸收这宝石般的色彩，从而得到某种启之洞见。]"
+		},
+		{
+			"Desc":"只要你换个角度，它便一目了然。",
+			"Label":"制作：混淆寓言",
+			"id":"craft.applebrighteuphonies_confounding.parable_sky",
+			"StartDescription":"沉思传统，回想矛盾。\n\n[“光明果悦音”加上入门级的<sprite name=sky>可制作混淆寓言。若想完成学者级制作，可以尝试如下配方：以之为灵感演奏<b>乐器</b>，就能将这矛盾谱成一曲乐章。]"
+		},
+		{
+			"Desc":"任它在头脑与心灵中飞扬。",
+			"Label":"制作：怅惘曲调",
+			"id":"craft.ouranoscopy_music.wistful_sky",
+			"StartDescription":"在诸天域的转变中寻得一首甜美而悲伤的歌。\n\n[“窥天术”加上入门级的<sprite name=sky>可制作怅惘曲调。若想完成学者级制作，可以尝试如下配方：将歌谣刻在<b>木材</b>上，制作一个拥有魔力的乐器。]"
+		},
+		{
+			"Desc":"如日落般优雅。",
+			"Label":"制作：盐迹",
+			"id":"craft.sandstories_sign.salt_rose",
+			"StartDescription":"用盐描画沙漠诸门关的秘密符印。\n\n[“沙的故事”加上入门级的<sprite name=rose>可制作盐迹。若想完成学者级制作，可以尝试如下配方：如果我用<b>光源</b>描摹这种印记，就能从空气中绞出一种玫色精华。]"
+		},
+		{
+			"Desc":"酊剂在转为澄清时会剧烈颤动。这被称作“怒吠”。",
+			"Label":"制作：狻猊酊",
+			"id":"craft.disciplines.thehammer_tincture.labhitic_edge",
+			"StartDescription":"汇集我自身与手边的资源，制作一小份稳定的<b>刃</b>原料。\n\n[“锤砧的戒律”加上入门级的<sprite name=edge>可制作狻猊酊。若想完成学者级制作，可以尝试如下配方：加入某种具有<b>回忆</b>性相之物，我便能制作出一份带有显著<b>刃</b>相的回忆。]"
+		},
+		{
+			"Desc":"紧紧握住。",
+			"Label":"制作：苦乐参半的必然",
+			"id":"craft.ouranoscopy_bittersweet.certainty_moon",
+			"StartDescription":"在月光中觅得一种阴冷洞见。\n\n[“窥天术”加上入门级的<sprite name=moon>可制作苦乐参半的必然。若想完成学者级制作，可以尝试如下配方：用<b>透镜</b>聚焦那月光，将之转变为一种银色的启示之墨。]"
+		},
+		{
+			"Desc":"焕发微光吧，小小的色彩。",
+			"Label":"制作：耀素",
+			"id":"craft.sacrasolisinvicti_pigment.refulgin_lantern",
+			"StartDescription":"混合一种眩目的白色颜料，教会在《解散法》颁布之前曾将其用于各种仪式。\n\n[“无敌太阳典仪”加上入门级的<sprite name=lantern>可制作耀素。若想完成学者级制作，可以尝试如下配方：加入<b>玻璃</b>，就能将其分解为一种更为强力的灯之液体——一种神圣的物质。]"
+		},
+		{
+			"Desc":"最好趁热喝；然而它一直都是热的。",
+			"Label":"制作：巫魅药茶",
+			"id":"craft.orchids.narcotics_witching.tisane_grail",
+			"StartDescription":"将古怪的花瓣和罕见的茎晒干后泡制成药茶。\n\n[“兰花与迷药”加上入门级的<sprite name=grail>可制作巫魅药茶。若想完成学者级制作，可以尝试如下配方：加入<b>花</b>，该混合物便会变得令人沉醉。]"
+		},
+		{
+			"Desc":"净化使我目眩眼花，皮肤灼痛。角争甚至显现于太阳的运转中。",
+			"Label":"制作：图格的净化术",
+			"id":"craft.purifications.exaltations_torgues.cleansing_sky",
+			"StartDescription":"涤除我所受的尘世影响，凭借这过程中蕴含的野蛮积聚一些私有的<b>刃</b>。\n\n[“精炼与擢升”加上入门级的<sprite name=sky> 可制作图格的净化术。若想完成学者级制作，可以尝试如下配方：以这种体验为灵感演奏<b>乐器</b>，创造一段以<b>穹</b>为主题的音乐。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：星瘿墨",
+			"id":"craft.inks.containment_stargall.ink_sky",
+			"StartDescription":"调制一瓶鲜亮且耐久的墨水。\n\n[“收容之墨”加上入门级的<sprite name=sky>可制作星瘿墨。]"
+		},
+		{
+			"Desc":"焕发微光吧，小小的色彩。",
+			"Label":"制作：耀素",
+			"id":"craft.transformations.liberations_pigment.refulgin_lantern",
+			"StartDescription":"混合一种眩目的白色颜料。\n\n[“嬗变与解放”加上入门级的<sprite name=lantern>可制作耀素。若想完成学者级制作，可以尝试如下配方：加入<b>液体</b>，就能提炼出一种更加强力的炼金精华。]"
+		},
+		{
+			"Desc":"自有其用途，但这些用途没一个可称简单，且大多不安全。",
+			"Label":"制作：紫晶安瓿瓶",
+			"id":"craft.glassblowing.vesselcrafting_ampoule.amethyst_knock",
+			"StartDescription":"塑形、染色并填充一支矛盾的启之安瓿瓶。\n\n[“玻璃吹制与容器制造”加上入门级的<sprite name=knock>可制作紫晶安瓿瓶。若想完成学者级制作，可以尝试如下配方：加入<b>金属</b>，就能将其铸成某种异域合金。]"
+		},
+		{
+			"Desc":"这种物质的边界难以辨认——几乎像不存在一样。",
+			"Label":"制作：本征灰酒",
+			"id":"craft.quenchings.quellings_eigengrau_winter",
+			"StartDescription":"蒸馏出一种可能性。\n\n[“淬火与熄焰”加上入门级的<sprite name=winter>可制作本征灰酒。若想完成学者级制作，可以尝试如下配方：碾碎并加入<b>花</b>，就能配制出一剂苍白而阴寒的药水。]"
+		},
+		{
+			"Desc":"自有其用途，但这些用途没一个可称简单，且大多不安全。",
+			"Label":"制作：紫晶安瓿瓶",
+			"id":"craft.surgeries.exsanguinations_ampoule.amethyst_knock",
+			"StartDescription":"制造一种罕见且危险的药剂：一支矛盾的启之安瓿瓶。\n\n[“手术与放血”加上入门级的<sprite name=knock>可制作紫晶安瓿瓶。若想完成学者级制作，可以尝试如下配方：加入<b>液体</b>，就能调制出一种强力的启之毒素。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：杉瘿墨",
+			"id":"craft.leaves.thorns_yewgall.ink_nectar",
+			"StartDescription":"调制一瓶深黯且耐久的墨水。\n\n[“叶片与棘刺”加上入门级的<sprite name=nectar>可制作杉瘿墨。若想完成学者级制作，可以尝试如下配方：将<b>木材</b>浸泡于配比恰当的此种混合物中，它就会绽裂出奇异的果实。]"
+		},
+		{
+			"Desc":"如波涛般优雅。",
+			"Label":"制作：盐迹",
+			"id":"craft.seastories_sign.salt_moon",
+			"StartDescription":"用盐描画潮歌与夜旅的符印。\n\n[“大海的故事”加上入门级的<sprite name=moon>可制作盐迹。若想完成学者级制作，可以尝试如下配方：用这印记将一种<b>液体</b>圣化，就能将其提纯为一种启示之墨。]"
+		},
+		{
+			"Desc":"深黯且刺鼻。",
+			"Label":"制作：猫瞬墨",
+			"id":"craft.sandstories_catwink_moon",
+			"StartDescription":"调制一瓶能让老鼠后悔万分的墨水。\n\n[“沙的故事”加上入门级的<sprite name=moon>可制作猫瞬墨。若想完成学者级制作，可以尝试如下配方：将<b>卵</b>泡于浸液中，就能孵化出某种淘气的银色生物。]"
+		},
+		{
+			"Desc":"一些权威人士声称深瞑墨是很难弄丢的，然而他们从未在噤声居屋住过。",
+			"Label":"制作：深瞑墨",
+			"id":"craft.inks.power_perhibiate_scale",
+			"StartDescription":"我能调制出一种次级的力量之墨：一种系连之墨。\n\n[“力量之墨”加上入门级的<sprite name=scale>可制作深瞑墨。若想完成学者级制作，可以尝试如下配方：把合适的<b>叶</b>碾碎并加进去，就能将其变为更为致命且强力的墨水。]"
+		},
+		{
+			"Desc":"任它在头脑与心灵中飞扬。",
+			"Label":"制作：怅惘曲调",
+			"id":"craft.strings.songs_music.wistful_sky",
+			"StartDescription":"回想起一首甜美而悲伤的歌。\n\n[“弦乐与歌谣”加上入门级的<sprite name=sky>可制作怅惘曲调。若想完成学者级制作，可以尝试如下配方：在一件<b>乐器</b>上演奏它，将其升华为一篇更伟大的乐章。]"
+		},
+		{
+			"Desc":"一个仅存片刻的开放机遇。",
+			"Label":"制作：秘密门关",
+			"id":"craft.door.wall_secret.threshold_knock",
+			"StartDescription":"使用守门人那些鲜为人知的技艺，建立一道新的门关。\n\n[“门扉与墙垣”加上入门级的<sprite name=knock>可制作秘密门关。若想完成学者级制作，可以尝试如下配方：添加<b>液体</b>，就能调制出一种强力的启之毒素。]"
+		},
+		{
+			"Desc":"一掠顺滑的羽翎，满溢生机。",
+			"Label":"制作：觉醒翎羽",
+			"id":"craft.furs.feathers_awakened.feather_sky",
+			"StartDescription":"抚平一片被遗弃的羽毛，为其附上警觉的魔力。\n\n[“毛皮与羽翎”加上入门级的<sprite name=sky>可制作觉醒翎羽。若想完成学者级制作，可以尝试如下配方：在<b>乐器</b>上使用它，寻得一段苍穹妙音。]"
+		},
+		{
+			"Desc":"一个仅存片刻的开放机遇。",
+			"Label":"制作：秘密门关",
+			"id":"craft.preliminalmeter_secret.threshold_knock",
+			"StartDescription":"使用一组复杂的韵律来建立一道新的门关。\n\n[“阙前格律”加上入门级的<sprite name=knock>可制作秘密门关。若想完成学者级制作，可以尝试如下配方：加入一份<b>回忆</b>，它将分解为某种启之洞见。]"
+		},
+		{
+			"Desc":"我会把它哼上一会儿，每个碰巧路过的人也都会这么干。",
+			"Label":"制作：诱人旋律",
+			"id":"craft.applebrighteuphonies_music.beguiling_grail",
+			"StartDescription":"构思或忆起一小段令人愉悦的音乐。\n\n[“光明果悦音”加上入门级的<sprite name=grail>可制作诱人旋律。若想完成学者级制作，可以尝试如下配方：在制取包含<b>花</b>的混合物时对着它哼唱这段音乐，就会赋予那混合物一种醉人的特质。]"
+		},
+		{
+			"Desc":"人<i>可以</i>拿苦黑盐做饭，但前提是得用得非常克制。",
+			"Label":"制作：苦黑盐",
+			"id":"craft.disciplines.thehammer_salts.bitterblack_forge",
+			"StartDescription":"将阴燃的精华结晶为一种<b>铸</b>相原料。\n\n[“锤砧的戒律”加上入门级的<sprite name=forge>可制作苦黑盐。若想完成学者级制作，可以尝试如下配方：在学者级的<b>铸</b>下加入<b>金属</b>，就能将其铸成某种异域合金。]"
+		},
+		{
+			"Desc":"这粒污点不应暴露于阳光下，但主要是因为它在阳光下丑得骇人。",
+			"Label":"制作：午夜污点",
+			"id":"craft.sharps_midnight.mark_moon",
+			"StartDescription":"将夜间的共鸣集中在一个小心绘制的符印内。\n\n[“锋锐”加上入门级的<sprite name=moon> 可制作午夜污点。若想完成学者级制作，可以尝试如下配方：将其用在<b>遗骸</b>上，就能提取出某种暗如皮革，阴冷强力的东西。]"
+		},
+		{
+			"Desc":"别洒了。",
+			"Label":"制作：杉瘿墨",
+			"id":"craft.rites.theroots_yewgall.ink_nectar",
+			"StartDescription":"调制一瓶深黯且耐久的墨水。\n\n[“根系之仪”加上入门级的<sprite name=nectar>可制作杉瘿墨。若想完成学者级制作，可以尝试如下配方：将它添加在<b>饮品</b>中，就能混合出一种更加深沉且强力的液体。]"
+		},
+		{
+			"Desc":"我会把它哼上一会儿，每个碰巧路过的人也都会这么干。",
+			"Label":"制作：诱人旋律",
+			"id":"craft.pentiments.precursors_music.beguiling_grail",
+			"StartDescription":"忆起一小段来自往昔岁月的愉悦音乐……\n\n[“覆画残迹与古老前身”加上入门级的<sprite name=grail>可制作诱人旋律。若想完成学者级制作，可以尝试如下配方：添加<b>布料</b>，就能用哼唱为一只小布娃娃注入极其微弱的生命。]"
+		}
+	]
+}

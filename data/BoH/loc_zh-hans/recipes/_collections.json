@@ -1,0 +1,15 @@
+{
+	"recipes":[
+		{
+			"startdescription":"！",
+			"id":"collection.test",
+			"label":"噢"
+		},
+		{
+			"startdescription":"我是噤声居屋的第十二任图书管理员……",
+			"id":"collection.busts",
+			"label":"过去，现在，将来的图书管理员",
+			"desc":"我是噤声居屋的第十二任图书管理员；而我，同样会被铭记。"
+		}
+	]
+}

@@ -1,0 +1,1124 @@
+﻿{"recipes": [
+ 
+{
+  "id":"talk.fisherman.intro",
+  "label": "Развеять подозрения",
+  "actionid":"talk",
+  "reqs":{"assistance.fisherman.intro":1,"introduction":1,"sceptical":1},
+  "startdescription": "«За тебя кто-нибудь поручится?»\n\n(Ну разумеется. После событий 1930 года и Реставрации местные жители совсем перестали доверять чужакам. Однако в деревушке у меня есть старый знакомый...)",
+  "desc":"«Давай тогда помогу подняться на скалы». [Скепсис покинул этого господина. Воспользуйтесь его помощью, чтобы открыть деревню.]",
+  "warmup":"10",
+  "mutations":[{"mutate":"sceptical","filter":"assistance","level":-1,"additive":true}],
+  "craftable":true
+},
+{
+  "id":"talk.fisherman.intro.done.hint",
+  "label": "Больше никаких подозрений",
+  "actionid":"talk",
+  "reqs":{"assistance.fisherman.intro":1,"sceptical":-1},
+  "startdescription": "«А?» [Собеседник даёт вам понять, что он достаточно наговорился и хотел бы перестать мокнуть под ливнем, большое спасибо. Воспользуйтесь его помощью, чтобы открыть деревню.]",
+  "hintonly":true
+},
+
+{
+  "id":"talk.fisherman.intro.hint",
+  "label": "Развеять подозрения?",
+  "actionid":"talk",
+  "reqs":{"assistance.fisherman.intro":1,"sceptical":1,"introduction":-1},
+  "startdescription": "«Не подходи! Чего тебе надо?»",
+  "hintonly":true
+},
+
+
+
+{
+  "id":"talk.attempt.night",
+  "label": "Неурочный час",
+  "actionid":"talk",
+  "extantreqs":{"sleepytime":1},
+  "reqs":{"assistance":1,"ability":-1,"reluctant":-1},
+  "startdescription": "«Уже поздно. Поговорим как-нибудь в другой раз?» [Ночь не располагает к долгим беседам. Воспользуйтесь помощью собеседника, пока он не отправился домой.]",
+  "hintonly":true
+},
+{
+  "id":"talk.attempt.night.ability",
+  "label": "Неурочный час",
+  "actionid":"talk",
+  "extantreqs":{"sleepytime":1},
+  "reqs":{"assistance":1,"ability":1,"reluctant":-1},
+  "startdescription": "Зевота сводит скулы. [Ночь не располагает к долгим беседам. Воспользуйтесь помощью собеседника, пока он не отправился домой.]",
+  "hintonly":true
+},
+{
+  "id": "collaborate.xhea",
+  "label": "Сотрудничество: здоровье",
+  "startdescription": "Я не боюсь домашней работы. [Усиливает аспекты Сердца, Чешуи, Нектара]",
+  "desc":"В четыре руки дело пойдёт быстрее.",
+  "extantreqs":{"sleepytime":-1},
+  "reqs": {"assistance":1,"ability":1,".hea":1,
+  "exalted.collaboration":-1
+  },
+  "aspects": {
+  "fatiguing.ability": 1
+  },
+  "mutations": [
+  {
+    "filter": "assistance",
+    "mutate": "heart",
+    "level": "boost.heart",
+    "additive":true
+  },
+  {
+    "filter": "assistance",
+    "mutate": "scale",
+    "level": "boost.scale",
+    "additive":true
+  },
+  {
+    "filter": "assistance",
+    "mutate": "nectar",
+    "level": "boost.nectar",
+    "additive":true
+  },
+  {"filter":"assistance","mutate":"exalted.collaboration","level":1}
+  ],"actionid":"talk","warmup":30,"craftable":true
+  },
+{
+"id": "collaborate.xmet",
+"label": "Сотрудничество: решимость",
+"startdescription": "Целеустремлённость и вдохновение. [Усиливает аспекты Кузни и Грани]",
+"desc":"Мы не свернём с намеченного пути.",
+"extantreqs":{"sleepytime":-1},
+"reqs": {"assistance":1,"ability":1,".met":1,
+"exalted.collaboration":-1
+},
+"aspects": {
+"fatiguing.ability": 1
+},
+"mutations": [
+{
+  "filter": "assistance",
+  "mutate": "forge",
+  "level": "boost.forge",
+  "additive":true
+},
+{
+  "filter": "assistance",
+  "mutate": "edge",
+  "level": "boost.edge",
+  "additive":true
+},
+{"filter":"assistance","mutate":"exalted.collaboration","level":1}
+],"actionid":"talk","warmup":30,"craftable":true
+},
+{
+"id": "collaborate.xcho",
+"label": "Сотрудничество: хор",
+"startdescription": "С песней любая работа спорится. [Усиливает аспекты Сердца и Чаши]",
+"desc":"Теперь мы стали чуть веселей.",
+"extantreqs":{"sleepytime":-1},
+"reqs": {"assistance":1,"ability":1,".cho":1,
+"exalted.collaboration":-1
+},
+"aspects": {
+"fatiguing.ability": 1
+},
+"mutations": [
+{
+  "filter": "assistance",
+  "mutate": "heart",
+  "level": "boost.heart",
+  "additive":true
+},
+{
+  "filter": "assistance",
+  "mutate": "grail",
+  "level": "boost.grail",
+  "additive":true
+},
+{"filter":"assistance","mutate":"exalted.collaboration","level":1}
+],"actionid":"talk","warmup":30,"craftable":true
+},
+{
+"id": "collaborate.xere",
+"label": "Сотрудничество: эреб",
+"startdescription": "Я отыскал соперника моей гордыне. [Усиливает аспекты Чаши и Грани]",
+"desc":"Теперь мы набросимся на работу.",
+"extantreqs":{"sleepytime":-1},
+"reqs": {"assistance":1,"ability":1, ".ere":1,
+"exalted.collaboration":-1
+},
+"aspects": {
+"fatiguing.ability": 1
+},
+"mutations": [
+{
+  "filter": "assistance",
+  "mutate": "grail",
+  "level": "boost.grail",
+  "additive":true
+},
+{
+  "filter": "assistance",
+  "mutate": "edge",
+  "level": "boost.edge",
+  "additive":true
+},
+{"filter":"assistance","mutate":"exalted.collaboration","level":1}
+],"actionid":"talk","warmup":30,"craftable":true
+},
+
+{
+"id": "collaborate.xfet",
+"label": "Сотрудничество: фет",
+"startdescription": "Быть может, у нас одна мечта. [Усиливает аспекты Розы и Мотылька]",
+"desc":"Мы понимаем друг друга без слов.",
+"extantreqs":{"sleepytime":-1},
+"reqs": {"assistance":1,"ability":1,".fet":1,
+"exalted.collaboration":-1
+},
+"aspects": {
+"fatiguing.ability": 1
+},
+"mutations": [
+{
+  "filter": "assistance",
+  "mutate": "rose",
+  "level": "boost.rose",
+  "additive":true
+},
+{
+  "filter": "assistance",
+  "mutate": "moth",
+  "level": "boost.moth",
+  "additive":true
+},
+{"filter":"assistance","mutate":"exalted.collaboration","level":1}
+],"actionid":"talk","warmup":30,"craftable":true
+},
+
+{
+"id": "collaborate.xpho",
+"label": "Сотрудничество: фост",
+"startdescription": "Вместе мы будем бдительны. [Усиливает аспекты Лампады и Неба]",
+"desc":"Ничто не ускользнёт от нашего взора.",
+"extantreqs":{"sleepytime":-1},
+"reqs": {"assistance":1,"ability":1,".pho":1,
+"exalted.collaboration":-1
+},
+"aspects": {
+"fatiguing.ability": 1
+},
+"mutations": [
+{
+  "filter": "assistance",
+  "mutate": "lantern",
+  "level": "boost.lantern",
+  "additive":true
+},
+{
+  "filter": "assistance",
+  "mutate": "sky",
+  "level": "boost.sky",
+  "additive":true
+},
+{"filter":"assistance","mutate":"exalted.collaboration","level":1}
+],"actionid":"talk","warmup":30,"craftable":true
+},
+{
+"id": "collaborate.xsha",
+"label": "Сотрудничество: шапт",
+"startdescription": "Очарование и обучение. [Усиливает аспекты Стука и Кузни]",
+"desc":"Наша беседа легка и приятна.",
+"extantreqs":{"sleepytime":-1},
+"reqs": {"assistance":1,"ability":1,".sha":1,
+"exalted.collaboration":-1
+},
+"aspects": {
+"fatiguing.ability": 1
+},
+"mutations": [
+{
+  "filter": "assistance",
+  "mutate": "knock",
+  "level": "boost.knock",
+  "additive":true
+},
+{
+  "filter": "assistance",
+  "mutate": "forge",
+  "level": "boost.forge",
+  "additive":true
+},
+{"filter":"assistance","mutate":"exalted.collaboration","level":1}
+],"actionid":"talk","warmup":30,"craftable":true
+},
+{
+"id": "collaborate.xtri",
+"label": "Сотрудничество: трист",
+"startdescription": "Печали сделают нас сильнее. [Усиливает аспекты Мотылька и Луны]",
+"desc":"Что дальше? Мы скоро это узнаем.",
+"extantreqs":{"sleepytime":-1},
+"reqs": {"assistance":1,"ability":1,".tri":1,
+"exalted.collaboration":-1
+},
+"aspects": {
+"fatiguing.ability": 1
+},
+"mutations": [
+{
+  "filter": "assistance",
+  "mutate": "moth",
+  "level": "boost.moth",
+  "additive":true
+},
+{
+  "filter": "assistance",
+  "mutate": "moon",
+  "level": "boost.moon",
+  "additive":true
+},
+{"filter":"assistance","mutate":"exalted.collaboration","level":1}
+],"actionid":"talk","warmup":30,"craftable":true
+},
+{
+"id": "collaborate.xwis",
+"label": "Сотрудничество: вист",
+"startdescription": "Мы будем наблюдать за тем, что ждёт впереди. [Усиливает аспекты Зимы и Лампады]",
+"desc":"Мы осторожны и благоразумны.",
+"extantreqs":{"sleepytime":-1},
+"reqs": {"assistance":1,"ability":1,".wis":1,
+"exalted.collaboration":-1
+},
+"aspects": {
+"fatiguing.ability": 1
+},
+"mutations": [
+{
+  "filter": "assistance",
+  "mutate": "winter",
+  "level": "boost.winter",
+  "additive":true
+},
+{
+  "filter": "assistance",
+  "mutate": "lantern",
+  "level": "boost.lantern",
+  "additive":true
+},
+{"filter":"assistance","mutate":"exalted.collaboration","level":1}
+],"actionid":"talk","warmup":30,"craftable":true
+},
+
+{
+  "id": "exalt.weather",
+  "actionid":"talk","warmup":30,"craftable":true,
+  "label": "Разговор о погоде",
+  "startdescription": "Куда полезней, чем может показаться на первый взгляд. Особенно в Англии. [Влияние переменчивых небес придаст помощнику сил на весь оставшийся день.]",
+  "desc":"Воспользуемся погодой, пока она ещё держится.",
+  "reqs": {"assistance":1,"weather":1,"exalted.memory":-1},
+  "extantreqs":{"sleepytime":-1},
+ "mutations":[
+  {"filter":"assistance","mutate":"edge","level":"boost.edge","additive":true},
+  {"filter":"assistance","mutate":"forge","level":"boost.forge","additive":true},
+{"filter":"assistance","mutate":"grail","level":"boost.grail","additive":true},
+{"filter":"assistance","mutate":"heart","level":"boost.heart","additive":true},
+{"filter":"assistance","mutate":"knock","level":"boost.knock","additive":true},
+{"filter":"assistance","mutate":"lantern","level":"boost.lantern","additive":true},
+{"filter":"assistance","mutate":"moon","level":"boost.moon","additive":true},
+{"filter":"assistance","mutate":"moth","level":"boost.moth","additive":true},
+{"filter":"assistance","mutate":"nectar","level":"boost.nectar","additive":true},
+{"filter":"assistance","mutate":"rose","level":"boost.rose","additive":true},
+{"filter":"assistance","mutate":"scale","level":"boost.scale","additive":true},
+{"filter":"assistance","mutate":"sky","level":"boost.sky","additive":true},
+{"filter":"assistance","mutate":"winter","level":"boost.winter","additive":true},
+  {"filter":"assistance","mutate":"exalted.memory","level":1}
+],
+"aspects":{"fatiguing.memory":1}
+  
+},
+
+
+
+
+
+{
+  "id": "exalt.omen",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Уместное предзнаменование",
+  "startdescription": "Я могу предложить знамение. Как знать, вдруг оно придётся кстати? [Это усилит аспекты помощницы.]",
+  "desc":"«Прежде луны, закат; прежде заката, рассвет; прежде рассвета, камень». [Это усилило аспекты помощницы.]",
+  "reqs": {"assistance.nun":1,"omen":1,"exalted.omen":-1},
+  "comments":"If we ever have non-nuns accepting omens, this will need tweaking",
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.memory":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.omen","level":1}
+   
+  ]
+},
+
+{"id": "exalt.omen.already",
+"label": "Уместное предзнаменование?",
+"actionid": "talk",
+"startdescription": "[Помощь такого рода можно предложить только один раз в день. Быть может, в следующий раз вы сможете явить более сильное знамение...]",
+"reqs": {"assistance":1,"omen":1,"exalted.omen":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+
+
+
+
+{
+  "id": "exalt.memory",
+  "actionid":"talk","warmup":30,"craftable":true,
+  "label": "Яркое воспоминание",
+  "startdescription": "Мы бы могли обсудить воспоминание. [При этом оно исчезнет, но придаст помощнику сил на весь оставшийся день.]",
+  "desc":"Вне книг век воспоминаний краток. Но его хватит, чтобы изменить этот день.",
+  "reqs": {"assistance":1,"memory":1,"exalted.memory":-1},
+  "extantreqs":{"sleepytime":-1},
+ "mutations":[
+  {"filter":"assistance","mutate":"edge","level":"boost.edge","additive":true},
+  {"filter":"assistance","mutate":"forge","level":"boost.forge","additive":true},
+{"filter":"assistance","mutate":"grail","level":"boost.grail","additive":true},
+{"filter":"assistance","mutate":"heart","level":"boost.heart","additive":true},
+{"filter":"assistance","mutate":"knock","level":"boost.knock","additive":true},
+{"filter":"assistance","mutate":"lantern","level":"boost.lantern","additive":true},
+{"filter":"assistance","mutate":"moon","level":"boost.moon","additive":true},
+{"filter":"assistance","mutate":"moth","level":"boost.moth","additive":true},
+{"filter":"assistance","mutate":"nectar","level":"boost.nectar","additive":true},
+{"filter":"assistance","mutate":"rose","level":"boost.rose","additive":true},
+{"filter":"assistance","mutate":"scale","level":"boost.scale","additive":true},
+{"filter":"assistance","mutate":"sky","level":"boost.sky","additive":true},
+{"filter":"assistance","mutate":"winter","level":"boost.winter","additive":true},
+  {"filter":"assistance","mutate":"exalted.memory","level":1}
+],
+"aspects":{"fatiguing.memory":1}
+  
+},
+
+{"id": "exalt.memory.already",
+"label": "Чересчур много воспоминаний?",
+"actionid": "talk",
+"startdescription": "[Помощнику можно предложить не больше одного воспоминания в день.]",
+"reqs": {"assistance":1,"memory":1,"exalted.memory":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1},
+
+
+{
+  "id": "exalt.fabric",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Сплетённые нити",
+  "startdescription": "Я могу предложить помощнице ткань или другие материалы для её ремесла. [Это усилит её аспекты. Обрезки она оставит себе.]",
+  "desc":"Пусть этот хлам забивает <i>её</i> кладовку. [Это усилило аспекты помощницы.]",
+  "reqs": {"assistance":1,"fabric":1,"exalted.fabric":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.fabric","level":1}
+   
+  ]
+},
+
+{"id": "exalt.fabric.already",
+"label": "Сплетённые нити?",
+"actionid": "talk",
+"startdescription": "[Помощь такого рода можно предложить только один раз в день. Быть может, в следующий раз вы сможете найти или соткать более прочный материал...]",
+"reqs": {"assistance":1,"fabric":1,"exalted.fabric":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+
+{
+  "id": "exalt.device",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Полезное устройство",
+  "startdescription": "Я мог бы предложить помощнику что-нибудь, что облегчит предстоящую задачу. [Это приспособление – одноразовый инструмент, так что помощник его не вернёт.]",
+  "desc":"[Предложенное устройство усилило аспекты помощника.]",
+  "reqs": {"assistance":1,"device":1,"exalted.tool":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+  {"filter":"assistance","mutate":"edge","level":"boost.edge","additive":true},
+  {"filter":"assistance","mutate":"forge","level":"boost.forge","additive":true},
+{"filter":"assistance","mutate":"grail","level":"boost.grail","additive":true},
+{"filter":"assistance","mutate":"heart","level":"boost.heart","additive":true},
+{"filter":"assistance","mutate":"knock","level":"boost.knock","additive":true},
+{"filter":"assistance","mutate":"lantern","level":"boost.lantern","additive":true},
+{"filter":"assistance","mutate":"moon","level":"boost.moon","additive":true},
+{"filter":"assistance","mutate":"moth","level":"boost.moth","additive":true},
+{"filter":"assistance","mutate":"nectar","level":"boost.nectar","additive":true},
+{"filter":"assistance","mutate":"rose","level":"boost.rose","additive":true},
+{"filter":"assistance","mutate":"scale","level":"boost.scale","additive":true},
+{"filter":"assistance","mutate":"sky","level":"boost.sky","additive":true},
+{"filter":"assistance","mutate":"winter","level":"boost.winter","additive":true},
+    {"filter":"assistance","mutate":"exalted.tool","level":1}
+  ]
+    
+  },
+
+  
+
+{
+  "id": "exalt.tool",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Полезный инструмент",
+  "startdescription": "Я мог бы предложить помощнику что-нибудь, что облегчит предстоящую задачу. [Помощник вернёт вам инструмент.]",
+  "desc":"[Предложенный инструмент усилил аспекты помощника.]",
+  "reqs": {"assistance":1,"tool":1,"exalted.tool":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+  {"filter":"assistance","mutate":"edge","level":"boost.edge","additive":true},
+  {"filter":"assistance","mutate":"forge","level":"boost.forge","additive":true},
+{"filter":"assistance","mutate":"grail","level":"boost.grail","additive":true},
+{"filter":"assistance","mutate":"heart","level":"boost.heart","additive":true},
+{"filter":"assistance","mutate":"knock","level":"boost.knock","additive":true},
+{"filter":"assistance","mutate":"lantern","level":"boost.lantern","additive":true},
+{"filter":"assistance","mutate":"moon","level":"boost.moon","additive":true},
+{"filter":"assistance","mutate":"moth","level":"boost.moth","additive":true},
+{"filter":"assistance","mutate":"nectar","level":"boost.nectar","additive":true},
+{"filter":"assistance","mutate":"rose","level":"boost.rose","additive":true},
+{"filter":"assistance","mutate":"scale","level":"boost.scale","additive":true},
+{"filter":"assistance","mutate":"sky","level":"boost.sky","additive":true},
+{"filter":"assistance","mutate":"winter","level":"boost.winter","additive":true},
+    {"filter":"assistance","mutate":"exalted.tool","level":1}
+  ]
+    
+  },
+
+   {"id": "exalt.tool.already",
+"label": "Хорошего понемножку?",
+"actionid": "talk",
+"startdescription": "[Инструмент можно предложить помощнику только один раз в день.]",
+"reqs": {"assistance":1,"tool":1,"exalted.tool":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1},
+  
+
+{
+  "id": "exalt.sustenance",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Радушное угощение",
+  "startdescription": "Я мог бы угостить моего помощника чем-нибудь. Это усилит его аспекты. А также покажет моё гостеприимство.",
+  "desc":"[Предложенное угощение усилило аспекты помощника.]",
+  "reqs": {"assistance":1,"sustenance":1,"exalted.sustenance":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.sustenance","level":1}
+  ]
+},
+{"id": "exalt.collaboration.already",
+"label": "Сотрудничество?",
+"actionid": "talk",
+"startdescription": "Мы уже помогаем друг другу. [Карту души можно предложить помощнику только один раз в день. Но есть способ сделать карты души сильнее...]",
+"reqs": {"assistance":1,"ability":1,"exalted.collaboration":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+{"id": "exalt.sustenance.already",
+"label": "Сытость?",
+"actionid": "talk",
+"startdescription": "[Угощение можно предложить помощнику только один раз в день.]",
+"reqs": {"assistance":1,"sustenance":1,"exalted.sustenance":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+{
+  "id": "exalt.beverage",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Освежающий напиток",
+  "startdescription": "Я мог бы угостить моего помощника чем-нибудь. [Это усилит аспекты помощника. Он также будет рад гостеприимству.]",
+  "desc":"До последней капли. [Это усилило аспекты помощника.]",
+  "reqs": {"assistance":1,"beverage":1,"exalted.beverage":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.beverage","level":1}
+   
+  ]
+},
+{"id": "exalt.beverage.already",
+"label": "Освежающий напиток?",
+"actionid": "talk",
+"startdescription": "[Помощь такого рода можно предложить только один раз в день. Быть может, в следующий раз вы сможете найти или сварить более крепкий напиток...]",
+"reqs": {"assistance":1,"beverage":1,"exalted.beverage":1},
+"extantreqs":{"sleepytime":-1},
+"warmup":1,"craftable":true
+},
+
+{
+  "id": "exalt.candle",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Свет во тьме",
+  "startdescription": "Я могу предложить помощнику свечу. [Это усилит его аспекты. Свечной огарок он оставит себе.]",
+  "desc":"«Всякой свече – своя тень». [Это усилило аспекты помощника.]",
+  "reqs": {"assistance":1,"candle":1,"exalted.candle":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.candle","level":1}
+   
+  ]
+},
+
+{"id": "exalt.candle.already",
+"label": "Свет во тьме?",
+"actionid": "talk",
+"startdescription": "[Помощь такого рода можно предложить только один раз в день. Быть может, в следующий раз вы сможете найти или смастерить более сильную свечу...]",
+"reqs": {"assistance":1,"candle":1,"exalted.candle":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+
+
+
+{
+  "id": "exalt.flower",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "«Он лилии твои из памяти унёс; но одинок я был, истерзан страстью старой...»",
+  "startdescription": "Увядающие цветы способны дарить вдохновение. [Это усилит аспекты помощника.",
+  "desc":"«Вина просил я, нот – пьянее, чем вчера...» [Это усилило аспекты помощника.]",
+  "reqs": {"assistance":1,"flower":1,"exalted.flower":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.flower","level":1}
+   
+  ]
+},
+
+{"id": "exalt.flower.already",
+"label": "«Он лилии твои из памяти унёс; но одинок я был, истерзан страстью старой...»",
+"actionid": "talk",
+"startdescription": "[Помощь такого рода можно предложить только один раз в день. Быть может, в следующий раз вы сможете найти ещё более полезные цветы...]",
+"reqs": {"assistance":1,"flower":1,"exalted.flower":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+
+
+
+
+
+
+
+{
+  "id": "exalt.fuel",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Пища для пламени",
+  "startdescription": "Я могу предложить горючее для лампы или печи. [Это усилит аспекты помощницы. Канистру она оставит себе.]",
+  "desc":"«Всякому огню – своя пища». [Это усилило аспекты помощницы.]",
+  "comments":"The assistance.engineer requirement stops anyone else using wood as fuel.",
+  "reqs": {"assistance.engineer":1,"fuel":1,"exalted.fuel":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.fuel","level":1}
+   
+  ]
+},
+
+{"id": "exalt.fuel.already",
+"label": "Ещё припасы?",
+"actionid": "talk",
+"startdescription": "[Помощь такого рода можно предложить только один раз в день. Быть может, в следующий раз вы сможете найти или создать более жаркое горючее...]",
+"reqs": {"assistance":1,"fuel":1,"exalted.fuel":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+{
+  "id": "exalt.metal",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Ещё припасы",
+  "startdescription": "Я могу предложить помощнику металл – редкий или повседневный. [Это усилит его аспекты. Всю металлическую стружку он оставит себе.]",
+  "desc":"Пусть этот хлам забивает <i>его</i> кладовку. [Это усилило аспекты помощника.]",
+  "reqs": {"assistance":1,"metal":1,"exalted.metal":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.metal","level":1}
+   
+  ]
+},
+
+{"id": "exalt.metal.already",
+"label": "Ещё припасы?",
+"actionid": "talk",
+"startdescription": "[Помощь такого рода можно предложить только один раз в день. Быть может, в следующий раз вы сможете найти или создать более прочный металл...]",
+"reqs": {"assistance":1,"metal":1,"exalted.metal":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+
+
+
+
+
+
+
+
+{
+  "id": "exalt.pigment",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+  "label": "Экзотический пигмент",
+  "startdescription": "Я могу предложить помощнице яркие краски для её холста. [Это усилит её аспекты. Искусство – это прекрасно.]",
+  "desc":"«Как интересно...» [Это усилило аспекты помощницы.]",
+  "reqs": {"assistance":1,"pigment":1,"exalted.pigment":-1},
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.pigment","level":1}
+   
+  ]
+},
+
+{"id": "exalt.pigment.already",
+"label": "Экзотический пигмент?",
+"actionid": "talk",
+"startdescription": "[Помощь такого рода можно предложить только один раз в день. Быть может, в следующий раз вы сможете найти или изготовить более яркие краски...]",
+"reqs": {"assistance":1,"pigment":1,"exalted.pigment":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+{
+  "id": "exalt.wood",
+  "actionid":"talk",
+  "warmup":30,
+  "craftable":true,
+    "label": "Ещё припасы",
+  "startdescription": "Я могу предложить помощнику завалявшийся у меня чурбачок. [Это усилит его аспекты. Все стружки он оставит себе.]",
+  "desc":"Пусть этот хлам забивает <i>его</i> кладовку. [Это усилило аспекты помощника.]",
+  "reqs": {"assistance":1,"wood":1,"exalted.wood":-1},
+  "comments":"This appears above the Fuel one so it supersedes it for Wood-users like Mr K.",
+  "extantreqs":{"sleepytime":-1},
+  "aspects":{"fatiguing.ingredients":1},
+  "mutations":[
+    {"filter":"assistance","mutate":"edge","level":"boost.edge",
+    "additive":true},
+    {"filter":"assistance","mutate":"forge","level":"boost.forge",
+    "additive":true},
+    {"filter":"assistance","mutate":"grail","level":"boost.grail",
+    "additive":true},
+    {"filter":"assistance","mutate":"heart","level":"boost.heart",
+    "additive":true},
+    {"filter":"assistance","mutate":"knock","level":"boost.knock",
+    "additive":true},
+    {"filter":"assistance","mutate":"lantern","level":"boost.lantern",
+    "additive":true},
+    {"filter":"assistance","mutate":"moon","level":"boost.moon",
+    "additive":true},
+    {"filter":"assistance","mutate":"moth","level":"boost.moth",
+    "additive":true},
+    {"filter":"assistance","mutate":"nectar","level":"boost.nectar",
+    "additive":true},
+    {"filter":"assistance","mutate":"rose","level":"boost.rose",
+    "additive":true},
+    {"filter":"assistance","mutate":"scale","level":"boost.scale",
+    "additive":true},
+    {"filter":"assistance","mutate":"sky","level":"boost.sky",
+    "additive":true},
+    {"filter":"assistance","mutate":"winter","level":"boost.winter",
+    "additive":true},
+    {"filter":"assistance","mutate":"exalted.wood","level":1}
+   
+  ]
+},
+
+{"id": "exalt.wood.already",
+"label": "Ещё припасы?",
+"actionid": "talk",
+"startdescription": "[Такой предмет можно предложить помощнику только один раз в день.]",
+"reqs": {"assistance":1,"wood":1,"exalted.wood":1},
+"extantreqs":{"sleepytime":-1},
+"craftable":true,"warmup":1
+},
+
+
+{
+  "id":"talk.assistance.rector",
+  "label": "Разговор со Священником",
+  "actionid":"talk",
+  "warmup":45,
+  "extantreqs":{"sleepytime":-1},
+  "reqs":{"assistance.rector":1,"reluctant":-1},
+  "startdescription": "Отец Тимоти всегда, всегда рад пообщаться. [Добавьте часть души, чтобы придать о. Тимоти сил на весь оставшийся день, или составьте ему компанию просто так. В отличие от прочих помощников, Священник может использовать свечи.]",
+  "desc":"Мне необязательно выслушивать всё, что говорит отец Тимоти. В конце концов, он от меня этого не ждёт. Но я никогда не жалею, что уделил ему внимание.",
+  "deckeffects":{"d.chat.scholar":1},
+  "craftable":true
+},
+{
+  "id":"talk.assistance.blacksmith",
+  "label": "Разговор с Кузнецом",
+  "actionid":"talk",
+  "warmup":30,
+  "extantreqs":{"sleepytime":-1},
+  "reqs":{"assistance.blacksmith":1,"reluctant":-1},
+  "startdescription": "Может, он даже мне ответит. [Добавьте что-нибудь, чтобы придать Дензилу сил на весь оставшийся день, или составьте ему компанию просто так. В отличие от прочих помощников, Кузнец может использовать металл.]",
+  "desc":"Молчание этого человека говорит больше любых слов.",
+  "deckeffects":{"d.chat.denzil":1},
+  "craftable":true
+},
+{
+  "id":"talk.assistance.coffinmaker",
+  "label": "Разговор с Гробовщиком",
+  "actionid":"talk",
+  "warmup":30,
+  "extantreqs":{"sleepytime":-1},
+  "reqs":{"assistance.coffinmaker":1,"reluctant":-1},
+  "startdescription": "Мистер Килле неизменно энергичен и остроумен, и любит сплетничать. [Добавьте что-нибудь, чтобы придать мистеру Килле сил на весь оставшийся день, или составьте ему компанию просто так. В отличие от прочих помощников, Гробовщик может использовать древесину.]",
+  "desc":"«Мертвецы не рассказывают сказки? А вы пробовали их слушать?»",
+  "deckeffects":{"d.chat.craftsman":1},
+  "craftable":true
+},
+{
+  "id":"talk.assistance.midwife",
+  "label": "Разговор с Повитухой",
+  "actionid":"talk",
+  "warmup":30,
+  "extantreqs":{"sleepytime":-1},
+  "reqs":{"assistance.midwife":1,"reluctant":-1},
+  "startdescription": "За свою жизнь миссис Килле повидала больше, чем может показаться на первый взгляд. Порой беседы с ней удивляют. [Добавьте что-нибудь, чтобы придать миссис Килле сил на весь оставшийся день, или составьте её компанию просто так. В отличие от прочих помощников, Повитуха может использовать ткань.]",
+  "desc":"«Всё только так и никак иначе». Как хорошо знают все местные сплетницы, миссис Килле приехала из Франции и только потом вышла замуж за мистера Килле. Однако теперь в её речи не найти даже следов континентального духа.",
+  "deckeffects":{"d.chat.traveller":1},
+  "craftable":true
+},
+{
+  "id":"talk.assistance.painter",
+  "label": "Разговор с Художницей",
+  "actionid":"talk",
+  "warmup":30,
+  "extantreqs":{"sleepytime":-1},
+  "reqs":{"assistance.painter":1,"reluctant":-1},
+  "startdescription": "Я мог бы подбодрить мою собеседницу, предложить помощь, возвысить её. Или послушать, что она хочет мне сказать. [Добавьте что-нибудь, чтобы придать собеседнице сил на весь оставшийся день, или составьте ей компанию просто так.  В отличие от прочих помощников, Художница может использовать пигменты.]",
+  "desc":"Я кое-что узнал – или, быть может, вспомнил.",
+  "deckeffects":{"d.chat.generic":1},
+  "craftable":true
+},
+{
+  "id":"talk.assistance.engineer",
+  "label": "Разговор с Инженером",
+  "actionid":"talk",
+  "warmup":30,
+  "extantreqs":{"sleepytime":-1},
+  "reqs":{"assistance.engineer":1,"reluctant":-1},
+  "startdescription": "Я мог бы подбодрить мою собеседницу, предложить помощь, возвысить её. Или послушать, что она хочет мне сказать. [Добавьте что-нибудь, чтобы придать собеседнице сил на весь оставшийся день, или составьте ей компанию просто так.  В отличие от прочих помощников, Инженер может использовать горючее.]",
+  "desc":"Я кое-что узнал – или, быть может, вспомнил.",
+  "deckeffects":{"d.chat.generic":1},
+  "craftable":true
+},
+
+{
+  "id":"talk.assistance.nun",
+  "label": "Разговор с Монахиней",
+  "actionid":"talk",
+  "warmup":30,
+  "extantreqs":{"sleepytime":-1},
+  "reqs":{"assistance.nun":1,"reluctant":-1},
+  "startdescription": "Я мог бы подбодрить мою собеседницу, предложить помощь, возвысить её. Или послушать, что она хочет мне сказать. [Добавьте что-нибудь, чтобы придать собеседнице сил на весь оставшийся день, или составьте ей компанию просто так. Монахинь обычно интересуют знамения.]",
+  "desc":"Я кое-что узнал – или, быть может, вспомнил.",
+  "deckeffects":{"d.chat.generic":1},
+  "craftable":true
+},
+
+{
+  "id":"talk.assistance.poet",
+  "label": "Разговор с Поэтом",
+  "actionid":"talk",
+  "warmup":30,
+  "extantreqs":{"sleepytime":-1},
+  "reqs":{"assistance.poet":1,"reluctant":-1},
+  "startdescription": "Я мог бы подбодрить моего собеседника, предложить помощь, возвысить его. Или послушать, что он хочет мне сказать. [Добавьте что-нибудь, чтобы придать собеседнику сил на весь оставшийся день, или составьте ему компанию просто так.  В отличие от прочих помощников, Поэт может использовать цветы.]",
+  "desc":"Я кое-что узнал – или, быть может, вспомнил.",
+  "deckeffects":{"d.chat.generic":1},
+  "craftable":true
+},
+
+{
+  "id":"talk.assistance",
+  "label": "Разговор с помощником",
+  "actionid":"talk",
+  "warmup":30,
+  "extantreqs":{"sleepytime":-1},
+  "reqs":{"assistance":1,"reluctant":-1},
+  "startdescription": "Я мог бы подбодрить моего собеседника, предложить помощь, возвысить его. Или послушать, что он хочет мне сказать. [Добавьте что-нибудь, чтобы придать собеседнику сил на весь оставшийся день, или составьте ему компанию просто так.]",
+  "desc":"Я кое-что узнал – или, быть может, вспомнил.",
+  "deckeffects":{"d.chat.generic":1},
+  "craftable":true
+}
+
+
+
+
+
+
+]
+}

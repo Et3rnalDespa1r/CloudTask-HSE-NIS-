@@ -1,0 +1,99 @@
+{
+	"recipes":[
+		{
+			"startdescription":"只有提供<sprite name=edge>之餐点时，阿齐塔才肯出席。",
+			"id":"salon.pref.rep.block.azita",
+			"label":"阿齐塔的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=forge>之餐点时，瑟雷娜才肯出席。",
+			"id":"salon.pref.rep.block.serena",
+			"label":"瑟雷娜的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=forge>之餐点时，霍科博尔德才肯出席。",
+			"id":"salon.pref.rep.block.hokobald",
+			"label":"霍科博尔德的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=grail>之餐点时，科基尔才肯出席。",
+			"id":"salon.pref.rep.block.coquille",
+			"label":"科基尔的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=lantern>之餐点时，亚瑟·摩尔才肯出席。",
+			"id":"salon.pref.rep.block.arthur",
+			"label":"亚瑟摩尔的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=forge>之餐点时，奥兰普才肯出席。",
+			"id":"salon.pref.rep.block.olympe",
+			"label":"奥兰普的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=scale>之餐点时，斯特拉思科因才肯出席。",
+			"id":"salon.pref.rep.block.fraser",
+			"label":"斯特拉思科因的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=knock>之餐点时，日魇才肯出席。",
+			"id":"salon.pref.rep.block.dagmar",
+			"label":"日魇的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=sky>之餐点时，康妮才肯出席。",
+			"id":"salon.pref.rep.block.connie",
+			"label":"康妮的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=moon>之餐点时，埃桑才肯出席。",
+			"id":"salon.pref.rep.block.ehsan",
+			"label":"埃桑的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=lantern>之餐点时，道格拉斯·摩尔才肯出席。",
+			"id":"salon.pref.rep.block.douglas",
+			"label":"道格拉斯·摩尔的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=grail>之餐点时，科尔索才肯出席。",
+			"id":"salon.pref.rep.block.corso",
+			"label":"科尔索的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=heart>之餐点时，阿格狄斯提斯才肯出席。",
+			"id":"salon.pref.rep.block.agdistis",
+			"label":"阿格狄斯提斯的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=heart>之餐点时，斯坦尼斯拉夫神父才肯出席。",
+			"id":"salon.pref.rep.block.stanislav",
+			"label":"斯坦尼斯拉夫神父的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=scale>之餐点时，阿迪姆才肯出席。",
+			"id":"salon.pref.rep.block.aladim",
+			"label":"阿迪姆的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=edge>之餐点时，柴玛才肯出席。",
+			"id":"salon.pref.rep.block.chaima",
+			"label":"柴玛的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=sky>之餐点时，摩根才肯出席。",
+			"id":"salon.pref.rep.block.morgen",
+			"label":"摩根的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=winter>之餐点时，扎迦利才肯出席。",
+			"id":"salon.pref.rep.block.zachary",
+			"label":"扎迦利的餐点偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=moon>之餐点时，褪皮才肯出席。",
+			"id":"salon.pref.rep.block.arun",
+			"label":"褪皮的餐点偏好"
+		}
+	]
+}

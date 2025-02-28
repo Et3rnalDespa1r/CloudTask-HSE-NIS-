@@ -1,0 +1,23 @@
+﻿ {"recipes": [
+ 
+
+{
+        "id": "desk.repair.cracked",
+        "label": "Починить треснувший переплёт",
+        "actionid": "desk",
+		"reqs": {"readable":1,"state.cracked":1},
+        "startdescription": "Корешок хрустит, но держится крепко.",
+		"desc": "Треснувший переплёт починен. Книга распахивает страницы, словно птица – крылья.",
+              "warmup": 10,
+        "craftable": true,
+		           "mutations": [
+                {
+                    "filter": "readable",
+                    "mutate": "state.cracked",
+                    "level": -1
+                }
+				]
+	}
+
+]
+}

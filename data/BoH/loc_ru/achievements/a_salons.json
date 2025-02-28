@@ -1,0 +1,40 @@
+﻿{"achievements": [
+
+  { "isCategory": true, "id": "A_CATEGORY_SALON", "label": "Достижение приёмов", "iconUnlocked": "history" },
+
+
+  { "id": "A_SALON_ELEVENSES", "category": "A_CATEGORY_SALON", "iconUnlocked": "salon.past.lively",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Второй завтрак",
+    "descriptionunlocked": "Я угостил гостей лёгким завтраком."
+  },
+  { "id": "A_SALON_AFTERNOON_TEA", "category": "A_CATEGORY_SALON", "iconUnlocked": "salon.past.lively",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "Я же сказал тебе, что люблю лепёшки",
+  "descriptionunlocked": "Я угостил гостей послеполуденным чаем."
+  },
+
+
+  { "id": "A_SALON_LUNCH", "category": "A_CATEGORY_SALON", "iconUnlocked": "salon.past.lively",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "«Стресс» и «пирог» – понятия взаимоисключающие",
+  "descriptionunlocked": "Я угостил гостей ленчем."
+},
+
+{ "id": "A_SALON_SUPPER", "category": "A_CATEGORY_SALON", "iconUnlocked": "salon.past.lively",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Еда, шутки и песни",
+"descriptionunlocked": "Я угостил гостей обедом."
+},
+
+{ "id": "A_SALON_PICNIC", "category": "A_CATEGORY_SALON", "iconUnlocked": "salon.past.lively",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Горячее мороженое на холодный день",
+"descriptionunlocked": "Я устроил для гостей пикник."
+}
+
+
+ 
+  
+
+]}

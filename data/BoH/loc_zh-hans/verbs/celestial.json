@@ -1,0 +1,34 @@
+{
+	"verbs":[
+		{
+			"id":"incident.advance",
+			"label":"内部文本？",
+			"desc":"内部文本？"
+		},
+		{
+			"id":"incident.base",
+			"label":"事件（内部文本？）",
+			"desc":"事件放逐基准谓词（内部文本？）"
+		},
+		{
+			"id":"season",
+			"label":"时节",
+			"desc":"[时节]"
+		},
+		{
+			"id":"time",
+			"label":"拂晓",
+			"desc":"[日出]"
+		},
+		{
+			"id":"incident.expulsion.finisher",
+			"label":"事件放逐结束器（内部文本？）",
+			"desc":"标记事件完成的孤立谓词。（内部文本？）"
+		},
+		{
+			"id":"numa.incident.base",
+			"label":"事件（内部文本？）",
+			"desc":"闰时事件放逐基准谓词（内部文本？）"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+﻿{"achievements": [
+
+  { "isCategory": true, "id": "A_CATEGORY_LIGHTHOUSE_VICTORY", "label": "Победа Общества", "iconUnlocked": "history" },
+
+
+  { "id": "A_LV_GENERIC", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "mem.salt",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "По морю, суше и волнам из дальних краёв",
+    "descriptionunlocked": "Я основал Общество Маяка, но цель его неясна."
+  },
+
+  { "id": "A_LV_AUTARCHY", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "introduction.blacksmith.start",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "Оплотом станет каждая скала",
+  "descriptionunlocked": "Я основал Общество Маяка на принципе самодостаточности смертных."
+},
+{ "id": "A_LV_CORRIVALITY", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "introduction.blacksmith.start",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Лишь близнецам предначертано утонуть дважды",
+"descriptionunlocked": "Я основал Общество Маяка на принципе силы, что рождается в конфликте."
+},
+{ "id": "A_LV_PEACE", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "introduction.coffinmaker.start",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Тишина после молнии",
+"descriptionunlocked": "Я основал Общество Маяка на принципе поддержания мира."
+},
+{ "id": "A_LV_REVELATION", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "introduction.rector.start",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Лампада на твёрдом месте",
+"descriptionunlocked": "Я основал Общество Маяка на принципе оккультного откровения."
+},
+{ "id": "A_LV_SECRECY", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "introduction.coffinmaker.start",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Скалы в темноте",
+"descriptionunlocked": "Я основал Общество Маяка на принципе оккультной секретности."
+},
+{ "id": "A_LV_BETTER_GODS", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "introduction.blacksmith.start",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Всякому огню – своя пища",
+"descriptionunlocked": "Я основал Общество Маяка на принципе, который создаст иных, лучших богов."
+},
+{ "id": "A_LV_STONE_CONSUMED", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "introduction.midwife.start",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Много камней, один Берег",
+"descriptionunlocked": "Я основал Общество Маяка на принципе, который употребит останки богов-из-камня на полезные цели."
+},
+{ "id": "A_LV_STONE_REMEMBERED", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "introduction.coffinmaker.start",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "То, что мир хоронит",
+"descriptionunlocked": "Я основал Общество Маяка на принципе почитания останков богов-из-камня."
+},
+{ "id": "A_LV_UNCERTAIN", "category": "A_CATEGORY_LIGHTHOUSE_VICTORY", "iconUnlocked": "introduction.midwife.start",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Дом безмолвия стоит",
+"descriptionunlocked": "Я основал Общество Маяка на сомнительном принципе продвижения собственных интересов."
+}
+ 
+  
+
+]}

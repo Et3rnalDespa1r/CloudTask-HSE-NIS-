@@ -1,0 +1,95 @@
+﻿
+{"recipes": [
+    {
+        "id": "sea.swimming.blocker.storm",
+        "actionid": "world.sea.*",
+        "label": "Больше никогда",
+        "reqs":{"ability":1,"heart":1,"scale":1},
+        "fxreqs":{"weather":"storm"},
+        "startdescription": "Волны сегодня голодны. А я не собираюсь устраивать заплыв во время шторма... Одного раза мне хватило.",
+        "craftable":true,
+        "hintonly":true
+    },
+
+    {
+        "id": "sea.swimming.winter",
+        "actionid": "world.sea.*",
+        "label": "Недолгое купание",
+        "reqs":{"ability":1,"heart":1,"scale":1},
+        "fxreqs":{"season":"winter"},
+        "startdescription": "Я снова окунусь в волны... Хотя купаться зимой – несколько опрометчивая идея. [Не забудьте приготовить сухие полотенца.]",
+        "desc": "Волны несут меня; соль ест глаза; горизонт ждёт.",
+        "warmup":60,
+        "effects":{"mem.salt":1},
+        "slots":[{"id":"apres_swim","label":"А что потом?","description":"Холодные ветра не знают жалости...","required":{"thing":1}}],
+        "aspects":{"malady.inflicting":1},
+        "alt":[{"id":"sea.swimming.dry*"}],
+        "craftable":true
+    },
+    {
+        "id": "sea.swimming.numa",
+        "actionid": "world.sea.*",
+        "label": "Недолгое купание",
+        "reqs":{"ability":1,"heart":1,"scale":1},
+        "fxreqs":{"season":"numa"},
+        "startdescription": "Я снова окунусь в волны... Хотя в сезон загадок исход может оказаться непредсказуем.",
+        "desc": "Впоследствии мне трудно вспомнить, что я ощутил среди валов. Волны вершили своё паломничество от горизонта. Теперь я тоже паломник.",
+        "warmup":120,
+        "effects":{"mem.salt":1,"curious.hunch":1},
+        "aspects":{"malady.inflicting":1},
+        "craftable":true
+    },
+
+
+    {
+        "id": "sea.swimming",
+        "actionid": "world.sea.*",
+        "label": "Недолгое купание",
+        "reqs":{"ability":1,"heart":1,"scale":1},
+        "startdescription": "Я снова окунусь в волны...",
+        "desc": "Волны несут меня; соль ест глаза; горизонт ждёт.",
+        "warmup":60,
+        "effects":{"mem.salt":1},
+        "slots":[{"id":"apres_swim","label":"А что потом?","description":"Холодные ветра не знают жалости...","required":{"thing":1}}],
+        "aspects":{"fatiguing.ability":1},
+        "alt":[{"id":"sea.swimming.dry*"}],
+        "craftable":true
+    },
+    {
+        "id": "sea.swimming.dry",
+        "actionid": "world.sea.*",
+        "label": "Недолгое купание",
+        "reqs":{"basket.towels":1},
+        "startdescription": "Я снова окунусь в волны... И хорошенько вытрусь потом.",
+        "desc": "Волны несут меня; соль ест глаза; горизонт ждёт. Ну а потом меня ждут объятия чистых и сухих полотенец. [Благодаря полотенцам вы получили воспоминание: отдохновение.]",
+        "effects":{"mem.salt":1,"mem.solace":1},
+        "aspects":{"fatiguing.ability":1,"fatiguing.ingredients":1}
+    },
+    {
+        "id": "sea.swimming.dry.damp",
+        "actionid": "world.sea.*",
+        "label": "Недолгое купание",
+        "reqs":{"basket.towels.damp":1},
+        "startdescription": "Я снова окунусь в волны... Хотя у меня нет сухих полотенец.",
+        "desc": "Волны несут меня; соль ест глаза; горизонт ждёт.",
+        "effects":{"mem.salt":1},
+        "aspects":{"fatiguing.ability":1}
+    },
+    {
+        "id": "sea.swimming.hint",
+        "actionid": "world.sea.*",
+        "label": "Недолгое купание?",
+        "reqs":{"ability":1},
+        "startdescription": "[Купание требует части души с Сердцем и Чешуёй – это почти наверняка будет здоровье.]",
+
+        "hintonly":true
+    }
+   
+
+    
+    
+   
+    
+    ]
+    }
+    

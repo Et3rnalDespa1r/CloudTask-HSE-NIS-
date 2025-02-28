@@ -1,0 +1,87 @@
+﻿{"achievements": [
+
+
+  { "id": "A_EXPLORE_VILLAGE", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "В тени Бранкрага",
+    "descriptionunlocked": "Я добрался сквозь шторм до соседней с островом деревушки."
+  },
+
+  { "id": "A_EXPLORE_BARONIAL", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "Девульф уходит",
+  "descriptionunlocked": "Я восстановил обиталище последнего из баронов Девульф."
+},
+
+{ "id": "A_EXPLORE_CURIA", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Курия",
+"descriptionunlocked": "Я восстановил комнаты, отведённые Курией для библиотекаря."
+},
+
+{ "id": "A_EXPLORE_CHURCH", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Братия Св. Брендана",
+"descriptionunlocked": "Я восстановил церковь аббатства Св. Брендана – вплоть до кончика высочайшего из шпилей."
+},
+
+{ "id": "A_EXPLORE_GAOL", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Полуденная тьма",
+"descriptionunlocked": "Я восстановил глубочайшее из подземелий «Атанора»."
+},
+
+{ "id": "A_EXPLORE_UNDERGROUND", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Пещеры аббатства Чёрного голубя",
+"descriptionunlocked": "В пещерах под Домом безмолвия я раскопал последнюю из его тайн."
+},
+
+{ "id": "A_EXPLORE_BIRDSONG", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Постигший Птичью песнь",
+"descriptionunlocked": "Я овладел Мудростью музыки, загадок и прочего."
+},
+{ "id": "A_EXPLORE_BOSK", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Постигший Пущу",
+"descriptionunlocked": "Я овладел Мудростью древнего леса."
+},
+{ "id": "A_EXPLORE_HOROMACHISTRY", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Постигший горомахию",
+"descriptionunlocked": "Я овладел Мудростью установлений (и вражды) Часов."
+},
+{ "id": "A_EXPLORE_HUSHERY", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Постигший исихастику",
+"descriptionunlocked": "Я овладел Мудростью тишины и того, что её разрушает."
+},
+{ "id": "A_EXPLORE_ILLUMINATION", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Постигший Просветление",
+"descriptionunlocked": "Я овладел Мудростью очищения себя и окружающего меня мира."
+},
+{ "id": "A_EXPLORE_ITHASTRY", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Постигший итастрию",
+"descriptionunlocked": "Я овладел Мудростью алхимии, металлургии и пиротехники."
+},
+{ "id": "A_EXPLORE_NYCTODROMY", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Постигший никтодромию",
+"descriptionunlocked": "Я овладел Мудростью дорог и тропинок иного мира."
+},
+{ "id": "A_EXPLORE_PRESERVATION", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Постигший Сохранение",
+"descriptionunlocked": "Я овладел Мудростью исцеления и восстановления."
+},
+{ "id": "A_EXPLORE_SKOLEKOSOPHY", "category": "A_CATEGORY_EXPLORATION", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Постигший сколекософию",
+"descriptionunlocked": "Я овладел Мудростью того, что не следовало бы изучать."
+}
+  
+
+]}

@@ -1,0 +1,42 @@
+﻿{"recipes": [
+
+    {"id":"upgrade.altar.chancel.mihail",
+    "actionid": "library.altar.chancel",
+    "reqs": {"painting.mihail.altar":1},
+    "label":"Представляет Михала на алтаре в часовне Завесы",
+    "startdescription":"Глаза темнеют в сиянии свечей.",
+    "comments":"Specifically so this will intercept crafting attempts. A better approach would be not to rely on naming conventions for both DLC assignment _and_ priority.",
+    "desc":"Быть может, это Михал-Посланник однажды принесёт зажжённую свечу в Невозведённый град. Бесспорно то, что свет по-прежнему горит. [Алтарь в часовне Завесы теперь принимает подношения в духе Кузни и Лампады.]",
+    "aspects":{"upgrading":1},
+    "effects":{"painting.mihail.altar":-1},
+    "craftable":true,
+    "warmup":60
+    },
+    
+    {"id":"upgrade.sarcophagus.columbic.mihail",
+    "actionid": "library.sarcophagus.columbic",
+    "reqs": {"painting.mihail.sarcophagus":1},
+   "label":"Представляет Михала в саркофаге",
+    "startdescription":"Глаза сияют в темноте.",
+    "desc":"Быть может, Михалу-Посланнику и не суждено будет принести огонь в Невозведённый град – но свет его по-прежнему горит. [Саркофаг теперь принимает подношения в духе Кузни и Лампады.]",
+    "comments":"Specifically so this will intercept crafting attempts. A better approach would be not to rely on naming conventions for both DLC assignment _and_ priority.",
+    "aspects":{"upgrading":1},
+    "effects":{"painting.mihail.sarcophagus":-1},
+    "craftable":true,
+    "warmup":60
+    },
+    {
+        "id":"manuscript.intercept",
+        "actionid":"*consider",
+        "hintonly":true,
+        "craftable":true,
+        "reqs":{"manuscript":1},
+        "label":"Моё творение!",
+        "startdescription":"Я могу этим гордиться, но изучать – отнюдь."
+        }
+    
+
+
+
+]
+}

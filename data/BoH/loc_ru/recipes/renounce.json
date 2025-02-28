@@ -1,0 +1,147 @@
+﻿
+{"recipes": [
+    {
+        "id": "well.renounce.journal",
+        "actionid": "library.well",
+        "label": "Отвергнуть будущее",
+        "reqs":{"journal":1,"skill":-1,"ability":-1,"memory":-1},
+        "startdescription": "Утопить мой дневник в колодце? [ЭТО УНИЧТОЖИТ ВАШ ДНЕВНИК, после чего ВЫ НЕ СМОЖЕТЕ ПРОЙТИ ИГРУ. Вы застрянете! Впрочем, решать вам.]",
+        "desc": "«Болван! В следующий раз прыгни туда сам!» [Теперь пройти игру будет нельзя.]",
+        "warmup":10,
+        "effects":{"journal":-1,"mem.sound":1},
+        "craftable":true
+    },
+    {
+        "id": "fire.renounce.journal",
+        "actionid": "library.fireplace.*",
+        "label": "Отвергнуть будущее",
+        "reqs":{"journal":1,"skill":-1,"ability":-1,"memory":-1,"soaked":-1},
+        "startdescription": "Я действительно хочу сжечь книгу? Сжечь <i>эту</i> книгу? [ЭТО УНИЧТОЖИТ ВАШ ДНЕВНИК, после чего ВЫ НЕ СМОЖЕТЕ ПРОЙТИ ИГРУ. Вы застрянете! Впрочем, решать вам.]",
+        "desc": "У меня было будущее. Теперь у меня есть лишь пепел. Какое-то время дым ещё висит в воздухе, но дуновение Красного цветка сметает его прочь. [Теперь пройти игру будет нельзя.]",
+        "warmup":10,
+        "effects":{"thing":-1,"invincible.audacity":1},
+        "craftable":true
+    },
+
+    {
+        "id": "sea.renounce.journal",
+        "actionid": "world.sea.*",
+        "label": "Отвергнуть будущее",
+        "reqs":{"journal":1,"skill":-1,"ability":-1,"memory":-1},
+        "startdescription": "Второго погружения мой дневник не переживёт. [ЭТО УНИЧТОЖИТ ВАШ ДНЕВНИК, после чего ВЫ НЕ СМОЖЕТЕ ПРОЙТИ ИГРУ. Вы застрянете! Впрочем, решать вам.]",
+        "desc": "Что было потом? Явилась ли мне некая рука, покрытая парчой венецианской, чтобы принять сей дар? Отнюдь. Я слышал только шорох камыша, и тихий плеск прибрежных волн о скалы, как некогда сказал печальный рыцарь... Белый цветок отпраздновал победу. [Теперь пройти игру будет нельзя.]",
+        "warmup":10,
+        "effects":{"journal":-1,"old.moment":1},
+        "achievements":["A_EVENT_PROSPERO"],
+        "craftable":true
+    },
+    {
+        "id": "fire.renounce.brewable",
+        "actionid": "library.fireplace.*",
+        "label": "Отвергнуть (или вскипятить?)",
+        "reqs":{"brewable":1,"skill":-1,"ability":-1,"memory":-1},
+        "startdescription": "Если я брошу предмет в огонь, он будет преображён, уничтожен, потерян. [Если предмет можно вскипятить, добавьте карту души, чтобы сделать именно это.]",
+        "desc": "Пламя взвивается и угасает.",
+        "warmup":10,
+        "effects":{"brewable":-1,"mem.sight":1},
+        "craftable":true
+    },
+    {
+        "id": "well.renounce.penny",
+        "actionid": "library.well",
+        "label": "Отвергнуть",
+        "reqs":{"penny":1,"skill":-1,"ability":-1,"memory":-1,"journal":-1,"beast":-1},
+        "startdescription": "Я загадаю мельчайшее из желаний. [Избавиться от ненужного пенни.]",
+        "desc": "(Плюх.)",
+        "warmup":10,
+        "effects":{"penny":-1,"mem.satisfaction":1},
+        "craftable":true
+    },
+    {
+        "id": "well.renounce",
+        "actionid": "library.well",
+        "label": "Отвергнуть",
+        "reqs":{"thing":1,"skill":-1,"ability":-1,"memory":-1,"journal":-1,"beast":-1},
+        "startdescription": "Выбросив предмет в колодец, я больше никогда его не увижу. [Пользуйтесь этим, чтобы избавляться от ненужных или опасных вещей.]",
+        "desc": "(Плюх.)",
+        "warmup":10,
+        "effects":{"thing":-1,"mem.sound":1},
+        "craftable":true
+    },
+    {
+        "id": "fire.renounce.correspondence",
+        "actionid": "library.fireplace.*",
+        "label": "Сжечь переписку",
+        "reqs":{"correspondence":1,"skill":-1,"ability":-1,"memory":-1,"brewable":-1,"journal":-1,"beast":-1},
+        "startdescription": "Быть может, это письмо назойливо. Или бесполезно. Или опасно.",
+        "desc": "Пламя взвивается и угасает.",
+        "warmup":10,
+        "effects":{"correspondence":-1,"mem.sight":1},
+        "craftable":true
+    },
+    {
+        "id": "fire.renounce",
+        "actionid": "library.fireplace.*",
+        "label": "Отвергнуть",
+        "reqs":{"thing":1,"skill":-1,"ability":-1,"memory":-1,"brewable":-1,"journal":-1,"beast":-1},
+        "startdescription": "Если я брошу предмет в огонь, он будет преображён, уничтожен, потерян. [Пользуйтесь этим, чтобы избавляться от ненужных или опасных вещей.]",
+        "desc": "Пламя взвивается и угасает.",
+        "warmup":10,
+        "effects":{"thing":-1,"mem.sight":1},
+        "craftable":true
+    },
+    {
+        "id": "sea.renounce.penny.numa",
+        "actionid": "world.sea*",
+        "label": "Отвергнуть",
+        "reqs":{"penny":1,"skill":-1,"ability":-1,"memory":-1,"journal":-1,"beast":-1},
+        "extantreqs":{"season.numa":1},
+        "startdescription": "Когда-то говорили, что отдающий волнам монету в это время года платит дань Кер-Ис. [Избавиться от ненужного пенни.]",
+        "desc": "И волны всё так же уходят за горизонт.",
+        "warmup":10,
+        "effects":{"penny":-1,"horizonsight":1},
+        "craftable":true
+    },
+    {
+        "id": "sea.renounce.penny",
+        "actionid": "world.sea*",
+        "label": "Отвергнуть",
+        "reqs":{"penny":1,"skill":-1,"ability":-1,"memory":-1,"journal":-1,"beast":-1},
+        "extantreqs":{"season.numa":-1},
+        "startdescription": "Почему? А почему бы и нет? [Избавиться от ненужного пенни]",
+        "desc": "И волны всё так же уходят за горизонт.",
+        "warmup":10,
+        "effects":{"penny":-1,"mem.impulse":1},
+        "craftable":true
+    },
+    {
+        "id": "sea.renounce",
+        "actionid": "world.sea*",
+        "label": "Отвергнуть",
+        "reqs":{"thing":1,"skill":-1,"ability":-1,"memory":-1,"journal":-1,"beast":-1},
+        "startdescription": "Выбросив предмет в море, я больше никогда его не увижу. [Пользуйтесь этим, чтобы избавляться от ненужных или опасных вещей.]",
+        "desc": "Когда что-то отдают морю, дар редко возвращается... Хотя я вот вернулся.",
+        "warmup":10,
+        "effects":{"thing":-1,"mem.loss":1},
+        "craftable":true
+    },
+
+    {
+        "id": "sea.release",
+        "actionid": "world.sea*",
+        "label": "Отпустить",
+        "reqs":{"beast":1},
+        "startdescription": "Я отпущу его в волны, на песок или навстречу ветру – как пожелает мой бывший спутник.",
+        "desc": "Нас было двое, а теперь я один.",
+        "warmup":10,
+        "effects":{"beast":-1,"mem.hindsight":1},
+        "craftable":true
+    }
+
+    
+    
+   
+    
+    ]
+    }
+    

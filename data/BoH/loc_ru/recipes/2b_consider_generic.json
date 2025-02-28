@@ -1,0 +1,196 @@
+﻿ {"recipes": [
+
+
+    {
+        "id": "examine.considerable.beverage",
+        "actionid": "consider",
+        "label": "Выпить",
+        "reqs":{"considerable":1,"ability":1,"beverage":1},
+        "startdescription": "Влить в себя. [Предмет будет израсходован. Если речь о целой бутылке, экономней будет отделить порцию на одного.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+    {
+        "id": "examine.considerable.candle",
+        "actionid": "consider",
+        "label": "Зажечь",
+        "reqs":{"considerable":1,"ability":1,"candle":1},
+        "startdescription": "Затеплить свечу. [Предмет будет израсходован.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+    {
+        "id": "examine.considerable.device",
+        "actionid": "consider",
+        "label": "Применить",
+        "reqs":{"considerable":1,"ability":1,"device":1,"inert":-1},
+        "startdescription": "Использовать предмет. [Предмет будет израсходован без остатка.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+    {
+        "id": "examine.considerable.flower",
+        "actionid": "consider",
+        "label": "Препарировать",
+        "reqs":{"considerable":1,"ability":1,"flower":1},
+        "startdescription": "Расчленить цветок. [Предмет будет израсходован без остатка.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+
+    {
+        "id": "examine.considerable.fruit",
+        "actionid": "consider",
+        "label": "Употребить в пищу",
+        "reqs":{"considerable":1,"ability":1,"fruit":1},
+        "startdescription": "Съесть плод. [Предмет будет израсходован без остатка.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+
+    {
+        "id": "examine.considerable.leaf",
+        "actionid": "consider",
+        "label": "Препарировать",
+        "reqs":{"considerable":1,"ability":1,"leaf":1},
+        "startdescription": "Расчленить лист. [Предмет будет израсходован без остатка.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+
+    {
+        "id": "examine.considerable.liquid",
+        "actionid": "consider",
+        "label": "Анализировать",
+        "reqs":{"considerable":1,"ability":1,"liquid":1},
+        "startdescription": "Изучить жидкость. [Предмет будет израсходован без остатка.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+
+    {
+        "id": "examine.considerable.mark",
+        "actionid": "consider",
+        "label": "Исследовать",
+        "reqs":{"considerable":1,"ability":1,"mark":1},
+        "startdescription": "Исследовать знак",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+
+    {
+        "id": "examine.considerable.material",
+        "actionid": "consider",
+        "label": "Анализировать",
+        "reqs":{"considerable":1,"ability":1,"material":1},
+        "startdescription": "Изучить субстанцию. [Предмет будет израсходован без остатка.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+
+    {
+        "id": "examine.considerable.remains",
+        "actionid": "consider",
+        "label": "Препарировать",
+        "reqs":{"considerable":1,"ability":1,"remains":1},
+        "startdescription": "Расчленить останки. [Предмет будет израсходован без остатка.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+
+    {
+        "id": "examine.considerable.root",
+        "actionid": "consider",
+        "label": "Препарировать",
+        "reqs":{"considerable":1,"ability":1,"root":1},
+        "startdescription": "Расчленить корень. [Предмет будет израсходован без остатка.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,        
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+
+    {
+        "id": "examine.considerable.sustenance",
+        "actionid": "consider",
+        "label": "Употребить в пищу",
+        "reqs":{"considerable":1,"ability":1,"sustenance":1},
+        "startdescription": "Съесть это. [Предмет будет израсходован. Возможно, это принесёт вам чувство удовлетворения.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"scrutiny":1},
+        "craftable":true,        
+        "linked":[{"id":"examine.considerable.consume"}]
+    },
+
+    {
+        "id": "examine.considerable.beast",
+        "actionid": "consider",
+        "label": "Осмотреть",
+        "reqs":{"considerable":1,"ability":1,"beast":1},
+        "startdescription": "Осмотреть существо. [Хотя, возможно, вам будет полезней с ним поговорить.]",
+        "desc": "Что же я узнал?",
+        "warmup":30,
+        "aspects":{"fatiguing.ability":1,"scrutiny":1},
+        "craftable":true
+    },
+{
+    "id": "examine.considerable.generic",
+    "actionid": "consider",
+    "label": "Исследовать",
+    "reqs":{"considerable":1,"ability":1},
+    "startdescription": "Изучить объект. [Предмет не будет при этом израсходован.]",
+    "desc": "Что же я узнал?",
+    "warmup":30,
+    "aspects":{"fatiguing.ability":1,"scrutiny":1},
+    "craftable":true
+},
+{
+    "id": "examine.considerable.consume",
+    "actionid": "consider",
+    "comments":"The Cocoa Problem: after the last round of changes, we want to fatigue ingredients after scrutiny so the message shows, and also _not_ to fatigue the memory. #prv analysis-result",
+    "aspects":{"fatiguing.ingredients":1,"fatiguing.ability":1}
+},
+
+{
+    "id": "examine.considerable.hint",
+    "actionid": "consider",
+    "label": "Исследовать?",
+    "reqs":{"considerable":1,"ability":-1},
+    "startdescription": "[Добавьте карту души.]",
+    "hintonly":true
+}
+
+]
+}

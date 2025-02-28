@@ -1,0 +1,529 @@
+﻿{"recipes": [
+     {"id": "_gather.spring",
+"label": "Дары весны",
+"extantreqs":{"season.spring":1,"time.night":-1},
+"aspects":{"fatiguing.ability":1},
+"reqs": {"ability":1,"skill":1},
+"warmup":90,
+"craftable":true},
+
+{"id": "_gather.summer",
+"label": "Дары лета",
+"extantreqs":{"season.summer":1,"time.night":-1},
+"aspects":{"fatiguing.ability":1},
+"reqs": {"ability":1,"skill":1},
+"warmup":90,
+"craftable":true},
+
+{"id": "_gather.autumn",
+"label": "Дары осени",
+"aspects":{"fatiguing.ability":1},
+"extantreqs":{"season.autumn":1,"time.night":-1},
+"reqs": {"ability":1,"skill":1},
+"warmup":90,
+"craftable":true},
+
+{"id": "_gather.winter",
+"label": "Дары зимы",
+"aspects":{"fatiguing.ability":1},
+"extantreqs":{"season.winter":1,"time.night":-1},
+"reqs": {"ability":1,"skill":1},
+"warmup":90,
+"craftable":true},
+
+{"id": "_gather.numa",
+"label": "Дары нумы",
+"aspects":{"fatiguing.ability":1},
+"extantreqs":{"season.numa":1,"time.night":-1},
+"reqs": {"ability":1,"skill":1},
+"warmup":90,
+"craftable":true},
+
+{"id": "_gather.night.hint",
+"label": "Не темновато ли?",
+"extantreqs":{"time.night":1},
+"reqs": {"ability":1,"skill":1},
+"hintonly":true},
+
+{"id": "gather.garden.night.hint",
+"actionid": "garden.*",
+"startdescription": "Ночной сад – это скорее атмосферно, чем практично. Лучше вернуться завтра.",
+"inherits":"_gather.night.hint"},
+
+{"id": "gather.garden.a.spring",
+"actionid": "garden.plot.a.*",
+"startdescription": "Оборвать нежные лепестки пасхальной розы.",
+"inherits":"_gather.spring",
+"effects":{"lenten.rose":1}},
+
+{"id": "gather.garden.a.summer",
+"actionid": "garden.plot.a.*",
+"startdescription": "Собрать ароматные цветки душистого чашечника.",
+"inherits":"_gather.summer",
+"effects":{"fragrant.chalice":1}},
+
+{"id": "gather.garden.a.autumn",
+"actionid": "garden.plot.a.*",
+"startdescription": "Собрать ароматные цветки душистого чашечника.",
+"inherits":"_gather.autumn",
+"effects":{"fragrant.chalice":1}},
+
+{"id": "gather.garden.a.winter",
+"actionid": "garden.plot.a.*",
+"startdescription": "Оборвать нежные лепестки пасхальной розы.",
+"inherits":"_gather.winter",
+"effects":{"lenten.rose":1}},
+
+{"id": "gather.garden.a.numa",
+"actionid": "garden.plot.a.*",
+"startdescription": "Только во время нумы можно найти моли по белым цветкам и извлечь из земли его облечённый силой корень.",
+"inherits":"_gather.numa",
+"effects":{"moly":1}},
+
+
+{"id": "gather.garden.b.spring",
+"actionid": "garden.plot.b.*",
+"startdescription": "Весной дни становятся теплее, но синий венчик продолжает цвести, пока не сойдёт снег.",
+"inherits":"_gather.spring",
+"effects":{"blue.crown":1}},
+
+{"id": "gather.garden.b.summer",
+"actionid": "garden.plot.b.*",
+"startdescription": "Собрать шипастые соцветия синеголовника.",
+"inherits":"_gather.summer",
+"effects":{"sea.holly":1}},
+
+{"id": "gather.garden.b.autumn",
+"actionid": "garden.plot.b.*",
+"startdescription": "Собрать шипастые соцветия синеголовника.",
+"inherits":"_gather.autumn",
+"effects":{"sea.holly":1}},
+
+{"id": "gather.garden.b.winter",
+"actionid": "garden.plot.b.*",
+"startdescription": "Редкие цветы способны дарить нам радость и посреди зимних сугробов. Венчик – один из этих цветов.",
+"inherits":"_gather.winter",
+"effects":{"blue.crown":1}},
+
+{"id": "gather.garden.b.numa",
+"actionid": "garden.plot.b.*",
+"startdescription": "В нуму в сады возвращается синеголовник. Его нужно собирать осторожно.",
+"inherits":"_gather.numa",
+"effects":{"sea.holly":1}},
+
+
+{"id": "gather.garden.c.spring",
+"actionid": "garden.plot.c.*",
+"startdescription": "Кошачий коготь нужно собирать осторожно. Его шипы проколют кожу и самой крепкой рукавицы.",
+"inherits":"_gather.spring",
+"effects":{"catsclaw":1}},
+
+{"id": "gather.garden.c.summer",
+"actionid": "garden.plot.c.*",
+"startdescription": "Лилии герольда гордо возвещают о себе летом, словно фанфары.",
+"inherits":"_gather.summer",
+"effects":{"trumpeters.lily":1}},
+
+{"id": "gather.garden.c.autumn",
+"actionid": "garden.plot.c.*",
+"startdescription": "Осенью лилии герольда продолжают цвести вплоть до восшествия холодов.",
+"inherits":"_gather.autumn",
+"effects":{"trumpeters.lily":1}},
+
+{"id": "gather.garden.c.numa",
+"actionid": "garden.plot.c.*",
+"startdescription": "Аглаофотис, иная роза. Та, что распускается лишь в нуму.",
+"inherits":"_gather.numa",
+"effects":{"aglaophotis":1}},
+
+{"id": "gather.garden.d.spring",
+"actionid": "garden.plot.d.*",
+"startdescription": "Лепестки орхидеи-мотылька нежны и бархатисты на ощупь; во всяком случае, до наступления перемен.",
+"inherits":"_gather.spring",
+"effects":{"moth.orchid":1}},
+
+{"id": "gather.garden.d.summer",
+"actionid": "garden.plot.d.*",
+"startdescription": "Лепестки орхидеи-мотылька нежны и бархатисты на ощупь; во всяком случае, до наступления перемен.",
+"inherits":"_gather.summer",
+"effects":{"moth.orchid":1}},
+
+{"id": "gather.garden.d.autumn",
+"actionid": "garden.plot.d.*",
+"startdescription": "Медовый жасминник подобен языкам сладкого пламени.",
+"inherits":"_gather.autumn",
+"effects":{"honeyscar.jasmine":1}},
+
+{"id": "gather.garden.d.numa",
+"label": "Нума: ",
+"actionid": "garden.plot.d.*",
+"startdescription": "Медовый жасминник подобен языкам сладкого пламени. Нума возвращает ему жизнь.",
+"inherits":"_gather.numa",
+"effects":{"honeyscar.jasmine":1}},
+
+
+{"id": "gather.garden.g.spring",
+"actionid": "garden.plot.g.*",
+"startdescription": "Лоза гнётся под тяжестью спелых гроздьев.",
+"inherits":"_gather.spring",
+"effects":{"grapes":1}},
+
+{"id": "gather.garden.g.summer",
+"actionid": "garden.plot.g.*",
+"startdescription": "Лоза гнётся под тяжестью спелых гроздьев.",
+"inherits":"_gather.summer",
+"effects":{"grapes":1}},
+
+{"id": "gather.garden.g.numa",
+"actionid": "garden.plot.g.*",
+"startdescription": "Меняется ли вкус винограда, если собрать его в нуму? Быть может, нам это только кажется.",
+"inherits":"_gather.numa",
+"effects":{"grapes":1}},
+
+
+{"id": "gather.garden.h.spring",
+"actionid": "garden.plot.h.*",
+"startdescription": "Собрать лекарственные травы.",
+"inherits":"_gather.spring",
+"effects":{"healing.herbs":1}},
+
+{"id": "gather.garden.h.summer",
+"actionid": "garden.plot.h.*",
+"startdescription": "Собрать лекарственные травы.",
+"inherits":"_gather.summer",
+"effects":{"healing.herbs":1}},
+
+
+{"id": "gather.garden.h.numa",
+"label": "Нума: ",
+"actionid": "garden.plot.h.*",
+"startdescription": "Собрать лекарственные травы. Во время нумы они рвутся из земли с особым жаром...",
+"inherits":"_gather.numa",
+"effects":{"healing.herbs":2}},
+
+
+{"id": "gather.garden.p.summer",
+"actionid": "garden.plot.p*",
+"startdescription": "Ароматные груши, мягкие в ладонях.",
+"inherits":"_gather.summer",
+"effects":{"fruit.bowl.pears":1}},
+
+{"id": "gather.garden.p.autumn",
+"actionid": "garden.plot.p*",
+"startdescription": "Ароматные груши, мягкие в ладонях.",
+"inherits":"_gather.autumn",
+"effects":{"fruit.bowl.pears":1}},
+
+
+{"id": "gather.garden.p.numa",
+"label": "Нума: ",
+"actionid": "garden.plot.p*",
+"startdescription": "Груша медноплодная. Во время нумы они созревают за ночь – и ветви гнутся от плодов.",
+"inherits":"_gather.numa",
+"effects":{"pyrus.auricalcinus":1}},
+
+
+{"id": "gather.garden.v.summer",
+"actionid": "garden.plot.v.*",
+"startdescription": "Морковь, томаты, кабачки и золотой лук – все невоспетые герои котелков и кастрюль.",
+"inherits":"_gather.summer",
+"effects":{"sack.vegetables":1}},
+
+{"id": "gather.garden.v.autumn",
+"actionid": "garden.plot.v.*",
+"startdescription": "Морковь, томаты, кабачки и золотой лук – все невоспетые герои котелков и кастрюль.",
+"inherits":"_gather.autumn",
+"effects":{"sack.vegetables":1}},
+
+{"id": "gather.garden.v.autumn.leeks",
+"actionid": "garden.plot.v.*",
+"startdescription": "ЛУК-ПОРЕЙ",
+"inherits":"_gather.autumn",
+"effects":{"veg.basket.leeks":1}},
+
+
+{"id": "gather.garden.v.numa",
+"actionid": "garden.plot.v.*",
+"startdescription": "Морковь, томаты, кабачки и золотой лук – все невоспетые герои котелков и кастрюль. Во время нумы они созревают за ночь, но обретают некий странный вкус.",
+"inherits":"_gather.numa",
+"effects":{"sack.vegetables":1}},
+
+
+{"id": "gather.garden.x.summer",
+"actionid": "garden.plot.x.*",
+"startdescription": "О вечное растение! Будем же рвать твои соцветья!",
+"inherits":"_gather.summer",
+"effects":{"agave.aeterna":1}},
+
+
+{"id": "gather.garden.x.numa",
+"actionid": "garden.plot.x.*",
+"startdescription": "О вечное растение! Будем же рвать твои соцветья, столь многочисленные в нуму!",
+"inherits":"_gather.numa",
+"effects":{"agave.aeterna":2}},
+
+{"id": "gather.garden.empty.hint",
+"label": "Тихое время года",
+"actionid": "garden.plot.*",
+"startdescription": "Земля безмолвна – но не мертва, а только спит. [Сейчас не лучшее время года для садоводства.]",
+"reqs":{"skill":1,"ability":1},
+"hintonly":true},
+
+{"id": "gather.garden.needs.skill.hint",
+"label": "Мудрость?",
+"actionid": "garden.plot.*",
+"startdescription": "Сады Дома безмолвия полны растений с чудными свойствами – для тех, кто обладает даром различения. [Добавьте подходящий навык.]",
+"reqs":{"ability":1,"skill":-1},
+"hintonly":true},
+
+{"id": "gather.garden.needs.ability.hint",
+"label": "Усилие?",
+"actionid": "garden.plot.*",
+"startdescription": "Садоводство требует не только знаний, но и усердия. [Добавьте карту души.]",
+"reqs":{"skill":1,"ability":-1},
+"hintonly":true},
+
+{"id": "gather.garden.beehive.spring",
+"actionid": "garden.beehive*",
+"startdescription": "Мёд или воск, если быть очень осторожным.",
+"inherits":"_gather.spring",
+"deckeffects":{"beehive.spring":1}},
+
+{"id": "gather.garden.beehive.summer",
+"actionid": "garden.beehive*",
+"startdescription": "Мёд или воск, если быть очень осторожным.",
+"inherits":"_gather.summer",
+"deckeffects":{"beehive.summer":1}},
+
+{"id": "gather.garden.beehive.autumn",
+"actionid": "garden.beehive*",
+"startdescription": "Вряд ли я много добьюсь от пчёл в это время года.",
+"inherits":"_gather.autumn",
+"deckeffects":{"beehive.autumn":1}},
+
+{"id": "gather.garden.beehive.winter",
+"actionid": "garden.beehive*",
+"startdescription": "Вряд ли я много добьюсь от пчёл в это время года.",
+"inherits":"_gather.winter",
+"deckeffects":{"beehive.winter":1}},
+
+{"id": "gather.garden.beehive.numa",
+"actionid": "garden.beehive*",
+"startdescription": "Во время нумы пчёлы могут дать и мёд, и воск, и кое-что ещё.",
+"inherits":"_gather.numa",
+"deckeffects":{"beehive.numa":1}},
+
+
+{"id": "gather.beachcombing.spring",
+"actionid": "world.beachcombing",
+"startdescription": "Что уступило мне сегодня море?",
+"desc":"Соль и песок, но также кое-что ещё.",
+"inherits":"_gather.spring",
+"deckeffects":{"beach.spring":1}},
+
+{"id": "gather.beachcombing.summer",
+"actionid": "world.beachcombing",
+"startdescription": "Что уступило мне сегодня море?",
+"desc":"Соль и песок, но также кое-что ещё.",
+"inherits":"_gather.summer",
+"deckeffects":{"beach.summer":1}},
+
+{"id": "gather.beachcombing.autumn",
+"actionid": "world.beachcombing",
+"startdescription": "Что уступило мне сегодня море?",
+"desc":"Соль и песок, но также кое-что ещё.",
+"inherits":"_gather.autumn",
+"deckeffects":{"beach.autumn":1}},
+
+{"id": "gather.beachcombing.winter",
+"actionid": "world.beachcombing",
+"startdescription": "Что уступило мне сегодня море?",
+"desc":"Соль и песок, но также кое-что ещё.",
+"inherits":"_gather.winter",
+"deckeffects":{"beach.winter":1}},
+
+{"id": "gather.beachcombing.numa",
+"actionid": "world.beachcombing",
+"startdescription": "Туманы нумы здесь особенно густы.",
+"desc":"Сокровища, влекомые волей волн.",
+"inherits":"_gather.numa",
+"deckeffects":{"beach.numa":1}},
+
+
+{"id": "gather.beachcombing.night.hint",
+"actionid": "world.beachcombing",
+"startdescription": "Найти что-нибудь в темноте трудно, а утонуть легко. Лучше вернуться завтра.",
+"inherits":"_gather.night.hint"},
+
+{"id": "gather.beachcombing.noseason.hint",
+"actionid": "world.beachcombing",
+"reqs":{"skill":1,"ability":1},
+"startdescription": "Край океана тёмен... [Вернитесь позже.]",
+"hintonly":true},
+
+
+{"id": "gather.moor.spring",
+"actionid": "world.moor",
+"startdescription": "Кустарник ярок на загривке этой земли.",
+"desc":"Неожиданные находки в складках земли и неба.",
+"inherits":"_gather.spring",
+"deckeffects":{"moor.spring":1}},
+
+{"id": "gather.moor.summer",
+"actionid": "world.moor",
+"startdescription": "В лицо бьёт почти тёплый ветер.",
+"desc":"Неожиданные находки в складках земли и неба.",
+"inherits":"_gather.summer",
+"deckeffects":{"moor.summer":1}},
+
+{"id": "gather.moor.autumn",
+"actionid": "world.moor",
+"startdescription": "Ветер кружит и рвёт последние листья.",
+"desc":"Неожиданные находки в складках земли и неба.",
+"inherits":"_gather.autumn",
+"deckeffects":{"moor.autumn":1}},
+
+{"id": "gather.moor.winter",
+"actionid": "world.moor",
+"startdescription": "Изморозь испятнала кромку болот.",
+"desc":"Неожиданные находки в складках земли и неба.",
+"inherits":"_gather.winter",
+"deckeffects":{"moor.winter":1}},
+
+{"id": "gather.moor.numa",
+"actionid": "world.moor",
+"startdescription": "Разумно ли бродить по пустошам в такое время года? Сейчас узнаем.",
+"desc":"Мы потеряли многое, но многое осталось...",
+"inherits":"_gather.numa",
+"deckeffects":{"moor.numa":1}},
+
+
+
+{"id": "gather.moor.night.hint",
+"actionid": "world.moor",
+"startdescription": "После заката? Я упаду откуда-нибудь, наткнусь на кого-нибудь, или и то, и другое. Завтра наступит довольно скоро.",
+"inherits":"_gather.night.hint"},
+
+
+{"id": "gather.moor.noseason.hint",
+"actionid": "world.moor",
+"reqs":{"skill":1,"ability":1},
+"startdescription": "Небо затянуто облаками... [Вернитесь позже.]",
+"hintonly":true},
+
+
+
+{"id": "gather.nests.spring",
+"actionid": "world.nests",
+"startdescription": "Птицы удручающе бдительны.",
+"desc":"Скудная добыча с краёв островных скал.",
+"inherits":"_gather.spring",
+"deckeffects":{"nests.spring":1}},
+
+{"id": "gather.nests.summer",
+"actionid": "world.nests",
+"startdescription": "Внизу грохочет море.",
+"desc":"Скудная добыча с краёв островных скал.",
+"inherits":"_gather.summer",
+"deckeffects":{"nests.summer":1}},
+
+{"id": "gather.nests.autumn",
+"actionid": "world.nests",
+"startdescription": "Злые жёлтые глаза следят за каждым моим движением.",
+"desc":"Скудная добыча с краёв островных скал.",
+"inherits":"_gather.autumn",
+"deckeffects":{"nests.autumn":1}},
+
+{"id": "gather.nests.winter",
+"actionid": "world.nests",
+"startdescription": "Ветер сегодня пробирает до костей.",
+"desc":"Скудная добыча с краёв островных скал.",
+"inherits":"_gather.winter",
+"deckeffects":{"nests.winter":1}},
+
+{"id": "gather.nests.numa",
+"actionid": "world.nests",
+"startdescription": "Что за паломники приходят в нуму?",
+"desc":"Мы потеряли многое, но многое осталось...",
+"inherits":"_gather.numa",
+"deckeffects":{"nests.numa":1}},
+
+
+
+{"id": "gather.nests.night.hint",
+"actionid": "world.nests",
+"startdescription": "Я определённо не собираюсь карабкаться на скалы Бранкрага посреди ночи. Я всего лишь размышляю о подобной возможности.",
+"inherits":"_gather.night.hint"},
+
+
+{"id": "gather.caves.spring",
+"actionid": "world.caves",
+"startdescription": "Гулкое эхо в бескрайней ночи...",
+"desc":"Что-то ждало меня во тьме.",
+"inherits":"_gather.spring",
+"deckeffects":{"caves.spring":1}},
+
+{"id": "gather.caves.summer",
+"actionid": "world.caves",
+"startdescription": "Гулкое эхо в бескрайней ночи...",
+"desc":"Что-то ждало меня во тьме.",
+"inherits":"_gather.summer",
+"deckeffects":{"caves.summer":1}},
+
+{"id": "gather.caves.autumn",
+"actionid": "world.caves",
+"startdescription": "Гулкое эхо в бескрайней ночи...",
+"desc":"Что-то ждало меня во тьме.",
+"inherits":"_gather.autumn",
+"deckeffects":{"caves.autumn":1}},
+
+{"id": "gather.caves.winter",
+"actionid": "world.caves",
+"startdescription": "Гулкое эхо в бескрайней ночи...",
+"desc":"Что-то ждало меня во тьме.",
+"inherits":"_gather.winter",
+"deckeffects":{"caves.winter":1}},
+
+{"id": "gather.caves.numa",
+"actionid": "world.caves",
+"startdescription": "Что принесла мне нума?",
+"desc":"Мы потеряли многое, но многое осталось...",
+"inherits":"_gather.numa",
+"deckeffects":{"caves.numa":1}},
+
+
+
+{"id": "gather.caves.night.hint",
+"actionid": "world.caves",
+"startdescription": "Спустившись в пещеры ночью, я утону во время прилива – или во время отлива.",
+"inherits":"_gather.night.hint"},
+
+{"id": "gather.well",
+"actionid": "library.well",
+"label": "Набрать воды",
+"startdescription": "Я опущу в темноту ведро.",
+"desc": "Немного воды проливается и питает мох, растущий между камней.",
+"extantreqs":{"season.numa":-1},
+"aspects":{"fatiguing.ability":1},
+"reqs": {"ability":1},
+"warmup":90,
+"deckeffects":{"well":1},
+"craftable":true},
+
+{"id": "gather.well.numa",
+"label": "Набрать воды",
+"actionid": "library.well",
+"startdescription": "В глубинах стелется туман...",
+"desc": "Вода в нуму почти такая же, как и в другое время года.",
+"extantreqs":{"season.numa":1},
+"aspects":{"fatiguing.ability":1},
+"reqs": {"ability":1},
+"warmup":90,
+"deckeffects":{"well.numa":1},
+"craftable":true}
+
+
+  
+]
+}
+    

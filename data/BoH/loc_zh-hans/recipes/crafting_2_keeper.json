@@ -1,0 +1,862 @@
+{
+	"recipes":[
+		{
+			"Desc":"每道出一个音节，便能感到大地深处的蟠结颤动些许……",
+			"Label":"制作：震灾之名",
+			"id":"craft.keeper.stonestories_scale_old.moment_earthquake name",
+			"StartDescription":"察觉一种<b>鳞</b>相的潜力。\n\n[“岩石的故事”加上秘授级的<sprite name=scale>，以及旧日时刻，可制作震灾之名。]"
+		},
+		{
+			"Desc":"睡吧睡吧，暴风雨呐；现在请你，低下头吧……",
+			"Label":"制作：襁褓雷霆",
+			"id":"craft.keeper.quenchings.quellings_heart_frithweft_swaddled thunder",
+			"StartDescription":"将潜在的风暴引入纬编，以此虏获更多的<b>心</b>相。\n\n[“淬火与熄焰”加上秘授级的<sprite name=heart>，以及狭湾纬编，可制作襁褓雷霆。]"
+		},
+		{
+			"Desc":"以双面合一之锋刃，双向洞开之门关的名义……",
+			"Label":"制作：斫解石圣餐",
+			"id":"craft.keeper.horns.ivories_knock_toxin.glassfinger_sacrament ascite",
+			"StartDescription":"诱导这种毒素发生转变，让它更具启之潜能，同时又更安全。\n\n[“兽角与象牙”加上秘授级的<sprite name=knock>，以及透指毒素，可制作斫解石圣餐。]"
+		},
+		{
+			"Desc":"喝下它吧，小家伙。喝下它……",
+			"Label":"制作：靥红人偶",
+			"id":"craft.keeper.desires.dissolutions_grail_pale.mommet_flushed mommet",
+			"StartDescription":"在杯之精华的作用下，这人偶会变得鲜红——也变得更加有力。\n\n[“诱惑与消殒”加上秘授级的<sprite name=grail>，以及苍白人偶，可制作靥红人偶。]"
+		},
+		{
+			"Desc":"每道出一个音节，便能感到大地深处的蟠结颤动些许……",
+			"Label":"制作：震灾之名",
+			"id":"craft.keeper.hill.hollow_scale_old.moment_earthquake name",
+			"StartDescription":"察觉一种<b>鳞</b>相的潜力。\n\n[“丘陵与孔窍”加上秘授级的<sprite name=scale>，以及旧日时刻，可制作震灾之名。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：贵紫",
+			"id":"craft.keeper.inks.power_rose_ichor.auroral_porphyrine",
+			"StartDescription":"将这灵液浓缩为一种名为贵紫的<i>终刻墨</i>。\n\n[“力量之墨”加上秘授级的<sprite name=rose>，以及曙光灵液，可制作贵紫。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：欢欣雌黄",
+			"id":"craft.keeper.transformations.liberations_forge_essence.iotic_orpiment exultant",
+			"StartDescription":"将这种精华转变成名为欢欣雌黄的<i>终刻墨</i>。\n\n[“嬗变与解放”加上秘授级的<sprite name=forge>，以及赤化精华，可制作欢欣雌黄。]"
+		},
+		{
+			"Desc":"以根系、鲜血与内在嗡鸣的名义……",
+			"Label":"制作：孔雀石圣餐",
+			"id":"craft.keeper.leaves.thorns_nectar_pyrus.auricalcinus_sacrament malachite",
+			"StartDescription":"这梨果可作为来自林地深处的蜜之圣餐的主要成分。\n\n[“叶片与棘刺”加上秘授级的<sprite name=nectar>，以及铜梨，可制作孔雀石圣餐。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：珀金",
+			"id":"craft.keeper.watchmansparadoxes_lantern_essence.xanthotic_uzult",
+			"StartDescription":"将这精华亮化为一种名为珀金的<i>终刻墨</i>。\n\n[“守夜人的悖论”加上秘授级的<sprite name=lantern>，以及黄化精华，可制作珀金。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：珀金",
+			"id":"craft.keeper.inks.revelation_lantern_essence.xanthotic_uzult",
+			"StartDescription":"将这精华亮化为一种名为珀金的<i>终刻墨</i>。\n\n[“启示之墨”加上秘授级的<sprite name=lantern>，以及黄化精华，可制作珀金。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：欢欣雌黄",
+			"id":"craft.keeper.inks.power_forge_essence.iotic_orpiment exultant",
+			"StartDescription":"将这种精华转变成名为欢欣雌黄的<i>终刻墨</i>。\n\n[“力量之墨”加上秘授级的<sprite name=forge>，以及赤化精华，可制作欢欣雌黄。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.solutions.separations_moth_honey.cuckoo_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“溶解与离析”加上秘授级的<sprite name=moth>，以及杜鹃蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"一台时键琴只会在它诞生时上紧发条，那是第一次，也是唯一一次。",
+			"Label":"制作：时键琴",
+			"id":"craft.keeper.lockworks.clockworks_sky_wire.silver_chronsichord",
+			"StartDescription":"使用一种鲜为人知的技术，以银为原料制作一件启之装置。\n\n[“锁簧与发条”加上秘授级的<sprite name=sky>，以及金属丝（银），可制作时键琴。]"
+		},
+		{
+			"Desc":"但愿再次忘记它与记起它是同样可能的。",
+			"Label":"制作：苦艾之梦",
+			"id":"craft.keeper.sickle.eclipse_moon_stymphling_wormwood dream",
+			"StartDescription":"从斯廷法利斯湖兽的嘶声中解读出一种兼具<b>月</b>与<b>冬</b>的罪行预兆。\n\n[“镰刀与日蚀”加上秘授级的<sprite name=moon>，以及斯廷法利斯湖兽，可制作苦艾之梦。]"
+		},
+		{
+			"Desc":"抬眼看罢。这通常只能算个好主意，但当我们涉及此事时，这便是不二之选。抬眼看罢，环顾四周……",
+			"Label":"制作：极目远眺",
+			"id":"craft.keeper.skystories_rose_enduring.reflection_horizon-sight",
+			"StartDescription":"从这回忆中汲取一种引之洞见。\n\n[“天空的故事”加上秘授级的<sprite name=rose>，以及弥久映像，可制作极目远眺。]"
+		},
+		{
+			"Desc":"以根系、鲜血与内在嗡鸣的名义……",
+			"Label":"制作：孔雀石圣餐",
+			"id":"craft.keeper.rites.theroots_nectar_pyrus.auricalcinus_sacrament malachite",
+			"StartDescription":"这梨果可作为来自林地深处的蜜之圣餐的主要成分。\n\n[“根系之仪”加上秘授级的<sprite name=nectar>，以及铜梨，可制作孔雀石圣餐。]"
+		},
+		{
+			"Desc":"上校与狮子匠的教诲在这里被不怀好意地概括成了“戳戳”与“砰砰”的对抗。",
+			"Label":"制作：禁断的史诗",
+			"id":"craft.keeper.edictsmartial_moon_confounding.parable_forbidden epic",
+			"StartDescription":"将寓言扩写成一段有力的刃之史诗。\n\n[“武力之敕令”加上秘授级的<sprite name=moon>，以及混淆寓言，可制作禁断的史诗。]"
+		},
+		{
+			"Desc":"但愿再次忘记它与记起它是同样可能的。",
+			"Label":"制作：苦艾之梦",
+			"id":"craft.keeper.rhyme.remembrance_moon_stymphling_wormwood dream",
+			"StartDescription":"从斯廷法利斯湖兽的嘶声中解读出一种兼具<b>月</b>与<b>冬</b>的罪行预兆。\n\n[“音律与铭记”加上秘授级的<sprite name=moon>，以及斯廷法利斯湖兽，可制作苦艾之梦。]"
+		},
+		{
+			"Desc":"快塞上瓶塞，快！",
+			"Label":"制作：雅努略之血",
+			"id":"craft.keeper.herbs.infusions_heart_liquid.gideon_january sanguinary",
+			"StartDescription":"将这浸液活化为具有更多<b>心</b>相的存在。\n\n[“草药与药汤”加上秘授级的<sprite name=heart>，以及基甸的浸液，可制作雅努略之血。]"
+		},
+		{
+			"Desc":"快塞上瓶塞，快！",
+			"Label":"制作：雅努略之血",
+			"id":"craft.keeper.edictsinviolable_heart_liquid.gideon_january sanguinary",
+			"StartDescription":"将这浸液活化为具有更多<b>心</b>相的存在。\n\n[“无侵之敕令”加上秘授级的<sprite name=heart>，以及基甸的浸液，可制作雅努略之血。]"
+		},
+		{
+			"Desc":"月亮居屋之光从何而来？我们仍未知晓；但这种色彩看来正是其投下的阴影。",
+			"Label":"制作：黑刚玉涂料",
+			"id":"craft.keeper.putrefactions.calcinations_moon_asimel_black sapphire wash",
+			"StartDescription":"将阿苏麦黯化为一种强力的月之颜料。\n\n[“腐化与煅烧”加上秘授级的<sprite name=moon>，以及阿苏麦，可制作黑刚玉涂料。]"
+		},
+		{
+			"Desc":"以根系、鲜血与内在嗡鸣的名义……",
+			"Label":"制作：孔雀石圣餐",
+			"id":"craft.keeper.coil.chasm_nectar_pyrus.auricalcinus_sacrament malachite",
+			"StartDescription":"这梨果可作为来自林地深处的蜜之圣餐的主要成分。\n\n[“虬蟠与裂隙”加上秘授级的<sprite name=nectar>，以及铜梨，可制作孔雀石圣餐。]"
+		},
+		{
+			"Desc":"喝下它吧，小家伙。喝下它……",
+			"Label":"制作：靥红人偶",
+			"id":"craft.keeper.pentiments.precursors_grail_pale.mommet_flushed mommet",
+			"StartDescription":"在杯之精华的作用下，这人偶会变得鲜红——也变得更加有力。\n\n[“覆画残迹与古老前身”加上秘授级的<sprite name=grail>，以及苍白人偶，可制作靥红人偶。]"
+		},
+		{
+			"Desc":"慎用。昕旦出于她自己的原因容忍了噤声居屋，但我们还是别试探她的耐性为妙。",
+			"Label":"制作：年岁账簿",
+			"id":"craft.keeper.ouranoscopy_sky_essential.periost_year-tally",
+			"StartDescription":"利用在这些残余上留下纹理的天穹残迹，制作一种可以抵御岁月的治疗品。\n\n[“窥天术”加上秘授级的<sprite name=sky>，以及骨本精华，可制作年岁账簿。]"
+		},
+		{
+			"Desc":"当阿夏廷逸散的气体还飘荡在空气中时，谎言很难大声说出口……",
+			"Label":"制作：阿夏廷",
+			"id":"craft.keeper.pyroglyphics_lantern_ichor.vitreous_ashartine",
+			"StartDescription":"以灵液为主要原料，调制一瓶明亮的墨水。\n\n[“焰篆体”加上秘授级的<sprite name=lantern>，以及玻璃灵液，可制作阿夏廷。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：珀金",
+			"id":"craft.keeper.sacrasolisinvicti_lantern_essence.xanthotic_uzult",
+			"StartDescription":"将这精华亮化为一种名为珀金的<i>终刻墨</i>。\n\n[“无敌太阳典仪”加上秘授级的<sprite name=lantern>，以及黄化精华，可制作珀金。]"
+		},
+		{
+			"Desc":"一台时键琴只会在它诞生时上紧发条，那是第一次，也是唯一一次。",
+			"Label":"制作：时键琴",
+			"id":"craft.keeper.thegreatsignsandthegreatscars_knock_gervinite_chronsichord",
+			"StartDescription":"将格维合金安置在一件启之装置的核心位置。\n\n[“伟大符印与伟大伤疤”加上秘授级的<sprite name=knock>，以及格维合金，可制作时键琴。]"
+		},
+		{
+			"Desc":"必须将山铜小心翼翼地掺入容器中，这样阿佐特才不会泄露。粗心大意的炼金术士可是不得不经常搬家的。",
+			"Label":"制作：阿佐特",
+			"id":"craft.keeper.disciplines.thehammer_forge_wire.orichalcum_azoth",
+			"StartDescription":"用山铜催化出名为阿佐特的强力启之溶剂。\n\n[“锤砧的戒律”加上秘授级的<sprite name=forge>，以及金属丝（山铜），可制作阿佐特。]"
+		},
+		{
+			"Desc":"噤声居屋还没有哪一任图书管理员是死于制作蛇乳的。谢天谢地，昨天如此，今日亦然。",
+			"Label":"制作：蛇乳",
+			"id":"craft.keeper.disciplines.thescar_edge_perinculate_serpent-milk",
+			"StartDescription":"将这墨水调制成一种富含刃之力的液体。\n\n[“伤疤的戒律”加上秘授级的<sprite name=edge>，以及凶匿墨，可制作蛇乳。]"
+		},
+		{
+			"Desc":"一只湿漉漉的翅膀展开；然后是另一只，紧接着它将它们抖干；从今往后，它将一直如此惹人注目。",
+			"Label":"制作：凶匿成虫",
+			"id":"craft.keeper.insects.nectars_moth_larva.chimeric_perilous imago",
+			"StartDescription":"诱导幼虫发育成为更具力量的蛾之兽类。\n\n[“昆虫与花蜜”加上秘授级的<sprite name=moth>，以及混种幼虫，可制作凶匿成虫。]"
+		},
+		{
+			"Desc":"以双面合一之锋刃，双向洞开之门关的名义……",
+			"Label":"制作：斫解石圣餐",
+			"id":"craft.keeper.edictsliminal_knock_toxin.glassfinger_sacrament ascite",
+			"StartDescription":"诱导这种毒素发生转变，让它更具启之潜能，同时又更安全。\n\n[“阈限之敕令”加上秘授级的<sprite name=knock>，以及透指毒素，可制作斫解石圣餐。]"
+		},
+		{
+			"Desc":"每道出一个音节，便能感到大地深处的蟠结颤动些许……",
+			"Label":"制作：震灾之名",
+			"id":"craft.keeper.wolfstories_scale_old.moment_earthquake name",
+			"StartDescription":"察觉一种<b>鳞</b>相的潜力。\n\n[“狼的故事”加上秘授级的<sprite name=scale>，以及旧日时刻，可制作震灾之名。]"
+		},
+		{
+			"Desc":"喝下它吧，小家伙。喝下它……",
+			"Label":"制作：靥红人偶",
+			"id":"craft.keeper.thegreatsignsandthegreatscars_grail_pale.mommet_flushed mommet",
+			"StartDescription":"在杯之精华的作用下，这人偶会变得鲜红——也变得更加有力。\n\n[“伟大符印与伟大伤疤”加上秘授级的<sprite name=grail>，以及苍白人偶，可制作靥红人偶。]"
+		},
+		{
+			"Desc":"慎用。昕旦出于她自己的原因容忍了噤声居屋，但我们还是别试探她的耐性为妙。",
+			"Label":"制作：年岁账簿",
+			"id":"craft.keeper.putrefactions.calcinations_winter_essential.periost_year-tally",
+			"StartDescription":"极其小心地描画，凭借居屋的古老特权以使<b>冬</b>外显。\n\n[“腐化与煅烧”加上秘授级的<sprite name=winter>，以及骨本精华，可制作年岁账簿。]"
+		},
+		{
+			"Desc":"以给予生命；夺取生命；永无餍足之司辰的名义……",
+			"Label":"制作：圣觚石圣餐",
+			"id":"craft.keeper.leaves.thorns_grail_rubywise.ruin_sacrament calicite",
+			"StartDescription":"把该液体用作一种杯之圣餐的主要原料。\n\n[“叶片与棘刺”加上秘授级的<sprite name=grail>，以及沉沦赤慧，可制作圣觚石圣餐。]"
+		},
+		{
+			"Desc":"睡吧睡吧，暴风雨呐；现在请你，低下头吧……",
+			"Label":"制作：襁褓雷霆",
+			"id":"craft.keeper.stitching.binding_heart_frithweft_swaddled thunder",
+			"StartDescription":"将潜在的风暴引入纬编，以此虏获更多的<b>心</b>相。\n\n[“缝合与装订”加上秘授级的<sprite name=heart>，以及狭湾纬编，可制作襁褓雷霆。]"
+		},
+		{
+			"Desc":"一只湿漉漉的翅膀展开；然后是另一只，紧接着它抖干翅膀；从今往后，它将一直如此惹人注目……",
+			"Label":"制作：凶匿成虫",
+			"id":"craft.keeper.resurgences.emergences_moth_larva.chimeric_perilous imago",
+			"StartDescription":"在暮色的掩护下，诱导幼虫发育成为更具力量的蛾之兽类。\n\n[“复苏与羽化”加上秘授级的<sprite name=moth>，以及混种幼虫，可制作凶匿成虫。]"
+		},
+		{
+			"Desc":"如午时般金黄……",
+			"Label":"制作：珀金",
+			"id":"craft.keeper.anbary.lapidary_lantern_essence.xanthotic_uzult",
+			"StartDescription":"将这精华亮化为一种名为珀金的<i>终刻墨</i>。\n\n[“雕珀与琢石”加上秘授级的<sprite name=lantern>，以及黄化精华，可制作珀金。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.sacralimiae_moth_honey_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“利米亚典仪”加上秘授级的<sprite name=moth>，以及蜂蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"必须将山铜小心翼翼地掺入容器中，这样阿佐特才不会泄露。粗心大意的炼金术士可是不得不经常搬家的。",
+			"Label":"制作：阿佐特",
+			"id":"craft.keeper.purifications.exaltations_forge_wire.orichalcum_azoth",
+			"StartDescription":"用山铜催化出名为阿佐特的强力启之溶剂。\n\n[“精炼与擢升”加上秘授级的<sprite name=forge>，以及金属丝（山铜），可制作阿佐特。]"
+		},
+		{
+			"Desc":"噤声居屋还没有哪一任图书管理员是死于制作蛇乳的。谢天谢地，昨天如此，今日亦然。",
+			"Label":"制作：蛇乳",
+			"id":"craft.keeper.sickle.eclipse_edge_perinculate_serpent-milk",
+			"StartDescription":"将这墨水调制成一种富含刃之力的液体。\n\n[“镰刀与日蚀”加上秘授级的<sprite name=edge>，以及凶匿墨，可制作蛇乳。]"
+		},
+		{
+			"Desc":"抬眼看罢。这通常只能算个好主意，但当我们涉及此事时，这便是不二之选。抬眼看罢，环顾四周……",
+			"Label":"制作：贵紫",
+			"id":"craft.keeper.sandstories_rose_ichor.auroral_porphyrine",
+			"StartDescription":"将这灵液浓缩为一种名为贵紫的<i>终刻墨</i>。\n\n[“沙的故事”加上秘授级的<sprite name=rose>，以及曙光灵液，可制作贵紫。]"
+		},
+		{
+			"Desc":"当阿夏廷逸散的气体还飘荡在空气中时，谎言很难大声说出口……",
+			"Label":"制作：阿夏廷",
+			"id":"craft.keeper.watchmansparadoxes_lantern_ichor.vitreous_ashartine",
+			"StartDescription":"以灵液为主要原料，调制一瓶明亮的墨水。\n\n[“守夜人的悖论”加上秘授级的<sprite name=lantern>，以及玻璃灵液，可制作阿夏廷。]"
+		},
+		{
+			"Desc":"以双面合一之锋刃，双向洞开之门关的名义……",
+			"Label":"制作：斫解石圣餐",
+			"id":"craft.keeper.glassblowing.vesselcrafting_knock_toxin.glassfinger_sacrament ascite",
+			"StartDescription":"诱导这种毒素发生转变，让它更具启之潜能，同时又更安全。\n\n[“玻璃吹制与容器制造”加上秘授级的<sprite name=knock>，以及透指毒素，可制作斫解石圣餐。]"
+		},
+		{
+			"Desc":"人类的肉眼见不到诸星辰的梦境；但它的存在一经觉察，就不会被误认。",
+			"Label":"制作：孪星降梦",
+			"id":"craft.keeper.sights.sensations_sky_ascendant.harmony_didumos",
+			"StartDescription":"唤起一段带有寒意的穹之影响。\n\n[“景象与感知”加上秘授级的<sprite name=sky>，以及方兴和声，可制作孪星降梦。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：石翠",
+			"id":"craft.keeper.inks.power_nectar_leathy_marakat",
+			"StartDescription":"调制出名为石翠的<i>终刻墨</i>。\n\n[“力量之墨”加上秘授级的<sprite name=nectar>，以及遗忘之水，可制作石翠。]"
+		},
+		{
+			"Desc":"以给予生命；夺取生命；永无餍足之司辰的名义……",
+			"Label":"制作：圣觚石圣餐",
+			"id":"craft.keeper.tridesmahiera_grail_rubywise.ruin_sacrament calicite",
+			"StartDescription":"把该液体用作一种杯之圣餐的主要原料。\n\n[“三重誓之仪”加上秘授级的<sprite name=grail>，以及沉沦赤慧，可制作圣觚石圣餐。]"
+		},
+		{
+			"Desc":"作为容器内壁的涂层，茉莉花汁必须要妥善准备，这样阿佐特才不会泄露。粗心大意的炼金术士可是不得不经常搬家的。",
+			"Label":"制作：阿佐特",
+			"id":"craft.keeper.spices.savours_forge_honeyscar.jasmine_azoth",
+			"StartDescription":"一个鲜有人知的秘密：在极其妥当的准备下，蜜痂茉莉可以催化出阿佐特，一种强力的启之溶剂。\n\n[“香料与滋味”加上秘授级的<sprite name=forge>，以及蜜痂茉莉，可制作阿佐特。]"
+		},
+		{
+			"Desc":"我真心希望自己当时不必看着手头的勾当，这些玩意……",
+			"Label":"制作：猃瘿墨",
+			"id":"craft.keeper.horns.ivories_scale_relic.living_houndsgall",
+			"StartDescription":"这种生物的……某些副产品……可以被再利用于调制一种鳞之墨水。\n\n[“兽角与象牙”加上秘授级的<sprite name=scale>，以及活化石，可制作猃瘿墨。]"
+		},
+		{
+			"Desc":"如日落般赤红……",
+			"Label":"制作：赤化精华",
+			"id":"craft.keeper.transformations.liberations_forge_salts.bitterblack_iotic essence",
+			"StartDescription":"将这些盐转变为一种具铸之力的朱红色精华。\n\n[“嬗变与解放”加上秘授级的<sprite name=forge>，以及苦黑盐，可制作赤化精华。]"
+		},
+		{
+			"Desc":"以双面合一之锋刃，双向洞开之门关的名义……",
+			"Label":"制作：斫解石圣餐",
+			"id":"craft.keeper.door.wall_knock_toxin.glassfinger_sacrament ascite",
+			"StartDescription":"诱导这种毒素发生转变，让它更具启之潜能，同时又更安全。\n\n[“门扉与墙垣”加上秘授级的<sprite name=knock>，以及透指毒素，可制作斫解石圣餐。]"
+		},
+		{
+			"Desc":"喝下它吧，小家伙。喝下它……",
+			"Label":"制作：靥红人偶",
+			"id":"craft.keeper.resurgences.emergences_grail_pale.mommet_flushed mommet",
+			"StartDescription":"在杯之精华的作用下，这人偶会变得鲜红——也变得更加有力。\n\n[“复苏与羽化”加上秘授级的<sprite name=grail>，以及苍白人偶，可制作靥红人偶。]"
+		},
+		{
+			"Desc":"我真心希望自己当时不必看着手头的勾当，这些玩意……",
+			"Label":"制作：猃瘿墨",
+			"id":"craft.keeper.pentiments.precursors_scale_relic.living_houndsgall",
+			"StartDescription":"这种生物的……某些副产品……可以被再利用于调制一种鳞之墨水。\n\n[“覆画残迹与古老前身”加上秘授级的<sprite name=scale>，以及活化石，可制作猃瘿墨。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：贵紫",
+			"id":"craft.keeper.inks.revelation_rose_ichor.auroral_porphyrine",
+			"StartDescription":"将这灵液浓缩为一种名为贵紫的<i>终刻墨</i>。\n\n[“启示之墨”加上秘授级的<sprite name=rose>，以及曙光灵液，可制作贵紫。]"
+		},
+		{
+			"Desc":"噤声居屋还没有哪一任图书管理员是死于制作蛇乳的。谢天谢地，昨天如此，今日亦然。",
+			"Label":"制作：蛇乳",
+			"id":"craft.keeper.meniscatereflections_edge_perinculate_serpent-milk",
+			"StartDescription":"将这墨水调制成一种富含刃之力的液体。\n\n[“弧月的倒影”加上秘授级的<sprite name=edge>，以及凶匿墨，可制作蛇乳。]"
+		},
+		{
+			"Desc":"睡吧睡吧，暴风雨呐；现在请你，低下头吧……",
+			"Label":"制作：襁褓雷霆",
+			"id":"craft.keeper.drums.dances_heart_music.thunderskin_swaddled thunder",
+			"StartDescription":"将潜在的风暴震入纬编，以此虏获更多的<b>心</b>相。\n\n[“鼓点与舞步”加上秘授级的<sprite name=heart>，以及轰雷之皮的赞歌，可制作襁褓雷霆。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.sacralimiae_moth_honey.cuckoo_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“利米亚典仪”加上秘授级的<sprite name=moth>，以及杜鹃蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"必须将山铜小心翼翼地掺入容器中，这样阿佐特才不会泄露。粗心大意的炼金术士可是不得不经常搬家的。",
+			"Label":"制作：阿佐特",
+			"id":"craft.keeper.bells.brazieries_forge_wire.orichalcum_azoth",
+			"StartDescription":"用山铜催化出名为阿佐特的强力启之溶剂。\n\n[“洪钟与铜器”加上秘授级的<sprite name=forge>，以及金属丝（山铜），可制作阿佐特。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：喉青",
+			"id":"craft.keeper.inks.containment_winter_liquid.solomon_nillycant",
+			"StartDescription":"将这制剂提炼成名为喉青的<i>终刻墨</i>。\n\n[“收容之墨”加上秘授级的<sprite name=winter>，以及所罗门制剂，可制作喉青。]"
+		},
+		{
+			"Desc":"但愿再次忘记它与记起它是同样可能的。",
+			"Label":"制作：苦艾之梦",
+			"id":"craft.keeper.snowstories_moon_stymphling_wormwood dream",
+			"StartDescription":"从斯廷法利斯湖兽的嘶声中解读出一种兼具<b>月</b>与<b>冬</b>的罪行预兆。\n\n[“白雪的故事”加上秘授级的<sprite name=moon>，以及斯廷法利斯湖兽，可制作苦艾之梦。]"
+		},
+		{
+			"Desc":"睡吧睡吧，暴风雨呐；现在请你，低下头吧……",
+			"Label":"制作：襁褓雷霆",
+			"id":"craft.keeper.weaving.knotworking_heart_frithweft_swaddled thunder",
+			"StartDescription":"将潜在的风暴引入纬编，以此虏获更多的<b>心</b>相。\n\n[“缝纫与编织”加上秘授级的<sprite name=heart>，以及狭湾纬编，可制作襁褓雷霆。]"
+		},
+		{
+			"Desc":"每根丝线都是一种未来，而其余丝线则是往昔。",
+			"Label":"制作：命运纬编",
+			"id":"craft.keeper.stitching.binding_winter_fabric_wyrd-weft",
+			"StartDescription":"将<b>冬</b>编入渺小命运的罗网。\n\n[“缝合与装订”加上秘授级的<sprite name=winter>，以及<b>布料</b>，可制作命运纬编。]"
+		},
+		{
+			"Desc":"我真心希望自己当时不必看着手头的勾当，这些玩意……",
+			"Label":"制作：猃瘿墨",
+			"id":"craft.keeper.path.pilgrim_scale_relic.living_houndsgall",
+			"StartDescription":"这种生物的……某些副产品……可以被再利用于调制一种鳞之墨水。\n\n[“道途与朝圣”加上秘授级的<sprite name=scale>，以及活化石，可制作猃瘿墨。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：贵紫",
+			"id":"craft.keeper.auroralcontemplations_lantern_ichor.auroral_porphyrine",
+			"StartDescription":"将这灵液浓缩为一种名为贵紫的<i>终刻墨</i>。\n\n[“曙光的静观”加上秘授级的<sprite name=lantern>，以及曙光灵液，可制作贵紫。]"
+		},
+		{
+			"Desc":"如午时般金黄……",
+			"Label":"制作：黄化精华",
+			"id":"craft.keeper.purifications.exaltations_lantern_salts.bitterblack_xanthotic essence",
+			"StartDescription":"将这些盐升华为一种具灯之力的金黄色精华。\n\n[“精炼与擢升”加上秘授级的<sprite name=lantern>，以及苦黑盐，可制作黄化精华。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：喉青",
+			"id":"craft.keeper.raggedcrossroads_winter_toxin.glassfinger_nillycant",
+			"StartDescription":"将这种毒素柔化成名为喉青的<i>终刻墨</i>。\n\n[“残破十字路”加上秘授级的<sprite name=winter>，以及透指毒素，可制作喉青。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：贵紫",
+			"id":"craft.keeper.pearl.tide_rose_lenten.rose_porphyrine",
+			"StartDescription":"一个鲜有人知的秘密：以玫瑰花瓣为引，可以调制出一种名为贵紫的<i>终刻墨</i>。\n\n[“珍珠与浪潮”加上秘授级的<sprite name=rose>，以及四旬斋玫瑰，可制作贵紫。]"
+		},
+		{
+			"Desc":"袅袅笛声渐休，徐徐清风如旧……",
+			"Label":"制作：静待之风",
+			"id":"craft.keeper.strings.songs_sky_mazarine.fife_wind-in-waiting",
+			"StartDescription":"从天穹中获得微风的承诺。\n\n[“弦乐与歌谣”加上秘授级的<sprite name=sky>，以及马扎林横笛，可制作静待之风。]"
+		},
+		{
+			"Desc":"如日落般赤红……",
+			"Label":"制作：赤化精华",
+			"id":"craft.keeper.transformations.liberations_forge_essence.xanthotic_iotic essence",
+			"StartDescription":"将它转变为一种具铸之力的朱红色精华。\n\n[“嬗变与解放”加上秘授级的<sprite name=forge>，以及黄化精华，可制作赤化精华。]"
+		},
+		{
+			"Desc":"一台时键琴只会在它诞生时上紧发条，那是第一次，也是唯一一次。",
+			"Label":"制作：时键琴",
+			"id":"craft.keeper.lockworks.clockworks_knock_gervinite_chronsichord",
+			"StartDescription":"将格维合金安置在一件启之装置的核心位置。\n\n[“锁簧与发条”加上秘授级的<sprite name=knock>，以及格维合金，可制作时键琴。]"
+		},
+		{
+			"Desc":"每道出一个音节，便能感到大地深处的蟠结颤动些许……",
+			"Label":"制作：震灾之名",
+			"id":"craft.keeper.disciplines.thescar_lantern_old.moment_earthquake name",
+			"StartDescription":"察觉一种<b>鳞</b>相的潜力。\n\n[“伤疤的戒律”加上秘授级的<sprite name=lantern>，以及旧日时刻，可制作震灾之名。]"
+		},
+		{
+			"Desc":"快塞上瓶塞，快！",
+			"Label":"制作：雅努略之血",
+			"id":"craft.keeper.maggephenemysteries_heart_liquid.gideon_january sanguinary",
+			"StartDescription":"将这浸液活化为具有更多<b>心</b>相的存在。\n\n[“疫疠之秘”加上秘授级的<sprite name=heart>，以及基甸的浸液，可制作雅努略之血。]"
+		},
+		{
+			"Desc":"月亮居屋之光从何而来？我们仍未知晓；但这种色彩看来正是其投下的阴影。",
+			"Label":"制作：黑刚玉涂料",
+			"id":"craft.keeper.pearl.tide_moon_asimel_black sapphire wash",
+			"StartDescription":"将阿苏麦黯化为一种强力的月之颜料。\n\n[“珍珠与浪潮”加上秘授级的<sprite name=moon>，以及阿苏麦，可制作黑刚玉涂料。]"
+		},
+		{
+			"Desc":"当阿夏廷逸散的气体还飘荡在空气中时，谎言很难大声说出口……",
+			"Label":"制作：阿夏廷",
+			"id":"craft.keeper.glassblowing.vesselcrafting_lantern_ichor.vitreous_ashartine",
+			"StartDescription":"以灵液为主要原料，调制一瓶明亮的墨水。\n\n[“玻璃吹制与容器制造”加上秘授级的<sprite name=lantern>，以及玻璃灵液，可制作阿夏廷。]"
+		},
+		{
+			"Desc":"每根丝线都是一种未来，而其余丝线则是往昔。",
+			"Label":"制作：命运纬编",
+			"id":"craft.keeper.weaving.knotworking_winter_fabric_wyrd-weft",
+			"StartDescription":"将<b>冬</b>编入渺小命运的罗网。\n\n[“缝纫与编织”加上秘授级的<sprite name=winter>，以及<b>布料</b>，可制作命运纬编。]"
+		},
+		{
+			"Desc":"袅袅笛声渐休，徐徐清风如旧……",
+			"Label":"制作：静待之风",
+			"id":"craft.keeper.furs.feathers_sky_mazarine.fife_wind-in-waiting",
+			"StartDescription":"从天穹中获得微风的承诺。\n\n[“毛皮与羽翎”加上秘授级的<sprite name=sky>，以及马扎林横笛，可制作静待之风。]"
+		},
+		{
+			"Desc":"抬眼看罢。这通常只能算个好主意，但当我们涉及此事时，这便是不二之选。抬眼看罢，环顾四周……",
+			"Label":"制作：极目远眺",
+			"id":"craft.keeper.path.pilgrim_rose_enduring.reflection_horizon-sight",
+			"StartDescription":"从这回忆中汲取一种引之洞见。\n\n[“道途与朝圣”加上秘授级的<sprite name=rose>，以及弥久映像，可制作极目远眺。]"
+		},
+		{
+			"Desc":"我真心希望自己当时不必看着手头的勾当，这些玩意……",
+			"Label":"制作：猃瘿墨",
+			"id":"craft.keeper.inks.containment_scale_relic.living_houndsgall",
+			"StartDescription":"这种生物的……某些副产品……可以被再利用于调制一种鳞之墨水。\n\n[“收容之墨”加上秘授级的<sprite name=scale>，以及活化石，可制作猃瘿墨。]"
+		},
+		{
+			"Desc":"慎用。昕旦出于她自己的原因容忍了噤声居屋，但我们还是别试探她的耐性为妙。",
+			"Label":"制作：年岁账簿",
+			"id":"craft.keeper.raggedcrossroads_winter_essential.periost_year-tally",
+			"StartDescription":"极其小心地描画，凭借居屋的古老特权以使<b>冬</b>外显。\n\n[“残破十字路”加上秘授级的<sprite name=winter>，以及骨本精华，可制作年岁账簿。]"
+		},
+		{
+			"Desc":"抬眼看罢。这通常只能算个好主意，但当我们涉及此事时，这便是不二之选。抬眼看罢，环顾四周……",
+			"Label":"制作：极目远眺",
+			"id":"craft.keeper.sandstories_rose_enduring.reflection_horizon-sight",
+			"StartDescription":"从这回忆中汲取一种引之洞见。\n\n[“沙的故事”加上秘授级的<sprite name=rose>，以及弥久映像，可制作极目远眺。]"
+		},
+		{
+			"Desc":"如日落般赤红……",
+			"Label":"制作：赤化精华",
+			"id":"craft.keeper.disciplines.thehammer_forge_salts.bitterblack_iotic essence",
+			"StartDescription":"将这些盐转变为一种具铸之力的朱红色精华。\n\n[“锤砧的戒律”加上秘授级的<sprite name=forge>，以及苦黑盐，可制作赤化精华。]"
+		},
+		{
+			"Desc":"一台时键琴只会在它诞生时上紧发条，那是第一次，也是唯一一次。",
+			"Label":"制作：时键琴",
+			"id":"craft.keeper.glassblowing.vesselcrafting_knock_gervinite_chronsichord",
+			"StartDescription":"将格维合金安置在一件启之装置的核心位置。\n\n[“玻璃吹制与容器制造”加上秘授级的<sprite name=knock>，以及格维合金，可制作时键琴。]"
+		},
+		{
+			"Desc":"以双面合一之锋刃，双向洞开之门关的名义……",
+			"Label":"制作：斫解石圣餐",
+			"id":"craft.keeper.serpents.venoms_moon_toxin.glassfinger_sacrament ascite",
+			"StartDescription":"诱导这种毒素发生转变，让它更具启之潜能，同时也更安全。\n\n[“群蛇与毒液”加上秘授级的<sprite name=moon>，以及透指毒素，可制作斫解石圣餐。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：石翠",
+			"id":"craft.keeper.tridesmahiera_nectar_leathy_marakat",
+			"StartDescription":"调制出名为石翠的<i>终刻墨</i>。\n\n[“三重誓之仪”加上秘授级的<sprite name=nectar>，以及遗忘之水，可制作石翠。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.transformations.liberations_moth_honey.cuckoo_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“嬗变与解放”加上秘授级的<sprite name=moth>，以及杜鹃蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"人类的肉眼见不到诸星辰的梦境；但它的存在一经觉察，就不会被误认。",
+			"Label":"制作：孪星降梦",
+			"id":"craft.keeper.ouranoscopy_moon_asimel_didumos",
+			"StartDescription":"用这月之墨水画出符印，将一段星辰的寒冷梦境带回大地。\n\n[“窥天术”加上秘授级的<sprite name=moon>，以及阿苏麦，可制作孪星降梦。]"
+		},
+		{
+			"Desc":"一只湿漉漉的翅膀展开；然后是另一只，紧接着它抖干翅膀；从今往后，它将一直如此惹人注目……",
+			"Label":"制作：凶匿成虫",
+			"id":"craft.keeper.transformations.liberations_moth_larva.chimeric_perilous imago",
+			"StartDescription":"诱导幼虫发育成为更具力量的蛾之兽类。\n\n[“嬗变与解放”加上秘授级的<sprite name=moth>，以及混种幼虫，可制作凶匿成虫。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.edictsliminal_moth_honey.cuckoo_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“阈限之敕令”加上秘授级的<sprite name=moth>，以及杜鹃蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"以根系、鲜血与内在嗡鸣的名义……",
+			"Label":"制作：孔雀石圣餐",
+			"id":"craft.keeper.drums.dances_nectar_pyrus.auricalcinus_sacrament malachite",
+			"StartDescription":"这梨果可作为来自林地深处的蜜之圣餐的主要成分。\n\n[“鼓点与舞步”加上秘授级的<sprite name=nectar>，以及铜梨，可制作孔雀石圣餐。]"
+		},
+		{
+			"Desc":"以双面合一之锋刃，双向洞开之门关的名义……",
+			"Label":"制作：斫解石圣餐",
+			"id":"craft.keeper.solutions.separations_knock_toxin.glassfinger_sacrament ascite",
+			"StartDescription":"诱导这种毒素发生转变，让它更具启之潜能，同时又更安全。\n\n[“溶解与离析”加上秘授级的<sprite name=knock>，以及透指毒素，可制作斫解石圣餐。]"
+		},
+		{
+			"Desc":"睡吧睡吧，暴风雨呐；现在请你，低下头吧……",
+			"Label":"制作：襁褓雷霆",
+			"id":"craft.keeper.strings.songs_heart_music.thunderskin_swaddled thunder",
+			"StartDescription":"将潜在的风暴唱入纬编，以此虏获更多的<b>心</b>相。\n\n[“弦乐与歌谣”加上秘授级的<sprite name=heart>，以及轰雷之皮的赞歌，可制作襁褓雷霆。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：珀金",
+			"id":"craft.keeper.glaziery.lightsmithing_lantern_essence.xanthotic_uzult",
+			"StartDescription":"将这精华亮化为一种名为珀金的<i>终刻墨</i>。\n\n[“玻璃与锻光”加上秘授级的<sprite name=lantern>，以及黄化精华，可制作珀金。]"
+		},
+		{
+			"Desc":"人类的肉眼见不到诸星辰的梦境；但它的存在一经觉察，就不会被误认。",
+			"Label":"制作：孪星降梦",
+			"id":"craft.keeper.bells.brazieries_sky_ascendant.harmony_didumos",
+			"StartDescription":"唤起一段带有寒意的穹之影响。\n\n[“洪钟与铜器”加上秘授级的<sprite name=sky>，以及方兴和声，可制作孪星降梦。]"
+		},
+		{
+			"Desc":"以根系、鲜血与内在嗡鸣的名义……",
+			"Label":"制作：孔雀石圣餐",
+			"id":"craft.keeper.herbs.infusions_nectar_pyrus.auricalcinus_sacrament malachite",
+			"StartDescription":"这梨果可作为来自林地深处的蜜之圣餐的主要成分。\n\n[“草药与药汤”加上秘授级的<sprite name=nectar>，以及铜梨，可制作孔雀石圣餐。]"
+		},
+		{
+			"Desc":"当阿夏廷逸散的气体还飘荡在空气中时，谎言很难大声说出口……",
+			"Label":"制作：阿夏廷",
+			"id":"craft.keeper.anbary.lapidary_sky_ichor.vitreous_ashartine",
+			"StartDescription":"以灵液为主要原料，调制一瓶明亮的墨水。\n\n[“雕珀与琢石”加上秘授级的<sprite name=sky>，以及玻璃灵液，可制作阿夏廷。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.edictsliminal_moth_honey_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“阈限之敕令”加上秘授级的<sprite name=moth>，以及蜂蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"噤声居屋还没有哪一任图书管理员是死于制作蛇乳的。谢天谢地，昨天如此，今日亦然。",
+			"Label":"制作：蛇乳",
+			"id":"craft.keeper.serpents.venoms_scale_perinculate_serpent-milk",
+			"StartDescription":"将这墨水调制成一种富含刃之力的液体。\n\n[“群蛇与毒液”加上秘授级的<sprite name=scale>，以及凶匿墨，可制作蛇乳。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：喉青",
+			"id":"craft.keeper.sights.sensations_winter_liquid.solomon_nillycant",
+			"StartDescription":"将这制剂提炼成名为喉青的<i>终刻墨</i>。\n\n[“景象与感知”加上秘授级的<sprite name=winter>，以及所罗门制剂，可制作喉青。]"
+		},
+		{
+			"Desc":"如午时般金黄……",
+			"Label":"制作：黄化精华",
+			"id":"craft.keeper.purifications.exaltations_lantern_essence.iotic_xanthotic essence",
+			"StartDescription":"将它净化为一种具灯之力的金黄色精华。\n\n[“精炼与擢升”加上秘授级的<sprite name=lantern>，以及赤化精华，可制作黄化精华。]"
+		},
+		{
+			"Desc":"当阿夏廷逸散的气体还飘荡在空气中时，谎言很难大声说出口……",
+			"Label":"制作：阿夏廷",
+			"id":"craft.keeper.glassblowing.vesselcrafting_sky_ichor.vitreous_ashartine",
+			"StartDescription":"以灵液为主要原料，调制一瓶明亮的墨水。\n\n[“玻璃吹制与容器制造”加上秘授级的<sprite name=sky>，以及玻璃灵液，可制作阿夏廷。]"
+		},
+		{
+			"Desc":"但愿再次忘记它与记起它是同样可能的。",
+			"Label":"制作：苦艾之梦",
+			"id":"craft.keeper.edictsinviolable_moon_stymphling_wormwood dream",
+			"StartDescription":"从斯廷法利斯湖兽的嘶声中解读出一种兼具<b>月</b>与<b>冬</b>的罪行预兆。\n\n[“无侵之敕令”加上秘授级的<sprite name=moon>，以及斯廷法利斯湖兽，可制作苦艾之梦。]"
+		},
+		{
+			"Desc":"快塞上瓶塞，快！",
+			"Label":"制作：雅努略之血",
+			"id":"craft.keeper.surgeries.exsanguinations_heart_liquid.gideon_january sanguinary",
+			"StartDescription":"将这浸液活化为具有更多<b>心</b>相的存在。\n\n[“手术与放血”加上秘授级的<sprite name=heart>，以及基甸的浸液，可制作雅努略之血。]"
+		},
+		{
+			"Desc":"以根系、鲜血与内在嗡鸣的名义……",
+			"Label":"制作：孔雀石圣餐",
+			"id":"craft.keeper.spices.savours_nectar_pyrus.auricalcinus_sacrament malachite",
+			"StartDescription":"这梨果可作为来自林地深处的蜜之圣餐的主要成分。\n\n[“香料与滋味”加上秘授级的<sprite name=nectar>，以及铜梨，可制作孔雀石圣餐。]"
+		},
+		{
+			"Desc":"人类的肉眼见不到诸星辰的梦境；但它的存在一经觉察，就不会被误认。",
+			"Label":"制作：孪星降梦",
+			"id":"craft.keeper.sacralimiae_sky_ascendant.harmony_didumos",
+			"StartDescription":"唤起一段带有寒意的穹之影响。\n\n[“利米亚典仪”加上秘授级的<sprite name=sky>，以及方兴和声，可制作孪星降梦。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.resurgences.emergences_moth_honey.cuckoo_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“复苏与羽化”加上秘授级的<sprite name=moth>，以及杜鹃蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"快塞上瓶塞，快！",
+			"Label":"制作：雅努略之血",
+			"id":"craft.keeper.surgeries.exsanguinations_knock_toxin.glassfinger_january sanguinary",
+			"StartDescription":"将这毒素活化为具有更多<b>心</b>相的存在。\n\n[“手术与放血”加上秘授级的<sprite name=knock>，以及透指毒素，可制作雅努略之血。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.insects.nectars_moon_honey.cuckoo_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“昆虫与花蜜”加上秘授级的<sprite name=moon>，以及杜鹃蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"以给予生命；夺取生命；永无餍足之司辰的名义……",
+			"Label":"制作：圣觚石圣餐",
+			"id":"craft.keeper.applebrighteuphonies_grail_rubywise.ruin_sacrament calicite",
+			"StartDescription":"把该液体用作一种杯之圣餐的主要原料。\n\n[“光明果悦音”加上秘授级的<sprite name=grail>，以及沉沦赤慧，可制作圣觚石圣餐。]"
+		},
+		{
+			"Desc":"人类的肉眼见不到诸星辰的梦境；但它的存在一经觉察，就不会被误认。",
+			"Label":"制作：孪星降梦",
+			"id":"craft.keeper.applebrighteuphonies_sky_ascendant.harmony_didumos",
+			"StartDescription":"唤起一段带有寒意的穹之影响。\n\n[“光明果悦音”加上秘授级的<sprite name=sky>，以及方兴和声，可制作孪星降梦。]"
+		},
+		{
+			"Desc":"以给予生命；夺取生命；永无餍足之司辰的名义……",
+			"Label":"制作：圣觚石圣餐",
+			"id":"craft.keeper.seastories_grail_rubywise.ruin_sacrament calicite",
+			"StartDescription":"把该液体用作一种杯之圣餐的主要原料。\n\n[“大海的故事”加上秘授级的<sprite name=grail>，以及沉沦赤慧，可制作圣觚石圣餐。]"
+		},
+		{
+			"Desc":"一台时键琴只会在它诞生时上紧发条，那是第一次，也是唯一一次。",
+			"Label":"制作：时键琴",
+			"id":"craft.keeper.preliminalmeter_knock_gervinite_chronsichord",
+			"StartDescription":"将格维合金安置在一件启之装置的核心位置。\n\n[“阙前格律”加上秘授级的<sprite name=knock>，以及格维合金，可制作时键琴。]"
+		},
+		{
+			"Desc":"如日落般赤红……",
+			"Label":"制作：赤化精华",
+			"id":"craft.keeper.disciplines.thehammer_forge_essence.xanthotic_iotic essence",
+			"StartDescription":"将它转变为一种具铸之力的朱红色精华。\n\n[“锤砧的戒律”加上秘授级的<sprite name=forge>，以及黄化精华，可制作赤化精华。]"
+		},
+		{
+			"Desc":"噤声居屋还没有哪一任图书管理员是死于制作蛇乳的。谢天谢地，昨天如此，今日亦然。",
+			"Label":"制作：蛇乳",
+			"id":"craft.keeper.sharps_edge_perinculate_serpent-milk",
+			"StartDescription":"将这墨水调制成一种富含刃之力的液体。\n\n[“锋锐”加上秘授级的<sprite name=edge>，以及凶匿墨，可制作蛇乳。]"
+		},
+		{
+			"Desc":"月亮居屋之光从何而来？我们仍未知晓；但这种色彩看来正是其投下的阴影。",
+			"Label":"制作：黑刚玉涂料",
+			"id":"craft.keeper.seastories_moon_asimel_black sapphire wash",
+			"StartDescription":"将阿苏麦黯化为一种强力的月之颜料。\n\n[“大海的故事”加上秘授级的<sprite name=moon>，以及阿苏麦，可制作黑刚玉涂料。]"
+		},
+		{
+			"Desc":"必须将山铜小心翼翼地掺入容器中，这样阿佐特才不会泄露。粗心大意的炼金术士可是不得不经常搬家的。",
+			"Label":"制作：阿佐特",
+			"id":"craft.keeper.pyroglyphics_forge_wire.orichalcum_azoth",
+			"StartDescription":"用山铜催化出名为阿佐特的强力启之溶剂。\n\n[“焰篆体”加上秘授级的<sprite name=forge>，以及金属丝（山铜），可制作阿佐特。]"
+		},
+		{
+			"Desc":"喝下它吧，小家伙。喝下它……",
+			"Label":"制作：靥红人偶",
+			"id":"craft.keeper.furs.feathers_grail_pale.mommet_flushed mommet",
+			"StartDescription":"在杯之精华的作用下，这人偶会变得鲜红——也变得更加有力。\n\n[“毛皮与羽翎”加上秘授级的<sprite name=grail>，以及苍白人偶，可制作靥红人偶。]"
+		},
+		{
+			"Desc":"一只湿漉漉的翅膀展开；然后是另一只，紧接着它抖干翅膀；从今往后，它将一直如此惹人注目……",
+			"Label":"制作：凶匿成虫",
+			"id":"craft.keeper.insects.nectars_moon_larva.chimeric_perilous imago",
+			"StartDescription":"在暮色的庇佑下，诱导幼虫发育成为更具力量的蛾之兽类。\n\n[“昆虫与花蜜”加上秘授级的<sprite name=moon>，以及混种幼虫，可制作凶匿成虫。]"
+		},
+		{
+			"Desc":"月亮居屋之光从何而来？我们仍未知晓；但这种色彩看来正是其投下的阴影。",
+			"Label":"制作：黑刚玉涂料",
+			"id":"craft.keeper.tridesmahiera_moon_asimel_black sapphire wash",
+			"StartDescription":"将阿苏麦黯化为一种强力的月之颜料。\n\n[“三重誓之仪”加上秘授级的<sprite name=moon>，以及阿苏麦，可制作黑刚玉涂料。]"
+		},
+		{
+			"Desc":"袅袅笛声渐休，徐徐清风如旧……",
+			"Label":"制作：静待之风",
+			"id":"craft.keeper.sacrasolisinvicti_sky_mazarine.fife_wind-in-waiting",
+			"StartDescription":"从天穹中获得微风的承诺。\n\n[“无敌太阳典仪”加上秘授级的<sprite name=sky>，以及马扎林横笛，可制作静待之风。]"
+		},
+		{
+			"Desc":"当阿夏廷逸散的气体还飘荡在空气中时，谎言很难大声说出口……",
+			"Label":"制作：阿夏廷",
+			"id":"craft.keeper.glaziery.lightsmithing_lantern_ichor.vitreous_ashartine",
+			"StartDescription":"以灵液为主要原料，调制一瓶明亮的墨水。\n\n[“玻璃与锻光”加上秘授级的<sprite name=lantern>，以及玻璃灵液，可制作阿夏廷。]"
+		},
+		{
+			"Desc":"每道出一个音节，便能感到大地深处的蟠结颤动些许……",
+			"Label":"制作：震灾之名",
+			"id":"craft.keeper.coil.chasm_scale_old.moment_earthquake name",
+			"StartDescription":"察觉一种<b>鳞</b>相的潜力。\n\n[“虬蟠与裂隙”加上秘授级的<sprite name=scale>，以及旧日时刻，可制作震灾之名。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：欢欣雌黄",
+			"id":"craft.keeper.anbary.lapidary_forge_essence.iotic_orpiment exultant",
+			"StartDescription":"将这种精华转变成名为欢欣雌黄的<i>终刻墨</i>。\n\n[“雕珀与琢石”加上秘授级的<sprite name=forge>，以及赤化精华，可制作欢欣雌黄。]"
+		},
+		{
+			"Desc":"如日落般赤红……",
+			"Label":"制作：赤化精华",
+			"id":"craft.keeper.meniscatereflections_forge_salts.bitterblack_iotic essence",
+			"StartDescription":"将这些盐转变为一种具铸之力的朱红色精华。\n\n[“弧月的倒影”加上秘授级的<sprite name=forge>，以及苦黑盐，可制作赤化精华。]"
+		},
+		{
+			"Desc":"以根系、鲜血与内在嗡鸣的名义……",
+			"Label":"制作：孔雀石圣餐",
+			"id":"craft.keeper.stonestories_nectar_essential.periost_sacrament malachite",
+			"StartDescription":"从这些骨中墨绿的大地回忆内，从灵魂与肉体的枝条上，调制出一种大地或会重称为血的圣餐……\n\n[“岩石的故事”加上秘授级的<sprite name=nectar>，以及骨本精华，可制作孔雀石圣餐。]"
+		},
+		{
+			"Desc":"一台时键琴只会在它诞生时上紧发条，那是第一次，也是唯一一次。",
+			"Label":"制作：时键琴",
+			"id":"craft.keeper.glaziery.lightsmithing_knock_gervinite_chronsichord",
+			"StartDescription":"将格维合金安置在一启之装置的核心位置。\n\n[“玻璃与锻光”加上秘授级的<sprite name=knock>，以及格维合金，可制作时键琴。]"
+		},
+		{
+			"Desc":"袅袅笛声渐休，徐徐清风如旧……",
+			"Label":"制作：静待之风",
+			"id":"craft.keeper.skystories_sky_mazarine.fife_wind-in-waiting",
+			"StartDescription":"从天穹中获得微风的承诺。\n\n[“天空的故事”加上秘授级的<sprite name=sky>，以及马扎林横笛，可制作静待之风。]"
+		},
+		{
+			"Desc":"慎用。昕旦出于她自己的原因容忍了噤声居屋，但我们还是别试探她的耐性为妙。",
+			"Label":"制作：年岁账簿",
+			"id":"craft.keeper.rhyme.remembrance_winter_essential.periost_year-tally",
+			"StartDescription":"极其小心地描画，凭借居屋的古老特权以使<b>冬</b>外显。\n\n[“音律与铭记”加上秘授级的<sprite name=winter>，以及骨本精华，可制作年岁账簿。]"
+		},
+		{
+			"Desc":"必须将山铜小心翼翼地掺入容器中，这样阿佐特才不会泄露。粗心大意的炼金术士可是不得不经常搬家的……",
+			"Label":"制作：阿佐特",
+			"id":"craft.keeper.door.wall_forge_wire.orichalcum_azoth",
+			"StartDescription":"用山铜催化出名为阿佐特的强力启之溶剂。\n\n[“门扉与墙垣”加上秘授级的<sprite name=forge>，以及金属丝（山铜），可制作阿佐特。]"
+		},
+		{
+			"Desc":"上校与狮子匠的教诲在这里被不怀好意地概括成了“戳戳”与“砰砰”的对抗。",
+			"Label":"制作：无敌勇莽",
+			"id":"craft.keeper.auroralcontemplations_edge_winning.move_invincible audacity",
+			"StartDescription":"将你的领悟延展为一种更加有力的刃之教诲。\n\n[“曙光的静观”加上秘授级的<sprite name=edge>，以及致胜之着，可制作无敌勇莽。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：石翠",
+			"id":"craft.keeper.insects.nectars_nectar_leathy_marakat",
+			"StartDescription":"调制出名为石翠的<i>终刻墨</i>。\n\n[“昆虫与花蜜”加上秘授级的<sprite name=nectar>，以及遗忘之水，可制作石翠。]"
+		},
+		{
+			"Desc":"上校与狮子匠的教诲在这里被不怀好意地概括成了“戳戳”与“砰砰”的对抗。",
+			"Label":"制作：无敌勇莽",
+			"id":"craft.keeper.disciplines.thehammer_edge_winning.move_invincible audacity",
+			"StartDescription":"将你的领悟延展为一种更加有力的刃之教诲。\n\n[“锤砧的戒律”加上秘授级的<sprite name=edge>，以及致胜之着，可制作无敌勇莽。]"
+		},
+		{
+			"Desc":"但愿再次忘记它与记起它是同样可能的。",
+			"Label":"制作：苦艾之梦",
+			"id":"craft.keeper.wolfstories_moon_stymphling_wormwood dream",
+			"StartDescription":"从斯廷法利斯湖兽的嘶声中解读出一种兼具<b>月</b>与<b>冬</b>的罪行预兆。\n\n[“狼的故事”加上秘授级的<sprite name=moon>，以及斯廷法利斯湖兽，可制作苦艾之梦。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.rites.theroots_moth_honey_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“根系之仪”加上秘授级的<sprite name=moth>，以及蜂蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"月亮居屋之光从何而来？我们仍未知晓；但这种色彩看来正是其投下的阴影。",
+			"Label":"制作：黑刚玉涂料",
+			"id":"craft.keeper.desires.dissolutions_moon_asimel_black sapphire wash",
+			"StartDescription":"将阿苏麦黯化为一种强力的月之颜料。\n\n[“诱惑与消殒”加上秘授级的<sprite name=moon>，以及阿苏麦，可制作黑刚玉涂料。]"
+		},
+		{
+			"Desc":"如日落般赤红……",
+			"Label":"制作：赤化精华",
+			"id":"craft.keeper.meniscatereflections_forge_essence.xanthotic_iotic essence",
+			"StartDescription":"将它转变为一种具铸之力的朱红色精华。\n\n[“弧月的倒影”加上秘授级的<sprite name=forge>，以及黄化精华，可制作赤化精华。]"
+		},
+		{
+			"Desc":"人类的肉眼见不到诸星辰的梦境；但它的存在一经觉察，就不会被误认。",
+			"Label":"制作：孪星降梦",
+			"id":"craft.keeper.ouranoscopy_sky_ascendant.harmony_didumos",
+			"StartDescription":"唤起一段带有寒意的穹之影响。\n\n[“窥天术”加上秘授级的<sprite name=sky>，以及方兴和声，可制作孪星降梦。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.solutions.separations_moth_honey_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“溶解与离析”加上秘授级的<sprite name=moth>，以及蜂蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"必须将山铜小心翼翼地掺入容器中，这样阿佐特才不会泄露。粗心大意的炼金术士可是不得不经常搬家的。",
+			"Label":"制作：阿佐特",
+			"id":"craft.keeper.meniscatereflections_forge_wire.orichalcum_azoth",
+			"StartDescription":"用山铜催化出名为阿佐特的强力启之溶剂。\n\n[“弧月的倒影”加上秘授级的<sprite name=forge>，以及金属丝（山铜），可制作阿佐特。]"
+		},
+		{
+			"Desc":"上校与狮子匠的教诲在这里被不怀好意地概括成了“戳戳”与“砰砰”的对抗。",
+			"Label":"制作：无敌勇莽",
+			"id":"craft.keeper.edictsmartial_edge_winning.move_invincible audacity",
+			"StartDescription":"将你的领悟延展为一种更加有力的刃之教诲。\n\n[“武力之敕令”加上秘授级的<sprite name=edge>，以及致胜之着，可制作无敌勇莽。]"
+		},
+		{
+			"Desc":"抬眼看罢。这通常只能算个好主意，但当我们涉及此事时，这便是不二之选。抬眼看罢，环顾四周……",
+			"Label":"制作：极目远眺",
+			"id":"craft.keeper.preliminalmeter_rose_enduring.reflection_horizon-sight",
+			"StartDescription":"从这回忆中汲取一种引之洞见。\n\n[“阙前格律”加上秘授级的<sprite name=rose>，以及弥久映像，可制作极目远眺。]"
+		},
+		{
+			"Desc":"以给予生命；夺取生命；永无餍足之司辰的名义……",
+			"Label":"制作：圣觚石圣餐",
+			"id":"craft.keeper.orchids.narcotics_grail_rubywise.ruin_sacrament calicite",
+			"StartDescription":"把该液体用作一种杯之圣餐的主要原料。\n\n[“兰花与迷药”加上秘授级的<sprite name=grail>，以及沉沦赤慧，可制作圣觚石圣餐。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.rites.theroots_moth_honey.cuckoo_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“根系之仪”加上秘授级的<sprite name=moth>，以及杜鹃蜜，可制作剥皮蜜酒。]"
+		},
+		{
+			"Desc":"慎用。昕旦出于她自己的原因容忍了噤声居屋，但我们还是别试探她的耐性为妙。",
+			"Label":"制作：年岁账簿",
+			"id":"craft.keeper.snowstories_winter_essential.periost_year-tally",
+			"StartDescription":"极其小心地描画，凭借居屋的古老特权以使<b>冬</b>外显。\n\n[“白雪的故事”加上秘授级的<sprite name=winter>，以及骨本精华，可制作年岁账簿。]"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+﻿ {"recipes": [
+
+   {"id":"technique.summon.echidna.learn",
+"actionid": "consider",
+"reqs": {"host.technique.summon.echidna":1,"x.summon.echidna":1,"technique.summon.echidna":-1},
+"startdescription":"Я узнал о лигении Ехидне чуть больше. При желании я мог бы измыслить способ привлечь её.",
+"desc":"Я могу призвать Ехидну посреди пустошей... [У вашего навыка появился новый аспект.]",
+"mutations":{"mutate":"technique.summon.echidna","filter":"host.technique.summon.echidna","level":1},
+"effects":{"x.summon.echidna":-1},
+"craftable":true,
+"warmup":60
+}
+
+ 
+
+ ]
+}

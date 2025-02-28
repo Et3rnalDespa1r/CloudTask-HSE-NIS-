@@ -1,0 +1,125 @@
+﻿{"recipes": [
+ 
+
+
+
+
+{"id": "talk.visitor.cantread.aramaic",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает арамейского и не сможет ничего тут разобрать.",
+"reqs": {"u.aramaic":-1,"w.aramaic":1},
+"aspects":{"dissatisfying":1}
+},
+
+{"id": "talk.visitor.cantread.greek",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает греческого и не сможет ничего тут разобрать.",
+"reqs": {"u.greek":-1,"w.greek":1},
+"aspects":{"dissatisfying":1}
+},
+
+{"id": "talk.visitor.cantread.latin",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает латыни и не сможет ничего тут разобрать.",
+"reqs": {"u.latin":-1,"w.latin":1},
+"aspects":{"dissatisfying":1}
+},
+
+{"id": "talk.visitor.cantread.phrygian",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает фригийского и не сможет ничего тут разобрать.",
+"reqs": {"u.phrygian":-1,"w.phrygian":1},
+"aspects":{"dissatisfying":1}
+},
+
+{"id": "talk.visitor.cantread.sanskrit",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает санскрита и не сможет ничего тут разобрать.",
+"reqs": {"u.sanskrit":-1,"w.sanskrit":1},
+"aspects":{"dissatisfying":1}
+},
+
+{"id": "talk.visitor.cantread.cracktrack",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает крактрака и не сможет ничего тут разобрать.",
+"reqs": {"u.cracktrack":-1,"w.cracktrack":1},
+"aspects":{"dissatisfying":1}
+},
+{"id": "talk.visitor.cantread.ericapaean",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает эрикапейского и не сможет ничего тут разобрать.",
+"reqs": {"u.ericapaean":-1,"w.ericapaean":1},
+"aspects":{"dissatisfying":1}
+},
+{"id": "talk.visitor.cantread.fucine",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает фуцинский. и не сможет ничего тут разобрать.",
+"reqs": {"u.fucine":-1,"w.fucine":1},
+"aspects":{"dissatisfying":1}
+},
+{"id": "talk.visitor.cantread.henavek",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает керневека хенавека и не сможет ничего тут разобрать.",
+"reqs": {"u.henavek":-1,"w.henavek":1},
+"aspects":{"dissatisfying":1}
+},
+
+{"id": "talk.visitor.cantread.hyksos",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает гиксосского и не сможет ничего тут разобрать.",
+"reqs": {"u.hyksos":-1,"w.hyksos":1},
+"aspects":{"dissatisfying":1}
+},
+{"id": "talk.visitor.cantread.killasimi",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает килласими и не сможет ничего тут разобрать.",
+"reqs": {"u.killasimi":-1,"w.killasimi":1},
+"aspects":{"dissatisfying":1}
+},
+{"id": "talk.visitor.cantread.mandaic",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает мандейского и не сможет ничего тут разобрать.",
+"reqs": {"u.mandaic":-1,"w.mandaic":1},
+"aspects":{"dissatisfying":1}
+},
+{"id": "talk.visitor.cantread.ramsund",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает рамсундского и не сможет ничего тут разобрать.",
+"reqs": {"u.ramsund":-1,"w.ramsund":1},
+"aspects":{"dissatisfying":1}
+},
+{"id": "talk.visitor.cantread.sabazine",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает сабазийского и не сможет ничего тут разобрать.",
+"reqs": {"u.sabazine":-1,"w.sabazine":1},
+"aspects":{"dissatisfying":1}
+},
+{"id": "talk.visitor.cantread.vak",
+"label": "«М-м-м...»",
+"actionid": "talk",
+"startdescription": "Мой посетитель не знает вача и не сможет ничего тут разобрать.",
+"reqs": {"u.vak":-1,"w.vak":1},
+"aspects":{"dissatisfying":1}
+}
+
+
+
+
+
+
+]
+}

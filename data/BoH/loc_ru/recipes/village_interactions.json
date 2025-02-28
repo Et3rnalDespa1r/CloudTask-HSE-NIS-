@@ -1,0 +1,1360 @@
+﻿{"recipes": [
+ 
+    {
+        "id": "act1start.acquaintance.rectory",
+        "label": "Шокированный священник",
+        "actionid": "village.rectory.closed",
+        "startdescription": "Отец Тимоти отшатывается, словно громом поражённый. Но тут же, не дав мне и переступить порог, набрасывается с вопросами, дрожа от ужаса и восторга.",
+        "desc":"Священник тянет меня за собой в ярко освящённую прихожую, отчаянно взывая к экономке и ни на секунду не замолкая: «Вы? Но каким образом? Кораблекрушение?! Терренс! Терренс! Скорее полотенца!»",
+        "reqs":{"introduction.rector.start":1,"soaked":1,"ability":1},
+        "aspects":{"befriending":1},
+              "warmup": 5,
+              "craftable":true,
+              "linked":[{"id": "setup.librarian.day","additional":true,"topath":"~/day"},
+              {"id":"act1start.dry.health.rectory"}]
+    },
+    {
+        "id": "act1start.acquaintance.rectory.hint",
+        "label": "Шокированный священник?",
+        "actionid": "village.rectory.closed",
+        "startdescription": "Дверь осторожно приоткрывается на пару дюймов. «Кто там? Кто там, я вас спрашиваю?» [Порывы ветра терзают полы вашей одежды, терзают дверь, клонят к земле деревья перед домом...]",
+        "reqs":{"introduction.rector.start":1},
+              "hintonly":true
+
+    },
+    {
+        "id": "act1start.acquaintance.denzil.start",
+        "label": "Свет горна",
+        "actionid": "village.smithy.closed",
+        "startdescription": "Обрамлённый светом очага, в дверном проёме возникает Дензил. «Ты? Здесь? Как?»",
+        "desc": "Пошатываясь, я вхожу в кузницу. Наконец-то тепло. Не говоря ни слова Дензил вручает мне одеяло и принимается раздувать огонь. Зная его, это – верх радушия.",
+        "reqs":{"introduction.blacksmith.start":1,"soaked":1,"ability":1},
+        "aspects":{"befriending":1},
+              "warmup": 5,
+              "craftable":true,
+              "linked":[{"id": "setup.librarian.day","additional":true,"topath":"~/day"},
+              {"id":"act1start.dry.health.smithy"}]
+    },
+    {
+        "id": "act1start.acquaintance.denzil.start.hint",
+        "label": "Свет горна?",
+        "actionid": "village.smithy.closed",
+        "startdescription": "Обрамлённый светом очага, в дверном проёме возникает Дензил. [Порывы ветра терзают полы его и вашей одежды.]",
+        "reqs":{"introduction.blacksmith.start":1},
+              "warmup": 5,
+              "hintonly":true
+
+    },
+    {
+        "id": "act1start.acquaintance.coffinmaker",
+        "label": "Кров!",
+        "actionid": "village.killes.closed",
+        "startdescription": "Гробовщик с трудом отворяет дверь. Ветер словно стремится сорвать её с петель. Он видит меня и застывает, поражённый.",
+        "desc":"Мистер Килле расплывается в улыбке, будто череп, у которого сегодня день рождения. «Входите, входите! А то, неровен час, и на вас придётся ящик мастерить!» Он проводит меня в тепло натопленную гостиную и зовёт миссис Килле: «Погляди, кого – нет, ты только погляди, кого прибило к нашему берегу!»",
+        "reqs":{"introduction.coffinmaker.start":1,"soaked":1,"ability":1},
+        "aspects":{"befriending":1},
+              "warmup": 5,
+              "craftable":true,
+              "linked":[{"id": "setup.librarian.day","additional":true,"topath":"~/day"},
+              {"id":"act1start.dry.health.mrkille"}]
+    },
+    {
+        "id": "act1start.acquaintance.coffinmaker.hint",
+        "label": "Кров?",
+        "actionid": "village.killes.closed",
+        "reqs":{"introduction.coffinmaker.start":1},
+        "startdescription": "Гробовщик с трудом отворяет дверь. Ветер словно стремится сорвать её с петель. [Порывы ветра терзают полы его и вашей одежды.]",
+             "hintonly":true
+    },
+    {
+        "id": "act1start.acquaintance.midwife",
+        "label": "Кров!",
+        "actionid": "village.killes.closed",
+        "startdescription": "Повитуха осторожно отворяет дверь, но, увидев меня, выпускает из рук, отдавая во власть ветра.",
+        "desc":"Миссис Килле увлекает меня в свои радушные объятья – но обнаружив, что я до нитки промок, выпускает из них и тащит за собой в тепло натопленную гостиную, попутно крича мистеру Килле, чтобы тот спускался. «А ну-ка садись да выпей чего-нибудь согревающего!» – сурово приказывает она.",
+        "reqs":{"introduction.midwife.start":1,"soaked":1,"ability":1},
+        "aspects":{"befriending":1},
+              "warmup": 5,
+              "craftable":true,
+              "linked":[{"id": "setup.librarian.day","additional":true,"topath":"~/day"},
+
+              {"id":"act1start.dry.health.mrskille"}]
+    },
+    {
+        "id": "act1start.acquaintance.midwife.hint",
+        "label": "Кров?",
+        "actionid": "village.killes.closed",
+        "startdescription": "Миссис Килле с трудом отворяет дверь. Ветер словно стремится сорвать её с петель. [Порывы ветра терзают полы её и вашей одежды.]",
+        "reqs":{"introduction.midwife.start":1},    
+              "hintonly":true
+    },
+
+    {
+        "id": "act1start.dry.health.rectory",
+        "label": "Укрыться от непогоды в доме священника",
+        "actionid": "village.rectory*",
+        "startdescription": "Отец Тимоти суетливо носится туда-сюда, покуда Терренс, его экономка, решает практические вопросы. Она отводит меня в комнату на верхнем этаже, где уже затоплен камин.",
+        "desc": "Священник умильно взволнован встречей с тем, кого знал только по переписке. Я слишком измотан, чтобы поддерживать разговор, Терренс не любит болтать попусту, но отец Тимоти с лихвой болтает за всех троих. Наконец до него доходит, насколько же я устал, и он оставляет меня в покое.",
+        "reqs":{"soaked":1},
+        "aspects": {"drying":1,"fatiguing.ability":1},
+              "warmup": 30
+    },
+    
+    {
+        "id": "act1start.dry.health.smithy",
+        "label": "Укрыться от непогоды в кузнице",
+        "actionid": "village.smithy*",
+        "startdescription": "В доме Дензила всего одна кровать, но он может уложить меня на соломенном тюфяке в кузнице. Там дымно, но исходящий от горна жар мне сейчас куда важнее.",
+        "desc": "Я желаю Дензилу спокойной ночи. Уходя, он на секунду задерживается в дверях. «Солнце ещё взойдёт, – бросает он. – Всегда восходит. Так мы на войне говорили?» Слова его звучат у меня в голове, даже когда стук шагов стихает. Огонёк лампы вспыхивает: алый, золотой, алый.",
+        "reqs": {"soaked":1},
+        "aspects": {"drying":1,"fatiguing.ability":1},
+              "warmup": 30
+    },
+    
+    
+        {
+            "id": "act1start.dry.health.mrkille",
+            "label": "Укрыться от непогоды у супругов Килле",
+            "actionid": "village.killes*",
+            "startdescription": "Мистер Килле сам мастерил эту кровать – боюсь, теми же инструментами, которыми вытёсывает гробы. Лежать в ней неудобно. Но в ней чисто, сухо и тепло.",
+            "desc": "Я сижу допоздна с мистером и миссис Килле, пока снаружи ветер гремит ставнями, а огонь в камине пускает ввысь искры. Я голоден как волк, а галеты миссис К. непростительно вкусны. Мистер К. ворчит, что терпеть не может эту иноземную стряпню. Никто ему не верит.",
+            "reqs": {"soaked":1},
+            "aspects": {"drying":1,"fatiguing.ability":1},
+                  "warmup": 30
+        },
+
+        {
+            "id": "act1start.dry.health.mrskille",
+            "label": "Укрыться от непогоды у супругов Килле",
+            "actionid": "village.killes*",
+            "startdescription": "Мистер К. сам мастерил эту кровать – боюсь, теми же инструментами, которыми вытёсывает гробы. Лежать в ней неудобно. Но в ней чисто, сухо и тепло.",
+            "desc": "Мы с миссис К. засиживаемся допоздна, вспоминая Латинский квартал и времена, когда мир и мы вместе с ним были совсем иными. Мистер К. слушает нас, чистя курительную трубку. «Вино и розы, – хмыкает он. – Вино, пожалуй, давно разлито. А вот розы ещё расцветут, не так ли?»",
+            "reqs": {"soaked":1},
+            "aspects": {"drying":1,"fatiguing.ability":1},
+                  "warmup": 30
+        },
+
+
+
+{
+    "id": "dry.thing.generic.rectory",
+    "label": "Обсушить предмет в доме священника",
+    "actionid": "village.rectory.open*",
+    "startdescription": "Отец Тимоти суетливо носится туда-сюда, покуда Терренс, его экономка, решает практические вопросы.",
+    "desc": "К небесам восходит еле заметный пар.",
+    "reqs":{"soaked":1,"thing":1},
+    "aspects": {"drying":1,"fatiguing.ability":1},
+          "warmup": 30
+},
+
+{
+    "id": "dry.thing.generic.smithy",
+    "label": "Обсушить предмет в кузнице",
+    "actionid": "village.smithy.open*",
+    "startdescription": "Дензил не против, чтобы я использовал огонь горна для прочих нужд. И ничего, что всё, что я над ним высушу, будет пахнуть дымом.",
+    "desc": "К небесам восходит еле заметный пар.",
+    "reqs": {"soaked":1,"thing":1},
+    "aspects": {"dissipating":1,"fatiguing.ability":1},
+          "warmup": 30
+},
+
+
+    {
+        "id": "dry.thing.generic.killes",
+        "label": "Обсушить предмет в доме супругов Килле",
+        "actionid": "village.killes.open*",
+        "startdescription": "Мистер и миссис Килле не против, чтобы я использовал камин у них в гостиной.",
+        "desc": "К небесам восходит еле заметный пар.",
+        "reqs": {"soaked":1,"thing":1},
+        "aspects": {"dissipating":1,"fatiguing.ability":1}
+    },
+
+    {
+            "id": "acquaintance.rectory",
+            "label": "Чай со священником",
+            "actionid": "village.rectory.closed",
+            "startdescription": "Поскольку у нас есть общий знакомый, отец Тимоти, местный священник, пригласил меня на чашечку чая. Возможно, даже с сэндвичами.",
+            "desc":"Отец Тимоти увлечённо рассуждает о политике Нового короля и языческих корнях шахтёрских обычаев. Чай его давно остыл. [Дом священника теперь открыт для вас.]",
+            "reqs":{"introduction":1,"introduction.rector.start":-1},
+            "aspects":{"unlocking":1,"fatiguing":1},
+            "effects": {"mem.gossip":1},
+                  "warmup": 10,
+                  "craftable":true
+        },
+        {
+            "id": "acquaintance.denzil",
+            "label": "Свет горна",
+            "actionid": "village.smithy.closed",
+            "startdescription": "Общий знакомый представит меня кузнецу Дензилу. Возможно, я даже вытяну из него пяток-другой слов. Если повезёт.",
+            "desc":"Дензил оказывается настоящем кладезем практических советов. [Кузница теперь открыта для вас.]",
+            "reqs":{"introduction":1,"introduction.blacksmith.start":-1},
+            "effects": {"mem.foresight":1},
+            "aspects":{"unlocking":1,"fatiguing":1},
+                  "warmup": 10,
+                  "craftable":true
+        },
+        {
+            "id": "acquaintance.killes",
+            "label": "Гробы и колыбели",
+            "actionid": "village.killes.closed",
+            "startdescription": "Поскольку у нас есть общий знакомый, супруги Килле пригласили меня на ужин.  Если повезёт, «ужин» будет включать в себя знаменитые галеты миссис Килле.",
+            "desc":" Мистер Килле трясёт мою руку. «Сегодня только мы втроём! Конечно, есть ещё клиент, – там, в мастерской, – но если вы его не тронете, то он вас тоже». [Дом супругов Килле теперь открыт для вас.]",
+            "reqs":{"introduction":1,"introduction.coffinmaker.start":-1,"introduction.midwife.start":-1},
+            "aspects":{"unlocking":1,"fatiguing":1},
+            "effects":{"mem.satisfaction":1},
+                  "warmup": 10,
+                  "craftable":true
+        },
+        {
+            "id": "acquaintance.sweetbones.introduction",
+            "label": "Свой человек",
+            "actionid": "village.sweetbones.closed",
+            "startdescription": "Я пришёл не один. @#assistance.rector|К знакомому отца Тимоти отнесутся с уважением.#assistance.coffinmaker|Мистер Килле воспроизводит череду всем давно знакомых шуток, и завсегдатаи удовлетворённо усмехаются.#assistance.midwife|У одного насупленного молодого человека миссис Килле интересуется здоровьем его матушки. Другому, когда ей кажется, что тот как-то не так на меня посмотрел, отвешивает оплеуху. #assistance.blacksmith|Дензил протискивается к столику. Он молча сидит, скрестив руки на груди, ожидая, когда знакомые сами подойдут его поприветствовать. #|Постепенно меня представляют собравшимся.@",
+            "desc":"В конце концов завсегдатаи соблаговоляют разрешить мне купить им пинту и послушать их жалобы на погоду. В другой раз меня уже будет ждать более тёплый приём.",
+            "reqs":{"assistance":1},
+            "effects":{"assistance":-1,"mem.solace":1},
+            "aspects":{"unlocking":1},
+                  "warmup": 10,
+                  "craftable":true
+        },
+        {
+            "id": "acquaintance.sweetbones.buy",
+            "label": "Насторожённый приём в трактире",
+            "actionid": "village.sweetbones.closed",
+            "startdescription": "Во времена англов и саксов человеком щедрым почитали мужа-кольцедарителя. В наш яркий и просвещённый век похожую честь обретает тот, кто угощает собравшихся пинтой пива.",
+            "desc":"Я поставил всем по кружке. Затем ещё по одной. И ещё, на всякий случай. В ответ я был сочтён «приличным малым, для чужака». В другой раз меня уже будет ждать более тёплый приём.",
+            "extantreqs":{"introduction.rector.start":-1,"introduction.blacksmith.start":-1,"introduction.coffinmaker.start":-1,"introduction.midwife.start":-1},
+            "reqs":{"pence":12},
+            "effects":{"pence":-12,"mem.solace":1},
+            "aspects":{"unlocking":1},
+                  "warmup": 10,
+                  "craftable":true
+        },
+
+        {
+            "id": "acquaintance.sweetbones.mettle",
+            "label": "Сила характера",
+            "actionid": "village.sweetbones.closed",
+            "extantreqs":{"introduction.rector.start":-1,"introduction.blacksmith.start":-1,"introduction.coffinmaker.start":-1,"introduction.midwife.start":-1},
+            "startdescription": "Буду сидеть здесь, и точка. В конце концов, я к ним не свататься пришёл.",
+            "desc":"В итоге завсегдатаи всё же соблаговоляют разрешить мне купить им пинту и послушать их жалобы на погоду. В другой раз меня уже будет ждать более тёплый приём.",
+            "reqs":{"xmet":1},
+            "effects":{"mem.solace":1},
+            "aspects":{"unlocking":1},
+                  "warmup": 10,
+                  "craftable":true
+        },
+        {
+            "id": "acquaintance.sweetbones.chor",
+            "label": "Улыбка растапливает сердца",
+            "actionid": "village.sweetbones.closed",
+            "extantreqs":{"introduction.rector.start":-1,"introduction.blacksmith.start":-1,"introduction.coffinmaker.start":-1,"introduction.midwife.start":-1},
+            "startdescription": "Я знаю по опыту, что искренний энтузиазм способен победить даже самый мрачный нрав.",
+            "desc":"В конце концов завсегдатаи соблаговоляют разрешить мне купить им пинту и послушать их жалобы на погоду. В другой раз меня уже будет ждать более тёплый приём.",
+            "reqs":{"xcho":1},
+            "effects":{"mem.solace":1},
+            "aspects":{"unlocking":1},
+                  "warmup": 10,
+                  "craftable":true
+        },
+        {
+            "id": "acquaintance.sweetbones.shapt",
+            "label": "Сладкие речи",
+            "actionid": "village.sweetbones.closed",
+            "extantreqs":{"introduction.rector.start":-1,"introduction.blacksmith.start":-1,"introduction.coffinmaker.start":-1,"introduction.midwife.start":-1},
+            "startdescription": "Аудитория не из простых, но я завоёвывал и не такие.",
+            "desc":"В конце концов завсегдатаи соблаговоляют разрешить мне купить им пинту и послушать их жалобы на погоду. В другой раз меня уже будет ждать более тёплый приём.",
+            "reqs":{"xsha":1},
+            "effects":{"mem.solace":1},
+            "aspects":{"unlocking":1},
+                  "warmup": 10,
+                  "craftable":true
+        },
+        {
+            "id": "acquaintance.sweetbones.notyet.ability.hint",
+            "label": "Мест нет?",
+            "actionid": "village.sweetbones.closed",
+            "startdescription": "Двери и окна в «Милых костях» затворены, чтоб не впускать непогоду... и непрошеных гостей. Пристанища в деревне придётся искать где-то ещё.",
+            "reqs":{"ability":1},
+            "hintonly":true
+        },
+        {
+            "id": "acquaintance.sweetbones.notyet.money.hint",
+            "label": "Мест нет?",
+            "actionid": "village.sweetbones.closed",
+            "startdescription": "Двери и окна в «Милых костях» затворены, чтоб не впускать непогоду... и непрошеных гостей. Пристанища в деревне придётся искать где-то ещё.",
+            "reqs":{"pence":1},
+            "hintonly":true
+        },
+
+
+
+{"id": "postoffice.open",
+"label": "Это мне?",
+"actionid": "village.postoffice.closed",
+"startdescription": "Почтмейстерша смеряет меня бесстрастным взором изваяния богини из древнего святилища. «Ах да, – говорит она. – Библиотекарь. Вам кое-что пришло. Ждите здесь».",
+"desc":"Почтмейстерша возвращается с письмом. На конверте значится: «Бранкраг, Дом безмолвия, библиотекарю». Судя по штемпелю, письмо было отправлено неделю назад из Уэльса.",
+"effects":{"letter.rhonwen.act1":1,"tenshillingnote":1},
+"comments":"fx below as belt-and-braces just in case they somehow didn't trigger earlier.",
+"fx":{"ui_wisdoms_or_world.show":1,"ui_watcher_buttons.show":1},
+"reqs":{"journal":1,"soaked":-1,"readable":1},
+"aspects":{"unlocking":1},
+"warmup":10,
+"craftable":true},
+
+{"id": "postoffice.letter.send",
+"label": "Марка Его Величества",
+"actionid": "village.postoffice.open",
+"startdescription": "Конверт, марка, штемпель!",
+"desc": "Почтмейстерша осматривает письмо и находит его удовлетворительным. «Отправим со следующей же почтой», – заверяет она.",
+"reqs": {"post.ready":1,"pence":1,"cost.pence":-1,"invitation":-1},
+"extantreqs":{"season.numa":-1},
+"aspects":{"posting":1},
+"effects":{"pence":-1},
+"warmup":5,
+"linked":[{"id": "postoffice.delivery","topath":"~/incidents.offstage","outputpath":"^", "expulsion": {"limit": 99,"filter": {"post.ready": 1}},"additional":true}],
+"craftable":true
+},
+
+{"id": "postoffice.invitation.send",
+"label": "Отправить приглашение посетителю",
+"actionid": "village.postoffice.open",
+"startdescription": "Конверт, марка, штемпель!",
+"desc": "Почтмейстерша осматривает письмо и находит его удовлетворительным. «Отправим со следующей же почтой», – заверяет она.",
+"reqs": {"post.ready":1,"pence":1,"cost.pence":-1,"invitation":1},
+"extantreqs":{"season.numa":-1},
+"aspects":{"posting":1},
+"effects":{"pence":-1},
+"warmup":5,
+"linked":[{"id": "postoffice.invitation.send.*","topath":"~/arrivalverbs","expulsion": {"limit": 99,"filter": {"invitation": 1}},"additional":true}],
+"craftable":true
+},
+
+{"id": "postoffice.letter.send.occult",
+"label": "Печать Нижних небес",
+"actionid": "village.postoffice.open",
+"startdescription": "«Нарочной птицей?»",
+"desc": "Почтмейстерша принимает конверт, пробует на вес спинтрию, находит и то, и другое удовлетворительным. «Получение адресатом не гарантируется», – предупреждает она.",
+"reqs": {"post.ready":1,"tally":3,"cost.tally":-1},
+"extantreqs":{"season.numa":-1},
+"aspects":{"posting":1},
+"effects":{"tally":-3},
+"warmup":5,
+"linked":[{"id": "postoffice.delivery","topath":"~/incidents.offstage","outputpath":"^", "expulsion": {"limit": 99,"filter": {"post.ready": 1}},"additional":true}],
+"craftable":true
+},
+
+
+
+
+{"id": "postoffice.break.spintria.gold",
+"label": "Продать золотую спинтрию",
+"actionid": "village.postoffice.open",
+"startdescription": "Спинтрии не являются законным платёжным средством, но ни один закон не воспрещает Почтмейстерше их у меня скупать. Может, они нужны ей для коллекции. [Вы получите два фунта стерлингов.]",
+"desc": "Почтмейстерша придирчиво осматривает реверс монеты. «Что же, благое начинание», – хмыкает она и протягивает мне две хрустящих банкноты по фунту стерлингов.",
+"reqs": {"spintria.gold":1},
+"extantreqs":{"season.numa":-1},
+"effects":{"spintria.gold":-1,"poundnote":2},
+"warmup":5,
+"craftable":true},
+
+{"id": "postoffice.break.spintria.silver",
+"label": "Продать серебряную спинтрию",
+"actionid": "village.postoffice.open",
+"startdescription": "Спинтрии не являются законным платёжным средством, но ни один закон не воспрещает Почтмейстерше их у меня скупать. Может, они нужны ей для коллекции. [Вы получите один фунт и десять шиллингов.]",
+"desc": "Почтмейстерша придирчиво осматривает изображение на монете. Хмыкает. Молча протягивает деньги.",
+"reqs": {"spintria.silver":1},
+"extantreqs":{"season.numa":-1},
+"effects":{"spintria.silver":-1,"poundnote":1,"tenshillingnote":1},
+"warmup":5,
+"craftable":true},
+
+
+{"id": "postoffice.break.spintria.tin",
+"label": "Продать оловянную спинтрию",
+"actionid": "village.postoffice.open",
+"startdescription": "Спинтрии не являются законным платёжным средством, но ни один закон не воспрещает Почтмейстерше их у меня скупать. Может, они нужны ей для коллекции. [Вы получите один фунт стерлингов.]",
+"desc": "Почтмейстерша придирчиво осматривает изображение на реверсе. Вздыхает. «Вот что искал здесь король, – говорит она как бы про себя. – Тогда, ещё давно. Но ему этого оказалось мало». И протягивает мне банкноту в один фунт.",
+"reqs": {"spintria.tin":1},
+"extantreqs":{"season.numa":-1},
+"effects":{"spintria.tin":-1,"poundnote":1},
+"warmup":5,
+"craftable":true},
+
+
+{"id": "postoffice.break.spintria.bronze",
+"label": "Продать бронзовую спинтрию",
+"actionid": "village.postoffice.open",
+"startdescription": "Спинтрии не являются законным платёжным средством, но ни один закон не воспрещает Почтмейстерше их у меня скупать. Может, они нужны ей для коллекции. [Вы получите десять шиллингов.]",
+"desc": "Почтмейстерша придирчиво осматривает изображение на реверсе. «Огонь согревает, – говорит она чуть слышно, – ночь не вечна». И протягивает мне банкноту в десять шиллингов.",
+"reqs": {"spintria.bronze":1},
+"extantreqs":{"season.numa":-1},
+"effects":{"spintria.bronze":-1,"tenshillingnote":1},
+"warmup":5,
+"craftable":true},
+
+
+{"id": "postoffice.break.spintria.iron",
+"label": "Продать железную спинтрию",
+"actionid": "village.postoffice.open",
+"startdescription": "Спинтрии не являются законным платёжным средством, но ни один закон не воспрещает Почтмейстерше их у меня скупать. Может, они нужны ей для коллекции. [Вы получите пять шиллингов.]",
+"desc": "Почтмейстерша придирчиво осматривает изображение на реверсе. «А ещё говорят, что это <i>речь</i> – оружие», – замечает она. И протягивает мне монету.",
+"reqs": {"spintria.iron":1},
+"extantreqs":{"season.numa":-1},
+"effects":{"spintria.iron":-1,"crown":1},
+"warmup":5,
+"craftable":true},
+
+
+
+{"id": "postoffice.break.sevenpoundnote",
+"label": "Разменять банкноту в семь фунтов",
+"actionid": "village.postoffice.open",
+"startdescription": "Почтмейстерша примет подношение и милосердно ниспошлёт мне сдачу.",
+"desc": "Трое дочерей. «Равновесие соблюдено».",
+"reqs": {"sevenpoundnote":1},
+"extantreqs":{"season.numa":-1},
+"warmup":5,
+"effects":{"fivepoundnote":1,"poundnote":2,"sevenpoundnote":-1},
+"craftable":true},
+
+{"id": "postoffice.break.fivepoundnote",
+"label": "Разменять банкноту в пять фунтов",
+"actionid": "village.postoffice.open",
+"startdescription": "Почтмейстерша примет подношение и милосердно ниспошлёт мне сдачу.",
+"desc": "Четыре дочери и стайка внуков, внучек и правнучек всех возрастов. «Равновесие соблюдено».",
+"reqs": {"fivepoundnote":1},
+"extantreqs":{"season.numa":-1},
+"warmup":5,
+"effects":{"fivepoundnote":-1,"poundnote":4,"tenshillingnote":1,"crown":1,"halfcrown":1,"florin":1,"sixpence":1},
+"craftable":true},
+
+
+{"id": "postoffice.break.onepoundnote",
+"label": "Разменять банкноту в один фунт",
+"actionid": "village.postoffice.open",
+"startdescription": "Почтмейстерша примет подношение и милосердно ниспошлёт мне сдачу.",
+"desc": "Вместо одной старшей купюры – пригоршня меньших монет. «Равновесие соблюдено».",
+"reqs": {"poundnote":1},
+"extantreqs":{"season.numa":-1},
+"warmup":5,
+"effects":{"tenshillingnote":1,"crown":1,"halfcrown":1,"florin":1,"sixpence":1,"poundnote":-1},
+"craftable":true},
+
+{"id": "postoffice.break.tenshillingnote",
+"label": "Разменять банкноту в десять шиллингов",
+"actionid": "village.postoffice.open",
+"startdescription": "Почтмейстерша примет подношение и милосердно ниспошлёт мне сдачу.",
+"desc": "Купюра в десять шиллингов, развоплощённая на меньшие монеты.",
+"reqs": {"tenshillingnote":1},
+"extantreqs":{"season.numa":-1},
+"warmup":5,
+"effects":{"crown":1,"halfcrown":1,"florin":1,"sixpence":1,"tenshillingnote":-1},
+"craftable":true},
+
+{"id": "postoffice.break.crown",
+"label": "Разменять крону",
+"actionid": "village.postoffice.open",
+"startdescription": "Почтмейстерша примет подношение и милосердно ниспошлёт мне сдачу.",
+"desc": "Так солнца луч дробится радугой серебряных оттенков.",
+"reqs": {"crown":1},
+"extantreqs":{"season.numa":-1},
+"warmup":5,
+"effects":{"halfcrown":1,"florin":1,"sixpence":1,"crown":-1},
+"craftable":true},
+
+{"id": "postoffice.break.halfcrown",
+"label": "Разменять полкроны",
+"actionid": "village.postoffice.open",
+"startdescription": "Почтмейстерша примет подношение и милосердно ниспошлёт мне сдачу.",
+"desc": "Педант сказал бы, что <i>пол</i>кроны и сами должны были б делиться ровно пополам. Но Почтмейстерша не приемлет вольнодумства.",
+"reqs": {"halfcrown":1},
+"extantreqs":{"season.numa":-1},
+"warmup":5,
+"effects":{"florin":1,"sixpence":1,"halfcrown":-1},
+"craftable":true},
+
+{"id": "postoffice.break.florin",
+"label": "Разменять флорин",
+"actionid": "village.postoffice.open",
+"startdescription": "Почтмейстерша примет подношение и милосердно ниспошлёт мне сдачу.",
+"desc": "Вместо одного флорина – шумная толпа младших монет.",
+"reqs": {"florin":1},
+"extantreqs":{"season.numa":-1},
+"warmup":5,
+"effects":{"shilling":1,"sixpence":1,"threepence":1,"twopence":1,"penny":1,"florin":-1},
+"craftable":true},
+
+{"id": "postoffice.break.shilling",
+"label": "Разменять шиллинг",
+"actionid": "village.postoffice.open",
+"startdescription": "Почтмейстерша примет подношение и милосердно ниспошлёт мне сдачу. (Это самое меньшее из того, что она соизволит разменять.)",
+"desc": "Заместо серебра – горсть меди.",
+"reqs": {"shilling":1},
+"extantreqs":{"season.numa":-1},
+"warmup":5,
+"effects":{"sixpence":1,"threepence":1,"twopence":1,"penny":1,"shilling":-1},
+"craftable":true},
+
+
+{"id": "postoffice.break.hint",
+"label": "Мелкая монета",
+"actionid": "village.postoffice.open",
+"startdescription": "Почтмейстерша готова разменивать купюры и крупные монеты, но не стоит испытывать её терпение, предлагая эдакую мелочь.",
+"reqs": {"pence":1},
+"extantreqs":{"season.numa":-1},
+"hintonly":true},
+
+
+{"id": "postoffice.mailorder.send.hint",
+"label": "",
+"actionid": "village.postoffice.open",
+"startdescription": "Терпение. Как горный склон ждёт первого снега, как понедельник ждёт, когда схоронят прошлую неделю, так Почтмейстерша ждёт, когда я наконец куплю марку.",
+"reqs": {"post.ready":1,"pence":-1},
+"extantreqs":{"season.numa":-1},
+"hintonly":true
+},
+
+{"id":"postoffice.numa.hint",
+"actionid":"village.postoffice.open",
+"label":"Туман и молчание",
+"startdescription":"Потрескивают телеграфные провода. Стена тумана то надвигается, то отступает. Откуда-то издалека – возможно, с холмов за деревней – доносится голос Почтмейстерши, проклятья и стенания на корнуолльском языке. Но само здание почты пустует. Нума.",
+"extantreqs":{"season.numa":1},
+"hintonly":true},
+
+
+{"id": "postoffice.delivery",
+"label": "Почта",
+"actionid": "postoffice.delivery",
+"startdescription": "Уже в пути!",
+"comments":"Some thought needed to balance delivery time with crossed post / player confusion",
+"aspects":{"delivering":1},
+"warmup":1},
+
+{"id": "postoffice.invitation.send.agdistis","reqs":{"letter.summon.agdistis":1},"label": "Визит Питера Агдистиса?", "startdescription":"Получил ли Агдистис моё приглашение?","actionid": "visitor.agdistis","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"agdistis":1,"embarking_agdistis":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.aladim", "reqs":{"letter.summon.aladim":1},"label": "Визит аль-Адима?", "startdescription":"Получил ли Аль-Адим моё приглашение?","actionid": "visitor.aladim","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"aladim":1,"embarking_aladim":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.arthur", "reqs":{"letter.summon.arthur":1},"label": "Визит Артура Мура?", "startdescription":"Получил ли Артур моё приглашение?","actionid": "visitor.arthur","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"arthur":1,"embarking_arthur":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.arun", "reqs":{"letter.summon.arun":1},"label": "Визит Аруна Пила?", "startdescription":"Получил ли Арун моё приглашение?","actionid": "visitor.arun","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"arun":1,"embarking_arun":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+
+{"id": "postoffice.invitation.send.azita", "reqs":{"letter.summon.azita":1},"label": "Визит Азиты?", "startdescription":"Получила ли Азита моё приглашение?","actionid": "visitor.azita","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"azita":1,"embarking_azita":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.chaima", "reqs":{"letter.summon.chaima":1},"label": "Визит Хаимы?", "startdescription":"Получила ли Хаима моё приглашение?","actionid": "visitor.chaima","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"chaima":1,"embarking_chaima":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.connie", "reqs":{"letter.summon.connie":1},"label": "Визит Конни?", "startdescription":"Получила ли Конни моё приглашение?","actionid": "visitor.connie","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"connie":1,"embarking_connie":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.coquille", "reqs":{"letter.summon.coquille":1},"label": "Визит Кокиль?", "startdescription":"Получила ли Кокиль моё приглашение?","actionid": "visitor.coquille","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"coquille":1,"embarking_coquille":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.corso", "reqs":{"letter.summon.corso":1},"label": "Визит Корсо?", "startdescription":"Получил ли Корсо моё приглашение?","actionid": "visitor.corso","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"corso":1,"embarking_corso":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.dagmar", "reqs":{"letter.summon.dagmar":1},"label": "Визит «Дневной Грёзы»?", "startdescription":"Получила ли Дневная Грёза моё приглашение?","actionid": "visitor.dagmar","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"dagmar":1,"embarking_dagmar":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.douglas", "reqs":{"letter.summon.douglas":1},"label": "Визит Дугласа Мура?", "startdescription":"Получил ли Дуглас моё приглашение?","actionid": "visitor.douglas","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"douglas":1,"embarking_douglas":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.ehsan", "reqs":{"letter.summon.ehsan":1},"label": "Визит Эхсана?", "startdescription":"Получил ли Эхсан моё приглашение?","actionid": "visitor.ehsan","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"ehsan":1,"embarking_ehsan":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+
+{"id": "postoffice.invitation.send.fraser", "reqs":{"letter.summon.fraser":1},"label": "Визит Стрэткойна?", "startdescription":"Получил ли Стрэткойн моё приглашение?","actionid": "visitor.fraser","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"fraser":1,"embarking_fraser":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.hokobald", "reqs":{"letter.summon.hokobald":1},"label": "Визит Хокобальда?", "startdescription":"Получил ли Хокобальд моё приглашение?","actionid": "visitor.hokobald","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"hokobald":1,"embarking_hokobald":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+
+{"id": "postoffice.invitation.send.morgen", "reqs":{"letter.summon.morgen":1},"label": "Визит Морген?", "startdescription":"Получила ли Морген моё приглашение?","actionid": "visitor.morgen","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"morgen":1,"embarking_morgen":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.olympe", "reqs":{"letter.summon.olympe":1},"label": "Визит Олимпии?", "startdescription":"Получила ли Олимпия моё приглашение?","actionid": "visitor.olympe","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"olympe":1,"embarking_olympe":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+
+{"id": "postoffice.invitation.send.serena", "reqs":{"letter.summon.serena":1},"label": "Визит Серены?", "startdescription":"Получила ли Серена моё приглашение?","actionid": "visitor.serena","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"serena":1,"embarking_serena":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.stanislav", "reqs":{"letter.summon.stanislav":1},"label": "Визит о. Станислава?", "startdescription":"Получил ли о. Станислав моё приглашение?","actionid": "visitor.stanislav","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"stanislav":1,"embarking_stanislav":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.yvette", "reqs":{"letter.summon.yvette":1},"label": "Визит Иветты?", "startdescription":"Получила ли Иветта моё приглашение?","actionid": "visitor.yvette","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"yvette":1,"embarking_yvette":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+{"id": "postoffice.invitation.send.zachary", "reqs":{"letter.summon.zachary":1},"label": "Визит Захарии?", "startdescription":"Получил ли Захария моё приглашение?","actionid": "visitor.zachary","aspects":{"arriving":1},"warmup":60,"slots": [{   "id": "v",     "required":{"zachary":1,"embarking_zachary":1},  "greedy":true,      "frompath":"~/visitors.offstage"    }],"effects":{"invitation":-1}},
+
+{
+    "id": "chat.smithy.block",
+    "label": "Кузнеца нет дома",
+    "actionid": "village.smithy.open*",
+    "startdescription": "Дензила нет на месте... потому что он выполняет моё поручение. Но мне ведь это и так известно, нет?",
+    "reqs": {"ability":1},
+    "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.blacksmith":1},
+    "hintonly":true
+},
+
+{
+    "id": "chat.rectory.block",
+    "label": "Священника нет дома",
+    "actionid": "village.rectory.open*",
+    "startdescription": "Отца Тимоти нет на месте... потому что он выполняет моё поручение. Но мне ведь это и так известно, нет?",
+    "reqs": {"ability":1},
+    "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.rector":1},
+   "hintonly":true
+},
+
+{
+    "id": "chat.mrs.k.block",
+    "label": "Повитухи нет дома",
+    "actionid": "village.killes.open*",
+    "startdescription": "Миссис Килле нет на месте... потому что она выполняет моё поручение. Но мне ведь это и так известно, нет?",
+    "reqs": {"ability":1,"grail":1},
+    "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.midwife":1},
+    "hintonly":true
+},
+{
+    "id": "chat.mr.k.block",
+    "label": "Гробовщика нет дома",
+    "actionid": "village.killes.open*",
+    "startdescription": "Мистера Килле нет на месте... потому что он выполняет моё поручение. Но мне ведь это и так известно, нет?",
+    "reqs": {"ability":1,"winter":1},
+    "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.coffinmaker":1},
+    "hintonly":true
+},
+
+{
+    "id": "chat.rectory.friend",
+    "label": "Разговор со Священником",
+    "actionid": "village.rectory.open.friend",
+    "startdescription": "Дверь дома отца Тимоти всегда для меня открыта. [Священник – ваш друг и готов помогать безвозмездно.]",
+    "desc": "«Рад, всегда рад».",
+    "reqs": {"ability":1},
+    "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.rector":-1},
+    "aspects": {"fatiguing":1},
+    "slots":[{"id":"topic",
+    "label":"Тема для беседы",
+    "description":"[Спросите Священника о чём-нибудь или оставьте эту ячейку пустой, чтобы дать ему закончить с письмами и пойти помочь вам.]",
+    "required":{"soaked":1,"wc.markeraspect":1}}],
+          "warmup": 10,
+          "craftable":true,
+          "alt": [ {"id":"dry.book.rectory"},
+            {"id":"dry.thing.generic.rectory"},
+            {"id":"village.invite.timothy*"},            
+          {"id":"recruit.rectory.friend"}]
+},
+{
+    "id": "chat.smithy.friend",
+    "label": "Поговорить с Кузнецом",
+    "actionid": "village.smithy.open.friend",
+    "startdescription": "Дверь дома Дензила всегда для меня открыта. [Кузнец – ваш друг и готов помогать безвозмездно. Если дать ему оккультную монету, он окажет вам услугу Разделения.]",
+    "desc": "«...»",
+    "reqs": {"ability":1},
+    "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.blacksmith":-1},
+    "slots":[{"id":"topic",
+    "label":"Тема для беседы",
+    "description":"[Спросите Кузнеца о чём-нибудь или оставьте эту ячейку пустой, чтобы дать ему закончить дела и пойти помочь вам.]",
+    "required":{"soaked":1,"tally":1,"wc.markeraspect":1}}],
+          "warmup": 10,
+          "craftable":true,
+          "alt": [ {"id":"dry.book.smithy"},          
+          {"id":"split.spintria.smithy.*"},
+          {"id":"dry.thing.generic.smithy"},
+          {"id":"village.invite.denzil*"},
+        {"id":"recruit.smithy.friend"}]
+},
+{
+    "id": "chat.mr.k.friend",
+    "label": "Пообщаться с Гробовщиком",
+    "actionid": "village.killes.open.friend",
+    "startdescription": "Мистер Килле всегда рад узнать, как у меня дела. [Если вы не выберете тему для беседы, Гробовщик предложит свою дружескую помощь.]",
+    "desc": "«Уже уходите, стало быть?»",
+    "reqs": {"ability":1,"winter":1},
+    "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.coffinmaker":-1},
+    "slots":[{"id":"topic",
+    "label":"Тема для беседы",
+    "description":"[Спросите Гробовщика о чём-нибудь или оставьте эту ячейку пустой, чтобы дать ему закончить стучать молотком и пойти помочь вам.]",
+    "required":{"soaked":1,"wc.markeraspect":1}}],
+          "warmup": 10,
+          "craftable":true,
+          "alt": [ {"id":"dry.book.killes"},
+            {"id":"dry.thing.generic.killes"},
+            {"id":"village.invite.killes*"},               
+          {"id":"recruit.mr.k.friend"}]
+},
+{
+    "id": "chat.mrs.k.friend",
+    "label": "Пообщаться с Повитухой",
+    "actionid": "village.killes.open.friend",
+    "startdescription": "Миссис Килле всегда приободряется, когда я заглядываю в гости. [Если вы не выберете тему для беседы, Повитуха предложит свою дружескую помощь.]",
+    "desc": "«Что ж, и на том спасибо».",
+    "reqs": {"ability":1,"grail":1},
+    "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.midwife":-1},
+    "slots":[{"id":"topic",
+    "label":"Тема для беседы",
+    "description":"[Спросите Повитуху о чём-нибудь или оставьте эту ячейку пустой, чтобы дать ей закончить дела и пойти помочь вам.]",
+    "required":{"soaked":1,"wc.markeraspect":1}}],
+          "warmup": 10,
+          "craftable":true,
+          "alt": [{"id":"dry.book.killes"},
+            {"id":"dry.thing.generic.killes"},                    
+            {"id":"village.invite.killes*"},
+          {"id":"recruit.mrs.k.friend"}
+       ]
+},
+
+        {
+            "id": "chat.rectory",
+            "label": "Разговор со Священником",
+            "actionid": "village.rectory.open",
+            "startdescription": "Отец Тимоти любит говорить на умные темы, молиться и пить чай. Он всегда готов помочь в обмен на пожертвование на нужды Церкви в размере одного шиллинга.",
+            "desc": "«Рад, всегда рад».",
+            "reqs": {"ability":1},
+            "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.rector":-1},
+            "slots":[{"id":"topic",
+            "label":"Тема для беседы",
+            "description":"[Спросите Священника о чём-нибудь или предложите ему плату за помощь.]",
+            "required":{"soaked":1,"pence":12,"wc.markeraspect":1}}],
+                  "warmup": 10,
+                  "craftable":true,
+                  "alt": [ {"id":"dry.book.rectory"},
+                    {"id":"dry.thing.generic.rectory"},
+                    {"id":"village.invite.timothy*"},              
+                  {"id":"recruit.rectory"},
+                  {"id":"hint.recruit.12.rectory"}]
+        },
+        {
+            "id": "chat.smithy",
+            "label": "Поговорить с Кузнецом",
+            "actionid": "village.smithy.open",
+            "startdescription": "Дензил готов обсуждать практические вопросы, но обычно предпочитает хранить молчание. В обмен на шиллинг он согласится поработать день вне кузницы. [А если дать ему оккультную монету, он окажет вам услугу Разделения.]",
+            "desc": "«...»",
+            "reqs": {"ability":1},
+            "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.blacksmith":-1},
+            "slots":[{"id":"topic",
+            "label":"Тема для беседы",
+            "description":"[Спросите Кузнеца о чём-нибудь или предложите ему плату за помощь.]",
+            "required":{"soaked":1,"pence":12,"tally":1,"wc.markeraspect":1}}],
+                  "warmup": 10,
+                  "craftable":true,
+                  "alt": [ {"id":"dry.book.smithy"},
+                  {"id":"dry.thing.generic.smithy"},
+                  {"id":"split.spintria.smithy.*"},
+                {"id":"recruit.smithy"},                
+                {"id":"village.invite.denzil*"},                
+                {"id":"hint.recruit.12"}]
+        },
+        {
+            "id": "chat.mr.k",
+            "label": "Пообщаться с Гробовщиком",
+            "actionid": "village.killes.open",
+            "startdescription": "Мистер Килле любит поговорить о том, как что-нибудь подходит к концу. (Его жена любит поговорить о том, как что-нибудь начинается.)  В обмен на шиллинг он готов поработать день вне мастерской.",
+            "desc": "«Уже уходите, стало быть?»",
+            "reqs": {"ability":1,"winter":1},
+            "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.coffinmaker":-1},
+            "slots":[{"id":"topic",
+            "label":"Тема для беседы",
+            "description":"[Спросите Гробовщика о чём-нибудь или предложите ему плату за помощь.]",
+            "required":{"soaked":1,"pence":12,"wc.markeraspect":1}}],
+                  "warmup": 10,
+                  "craftable":true,
+                  "alt": [ {"id":"dry.book.killes"},
+                    {"id":"dry.thing.generic.killes"},                   
+                    {"id":"village.invite.killes*"},
+                    {"id":"recruit.mr.k"},
+                  {"id":"hint.recruit.12"}]
+        },
+        {
+            "id": "chat.mrs.k",
+            "label": "Пообщаться с Повитухой",
+            "actionid": "village.killes.open",
+            "startdescription": "Миссис Килле любит поговорить о том, как что-нибудь начинается. (Её муж любит поговорить о том, как что-нибудь подходит к концу.) В обмен на шиллинг она готова поработать день вне дома.",
+            "desc": "«Что ж, и на том спасибо».",
+            "reqs": {"ability":1,"grail":1},
+            "extantreqs":{"sleepytime":-1,"season.numa":-1,"assistance.midwife":-1},
+            "slots":[{"id":"topic",
+            "label":"Тема для беседы",
+            "description":"[Спросите Повитуху о чём-нибудь или предложите ей плату за помощь.]",
+            "required":{"soaked":1,"pence":12,"wc.markeraspect":1}}],
+                  "warmup": 10,
+                  "craftable":true,
+                  "alt": [  {"id":"dry.book.killes"},
+                    {"id":"dry.thing.generic.killes"},
+                    {"id":"village.invite.killes*"},                    
+                  {"id":"recruit.mrs.k"},                  
+                  {"id":"hint.recruit.12"}]
+        },
+        {
+            "id": "dry.book.smithy",
+            "label": "Просушить книгу",
+            "actionid": "village.smithy.open*",
+            "startdescription": "Дензил с серьёзным выражением лица наблюдает за тем, как я сушу книгу над кузнечным горном. Он подаёт вату, чтобы проложить между страниц, но в целом старается держаться подальше. Книги вызывают у него недоверие. Я начинаю подозревать, что Дензил не умеет читать. Он вряд ли когда-нибудь мне в этом признается.",
+            "reqs": {"readable":1,"soaked":1},
+            "aspects": {"drying":1,"fatiguing":1},
+                  "warmup": 60,
+                  "linked":[{"id":"dry.journal.generic.start.*"}],
+                  "craftable":true
+        },
+
+        {
+            "id": "split.spintria.smithy.gold",
+            "label": "Разделение золота",
+            "actionid": "village.smithy.open*",
+            "startdescription": "Ещё во времена Курии бранкрагские кузнецы оказывали библиотекарям «услугу разделения». [Это разменяет вашу спинтрию на монеты меньшего достоинства.]",
+            "desc":"Дензил молча выпроваживает меня из кузни. Я не слышу ударов молота. Быть может, там спрятан тайник с мелкими спинтриями. Но когда он вручает мне монеты, те едва не обжигают мне руку.",
+            "reqs": {"spintria.gold":1},
+            "aspects":{"fatiguing.ability":1},
+            "effects":{"spintria.gold":-1,"spintria.silver":1,"spintria.iron":1},
+                  "warmup": 60,
+                  "craftable":true
+        },
+
+        {
+            "id": "split.spintria.smithy.silver",
+            "label": "Разделение серебра",
+            "actionid": "village.smithy.open*",
+            "startdescription": "Ещё во времена Курии бранкрагские кузнецы оказывали библиотекарям «услугу разделения». [Это разменяет вашу спинтрию на монеты меньшего достоинства.]",
+            "desc":"Дензил молча выпроваживает меня из кузни. Я не слышу ударов молота. Быть может, там спрятан тайник с мелкими спинтриями. Но когда он вручает мне монеты, те едва не обжигают мне руку.",
+            "reqs": {"spintria.silver":1},
+            "aspects":{"fatiguing.ability":1},
+            "effects":{"spintria.silver":-1,"spintria.tin":1,"spintria.iron":1},
+                  "craftable":true
+        },
+
+        {
+            "id": "split.spintria.smithy.tin",
+            "label": "Разделение олова",
+            "actionid": "village.smithy.open*",
+            "startdescription": "Ещё во времена Курии бранкрагские кузнецы оказывали библиотекарям «услугу разделения». [Это разменяет вашу спинтрию на монеты меньшего достоинства.]",
+            
+            "desc":"Дензил молча выпроваживает меня из кузни. Внезапно оттуда долетает краткий крик, – то ли восторга, то ли боли – но, хоть я и навостряю слух, больше он не повторяется. Когда Дензил вручает мне монеты, те едва не обжигают мне руку.",
+            "reqs": {"spintria.tin":1},
+            "aspects":{"fatiguing.ability":1},
+            "effects":{"spintria.tin":-1,"spintria.bronze":1,"spintria.iron":1},
+                  "craftable":true
+        },
+        {
+            "id": "split.spintria.smithy.bronze",
+            "label": "Разделение бронзы",
+            "actionid": "village.smithy.open*",
+            "startdescription": "Ещё во времена Курии бранкрагские кузнецы оказывали библиотекарям «услугу разделения». [Это разменяет вашу спинтрию на монеты меньшего достоинства.]",
+            "desc":"Дензил молча выпроваживает меня из кузни. Я не слышу ударов молота. Быть может, там спрятан тайник с мелкими спинтриями. Но когда он вручает мне монеты, те едва не обжигают мне руку.",
+            "reqs": {"spintria.bronze":1},
+            "aspects":{"fatiguing.ability":1},
+            "effects":{"spintria.bronze":-1,"spintria.iron":2},
+                  "craftable":true
+        },
+
+        {
+            "id": "split.spintria.smithy.iron",
+            "label": "«Железо есть железо»",
+            "actionid": "village.smithy.open*",
+            "startdescription": "Ещё во времена Курии бранкрагские кузнецы оказывали библиотекарям «услугу разделения», однако на этот раз Дензил качает головой. «Железо есть железо», – скупо поясняет он.",
+            "reqs": {"spintria.iron":1},
+            "aspects":{"fatiguing.ability":1},
+                  "craftable":true
+        },
+
+
+
+        {
+                "id": "dry.book.rectory",
+                "label": "Просушить книгу",
+                "actionid": "village.rectory.open*",
+                "startdescription": "Отец Тимоти не из тех, кто упускает шанс предаться беседе, поэтому процесс занимает много времени... Но он очень, очень хочет мне помочь.",
+                "reqs": {"readable":1,"soaked":1},
+                "aspects": {"drying":1,"fatiguing":1},
+                      "warmup": 70,
+                      "linked":[{"id":"dry.journal.generic.start.*"}],
+                      "craftable":true
+            },
+    
+            {
+                "id": "dry.book.killes",
+                "label": "Просушить книгу",
+                "actionid": "village.killes.open*",
+                "startdescription": "Миссис Килле – неисправимо хмурая, неизменно участливая – разводит огонь в кухонном очаге, покуда мистер Килле за стеной что-то строгает. «Рождение не проходит бесследно», – замечает она, аккуратно прокладывая мокрые страницы обрезками муслина.",
+                "reqs": {"readable":1,"soaked":1},
+                "aspects": {"drying":1,"fatiguing":1},
+                      "warmup": 50,
+                      "linked":[{"id":"dry.journal.generic.start.*"}],
+                      "craftable":true
+            },
+
+            {
+                "id": "dry.book.sweetbones",
+                "label": "Просушить книгу",
+                "actionid": "village.sweetbones.open*",
+                "startdescription": "На полке тикают часы. В дальнем углу мелодично потрескивает радиоприёмник. Бережно, страница за страницей, я просушиваю свою книгу.",
+                "reqs": {"readable":1,"soaked":1},
+                "extantreqs":{"introduction.rector.start":-1,"introduction.blacksmith.start":-1,"introduction.coffinmaker.start":-1,"introduction.midwife.start":-1},
+                "aspects": {"drying":1,"fatiguing":1},
+                      "warmup": 70,
+                      "linked":[{"id":"dry.journal.generic.start.*"}],
+                      "craftable":true
+            },
+
+{"id": "night.rectory",
+"label": "Неурочный час",
+"actionid": "village.rectory.open*",
+"startdescription": "В доме священника уже погашены огни, и экономка Терренс наверняка бродит аки лев рыкающий. Мне стоит вернуться в светлое время суток.",
+"extantreqs":{"sleepytime":1},
+"hintonly":true},
+{"id": "night.smithy",
+"label": "Неурочный час",
+"actionid": "village.smithy.open*",
+"startdescription": "В кузне уже нет огня, а Дензил не любит, когда ему мешают спать. Мне стоит вернуться в светлое время суток.",
+"extantreqs":{"sleepytime":1},
+"hintonly":true},
+{"id": "night.killes",
+"label": "Неурочный час",
+"actionid": "village.killes.open*",
+"startdescription": "В доме не горит свет. Мистер и миссис Килле наверняка спят. Вот и мне давно пора.",
+"extantreqs":{"sleepytime":1},
+"hintonly":true},
+
+
+{"id": "numa.rectory",
+"label": "Туман и молчание",
+"actionid": "village.rectory.open*",
+"startdescription": "Туман густо покрывает мир, но на подходе к дому мне показалось, что я вижу в кабинете свет лампы. Теперь я убеждаюсь, что все окна закрыты ставнями, а свет, который я видел, был мерцанием болотного огонька. Он висит в воздухе, слово заплутавшая звезда. Нума.",
+"extantreqs":{"season.numa":1},
+"hintonly":true},
+{"id": "numa.smithy",
+"label": "Туман и молчание",
+"actionid": "village.smithy.open*",
+"startdescription": "Огонь в горне по-прежнему горит, но, заглянув в окно, я вижу за мехами безглазую и тощую фигуру. Самого Дензила нигде не видать, и я ещё в своём уме, чтобы не спрашивать, куда он делся, у его посетителя. Нума.",
+"extantreqs":{"season.numa":1},
+"hintonly":true},
+{"id": "numa.killes",
+"label": "Туман и молчание",
+"actionid": "village.killes.open*",
+"startdescription": "Дом тих. Надпись над входом начертана письменами, которые даже я не в силах прочесть. На стук мой не отвечают. Нума.",
+"extantreqs":{"season.numa":1},
+"hintonly":true},
+
+
+            {
+                "id": "recruit.rectory.friend",
+                "label": "Помощь Священника",
+                "actionid": "village.rectory",
+                "startdescription": "Отец Тимоти всегда, всегда рад моему обществу.",
+                "reqs": {"ability":1},
+                "extantreqs":{"assistance.rector":-1},
+                "aspects":{"fatiguing":1},
+                "effects":{"assistance.rector":1}
+            },
+            {
+              "id": "recruit.smithy.friend",
+              "label": "Помощь Кузнеца",
+              "actionid": "village.smithy",
+              "startdescription": "Дензил нечасто работает бесплатно. Но он не станет брать денег за помощь с друга. [Если у вас есть оккультные монеты, он может оказать вам услугу Разделения.]",
+              "reqs": {"ability":1},
+              "extantreqs":{"assistance.blacksmith":-1},
+              "aspects":{"fatiguing":1},
+              "effects":{"assistance.blacksmith":1}
+          },
+      
+            {
+                "id": "recruit.mr.k.friend",
+                "label": "Помощь Гробовщика",
+                "actionid": "village.killes",
+                "startdescription": "У мистера Килле всегда найдётся часок-другой, чтобы помочь другу.",
+                "reqs": {"ability":1},
+                "extantreqs":{"assistance.coffinmaker":-1},
+                "aspects":{"fatiguing":1},
+                "effects":{"assistance.coffinmaker":1}
+            },
+            {
+                  "id": "recruit.mrs.k.friend",
+                  "label": "Помощь Повитухи",
+                  "actionid": "village.killes",
+                  "startdescription": "Миссис Килле готова помочь. «В твоей компании мне всегда повеселее», – мрачно признаётся она.",
+                  "reqs": {"ability":1},
+                  "extantreqs":{"assistance.midwife":-1},
+                  "aspects":{"fatiguing":1},
+                  "effects":{"assistance.midwife":1}
+              },
+    
+              
+              {
+                      "id": "recruit.rectory",
+                      "label": "Помощь Священника",
+                      "actionid": "village.rectory",
+                      "startdescription": "«Премного благодарен за пожертвование».",
+                      "reqs": {"pence":12},
+                      "extantreqs":{"assistance.rector":-1},
+                      "aspects":{"fatiguing":1},
+                      "effects":{"assistance.rector":1,"pence":-12}
+                  },
+                  {
+                    "id": "recruit.smithy",
+                    "label": "Помощь Кузнеца",
+                    "actionid": "village.smithy",
+                    "startdescription": "«Что нужно делать?»",
+                    "reqs": {"pence":12},
+                    "extantreqs":{"assistance.blacksmith":-1},
+                    "aspects":{"fatiguing":1},
+                    "effects":{"assistance.blacksmith":1,"pence":-12}
+                },
+            
+                  {
+                      "id": "recruit.mr.k",
+                      "label": "Помощь Гробовщика",
+                      "actionid": "village.killes",
+                      "startdescription": "«За работу!»",
+                      "reqs": {"pence":12},
+                      "extantreqs":{"assistance.coffinmaker":-1},
+                      "aspects":{"fatiguing":1},
+                      "effects":{"assistance.coffinmaker":1,"pence":-12}
+                  },
+                  {
+                        "id": "recruit.mrs.k",
+                        "label": "Помощь Повитухи",
+                        "actionid": "village.killes",
+                        "startdescription": "«Получше поработаешь – покрепче поспишь».",
+                        "reqs": {"pence":12},
+                        "extantreqs":{"assistance.midwife":-1},
+                        "aspects":{"fatiguing":1},
+                        "effects":{"assistance.midwife":1,"pence":-12}
+                    },
+                    {
+                        "id": "hint.recruit.12.rectory",
+                        "label": "Услуга за услугу?",
+                        "actionid": "x",
+                        "startdescription": "«Пожалуй, я мог бы пожертвовать парой часов своего времени. Если вы пожертвуете, скажем, шиллинг нам на починку церковной крыши, м-м-м?»",
+                        "reqs": {"pence":1},
+                        "hintonly":true
+                    },
+                    {
+                        "id": "hint.recruit.12",
+                        "label": "Разумное вознаграждение?",
+                        "actionid": "x",
+                        "startdescription": "За шиллинг – двенадцать пенсов – я мог бы заручиться помощью этого человека.",
+                        "reqs": {"pence":1},
+                        "hintonly":true
+                    },
+                    {
+                        "id": "hint.recruit.24",
+                        "label": "Заслуженное вознаграждение?",
+                        "actionid": "x",
+                        "startdescription": "За пару шиллингов – двадцать четыре пенса – я мог бы заручиться помощью этого человека.",
+                        "reqs": {"pence":1},
+                        "hintonly":true
+                    },
+                    {
+                        "id": "clean.thing.generic.sweetbones.try",
+                        "label": "Отдать грязное бельё в стирку",
+                        "actionid": "village.sweetbones.open*",
+                        "startdescription": "За шиллинг прачка в «Милых костях» готова постирать мне бельё...",
+                        "desc": "Нет денег – нет стирки.",
+                        "reqs":{"soiled":1},
+                        "slots":[{"id":"payment","label":"Плата","required":{"pence":12}}],
+                        "alt":[{"id":"clean.thing.generic.sweetbones"}],
+                        "warmup":60,
+                        "craftable":"true"
+                    },
+                    {
+                        "id": "clean.thing.generic.sweetbones",
+                        "label": "Отдать грязное бельё в стирку",
+                        "actionid": "village.sweetbones.open*",
+                        "startdescription": "Прачка в «Милых костях» стирает моё бельё.",
+                        "desc": "Постирано, высушено, отглажено.",
+                        "reqs":{"pence":12,"soiled":1},
+                        "effects":{"pence":-12},
+                        "aspects":{"cleaning":1}
+                    },
+
+                    {
+                        "id": "dry.thing.generic.sweetbones",
+                        "label": "Обсушить предмет в «Милых костях»",
+                        "actionid": "village.sweetbones.open*",
+                        "startdescription": "Меня знают в «Милых костях» и разрешат капать на их пол, даже если речь не о пиве.",
+                        "desc": "К небесам восходит еле заметный пар.",
+                        "reqs":{"soaked":1,"thing":1,"ability":1},
+                        "aspects": {"dissipating":1,"fatiguing.ability":1},
+                        "warmup":30,
+                        "craftable":"true"
+                    },
+                    {
+                        "id": "recruit.sweetbones.exotic",
+                        "label": "Искать помощь на стороне",
+                        "actionid": "village.sweetbones.open",
+                        "startdescription": "Кто-нибудь мог остановиться в «Милых костях». [Спросите, не согласится ли один из случайных посетителей вам помочь.]",
+                        "desc": "Вот интересное предложение.",
+                        "reqs": {"ability":1,"fatigued":-1, "pence":1},
+                        "extantreqs":{"season.numa":-1},
+                        "deckeffects":{"sweetbones.employables":1},
+                        "aspects":{"fatiguing.ability":1},
+                        "warmup":60,
+                        "craftable":true
+                    },
+                    {
+                        "id": "recruit.sweetbones.miner",
+                        "label": "Помощь Шахтёра",
+                        "actionid": "village.sweetbones.open",
+                        "startdescription": "Весной шахтёры из близлежащих поселений нередко посещают праздник Подземных огней. Если кто-нибудь из них останавливается в «Милых костях», я мог бы заручиться его помощью на день, пообещав взамен шиллинг. [Шахтёры сведущи в <sprite name=scale>, <sprite name=forge> и немного в <sprite name=moon>. А если приложить карту души, вам может предложить свою помощь ещё более нечастый гость...]",
+                        "desc": "",
+                        "extantreqs": {"season.spring":1,"season.numa":-1},
+                        "reqs": {"pence":12},
+                        "effects":{"assistance.miner":1,"pence":-12},
+                        "warmup":5,
+                        "craftable":true
+                    },
+                    {
+                        "id": "recruit.sweetbones.barber",
+                        "label": "Помощь Брадобрея",
+                        "actionid": "village.sweetbones.open",
+                        "startdescription": "Летом в деревню заглядывает брадобрей, чтобы обслужить местных жителей. В обмен на шиллинг я мог бы заручиться его помощью на день. [Брадобреи сведущи в <sprite name=moth> и немного в <sprite name=rose>. А если приложить карту души, вам может предложить свою помощь ещё более нечастый гость...]",
+                        "desc": "",
+                        "extantreqs": {"season.summer":1,"season.numa":-1},
+                        "reqs": {"pence":12},
+                         "effects":{"assistance.barber":1,"pence":-12},
+                         "warmup":5,
+                        "craftable":true
+                    },
+                    {
+                        "id": "recruit.sweetbones.orchardkeeper",
+                        "label": "Помощь Садовницы",
+                        "actionid": "village.sweetbones.open",
+                        "startdescription": "Осенью садоводы приходят в деревню, чтобы предложить свой урожай. Я мог бы заручиться помощью такого человека на день в обмен на шиллинг. [Садоводы сведущи в <sprite name=nectar> и немного в <sprite name=heart>. А если приложить карту души, вам может предложить свою помощь ещё более нечастый гость...]",
+                        "desc": "",
+                        "extantreqs": {"season.autumn":1,"season.numa":-1},
+                        "reqs": {"pence":12},
+                           "effects":{"assistance.orchardkeeper":1,"pence":-12},
+                           "warmup":5,
+                        "craftable":true
+                    },
+                    {
+                        "id": "recruit.sweetbones.fisherman",
+                        "label": "Помощь Рыбака",
+                        "actionid": "village.sweetbones.open",
+                        "startdescription": "Зимой, когда на море бушуют шторма, за шиллинг в день рыбаки согласны заниматься любой другой работой. [Рыбаки сведущи в <sprite name=moon> и немного в <sprite name=sky>. А если приложить карту души, вам может предложить свою помощь ещё более нечастый гость...]",
+                        "desc": "",
+                        "extantreqs": {"season.winter":1,"season.numa":-1},
+                        "reqs": {"pence":12},
+                        "effects":{"assistance.fisherman":1,"pence":-12},
+                        "warmup":5,
+                        "craftable":true
+                    },
+
+                    {"id":"sweetbones.numa.hint",
+                    "actionid":"village.sweetbones.open*",
+                    "label":"Туман и молчание",
+                    "startdescription":"Дверь распахнута, камин не горит, над столами сгорбились фигуры в тёмных мехах и перьях. Туман плещется у стен и гладит пальцами мощёный пол. Где-то глубоко под трактиром отбивает неровный ритм барабан. Нума.",
+                    "extantreqs":{"season.numa":1},
+                    "hintonly":true},
+                    
+
+                    {
+                        "id": "hint.recruit.12.sweetbones",
+                        "label": "Услуга за услугу?",
+                        "actionid": "village.sweetbones.open",
+                        "startdescription": "За шиллинг – двенадцать пенсов – я мог бы заручиться помощью этого человека.",
+                        "reqs": {"pence":1,"ability":-1,"fatigued":-1},
+                        "hintonly":true
+                    },
+
+                    {"id": "rest.sweetbones.try",
+                    "label": "Отдохнуть и подкрепиться",
+                    "actionid": "village.sweetbones.open",
+                    "startdescription": "За пару пенсов я мог бы получить здесь добрый ужин и тихий уголок, чтобы отдохнуть и собраться с мыслями.",
+                        "slots":[{"id":"tuppence",
+                        "label":"Двухпенсовик",
+                        "description":"Цена гостеприимства.",
+                        "required":{"pence":2}}],
+                    "desc": "Нет денег – нет пива.",
+                    "reqs": {"fatigued":1,"ability":1},
+                    "warmup":60,
+                    "craftable":true,
+                    "extantreqs":{"season.numa":-1},
+                    "alt":[{"id":"rest.sweetbones.spring"},
+                    {"id":"rest.sweetbones.summer"},
+                    {"id":"rest.sweetbones.autumn"},
+                    {"id":"rest.sweetbones.winter"},
+                    {"id":"rest.sweetbones.general"}]
+                    },
+                    
+                    {"id": "rest.sweetbones.spring",
+                    "label": "Отдохнуть и подкрепиться: весна",
+                    "actionid": "village.sweetbones.open",
+                    "startdescription": "На дворе весна. Хозяйка подала мне рыбный пирог. Головы сардин игриво выглядывают из-под аппетитной корочки.",
+                    "desc": "Так-то лучше.",
+                    "extantreqs": {"season.spring":1},
+                    "reqs": {"fatigued":1,"ability":1,"pence":2},
+                    "aspects": {"recovering.ability":1},
+                    "effects":{"pence":-2}
+                    },
+
+                    {"id": "rest.sweetbones.summer",
+                    "label": "Отдохнуть и подкрепиться: лето",
+                    "actionid": "village.sweetbones.open",
+                    "extantreqs": {"season.summer":1},
+                    "startdescription": "Лето. Я сижу во дворе «Милых костей», ем завёрнутый в крапивные листья ломкий сыр со свежим ржаным хлебом и греюсь на солнышке.",
+                    "desc": "Так-то лучше.",
+                    "reqs": {"fatigued":1,"ability":1,"pence":2},
+                    "aspects": {"recovering.ability":1},
+                    "effects":{"pence":-2}
+                    },
+
+                    {"id": "rest.sweetbones.autumn",
+                    "label": "Отдохнуть и подкрепиться: осень",
+                    "actionid": "village.sweetbones.open",
+                    "startdescription": "На дворе осень. Шуршат на деревьях листья. Я сижу в оконной нише, а хозяйка подаёт мне яблочный пирог со взбитыми сливками.",
+                    "desc": "Так-то лучше.",
+                    "extantreqs": {"season.autumn":1},
+                    "reqs": {"fatigued":1,"ability":1,"pence":2},
+                    "aspects": {"recovering.ability":1},
+                    "effects":{"pence":-2}
+                    },
+
+                    {"id": "rest.sweetbones.winter",
+                    "label": "Отдохнуть и подкрепиться: зима",
+                    "actionid": "village.sweetbones.open",
+                    "startdescription": "На улице зима. Шторма сковали море льдом. Я сижу перед очагом в «Милых костях», в одной руке у меня пирог с говядиной и картошкой, а в другой – горячий поссет на эле.",
+                    "desc": "Так-то лучше.",
+                    "extantreqs": {"season.winter":1},
+                    "reqs": {"fatigued":1,"ability":1,"pence":2},
+                    "aspects": {"recovering.ability":1},
+                    "effects":{"pence":-2}
+                    },
+
+                    {"id": "rest.sweetbones.general",
+                    "label": "Отдохнуть и подкрепиться",
+                    "actionid": "village.sweetbones.open",
+                    "startdescription": "Тихий серый свет струится через тихое серое оконце...",
+                    "desc": "Так-то лучше.",
+                    "reqs": {"fatigued":1,"ability":1,"pence":2},
+                    "extantreqs":{"season.numa":-1},
+                    "aspects": {"recovering.ability":1},
+                    "effects":{"pence":-2}
+                    },
+
+
+                    {"id": "rest.sweetbones.numa",
+                    "label": "Подкрепиться в сезон загадок",
+                    "actionid": "village.sweetbones.open",
+                    "warmup":60,
+                    "craftable":true,
+                    "startdescription": "Трактир полон странниками и вестниками нумы. Я не могу разобрать, что они едят и пьют. Я стою у окна. Электрическая лампочка внезапно вспыхивает, словно болотный огонёк. Одна из паломниц поднимает голову; взгляд её блестящих глаз останавливается на мне. Она манит меня рукой в печатке.",
+                    "reqs": {"fatigued":1,"ability":1},
+                    "extantreqs":{"season.numa":1},
+                    "aspects": {"recovering.ability":1},
+                    "linked":{"id":"rest.sweetbones.numa.malady"}
+                    },
+
+                    {"id":"rest.sweetbones.numa.malady",
+                    "actionid": "village.sweetbones.open",
+                    "warmup":10,
+                    "startdescription":"Я что-то ел и пил. Во рту остался приторный вкус, а мои губы измазаны серым.",
+                    "aspects": {"malady.inflicting":1},
+                    "internaldeck": {
+                        "spec": [
+                            "precursor.mem.contradiction",
+                            "music.hive",
+                            "old.moment",
+                            "curious.hunch",
+                            "confounding.parable",
+                            "old.wound",
+                            "wild.surmise",
+                            "horizonsight"
+                        ],
+                        "draws": 1,
+                        "defaultcard": "precursor.mem.contradiction",
+                        "resetonexhaustion": true
+                    }
+                },
+
+            {
+                        "id": "work.heart.sweetbones.numa",
+                        "label": "Странные труды",
+                        "actionid": "village.sweetbones.open",
+                        "startdescription": "Трактир полон странниками и вестниками нумы. К утру их уже не будет, но до тех пор я мог бы предложить им свои услуги. Возможно, я об этом пожалею.",
+                        "desc": "Наутро я не помню, что именно я делал, – лишь запахи и ощущения: прелый лист, ритмичное и мерное пощёлкивание как бы кастаньет, неяркий голубой огонёк, похожий на свет газового рожка. И – холод. Помню, там, куда меня отвели, было холодно.",
+                     
+                        "reqs":{"ability":1},
+                        "extantreqs":{"season.numa":1},
+                        "aspects": {"malady.inflicting":1},
+                        "effects": {"spintria.silver":1},
+                              "warmup": 360,
+                              "craftable":true
+            },        
+                
+            {
+                  "id": "work.heart.sweetbones",
+                  "label": "Работяга",
+                  "actionid": "village.sweetbones.open",
+                  "startdescription": "<sprite name=heart> В деревне не так уж и много работы, но я мог бы сколотить пенсов шесть, помогая тут и там. [Или предложите монету сами, чтобы узнать, не хочет ли кто-нибудь из посетителей поработать на вас.] ",
+                  "desc": "Как говорили во времена моей юности: «День подошёл к концу, моя работа тоже; но мой карман уже не пуст».",
+                  "aspects": {"fatiguing":1},
+                  "reqs":{"ability":1,"heart":1},
+                  "extantreqs":{"season.numa":-1},
+                  "effects": {"sixpence":1},
+                        "warmup": 60,
+                        "craftable":true
+              },
+              {
+                "id": "work.forge.sweetbones",
+                "label": "Мастер на все руки",
+                "actionid": "village.sweetbones.open",
+                "startdescription": "<sprite name=forge> В деревне не так уж и много работы, но я мог бы сколотить пенсов шесть, помогая тут и там. [Или предложите монету сами, чтобы узнать, не хочет ли кто-нибудь из посетителей поработать на вас.]",
+                "desc": "Как говорили во времена моей юности: «День подошёл к концу, моя работа тоже; но мой карман уже не пуст».",
+                "aspects": {"fatiguing":1},
+                "reqs":{"ability":1,"forge":1},
+                "extantreqs":{"season.numa":-1},
+                "effects": {"sixpence":1},
+                      "warmup": 60,
+                      "craftable":true
+            },
+            {
+                "id": "work.lantern.sweetbones",
+                "label": "Грамотей",
+                "actionid": "village.sweetbones.open",
+                "startdescription": "<sprite name=lantern> Я мог бы что-нибудь прочитать или подсчитать для местных жителей. Школы в деревне нет, так что не все здесь знают грамоту. [Или предложите монету, чтобы узнать, не хочет ли кто-нибудь из посетителей поработать на вас.]",
+                "desc": "Я с пользой провёл время, читая газеты для любопытных, составляя письма для одиноких и помогая фермерам заполнять формы Министерства сельского хозяйства.",
+                "aspects": {"fatiguing":1},
+                "reqs":{"ability":1,"lantern":1},
+                "extantreqs":{"season.numa":-1},
+                "effects": {"sixpence":1},
+                      "warmup": 60,
+                      "craftable":true
+            },
+              {
+                "id": "work.moth.sweetbones",
+                "label": "Оракул",
+                "actionid": "village.sweetbones.open",
+                "startdescription": "<sprite name=moth> Я достаточно умело напускаю на себя таинственность, чтобы за гроши читать будущее по чужим ладоням. Пусть это не вполне достойно библиотекаря Дома безмолвия, но времена нынче тяжёлые. [Или предложите монету сами, чтобы узнать, не хочет ли кто-нибудь из посетителей поработать на вас.]",
+                "desc":"Возможно, я не лгу. Возможно, у меня и вправду есть дар. И деньги, у меня теперь есть деньги.",
+                "reqs":{"ability":1,"moth":1},
+                "extantreqs":{"season.numa":-1},
+                "aspects": {"fatiguing":1},
+                "effects": {"pence":2},
+                      "warmup": 60,
+                      "craftable":true
+            },
+
+              {
+                  "id": "work.edge.sweetbones",
+                  "label": "Значительная личность",
+                  "actionid": "village.sweetbones.open",
+                  "startdescription": "<sprite name=edge> Я – библиотекарь Дома безмолвия. Я побеседую с жителями деревушки и пополню тем, что мне скажут, сокровищницу моих знаний. [Или предложите монету, чтобы узнать, не хочет ли кто-нибудь из посетителей поработать на вас.]",
+                  "desc": "@#mem.gossip|JВсего лишь слухи; но даже слухи – это знание.#mem.fear|Истории о том, что всё ещё таится на пустошах.#mem.foresight|Прозорливый совет от прозорливых людей.#mem.hindsight|В любой деревне есть несчастья; сегодня мне рассказали ещё об одном.#mem.regret|Я полчаса общался с человеком, влачащим бесхитростную и счастливую жизнь. Мог бы я быть таким, как он? Хочу ли я этого?#|Я кое-что узнал. Будет ли от этого какая-то польза? Время покажет.@",
+                  "reqs":{"ability":1,"edge":1},
+                  "extantreqs":{"season.numa":-1},
+                  "aspects": {"fatiguing":1},
+                  "deckeffects":{"d.chat.sweetbones":1},
+                        "warmup": 60,
+                        "craftable":true
+              },
+              {
+                "id":"village.invite.timothy.stub",
+                 "label": "Не может быть!",
+                 "actionid": "village.*",
+                 "comments":"No loc needed",
+                 "startdescription": "[Вам не положено было это видеть.]",
+                 "reqs":{"wc":99},        
+                       "warmup": 5
+             },
+             {
+                "id":"village.invite.denzil.stub",
+                 "label": "Не может быть!",
+                 "actionid": "village.*",
+                 "comments":"No loc needed",
+                 "startdescription": "[Вам не положено было это видеть.]",
+                 "reqs":{"wc":9},        
+                       "warmup": 5
+             },
+ 
+ 
+              {
+               "id":"village.invite.killes.stub",
+                "label": "Не может быть!",
+                "actionid": "village.*",
+                "comments":"No loc needed",
+                "startdescription": "[Вам не положено было это видеть.]",
+                "reqs":{"wc":99},        
+                      "warmup": 5
+            }
+
+  
+
+    
+    
+
+    
+    
+    ]
+    }
+    

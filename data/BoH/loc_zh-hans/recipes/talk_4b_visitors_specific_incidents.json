@@ -1,0 +1,2069 @@
+{
+	"recipes":[
+		{
+			"startdescription":"“‘何物不得见？’我曾一直相信这个问题的最佳答案是‘光’，但现在不再确定了。谢谢你，图书管理员。我找到了思考的方向。”",
+			"id":"talk.visitor.incident.success.arthur.stalk.mystery.edge",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“图书管理员，看样子那个仪式最好的结果会涉及到名为光明果的司辰，最坏的结果则是涉及到戴冠之孳。两者都是虚界司辰。从来没有人肯告诉我这究竟意味着什么。但我知道不该卷入太深。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.yvette.rite.renewal",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“‘去往辉光的冉升之翼现已回归；我们被给予的景象皆是我们应得的景象。’我希望我正确理解了其中的含义。但我必须亲自验证。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.fraser.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“上头打发我去看看那些该死的画家在干什么。坦率地说我有更重要的事得做。但是上司就是上司。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.douglas.pan",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“当我还在这里的时候——第一次——我的第一场献祭是献给圣杯的。没有那献祭，就根本不会有噤声居屋。噢，还有那盟约石，还有那紫杉树，所有的那些，大概吧。但请记住，一切都始于生诞。”",
+			"id":"talk.visitor.incident.success.numa.rowena.numa.wood.mystery.grail",
+			"label":"关于绳结与缠线"
+		},
+		{
+			"startdescription":"“在巴黎上演的歌剧。我闻到了麻烦的味道。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.connie.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“如果我没听说过清算人战争，就不会出现在这里……但引起我的兴趣的并不是清算人战争。而是他们岁月的买卖。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.yvette.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“战舰；浮空器；火车头。这些东西的共同点是什么，图书管理员？告诉你吧：它们皆具其名。谢谢你。祝你有愉快的一天。”",
+			"id":"talk.visitor.incident.success.fraser.project.solar.mystery.lantern",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“你知道的。很久之前，世界上还没有那么多的色彩……我想那时候的生活远比现在简单。但我更喜欢我们所拥有的奢华色彩。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.aladim.lost.find.mystery.rose",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“斯特拉斯堡的圣人像。很明显，它周围的蜡烛纷纷开始萌芽，而祭衣室则被松木纠缠。有人向我征询意见。”[尝试放入一本具有足够的奥秘： <sprite name=nectar> ，且匹配访客对 <sprite name=nectar> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.stanislav.rite.awakening",
+			"label":"关于檀木圣徒"
+		},
+		{
+			"startdescription":"“……掉进了海里。最后一杯，葡萄酒王子和……倒不是说班克罗夫特勋爵需要些灵感。不过你是否能……？”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.franklin.numa.grail.a",
+			"label":"关于庇护饮剂"
+		},
+		{
+			"startdescription":"“……理解他们共同的饥渴。永恒的礼物，而永恒是慷慨的，当……”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.franklin.numa.grail.b",
+			"label":"关于寥寥宴客"
+		},
+		{
+			"startdescription":"“新王……那让我有些担心。我确信他在居屋的大火后不久就登上王位只是一场巧合。一段不幸的日子。但我一直讨厌这个巧合。”[尝试放入一本具有足够的奥秘：<sprite name=forge>或奥秘：<sprite name=lantern>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.intro.serena.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“出现在西方的云层中的那些轮廓——我听说过它们——或者我在自己的梦里见过——或两者皆有。我必须确认我的梦在何处结束，而历史在何处开始。”[尝试放入一本具有足够的奥秘：<sprite name=scale>，且匹配访客对<sprite name=scale>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.fraser.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“我从很久之前就不再为国王效力了。做出这个选择并不轻松。不过我发现，某些联系更难解开。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arthur.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“齐达内死了。遗憾的是：那个人曾是位艺术家。而令人担忧的是：我疑心他的死是否可能与他最后的作品有某种联系。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.serena.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“我对奥里弗拉姆的‘失窃案’相当感兴趣。你是位值得信赖的周密人，对吧？”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.serena.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“是的，我想谈谈奥里弗拉姆的事。他们什么也不肯承认，但还是雇了我去改进他们的保险库。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.hokobald.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“不，我不打算去看演出。我猜它还应该不赖，我是说你可以跟着哼哼序曲，但这还不算真正的莫扎特，你能理解吗？不，我还有任务在身。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.corso.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“……叫我回想起了血。我再也不会在大海的这一侧，或是在这风的统治下流血了……”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.franklin.numa.wood",
+			"label":"关于绳结与缠线"
+		},
+		{
+			"startdescription":"“当我知道我们在找寻什么的时候，我便知道我曾找到了什么。你能帮我找到它吗，亲爱的？”[尝试放入一本具有足够的奥秘：<sprite name=moon>，且匹配访客对<sprite name=moon>的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.auntmopsy.numa.moon.b",
+			"label":"关于午夜孪生子"
+		},
+		{
+			"startdescription":"“图书管理员——我的小图书管理员——我必须谢谢你。真是感激不尽。这下我知道该去找谁了。请收下这些！你理应得到更多。不过我还是不吻你比较好，对吧？”",
+			"id":"talk.visitor.incident.success.morgen.revolution.mystery.grail",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“我来这里不需要什么目的……但我需要你帮我找到它。”[尝试放入一本具有足够的奥秘：<sprite name=moon>，且匹配访客对<sprite name=moon>的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.auntmopsy.numa.moon.a",
+			"label":"关于虚假记忆"
+		},
+		{
+			"startdescription":"“这里有某种不光彩的东西在起作用，图书管理员。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.azita.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“美杜莎，哈？那玩意到底是怎么回事？该死的，我要是知道就好了。兴许你能提供些帮助。我希望你能帮我一下。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.dagmar.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“‘当光熄灭时，谁是守夜人？’‘黑暗之中。’不；这话以伐诃来说才算通顺。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arun.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我最亲爱的敌人——迈哈德——已经西渡到薄暮群屿去了。在我撵上他之前，我得先知道原因。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.azita.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“真有趣。有个叫‘骨白拂晓教会’的古怪小机构一直在邀请我为他们做演讲。嗯，你听了也会发笑的，图书管理员……”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.yvette.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“我在翠仙苑那边的一位老熟人大概会很喜欢这件……不安分的蜡像。但如果我要把它寄到亚洲的另一头，就得先保证它会老老实实地待在盒子里。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.stanislav.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“我有个朋友——他收藏各种古董。现在，他希望自己从未收藏过其中某样物件。但是——该怎么解释呢？它并不希望他放弃收藏自己。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.agdistis.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“据说防剿局把霍布森关进了盒子。要我说，防剿局压根就分不清储物盒和储物室。哈哈！储物室！储物室。就像你呆的地方那样。我想我该去克拉科夫转转，保证每样东西都被正确地封起来了。我只是想先理清我里面的东西。（储物室！）”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.dagmar.intrusion",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“……在我的理解中永远存在空白。若要把它们全部填满——那就意味着向永恒屈服。但这些问题始终困扰着我，就如同鬼魂纠缠着它的挚爱……”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.julian.numa.moon.b",
+			"label":"关于午夜孪生子"
+		},
+		{
+			"startdescription":"“……我读到过。但我读过它本身就意义重大。如果它仅能被写下，那就只会是黑花……”[尝试放入一本具有足够的奥秘：<sprite name=moon>，且匹配访客对<sprite name=moon>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.julian.numa.moon.a",
+			"label":"关于虚假记忆"
+		},
+		{
+			"startdescription":"“我受命去弥阿的废墟里找到那座斑驳的花园，并采摘一朵黑白玫瑰……作为纪念品。我的庇护者很慷慨，但她从不仁慈。我始终对‘纪念品’的事有些担心。我想再研究一下这个问题。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.aladim.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“那位牧师只会向外敞开——这种状态真令人失望。但至少他的痛苦不必再拖延下去了。”",
+			"id":"talk.visitor.incident.success.zachary.wound.mystery.winter",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“它之中的某些东西可能曾是清晰的。以卵的形式。很有用。本可以是这样。我得去理解那是什么。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.zachary.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“<i>为什么</i>这些人<i>每个</i>都总是迫不及待地想打开<i>每样</i>东西？”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.connie.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“清算人。你向他们开枪，他们会倒下，然后又站起来。偷来的岁月帮他们吸收了几颗子弹。但这并不是什么新问题。总会有办法的。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arthur.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“我听说了德国最近出现的那个冒险胜地。许多游客进去的时候是银行家，出来时却成了画家。我一般对银行家和绘画都不感兴趣，但这次……”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.agdistis.pan",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“我有位客户手头上可能有一份无形歌剧台本的改编版。他付钱雇我看那场表演，并让我辨别两者的异同……”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.corso.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“我那位朋友的新藏品很明显附有来自虚界的恶意——我觉得很可能是那位名为扶摇蜘蛛的司辰。若真是如此，我常用的那些保护措施可能不足以与之对抗。你是否能为我提供帮助？”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.agdistis.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“不，我不信那个。但我的妈妈对此深信不疑；她曾跟我谈起过所谓的‘第二拂晓’。当然那时候我没有当回事，但如今国王的计划……太奇怪了。我想看看能否在这里的藏书中找到些什么……”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.olympe.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“亲爱的，我告诉过你的，如果我到这儿只是为了捣乱，那不也恰恰意味着我是来给你捎个口信的吗？”[尝试放入一本具有足够的奥秘： <sprite name=nectar> ，且匹配访客对 <sprite name=nectar> 的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.auntmopsy.numa.wood",
+			"label":"关于绳结与缠线"
+		},
+		{
+			"startdescription":"“我找到了我需要的东西。我自己走就行。再见了，图书管理员。”",
+			"id":"talk.visitor.incident.success.corso.opera.wings.mystery.grail",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“当我还在这里的时候——当我第一次来到这里的时候，我相当生气。我打开道路后就被弃于一旁——这是最微不足道的。我打开了道路——这才是最糟糕的。尽管曾有一次，我觉得情况恰恰相反。”",
+			"id":"talk.visitor.incident.success.numa.rowena.numa.winter.a.mystery.winter",
+			"label":"关于更柔之霜"
+		},
+		{
+			"startdescription":"“墨萨拿发生的那些失明，那些启示……这些现象中有某种熟悉的共性。我有种找到了答案的预感。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.fraser.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“阿卢卡是棘手的目标——而美杜莎和我听说过的任何阿卢卡都不一样。我必须知道怎样保护自己——或者，我该怎样才可以安抚她。”[尝试放入一本具有足够的奥秘：<sprite name=edge>或奥秘：<sprite name=rose>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.chaima.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“我想要出席一部歌剧的首演——一部我一直都很钟爱的歌剧……”[尝试放入一本具有足够的奥秘：<sprite name=grail>或奥秘：<sprite name=sky>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.intro.morgen.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“预言，图书管理员。这是个预言的时代。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arthur.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“我觉得我知道得足够了。我觉得。谢谢……”",
+			"id":"talk.visitor.incident.success.zachary.curse.mystery.winter",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“通常防剿局不干涉遥远东欧的事务，而且当地官方也没有向我们求援。但这次的对象身上有种似曾相识的气味。如果它打算往西边走，我得先做好准备。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.connie.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我会去和其中一些人谈谈。我一直以来都感到世界脉搏的节奏正在发生变化。我认为这是个让我探明其中原因的机会。当然，我们都知道我的猜想可能出错。不过还是谢谢你，图书管理员。请收下我的祝福；还有这个。”",
+			"id":"talk.visitor.incident.success.stanislav.pan.mystery.heart",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“我在边境里追踪一本书——一本哈廷顿未公开的著作，而且，你知道吗，每当我觉得我的哈廷顿在什么地方的时候，那地方就会莫名其妙地燃起战火……”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.corso.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“我认为——我认为——齐达内在他的作品中使用了伊苏金属。这会让很多人不安，从防剿局到……谢谢你，图书管理员。希望我能永远相信你不会将我们之间的谈话告诉任何人。”",
+			"id":"talk.visitor.incident.success.serena.project.ingenious.mystery.forge",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“这次我为教会工作。我这有通行证以及所需的一切。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.corso.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“我是对的——又一次。我得尽早动身……噢，我猜你需要些报酬……”",
+			"id":"talk.visitor.incident.success.hokobald.revolution.mystery.grail",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“我有几个姐妹就住在薄暮群屿上方的云层里。我想圣滕特雷托的修士们早已学会了如何不去注意到她们。所以我觉得那里一定有别的东西——新兴的，或是古老的东西。在我动身去群屿前，我得先让自己了解些……”[尝试放入一本具有足够的奥秘：<sprite name=sky>，且匹配访客对<sprite name=sky>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.morgen.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“我打算去问问她关于我自己的‘近乎此刻’。但是在我这么做之前，我希望尽我所能了解为什么她会选择在七蟠寺展现神谕。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.aladim.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“把它们像圣诞礼物那样封起来，看看我能不能做到。再会，有缘再会！哈哈！储物室！”",
+			"id":"talk.visitor.incident.success.dagmar.intrusion.mystery.knock",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“假设恰好有个恰好会些夜游术，或者，你懂的，会某些技艺的存在，它可能是好奇锁起来的内容，可能是好奇什么样的信息能……误导官方。不是误导。阻挠。消除踪迹。我也不是说有什么踪迹需要消除。反正诸如此类吧。总之还是小心为妙。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.dagmar.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“又有个白痴试图再现<i>l'opéra invisible</i>（无形歌剧）。那这对他就更糟了。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.morgen.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“我想知道：为何在此地？我也想知道：为何在此时？”[尝试放入一本具有足够的奥秘：<sprite name=heart>或奥秘：<sprite name=nectar>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.stanislav.pan",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“我相信没什么了不得的。每当时局动荡，人们就会转向信仰。我觉得仅此而已。谢谢你让我安心。”",
+			"id":"talk.visitor.incident.success.serena.mystical.mystery.lantern",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“谢谢。这样我就有足够的信息起个头了。老实说我不太想亲自去弥阿——这个故事还没有稀奇到这个份上！——但我觉得我应该认识一个能为我代劳的人。再次感谢你。”",
+			"id":"talk.visitor.incident.success.olympe.lost.find.mystery.moth",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“有很多关于第二拂晓的预言，你知道的；关于太阳的重生。预言之一就是‘无拘之眼’……”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arthur.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“首先，我必须直面美杜莎并回答她的谜语。你听说过这个吗，图书管理员？‘何物不得见？’其次，我必须在这次遭遇中活下来。我希望你的藏书能帮助我做好准备。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arthur.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“坦率地说，图书管理员，我希望自己不必向任何人开枪。但如果我开枪了，我现在也知道该用什么子弹打他们。”",
+			"id":"talk.visitor.incident.success.arthur.mob.mystery.edge",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“谢谢你，亲爱的。这让我高兴了一点。这是诸如此类的事情较好的那面。有缘再会！”",
+			"id":"talk.visitor.incident.success.dagmar.heist.mystery.knock",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“图书管理员……是那些岁月的买卖。账簿的所有者始终是昕旦，清算人交易时会祈求她。我觉得，很有可能只有在愚蠢史上最愚蠢的清算人才会通过欺骗昕旦牟利。我不知道最后悔的是谁。我最好还是去考纳斯一趟。”",
+			"id":"talk.visitor.incident.success.connie.mob.mystery.moon",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“实话说，图书管理员，我不觉得我的发现中有能让我们的外国朋友放心的内容。好吧，如果他们不发起战争，我也不会。祝你的新王好运。”",
+			"id":"talk.visitor.incident.success.corso.project.solar.mystery.lantern",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“这确实可能意味着第二拂晓。或者一场大战。我更喜欢拂晓。但是它可能两者皆是……谢谢你，图书管理员。如果你不介意的话，请保证发生在这里的对话只有你我知道。”",
+			"id":"talk.visitor.incident.success.olympe.project.solar.mystery.forge",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我不确定……你知道吗，这次我没准发现了什么更加轰动的东西。实在是谢谢你，亲爱的，非常感谢！”",
+			"id":"talk.visitor.incident.success.coquille.heist.mystery.knock",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“有个白痴想在威尼斯将无形歌剧搬上舞台。好吧，我猜就算有什么东西着了火，威尼斯也应该比绝大多数城市更不容易被付之一炬。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.hokobald.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“军团里头有位长官——一位对我来说<i>非常特别</i>的老朋友。我想给他留下些足够让他记住我的小礼物。但他的品味同样也<i>非常特别</i>。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.coquille.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“……我写下的文字将永远保持着它们当时的样子。我写下的最后一版——它改变了很多，但又不尽如此。其他人写下的文字也是如此。但如果我阅读它们——甚至重读它们……”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.julian.numa.winter.a",
+			"label":"关于更柔之霜"
+		},
+		{
+			"startdescription":"“有人雇我去考纳斯，图书管理员。是关于清算人战争的。我站哪边？这重要吗？”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arthur.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“我觉得这些就够了。至少不会让我出丑！”",
+			"id":"talk.visitor.incident.success.agdistis.project.ingenious.mystery.sky",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“谢谢你。现在我知道该如何安抚她了。只要表现出足够的尊重就好。”",
+			"id":"talk.visitor.incident.success.chaima.stalk.mystery.rose",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“边境遇到了麻烦。军团向我提出了邀约。”[尝试放入一本具有足够的奥秘：<sprite name=edge>，且匹配访客对<sprite name=edge>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.chaima.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“这可真令人沮丧。我将不得不按着他们的脑袋让他们坐下来谈谈。而清算人的脑袋通常硬得很。这次我可能不得不亲自介入了。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.azita.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“‘法则的碰触比我们想象的要轻’。当我们祈求轰雷之皮的时候，下层天域的国度可能发生意想不到的变故……”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.ehsan.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“确实不同寻常。你提供的信息对我这次的报道而言已经绰绰有余了，图书管理员。谢谢你。”",
+			"id":"talk.visitor.incident.success.olympe.heist.mystery.forge",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“我担心这位‘开启牧师’已经引起了蚁母的注意。若真是如此，我大概就没什么可为他做的了。但我会试试。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.ehsan.wound.mystery.heart",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“……伊苏，例外之城。可在永恒面前，一切例外都只是过眼云烟。这才是重点！唯有当我接受……”",
+			"id":"talk.visitor.incident.success.numa.julian.numa.moon.a.mystery.moon",
+			"label":"关于虚假记忆"
+		},
+		{
+			"startdescription":"“我想这事只能这样了。给。这报酬可能有些过于慷慨，但我天生就是个过于慷慨的人。这也许是我唯一留存的弱点了。”",
+			"id":"talk.visitor.incident.success.hokobald.heist.mystery.forge",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“为了解封那东西，我必须仔细研读关于保护措施的内容。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.douglas.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“‘开启牧师’——我知道他陷入了麻烦。在那事儿发生在他身上之前，他曾是我的病人。不论那究竟是什么事儿！”",
+			"id":"talk.visitor.intro.yvette.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“我有些进入物体内部的本领——我只是得看看是否之前已经有人尝试过了——”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.coquille.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“谢谢你，图书管理员。我现在应该能够阻止它在深夜里散步了。它光在我的房间里这么做就够糟糕了。要是在我非得乘火车时打扰到其他乘客，那就更不礼貌了。”",
+			"id":"talk.visitor.incident.success.stanislav.curse.mystery.heart",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“大地浓于血——这不是我们的小特蕾莎说的吗？好吧，我的小图书管理员，就让我们拭目以待吧。<i>À bientôt</i>（回头见）。”",
+			"id":"talk.visitor.incident.success.morgen.opera.wings.mystery.grail",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“我还有希望找到我的哈廷顿——但我得贿赂某个人。而我要贿赂的那位女士——呃，她很有钱，不过她是……这么说吧，她是一名美食家……”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.corso.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“如果我坐在剧院的后排，可能会安全些。只是可能。所以我打算把一些工作转包给比我更勇敢的人。我已经有了人选：勇敢，有洞察力，但不幸的是，不够愚蠢，需要一笔特别的贿赂。所以我来这里寻找灵感。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.corso.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“他们总以为我们全都无所不知。以为一位灯之长生者会了解叩心魅，一头狻猊会了解丘陵之子……但我们所有人对我们所有人都是个谜。而这位，对我来说也是个谜。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.ehsan.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“现在我能确信了。介壳种中最高贵的血统是辉诞族……‘辉翼’。我一直对这支血脉情有独钟。伟大的日子，图书管理员；伟大的日子就要到来了。”",
+			"id":"talk.visitor.incident.success.fraser.rising.mystery.scale",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“丽姬亚厄客德娜，为蛇哺乳之人……是的，我知道蛇一般不饮乳。我现在确信阿贝卡西斯已经选择饮用她提供的东西。我不知道还能为他做些什么。不过还是谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.aladim.hunt.changing.mystery.scale",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“白鸽之圣哥伦巴。据说他的棺木就在布兰库格的这个地方——是居屋的藏品之一。别担心，我不是来打听这件事的。我尊重居屋的秘密。但我更想知道<i>为什么</i>他会被带到这里来……”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.yvette.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我最亲爱的敌人——迈哈德——邀请我去布达佩斯迎接他的挑战……”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.azita.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“我的临时家人都是慷慨的甜心——他们<i>当然是</i>——但我只是有一点点躁动不安……好吧，如果威尼斯有人突然意识到自己还缺一个干女儿，我会很乐意做些事前调查的。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.coquille.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“是的，特别是在考虑到这座居屋近段时期那无比凄惨的处境后，这个答案已经够令人满意了。我没在抱怨；祝你有美好的一天。”",
+			"id":"talk.visitor.incident.success.hokobald.project.solar.mystery.forge",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“你好，我的小图书管理员。我真高兴能成为这样一个项目的赞助人……”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.morgen.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“我知道他们要去哪里，尽管我还不知道原因。我最好做一次实地考察……但我不确定会不会坐飞机去，至少在这种情形下不能确定。你知道的，如果我是你，就绝不会在傍晚去海边散步，直到这一切平息下来。我只是以防万一。”",
+			"id":"talk.visitor.incident.success.connie.observe.scaly.mystery.sky",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“我需要与系谱学相关的资料。或者烹饪资料也行。要么就是其他有关的东西……”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.hokobald.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“《阿波罗与马西亚斯》将于巴黎再次上演。图书管理员，这是部伟大的作品……在各种意义上都是如此。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.ehsan.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“美杜莎的谜语是：‘何物不得见？’丽姬亚给出的谜语很少只有唯一的答案，如果我打算前往布达佩斯，就最好事先做些准备。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.aladim.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“棒极了。具名者多得足够把那地方烧焦了，嗯？绰绰有余。有缘再会！”",
+			"id":"talk.visitor.incident.success.dagmar.box.mystery.knock",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“……是我的傲慢。为了推翻必然而战。我不会说我的时间都是白费的——对暴政的打击没有白费。但唯当我看到……”",
+			"id":"talk.visitor.incident.success.numa.julian.numa.moon.b.mystery.moon",
+			"label":"关于午夜孪生子"
+		},
+		{
+			"startdescription":"“这篇文章很有用——谢谢你！不过在回到布兰库格之后，我才意识到了这件事的最古怪之处。从那地方产出的作品——它们和蒂尔扎·布雷克曾经的作品颇为相似。你肯定听说过，她也在这里当过图书管理员……这或许只是巧合。或许不是。”",
+			"id":"talk.visitor.incident.success.ehsan.pan.mystery.heart",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“图书管理员，新王让欧洲大陆上的许多势力寝食难安。所以一位朋友的朋友委托我来做些调查，好让他放心。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.corso.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我现在明白了我该如何合上他们看向天空的眼睛。不是每种渴望都应当满足，图书管理员。在躁狂症过去后，他们会感谢我的。而他们的家人现在就会感谢我。我们不能同时做两件事……不，我做出这个选择并没有说得轻巧。但我选择危害较小的做法。感谢你的帮助。”",
+			"id":"talk.visitor.incident.success.ehsan.observe.scaly.mystery.sky",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“那群白痴学徒正迫不及待地赶往北方尝试他们从真菌巫师那儿搞来的半吊子夜魄语仪式。不管发生什么，我肯定都不会喜欢。所以我来这儿研究对策。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.connie.rite.renewal",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“有人请我帮助治疗某种新型躁狂症的患者。他们在云中见到了各种轮廓——既使他们害怕，又让他们狂喜的轮廓。他们不约而同地想踏上去西方的旅途。他们顽固无比。他们变得充满攻击性……”[尝试放入一本具有足够的奥秘：<sprite name=sky>，且匹配访客对<sprite name=sky>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.ehsan.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“‘冉升之时’。我曾读到过类似的神谕者，图书管理员。但我得说：他们通常不会在和平安定的年代提供此类服务。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.aladim.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“角争的众贤者教导我们，理解引发纷争。那么我好奇，和平是否可能会从困惑中产生？”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arun.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“上司让我坐下，向我解释什么是‘莱特里昂’。还有‘潘’。你知不知道我能读那该死的文法学校全靠我那点该死的希腊语？还有那该死的奖学金。别管这事儿了。让我看看你对此有什么见解吧。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.douglas.pan",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“图书管理员，近年来出现了许多新兴的教会和惹眼的小教派。我们倒是不介意他们宣扬美德。不过当他们开始向信徒允诺所谓被隐藏的真相时，就得多留意些了。而如果有人开始谈论永生——好吧，他们不会的。我们会确保他们不会的。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.douglas.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“你知道的，这样的狂热在以前也发生过——这种宗教狂热。路权战争，蠕虫大战，置闰……我好奇它们与其他时代的宗教到底有多少相通之处？”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.serena.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“谢谢你，我的朋友。如今我更担忧的是如果这种保护措施行之有效，他会决定完全不去处理那东西——他会希望维持现状。但在牵扯到虚界的时候，最好的保护措施也只是暂时的。我会尽我所能说服他！谢谢你！”",
+			"id":"talk.visitor.incident.success.agdistis.curse.mystery.heart",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“我就知道我不会后悔来这里的。不仅仅是因为你所分享的知识……我会逐渐喜欢上这里的，即使在这里天色最阴沉的时候，图书管理员。也许我逐渐开始明白为什么你愿意抛下整个世界，而选择在布兰库格安家了。”",
+			"id":"talk.visitor.incident.success.agdistis.opera.apollo.mystery.sky",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“坦率地说，我怀疑是奥里弗拉姆的人编造并传播了这个故事。但我没法彻底理清缘由。我需要调查一下其中某些所谓‘假货’的来源与制造过程。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.serena.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“你知道我的家族里有不少人都是溺死的。我妈妈过去常拿所谓的家族诅咒开玩笑，说她总有一天要带着我们搬到沙漠里去。我也曾跟着她一起笑。但我现在不会了。不过还是谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.yvette.rising.mystery.moon",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“圣米哈尔之棺。我大概知道‘圣米哈尔’是指什么了。别以为我们会想让他出去。千万别这么以为。我得查找些封印之类的东西。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.dagmar.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“浪潮依旧。我听到过这句话，从小到大，那时候我妈妈以为我没听到她说话。‘浪潮依旧……’谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.yvette.box.mystery.moon",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我可不是<i>间谍</i>。间谍从不去图书馆。我只是个拿了报酬的研究者，想为世界和平尽自己的微薄之力。不介意我到处逛逛吧？”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.corso.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我会去黑森林一趟。我觉得这是个我需要深入研究的课题；这可能是个让某些旧的事物以正确或错误的方式获得重生的机会。当然，我们都知道我的猜想可能出错。不过还是谢谢你，图书管理员。请收下我的祝福；还有这个。”",
+			"id":"talk.visitor.incident.success.stanislav.pan.mystery.nectar",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“边境又发生了战争。噢，图书管理员……我已经闻到了血腥味。”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.morgen.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“图书管理员，我认为齐达内一直在通过天界的钥匙孔偷听某种声音。至少杀人动机不像是出于对艺术上的嫉妒的那么狭隘。但我不觉得为他报仇是可能的。”",
+			"id":"talk.visitor.incident.success.azita.project.ingenious.mystery.sky",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“有什么寄居于他们内里的存在开启了他们的眼睛，让他们能够看到来自下层天域的诱惑——有什么在试图改变他们。我必须知道如何压制它们。”[尝试放入一本具有足够的奥秘：<sprite name=sky>，且匹配访客对<sprite name=sky>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.ehsan.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“这部歌剧是献给飞蛾的具名者，‘喜鹊’夫里泽里夫的。夫里泽里夫是位麻烦制造者——可能是他们之中最能制造麻烦的那个（虽然我自认也有些制造麻烦的本领，但和他比就是小巫见大巫了）。所以剧中会有警报、嗡鸣、甚至放血。但即使是最不负责的不死鸟，我们也有希望能抢救回一颗蛋……”[尝试放入一本具有足够的奥秘： <sprite name=moth> ，且匹配访客对 <sprite name=moth> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arun.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“我现在知道我该采取哪些预防措施了。我希望这能管用。谢谢，图书管理员。”",
+			"id":"talk.visitor.incident.success.yvette.intrusion.mystery.winter",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“诶，这确实挺叫人遗憾的。我猜我应该现在就把那玩意拆了。最好把它丢到哪个地方的矿井里。我很高兴这次能与你会面，图书管理员。”",
+			"id":"talk.visitor.incident.success.yvette.curse.mystery.winter",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“这就是我需要的东西。艺术家的结局总是那么令人唏嘘。希望他没有白白死去。”",
+			"id":"talk.visitor.incident.success.morgen.project.ingenious.mystery.sky",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“如果我在这里，我将会承认我的罪孽。我想请你向我出示些东西，提醒我当时为何要犯下罪孽。”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.rowena.numa.grail.b",
+			"label":"关于寥寥宴客"
+		},
+		{
+			"startdescription":"“我们已经等待了太久，图书管理员。久到没有记忆可以追溯到那过往；甚至连藏在表皮之下的记忆都不行。”",
+			"id":"talk.visitor.incident.success.fraser.observe.scaly.mystery.scale",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“看来我的想法既不完全正确，也不完全错误。我们对‘此刻’的认识在白天最多，在夜晚最少，但在黄昏时<i>最为重要</i>……在太阳将他的血分予我们的时候。如果我们能将自己的血分与拂晓的太阳，我们或许就能知晓最为完整的‘此刻’。祝你有美好的一天，图书管理员。”",
+			"id":"talk.visitor.incident.success.arun.rising.mystery.moon",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“清算人。他们并不愚蠢。但当他们聚集得足够多的时候——他们就会变得<i>十分</i>愚蠢。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.chaima.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“精挑细选，罕得一见！哦呵呵，这正是我希望的。谢谢你，我的小图书管理员。”",
+			"id":"talk.visitor.incident.success.morgen.opera.apollo.mystery.grail",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“我已经得到了我需要的东西。（除了还需要洗个澡。）谢谢你。”",
+			"id":"talk.visitor.incident.success.chaima.mob.mystery.edge",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“你知道的，还有很多像我们这样的人，身负不愈之伤……而像我们这样的人会选择不去治愈它们。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.agdistis.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“那位牧师已经接受了门关的恩惠。我会在这里学习什么可能会通过那扇门。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.zachary.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“这里有我许多美好的回忆。我担心它们会先于我而消失。我离永恒太近了。给我些提示吧，图书管理员；分心之物；血液的迹象……”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.rowena.numa.grail.a",
+			"label":"关于庇护饮剂"
+		},
+		{
+			"startdescription":"“我无意装成什么专家，但是他们的安保措施的某些细节看起来有些不同寻常。我希望你的藏书能助我调查清楚。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.olympe.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“这个世纪，图书管理员，这个世纪。每个枕头下面都压着把刀。而在这个时节，我愿意当一位刀具收藏家。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arun.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“图书管理员啊，有的时候，看不到这些事情如何发生确实令人沮丧。但我羡慕你。那些事情，人一旦卷入其中，就再也无法彻底脱身了。”",
+			"id":"talk.visitor.incident.success.arun.mob.mystery.moon",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“多谢。这下我对应该逮捕谁心里有数多了。M夫人会喜欢这个主意的。那位正派的自由思想者本来就没有时间去教堂。‘别总是管那些可怜的灵媒了，’她曾这么说，‘把一两个主教丢进牢里，拿省下来的钱去打理打理你那傻了吧唧的帽子吧。’我跟她说要是我们哪天决定把花太多钱在女帽上的人都关起来，她就得小心了。那天晚上我不得不在花园的小棚里享用我的晚餐。总之，回头见。”",
+			"id":"talk.visitor.incident.success.douglas.project.solar.mystery.lantern",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“一部歌剧即将在巴黎上演。我有位亲爱的老敌手特别喜欢歌剧，我希望他能出席。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.azita.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“我会和巴黎相关机构的同僚谈谈。也许它没有我想的那么糟糕……”",
+			"id":"talk.visitor.incident.success.connie.opera.apollo.mystery.sky",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“他们说，薄暮群屿上空的云层里有什么东西……”[尝试放入一本具有足够的奥秘：<sprite name=sky>，且匹配访客对<sprite name=sky>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.morgen.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“关于斯特拉斯堡的雕像。我在教会高层有些熟人，而且我也不喜欢他们对我的那套说辞……”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.aladim.rite.awakening",
+			"label":"关于檀木圣徒"
+		},
+		{
+			"startdescription":"“‘莱特里奥斯’就是潘神——是他拯救者之面相。所以为什么它叫‘莱特里昂’？为了宣传，还是宗教使然？有人会说，哈哈，这两者没区别！而我想知道更多。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.agdistis.pan",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“人总是得走些古怪的小路，不是吗？没准儿其中有什么意外之喜。走着瞧吧。我这就去威尼斯！”",
+			"id":"talk.visitor.incident.success.coquille.opera.wings.mystery.grail",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“真令人遗憾，格拉德温湖很快就会发生令人遗憾的事了。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arun.rite.renewal",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“它<i>肯定</i>是<i>有史以来</i>最为无聊的作品，但若我<i>碰巧</i>要去，我对自己的着装倒是有些相当<i>生动</i>的想法。你知道的，我只是需要充实我的想法。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.coquille.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“我为发生的事感到遗憾。为马戏团的事。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.zachary.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“上头担心在墨萨拿发生的视觉怪象会继续蔓延。我并不这么看。这不是玩笑。我不常开玩笑。如果我开了玩笑，我会让你知道的。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.douglas.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“太阳的计划……那是个迷宫。就像群狮迷宫一样。近八十年来，我始终在致力于猜测它的叉口与拐点位于何处。这是很长的一段时间——太长了，长到即使我采取了各种措施，也无法阻挡岁月的流逝。我已经开始希望，自己能在死前看到它的中心。”",
+			"id":"talk.visitor.incident.success.arthur.mystical.mystery.lantern",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“‘来自黑暗，黑暗。’祝我好运吧。”",
+			"id":"talk.visitor.incident.success.connie.rite.renewal.mystery.moon",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“这下一切都清楚了。他们被骗了。他们拿到的手稿不可能早于十八世纪。或许我不该把这件事告诉他们……对吧，图书管理员？客户大多不喜欢为坏消息付钱。”",
+			"id":"talk.visitor.incident.success.corso.omen.dawn.mystery.lantern",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“忘却会很久之前就横渡西海，退居到了午港。但我听说近来有部分新教派的成员会许下一种‘白骨誓言’——很像忘却会的‘白骨锁链’。我想研究一下是否还有其他的相似之处。照明术，漫宿相关文本，还有太阳教义都可以。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.fraser.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“我想到了个最为<i>精妙</i>的主意！给——这是你的辛苦费。”",
+			"id":"talk.visitor.incident.success.coquille.revolution.mystery.grail",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“迈哈德向我送来了合乎礼节的挑衅——他总是彬彬有礼——这倒没什么奇怪的。但他同时描述了他在云中见到的某种轮廓。这困扰着我。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.azita.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“你肯定知道那些不朽的存在——长生者——不能诞下子嗣。尝试这么做的人都将不得不吞下恶果。如果，嗯……如果他们在即将不朽时有了孩子呢？在那种情况下孩子会变得特别吗？‘骨白拂晓’是这么想的，而我不然。算了……再讨论这种事情的话，就搞得我像个白痴一样了。多谢，图书管理员。”",
+			"id":"talk.visitor.incident.success.yvette.mystical.mystery.winter",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“《阿波罗与马西亚斯》。可怕的故事。它总是让我想起我那最<i>恼人的</i>叔叔……”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.coquille.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“每个人都总是在寻觅。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.zachary.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“帮我回想起它吧，图书管理员，回想起万物的终结。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.rowena.numa.winter.a",
+			"label":"关于更柔之霜"
+		},
+		{
+			"startdescription":"“你可能还记得，我是一名照明术研习者。我在群狮迷宫的导师们为我设下了一个挑战，我必须解决掉它才能进入下一阶段的课程。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arthur.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“没错，亲爱的。咱今葬它不知所失，待它葬咱才知失孰。如果我是你，我会考虑我该埋葬什么。祝你好梦。”",
+			"id":"talk.visitor.incident.success.numa.auntmopsy.numa.moon.a.mystery.moon",
+			"label":"关于虚假记忆"
+		},
+		{
+			"startdescription":"“<i>这</i>是我<i>迄今为止</i>遇到过的最<i>令人作呕</i>的蠕虫事件。迄今为止。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.coquille.intrusion",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“美味。我现在可以确信，那将会是场慷慨而难忘的盛宴。你兴许比你的那些前辈更有用。”",
+			"id":"talk.visitor.incident.success.hokobald.opera.apollo.mystery.grail",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“这次的事件和我无关，我认为。我侍奉的神灵并不温和。他失去了自己的皮肤，又接受别人的皮肤作为祭品……可参与这件事的那位司辰更加残忍。我不会参与这事的。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.agdistis.wound.mystery.heart",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“没错，我是长生者中的一员。‘不朽’这词对我们来说太乐观了。我们每个人都有自己的庇护者。只要足够幸运，我们就永远不会引来他们的直接关注……”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.aladim.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“考纳斯的一个清算人领主真把自己当成了学徒。所以他的召唤术自然就搞砸了，现在，那召唤物自然也在下水道里安了家。这些东西总是那么喜欢下水道。总是如此。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.chaima.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“你听说过格拉德温发生的事情吗？我不会让它在我眼皮底下发生。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.connie.rite.renewal",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“……不可停歇。没有舞伴就无法跳舞，没有皮肤就没有鼓……”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.franklin.numa.wood",
+			"label":"关于绳结与缠线"
+		},
+		{
+			"startdescription":"“这个主意棒极了。要是你愿意的话，你可以告诉我我有多聪明。大家都这么告诉我的。谢谢你，亲爱的！”",
+			"id":"talk.visitor.incident.success.coquille.box.mystery.knock",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我不敢相信这只是巧合。忘却会正重回世间……忘却会永远不会重回世间。午港一定是发生了什么事。”",
+			"id":"talk.visitor.incident.success.fraser.mystical.mystery.lantern",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“我一直在查自己的家族史——一次又一次——但我始终没法将记录整合起来。我不知道自己到底在找什么，但我希望我能在这里找到答案。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.yvette.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“蠕虫干的龌龊事。龌龊。你遇到过霍布森吗？那个讨人厌的矮个子。是的，龌龊。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.dagmar.intrusion",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“弥阿，位于沙漠之中。他们总是把沙漠的活儿丢给我。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.chaima.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“对保险库那件事，我有很多想法。相当之多。我还没有确定具体的思考方向。所以我来这里对相关文献进行初步调查。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.hokobald.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“没错，亲爱的。没有树木就没有纸张；没有斧头就没有森林；没有记忆就没有忘却。祝你好梦。”",
+			"id":"talk.visitor.incident.success.numa.auntmopsy.numa.wood.mystery.nectar",
+			"label":"关于绳结与缠线"
+		},
+		{
+			"startdescription":"“我自己就能提供他们需要的。但他们的一些要求激起了我的好奇心。我想要在这里重温一下，呃，‘有关太阳的文本’。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.fraser.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“血统十分重要；选择更是如此。我的后裔也有她自己的选择要做。如果我在这里，我会请你把我的忠告转达于她……但我不能在这儿。”",
+			"id":"talk.visitor.incident.success.numa.rowena.numa.grail.b.mystery.grail",
+			"label":"关于寥寥宴客"
+		},
+		{
+			"startdescription":"“有些权威说法认为答案是‘永恒’。另外一些则认为是‘介壳种’，但我害怕这可能会激怒她……恐怕最安全的答案是‘我’。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.aladim.stalk.mystery.rose",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“没有赤杯，我将永远不会来到这里。没有赤杯，我大概会满足地死去。但我也就死了。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.rowena.numa.wood",
+			"label":"关于绳结与缠线"
+		},
+		{
+			"startdescription":"“你知道新王最近在做什么吗？我想，知道这些就足够了。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.hokobald.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“狮子匠是狻猊的庇护者；同时也是迈哈德——我最亲爱的敌人的庇护者。我则受到上校的庇护，而狮子匠之于上校就如同迈哈德之于我。上校会乐于见到这位狻猊毫无光荣地死去。现在，你大概也了解了这些棋子，以及这场棋局。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.azita.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“在英格兰，爱尔兰和法国的西海岸，到处都有这样的案例……人们游向大海。我们甚至不知道他们有没有淹死。截至目前都还没有发现遗体。”[尝试放入一本具有足够的奥秘：<sprite name=sky>，且匹配访客对<sprite name=sky>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.connie.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“有发现了。可能是别的什么东西。可能是会让我后悔的东西。谁都别说，好吗？这是给明白人的忠告。再会，亲爱的，有缘再会。”",
+			"id":"talk.visitor.incident.success.dagmar.omen.horizon.mystery.rose",
+			"label":"关于别样地平线"
+		},
+		{
+			"startdescription":"“总有朝外的方向，也总有朝下的方向。”[尝试放入一本具有足够的奥秘：<sprite name=knock>或奥秘：<sprite name=winter>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.zachary.intrusion",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“没错，他们看起来正有此意。更多的长生者意味着更多的梦境危险，更多吃人的灵体到处游荡，还有更多的天孽也迟早会出现。我不清楚你是否知道那是什么。我反正希望我不知道。”",
+			"id":"talk.visitor.incident.success.douglas.mystical.mystery.lantern",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“迈哈德会设法让阿贝卡西斯光荣地死去，而我会设法阻止。毫无疑问，棋盘上还会有其他棋子，试图拯救阿贝卡西斯，或着把他当成另一种形式的战利品带走。所以我必须做好准备。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.azita.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“我对此很感兴趣……你明白吗？现在还不是很明晰，但我最终会弄明白的。”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.morgen.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“谢谢你，图书管理员。请放心：除非迫不得已，我不会让他们流血。一次严厉的训诫就足够了。但必须足够严厉。”",
+			"id":"talk.visitor.incident.success.azita.mob.mystery.edge",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“我这么觉得。‘开启牧师’是行走的梦境危险。好吧，不是‘行走的’，可怜人。我得去提议一些更永久性的措施。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.douglas.wound.mystery.heart",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“一些乐事已露端倪。记住我的话。一些乐事。好吧，我得谢谢你，亲爱的。这是一点儿小礼物。”",
+			"id":"talk.visitor.incident.success.dagmar.stalk.mystery.rose",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“……一旦我们开始，就再无止尽。没有圣杯，就没有置闰；没有置闰，司辰们要如何阻止……”",
+			"id":"talk.visitor.incident.success.numa.franklin.numa.grail.b.mystery.grail",
+			"label":"关于寥寥宴客"
+		},
+		{
+			"startdescription":"“云朵一直被称作‘下层天域的舞者’。在日落时分，我就是它们的观众。我了解它们的心绪和行为，非常了解。但最近情况有变。‘下层天域的舞者’的舞姿起初只是变得妖艳多姿——如今更散发着难以抵抗的吸引力。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.agdistis.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“如果我在这里，这会使我快慰；如果我在这里，我会给你比现在更高的酬劳。”",
+			"id":"talk.visitor.incident.success.numa.rowena.numa.grail.a.mystery.grail",
+			"label":"关于庇护饮剂"
+		},
+		{
+			"startdescription":"“每个人都要选择自己的道路……但我担心我的朋友可能已经选择了<i>成为</i>道路……唉，若是这样，我不会走在他上面的。但我现在知道他想要什么了。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.stanislav.wound.mystery.heart",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“噤声居屋；布兰库格；海中灰岩。我还有最后一次机会踏足此地。但不是现在。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.rowena.numa.winter.a",
+			"label":"关于更柔之霜"
+		},
+		{
+			"startdescription":"“在这里发生的事情——我认为它并不比太阳的计划中任何一部分更危险。而且要宏伟得多。我们都有自己的选择——我这次的选择，是为我的亲人和他在这项工作中扮演的角色而骄傲。谢谢你，图书管理员。我希望你能把刚才的对话作为我们二人的秘密。”",
+			"id":"talk.visitor.incident.success.arthur.project.solar.mystery.lantern",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我脑海中开始有一个构想了……让我们拭目以待吧。或许，你也应该观察一下布兰库格上空的云，我的小图书管理员。”",
+			"id":"talk.visitor.incident.success.morgen.observe.scaly.mystery.sky",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“圣米哈尔之棺。我希望它不<i>真的</i>是一副棺材。如果打开之后，却发现里面只有烂掉的圣人，那就太扫兴了。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.coquille.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“……指望一个诗人去……骗子。我们的女儿……”",
+			"id":"talk.visitor.incident.success.numa.franklin.numa.grail.a.mystery.grail",
+			"label":"关于庇护饮剂"
+		},
+		{
+			"startdescription":"“如果我不能阻止将要发生的事情，我就只能旁观了。我甚至可能学到些什么。但我决定来这里先学习。如果我学得足够多，我就不必去观看；如果我不去观看，我可能就不会担忧。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arun.rite.renewal",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“……终结就像是苍白拂晓前的苍白微光。我们总可以确定第一次——我们总不能确定最后一次……”",
+			"id":"talk.visitor.incident.success.numa.julian.numa.winter.a.mystery.winter",
+			"label":"关于更柔之霜"
+		},
+		{
+			"startdescription":"“鱼在水里游，根在土里游。什么在血与蜜中游？”[尝试放入一本具有足够的奥秘： <sprite name=nectar> ，且匹配访客对 <sprite name=nectar> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.auntmopsy.numa.wood",
+			"label":"关于绳结与缠线"
+		},
+		{
+			"startdescription":"“你知道我之前不得不爬上林苑旁的群山，设法完成加尔米耶的受肉吗？我真希望自己当时就知道这些技术。这是我做过最困难的工作。而且我觉得她终究会回到漫宿。（不过至少我可以取笑她说，她身上沾了腐殖质的味道。）”",
+			"id":"talk.visitor.incident.success.stanislav.rite.renewal.mystery.nectar",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“狻猊很罕见。堕落的狻猊，更加罕见。如果阿贝卡西斯继续他的蜕变——他会变成什么？”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.fraser.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“他们说，甲虫成群结队地在教堂的拱顶上安家，并会用它们的嗡鸣声为赞美诗伴奏。助祭赞扬了它们在宗教上的热情，但他的观点明显并不被大众认可。我想，有些人担心他自己可能都要开始嗡鸣了。我在犹豫是否应该介入此事。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.aladim.rite.awakening",
+			"label":"关于檀木圣徒"
+		},
+		{
+			"startdescription":"“噢，祖斯。他是位比我想象中还要伟大的工匠……我想这恐怕就是他的死因。或许那只百灵鸟应该停留在未完成的阶段。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.ehsan.project.ingenious.mystery.sky",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“……另一声回响。托马斯，伊娃，玛蒂尔达，布莱恩。每个名字……”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.julian.numa.winter.a",
+			"label":"关于更柔之霜"
+		},
+		{
+			"startdescription":"“我在边境的朋友没有完全向我坦诚……但说实在的，他们也没说谎。谢谢你，图书管理员。我还有很多事情需要考虑。”",
+			"id":"talk.visitor.incident.success.arthur.revolution.mystery.edge",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“墨萨拿。失明？远见？我嗅到了守夜人具名者的气味。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.serena.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“我受邀研究这些太阳崇拜的运动。我倒不觉得它们有什么大不了的。但需要再确定一下。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.serena.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“我全副武装，我准备妥当，我下定决心。对局的这一部分于我毫无乐趣可言。但我从未奢望过永恒可能温和。我做出了我的选择，阿贝卡西斯也做出了他的。再见，图书管理员。”",
+			"id":"talk.visitor.incident.success.azita.hunt.changing.mystery.edge",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“杀死一只狻猊——这已经是件难事了。而要活捉一只狻猊——则困难到了我不得不来这里向你求助的地步。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arthur.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“齐达内是被谋杀的，这点毋庸置疑。但我搞不明白凶手的动机。也许与他的作品……或是与他试图传授给它的音乐有关。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.azita.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“那么，应当向下。再见，图书管理员。”",
+			"id":"talk.visitor.incident.success.zachary.intrusion.mystery.winter",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“如果我在这里，那只会是因为我无法离开。”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.rowena.numa.grail.a",
+			"label":"关于庇护饮剂"
+		},
+		{
+			"startdescription":"“如果我在这里……大概应是孪生子带我到了这里。是孪生子将不应分离之物结合。因此我与我的沥血姐妹们共享她们的庇护。就如班克罗夫特曾说的那样，这世上还有更甚于爱情的欲望。”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.rowena.numa.grail.b",
+			"label":"关于寥寥宴客"
+		},
+		{
+			"startdescription":"“当然，我对所谓‘王室之举’有大概的了解，但我还想回忆一下关于它的一些小细节。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.hokobald.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“是的；我认为我已经找到了一种可用的替代品。这想必会为我带来丰厚的回报。我会给你分成……”",
+			"id":"talk.visitor.incident.success.azita.revolution.mystery.edge",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“演出的第一天晚上会有某种灾难发生。我想为那场灾难做好充分准备。万一灾难没发生，嗯，我也想为这种可能的情况做好充分准备。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.morgen.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“王室之举的高级官员找到我，希望我能帮助他们解决一些属于隐秘世界的问题……”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.fraser.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“罗比戈，慷慨待主者，旅行短暂者。他是戴冠之孳的具名者；他是吸器的特别友人；如果有人要为奥尔图基奥事件负责，那只能是他。光是把这些措辞说出口就让我觉得不太舒服。不过高兴点吧，图书管理员！一旦我走了，你大概就再也不用听这些话了。”",
+			"id":"talk.visitor.incident.success.arun.rite.renewal.mystery.moon",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“我来这儿是为了霍布森。防剿局邀请我和他面谈——并评估他的状态。我不觉得自己想接下这差事，但我也不觉得我应该错过这个机会……”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.yvette.intrusion",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“当亨德里克·德沃尔夫还是佣兵队长的时候，他的军队曾受雇在边境巡逻。我猜这是国王任命他当这里领主的真正原因。我不会确定地说一个人能从布兰库格前往伊苏……但我相信要踏上这一旅程，布兰库格将会个不错的起点。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.aladim.omen.horizon.mystery.rose",
+			"label":"关于别样地平线"
+		},
+		{
+			"startdescription":"“杀死齐达内的凶手身披人形……但那是来自下层天域的叛逃灵体。它在伦敦找得了藏身之地。找到它不容易，但它们也总是有自己的弱点。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.connie.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“这确实有些帮助。我还是不知道该对我的患者说什么……但我想不论发生什么，他都会去的。看起来那就是这类事物的运作方式。‘浪潮依旧。’”",
+			"id":"talk.visitor.incident.success.yvette.rite.renewal.mystery.moon",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“当这场演出失败时——它会失败的——我希望能够充分利用现场的条件。你不必为细节操心。一切细节都在我的掌控之中。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.hokobald.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“这些来自格吕内瓦尔德的古董……我自己也有一件。一个小装置。防剿局向我保证它是安全的……我已经把它送去修了……不过现在嘛，和你想的一样，我已经起疑心了。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.yvette.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“我喜欢军团。他们的报酬很不错。但我对他们的敌人几乎一无所知，而我不喜欢在一无所知的情况下投入战斗。”[尝试放入一本具有足够的奥秘：<sprite name=edge>，且匹配访客对<sprite name=edge>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.chaima.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“我下定决心在这件事上绝不认输。但是阿贝卡西斯会在迷宫的回廊里变成什么样子——我可说不准。”",
+			"id":"talk.visitor.incident.success.arthur.hunt.changing.mystery.edge",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“霍布森。他曾是我的朋友（也许现在已经成了我的朋友们）。我得知道自己该做什么。”[尝试放入一本具有足够的奥秘：<sprite name=knock>或奥秘：<sprite name=winter>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.intro.zachary.intrusion",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“伊苏本身就是个例外之地。我好奇答案是否就在那里，亦或在离发源地更近的地方……”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.aladim.omen.horizon",
+			"label":"关于别样地平线"
+		},
+		{
+			"startdescription":"“我在浪费自己的时间——这再明显不过了。伊苏的使者不可能跨越边境。但他们雇我来就是要我浪费时间，所以我必须保证绝对的确定。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.chaima.omen.horizon",
+			"label":"关于别样地平线"
+		},
+		{
+			"startdescription":"“我的一个朋友常说，花瓣是花之表皮；而花朵是植物之发。斑驳玫瑰——我很好奇这到底意味着什么。我想借阅一下你的藏书。”[尝试放入一本具有足够的奥秘： <sprite name=moth> ，且匹配访客对 <sprite name=moth> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arun.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“我已受邀去主持一次……或许是驱灵仪式，或许是更进一步的什么。我得确保我能把这事做好。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.ehsan.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“我自己也从‘冉升之时’那儿得到了一个神谕。我相信自己已经完全理解了其中的内容。我来这里是为了验证我的理解。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.fraser.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“……乐观？如果你把这称作乐观的话！我无意否定司辰。但除了我们之外，面对辉光的光芒，还有谁能创造出这诸史呢？如果……”",
+			"id":"talk.visitor.incident.success.numa.franklin.numa.wood.mystery.grail",
+			"label":"关于绳结与缠线"
+		},
+		{
+			"startdescription":"“你知道他们又在尝试所谓的无形歌剧了吧？你知道这通常意味着什么吗？丧亲之痛。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.coquille.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“这些新教派的周围总是能找到许多与拂晓有关的符号与图像。它们中的一些痴迷于崇拜特定的形象——比如你可能知道的日落西莉亚就，呃，在神学上就很吸引人。大主教花钱雇我调查《西莉亚祷文》的出处，想看看是否会发生什么尴尬的事。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.corso.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“地方当局把它关进了盒子。这样我们就能知道它们在哪了。亲爱的，但我感兴趣的，是它们<i>来自</i>哪儿。我认为克拉科夫根本没有这样的东西——至少大战之后没有。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.coquille.intrusion",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“圣米哈尔之棺里面的东西。它迟早会出来；这毫无疑问；这是它的天性。如早餐般不可避免。但让我感兴趣的是，一旦它来到外界，它会选择躲在什么地方。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arun.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我有位患者最近总是被一个关于湖泊的梦境困扰。他在湖中游泳，溺毙，又在月光下重生……我们上个月才刚刚确定，那是格拉德温湖。他从未去过那儿。但他想去。而现在，就在刚才，我听说了有关织幔和仪式的传闻。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.yvette.rite.renewal",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“我并不是很喜欢那些反叛者——但我确实和其中一些人走得很近。我需要知道他们说的有多少是真话。”[尝试放入一本具有足够的奥秘：<sprite name=edge>，且匹配访客对<sprite name=edge>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arthur.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“没错，亲爱的。没有那些黑暗中的诸神，恐怕我们在永恒以外的地方都看不到太阳。祝你好梦。”",
+			"id":"talk.visitor.incident.success.numa.auntmopsy.numa.moon.b.mystery.moon",
+			"label":"关于午夜孪生子"
+		},
+		{
+			"startdescription":"“有个人<i>正</i>准备去看，但他并不真的是位歌剧爱好者，而是更感兴趣于，嗯，餐饮。届时他会带一本食谱。差不多算是食谱。介壳种的滋味技艺。他本来想让我也学一学，但我不熟悉介壳种的语言。所以我就过来了，准备读一读那些……污渍。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.corso.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“军团又一次开始了进军。他们正在搜集补给……”[尝试放入一本具有足够的奥秘：<sprite name=edge>，且匹配访客对<sprite name=edge>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.azita.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“‘她可能是她这类当中还活着的最年迈的一位，不过她已经死了。’过去，我们一直习惯于如此评价美杜莎，那位夜晚出没于布达佩斯街头的丽姬亚……但最近她似乎也开始在白天出没。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.aladim.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“一些我感兴趣的人也会出席，让大家看到我的最佳状态非常重要。我正在寻找某种非常特殊的灵感……”[尝试放入一本具有足够的奥秘：<sprite name=grail>或奥秘：<sprite name=sky>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.morgen.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“‘如早餐般不可避免’……我坚信这句格言。一觉醒来，人要么进食，要么被吃。当然，用餐后再睡觉是惬意的，成为餐点后再睡则十分惬意。谁也不知道最后会发生什么。对吧，图书管理员？我们只知道曾经发生过什么。”",
+			"id":"talk.visitor.incident.success.arun.box.mystery.moon",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“弥阿的故事——我很感兴趣。我想居屋应该会帮我跟进这个主题。”[尝试放入一本具有足够的奥秘： <sprite name=moth> ，且匹配访客对 <sprite name=moth> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.olympe.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“……那位王，那口钟，那座城。没有历史，就没有它们……”[尝试放入一本具有足够的奥秘：<sprite name=moon>，且匹配访客对<sprite name=moon>的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.julian.numa.moon.a",
+			"label":"关于虚假记忆"
+		},
+		{
+			"startdescription":"“……关于平衡与和谐的肤浅空谈。我们没时间做那个。但正如其他术士所说，当某样事物与它的对立面相持太久……”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.julian.numa.moon.b",
+			"label":"关于午夜孪生子"
+		},
+		{
+			"startdescription":"“马拉喀什城的狻猊阿贝卡西斯最近开始表现出——让我们说得委婉些——失常的举止。我想查明原因。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.aladim.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“这回是另一次。那时是第一次……”",
+			"id":"talk.visitor.incident.success.zachary.box.mystery.knock",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“关于‘王室之举’，我好奇你的想法。不，别真的告诉我！我可不想让我们陷进麻烦里——我们中的任何一个。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.olympe.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我已经错过了他的葬礼，但还是托人为他作了一首悼歌。我希望这首歌能在他留下的那件设备中播放……但我必须得先弄清楚，呼唤下层天域的神灵会有什么后果。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.ehsan.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“我好奇我们中有多少人肯告诉你真相？我好奇我们中是否有人会这么做？我好奇你是否曾考虑过用毫无意义的垃圾填满<i>我们</i>的眼睛？抱歉。说这些对我也没有意义。我们来谈谈那些花瓣吧。”[尝试放入一本具有足够的奥秘： <sprite name=moth> ，且匹配访客对 <sprite name=moth> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arun.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“我认识一些学徒，他们完全不相信守夜人会有具名者——当然了，除了日落西莉亚。他们错了。不过在这种情况下，区分具名者和司辰自身本就十分困难。我需要仔细研究。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.serena.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“喜鹊通常会委托一种较弱的神灵在剧院中引发一场恰到好处的灾难。但众所周知，他有时也会亲自参加演出……我想到了一个好主意：我可以鼓励他这么做。谢谢你，图书管理员。我一直都想找个机会和夫里泽里夫谈谈。”",
+			"id":"talk.visitor.incident.success.arun.opera.wings.mystery.moth",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“那个可怜鬼曾是我的朋友。我不确定他现在到底是什么东西。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.stanislav.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“边境上的那些军团又做了蠢事。总有接连不断的蠢事。但我嗅到了机遇。”",
+			"id":"talk.visitor.intro.hokobald.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“我的一位亲戚——我外甥的儿子——不知为何与新王的那些项目扯上了关系。我早已和我的家族分道扬镳，我也不会让他们想起被我背叛的耻辱。但是，在我更了解这件事之前，我还是放心不下。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arthur.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我对这场冲突的起因有一个理论……图书管理员，我希望能研究一下。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.connie.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“我得确保演出的所有细节都毫无瑕疵——这对我的宿敌来说是最无法抗拒的诱饵……”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.azita.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“如果书籍是不死的记忆……那么记忆被埋葬在何处？”[尝试放入一本具有足够的奥秘：<sprite name=moon>，且匹配访客对<sprite name=moon>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.auntmopsy.numa.moon.a",
+			"label":"关于虚假记忆"
+		},
+		{
+			"startdescription":"“种子在黑暗中长得最好。花朵在阳光下开得最妙。如果月亮是夜晚的果实，为何它又总是枯萎？”[尝试放入一本具有足够的奥秘：<sprite name=moon>，且匹配访客对<sprite name=moon>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.auntmopsy.numa.moon.b",
+			"label":"关于午夜孪生子"
+		},
+		{
+			"startdescription":"“‘冉升之时的神谕者’。我问了她一个谜语；她竟然厚颜无耻到用另一个谜语反问我。这就是为什么我会来这里。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arun.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“黑森林里发生了件怪事。我希望能在这里的藏书中找到可以让我加深对其认知的内容……”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.ehsan.pan",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“我受到了来自西方的召唤。我知道我得去那边。但我不知道为什么。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.agdistis.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“我在斯特拉斯堡有些影响力——通过商业上的利害关系，你知道的。我可以在那里施加我的影响力——但我还不确定会导致什么样的结果。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.fraser.rite.awakening",
+			"label":"关于檀木圣徒"
+		},
+		{
+			"startdescription":"“我担心观众，我担心赞助人，我很担心男高音，而我最最担心的是承包商。我知道，我有些杞人忧天。但我确实对这场演出及其后果缺乏了解。帮我个忙吧？”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.connie.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“他们说，他被蠕虫寄生了。我对这句话的含义只能说是一知半解，而且我相当担心防剿局也是如此。我不指望自己有能力帮助他，或是他们；老实说，我想首先保证自己的安全。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.yvette.intrusion",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“我希望阿贝卡西斯还能讲得通道理。否则，我就得做好准备了。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.chaima.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“启明警探道格拉斯·摩尔，负责执行由王室之举的高级部门单独下发的特殊任务，你懂的。‘希望你能重视。’”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.douglas.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我正在调查关于奥里弗拉姆的新闻——那场失窃案，还有那些赝品。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.olympe.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“圣杯……她受到的误解比任何司辰都多。没有她，通往永恒的漂泊不会持续如此之长的时间……给我些提示，图书管理员。能让这漂泊持续得再长一点儿的提示。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.rowena.numa.wood",
+			"label":"关于绳结与缠线"
+		},
+		{
+			"startdescription":"“你肯定听说过关于我的那些传闻。那么你也会明白，我对任何肉身朝圣者都很同情。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.fraser.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“图书管理员，这件作品对我来说很特别——对我侍奉的司辰也是如此。我想确认这件作品是否无愧于他。我不会让乐队蒙羞，也不会让观众失望！这点一向如此。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.agdistis.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“也许你对忘却会有所了解，图书管理员——那是一个杜绝与司辰交易的长生者教团……”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.fraser.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“每当有人创造出了什么伟大的东西时，总有某人会试图破坏它或炸毁它。工作就是这么回事。不过，看到一堆<i>牧师</i>被卷进这种事里还是很滑稽的。也许这就是他们口中的‘教义分歧’。我来这里调查此事。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.douglas.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我满怀信心地来到这里，图书管理员。愿我可以依靠你的判断力。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.connie.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“我去过弥阿，你知道的。只剩下那点东西了。我不会再回去了。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.dagmar.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“斑驳玫瑰。我还是不了解。可你不知道浪游旅人喜欢花园吗？还有飞蛾也是。我想，说不定我最后还是会回到弥阿……”",
+			"id":"talk.visitor.incident.success.dagmar.lost.find.mystery.rose",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“不过，如果事实证明那是真的，好吧，任何女孩儿都会对那些财宝是如何被运走的十分好奇……”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.coquille.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“你知道的，严谨来说他并不是被谋杀的。只有人类才能指控以谋杀的罪名。从法律的角度来看，齐达内就像是被闪电偶然击中了一般。这是属于那个国度的事。万幸的是防剿局不必为这些条条框框而担心，对吧？”",
+			"id":"talk.visitor.incident.success.connie.project.ingenious.mystery.sky",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“这些患者，这些同门；或许我该说，这些新晋者？我的兴趣出于我的两个职业；既作为牧师，也作为园丁。”[尝试放入一本具有足够的奥秘：<sprite name=heart>或奥秘：<sprite name=nectar>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.intro.stanislav.pan",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“边境发生了一场兵变——估计你听说过了。他们发信向我求助……”[尝试放入一本具有足够的奥秘：<sprite name=edge>，且匹配访客对<sprite name=edge>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arthur.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“我想，最明智的做法应该是烧掉它。介壳种的时代早就过去了。为此多愁善感无可非议，但我不觉得我们能和先我们而来者成为朋友。还有就是，当然了，我们可以保证它烧起来会香味扑鼻！”",
+			"id":"talk.visitor.incident.success.aladim.rite.awakening.mystery.scale",
+			"label":"关于檀木圣徒"
+		},
+		{
+			"startdescription":"“你应该听说过门关军团吧？那群门关的看守者？他们又要上战场了——”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.coquille.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“我知道。政府会把祖斯那件完美的遗作当废品卖掉。但我已经想到了一位收藏者——一位非常富有的女士。我希望能说服她买下来。但我得先更好地了解那件作品的性质……”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.olympe.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“如果一个人选择了敞开，为什么他还会想被关闭？”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.zachary.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“我希望能在这里的藏书里找到有用的信息，来打消我的疑虑。或者让我的疑虑更明确些。”[尝试放入一本具有足够的奥秘：<sprite name=forge>或奥秘：<sprite name=lantern>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.serena.project.solar",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我会要求教会将它沉入水中。那些保守派的牧师会满意这一结果的。而那些与我暗中共情的牧师……和我一样，他们也希望，在黑暗与静谧中，它会继续成长。”",
+			"id":"talk.visitor.incident.success.fraser.rite.awakening.mystery.scale",
+			"label":"关于檀木圣徒"
+		},
+		{
+			"startdescription":"“图书管理员……一扇门合上了，另一扇门开启了。还有一扇。”",
+			"id":"talk.visitor.incident.success.zachary.heist.mystery.knock",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“我好奇，西方到底正在发生什么？如果那是某种古老的东西，我可能会想要见证它。如果那是什么新兴的事物，我可能会想要记录它。如果两者皆是……我就应该立刻制定计划，动身前往那里。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.aladim.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“是的，是的，这些就足够了。别急，图书管理员，这是你的一点小费。”",
+			"id":"talk.visitor.incident.success.hokobald.project.ingenious.mystery.forge",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“有个传说，讲的是浪游旅人在诅咒弥阿前，曾栽种了一座黑白相间的花园。而飞蛾也偶尔会在夜晚造访那里。这世上总是有许多传说……”[尝试放入一本具有足够的奥秘： <sprite name=moth> ，且匹配访客对 <sprite name=moth> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.olympe.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“就是这个。谢了。现在，应该有机会避免那玩意从里面被拿出来。感激不尽。”",
+			"id":"talk.visitor.incident.success.douglas.curse.mystery.heart",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“就这样吧。迈哈德会喜欢它的！谢谢你。”",
+			"id":"talk.visitor.incident.success.azita.opera.apollo.mystery.sky",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“我希望我能在这儿的藏书里找到些相关的内容。当然，许多事物之间都有关联。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.douglas.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“我来替一个朋友调查一点儿东西，叫她K就好。哦不，别叫她K。当我没说过这事。还是换个别的什么话题吧。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.dagmar.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“蜕变，图书管理员。对于我等已决定将己身奉献给马西亚斯，奉献给永无休止的舞蹈之人来说——我们与蜕变的关系是复杂且矛盾的。我已得到允诺，如果我前往西方，我将脱胎换骨……但我不会去的；我满意我现在的样子；近乎满意。”",
+			"id":"talk.visitor.incident.success.agdistis.observe.scaly.mystery.sky",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“谈谈那只百灵鸟吧。齐达内的天赋充其量只能说是平庸，但我想我兴许可以对他的作品做一些补救。”[尝试放入一本具有足够的奥秘：<sprite name=forge>，且匹配访客对<sprite name=forge>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.hokobald.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“这就是它的进展。其中一些只能如此。”",
+			"id":"talk.visitor.incident.success.zachary.mystical.mystery.winter",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“我最近总是梦见一座沐浴在月光下的沙漠寺宇……我不是很想告诉你其他的细节。哪怕在白天也不行。我很抱歉。我可以看一下这里的藏书吗？”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.yvette.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“‘无拘之眼’——这可能意味着很多事情。群狮迷宫的照明术导师让我去其他图书馆寻求智慧。我希望你能帮忙。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arthur.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“我曾读到过，蜂蜜是那地方提供的饮食的一部分。我想我现在明白了它的重要性。可能我自己也会试试！谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.agdistis.pan.mystery.heart",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“这些应该就够了。我希望这些够了。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.olympe.project.ingenious.mystery.forge",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“我找到了这几起失踪案的目击者。他们说那些游泳的人‘好像在云中见到了什么’。这相当模糊，不是吗？不过我已经学到了，当我不知道某事该从哪开始着手时，就从这里，从噤声居屋开始。”[尝试放入一本具有足够的奥秘：<sprite name=sky>，且匹配访客对<sprite name=sky>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.connie.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“如果我能找到他们如何终结的方法……我就能把终结提供给他们。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.zachary.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“我不喜欢他们的那套说辞。我一点都不喜欢。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.zachary.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“我还在担心。毫无疑问，这是个与太阳有关的计划。所有事物都于法理上畅行无阻……万事万物皆归于‘光’……但这事关日落。你知道的，我一直都相信制烛人是日落西莉亚的。不，这不可能，可制烛人本身就是不可能。别告诉其他人。谢谢。”",
+			"id":"talk.visitor.incident.success.serena.project.solar.mystery.lantern",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我们以前把这东西封得好好的，现在那些蠢蛋又非要把它解封。你就当没听到过这话。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.douglas.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“我的朋友听说过那部歌剧会带来毁灭的传闻，但他依旧决定这么做。好吧，如果我没法劝住他，兴许还能帮上些忙。我希望你的藏书能为他提供某种方法……”[尝试放入一本具有足够的奥秘： <sprite name=moth> ，且匹配访客对 <sprite name=moth> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.olympe.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“谢谢你。现在我知道该怎么保护自己了，只要别靠得太近就好。”",
+			"id":"talk.visitor.incident.success.chaima.stalk.mystery.edge",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“我还在担心。你听说过日落之路吗，兰开斯特家族的炼金术？我在新王的计划里发现了相似之处，没有人想要再来一位受控之火的君王了，对吧？就让这些中世纪的谬行留在中世纪吧，谢谢你的帮助。”",
+			"id":"talk.visitor.incident.success.serena.project.solar.mystery.forge",
+			"label":"关于王室之举"
+		},
+		{
+			"startdescription":"“我们即将迎来蜕变的时节。就历史而言我活得算是长的，而就地图学而言，我踏足过的地域依然很狭窄。横渡大洋将使我远离其他感兴趣的事物。除非我确信这值得我见证，不然我不会冒险西渡……”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.aladim.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“差强人意。我希望这不是你最后一次表现得差强人意。我们都不想堂堂一位图书管理员拿不到薪酬，对吧？”",
+			"id":"talk.visitor.incident.success.hokobald.opera.wings.mystery.grail",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“《阿波罗与马西亚斯》。人们认为它的乐谱早已失踪……我得自豪地说，我在修复它的过程中也尽了绵薄之力。它相当古老。有人委托我把它修改得更符合，呃，当代的期望。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.agdistis.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“图书管理员，我认为我们正在接近某个历史的转折点，在那时花朵自会寻找飞蛾，而不是反过来的那样。抱歉。对我来说，不用谜语说话是件难事。但我会试试。当站在树下的那一刻到来时，你需尽可能谨慎。选择权始终在你自己手上。”",
+			"id":"talk.visitor.incident.success.arun.lost.find.mystery.moth",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“你知道的，名为七蟠的司辰是石源神。她倒在上校的刀刃下……但有种说法称她‘溺毙在自己的鲜血里’。另一种说法认为她的鲜血是金色的……就像太阳的颜色。我几乎理解了它，但只是几乎……我不觉得我会拜访这位神谕者。我害怕我可能学到的知识。”",
+			"id":"talk.visitor.incident.success.aladim.rising.mystery.scale",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“你听说过齐达内那件事了吗？多么令人悲伤啊。万幸的是，他的作品毫发无损。而我想要看到它完工的样子。所以我来这里学习……”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.morgen.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“我在局里的上级从‘冉升之时’那儿得到了一个神谕。那种东西不太适合我。他还要我调查明白那是什么意思。实话说，这种事也不太适合我来做。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.connie.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“不，这是另一种存在。我的那些梦还没有在现实中成真。也许它们永远不会。谢谢你，图书管理员。”",
+			"id":"talk.visitor.incident.success.fraser.omen.dawn.mystery.lantern",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“沙漠……它们并不总像防剿局以为的那样相似。闹鬼的沙漠和有诅咒的沙漠就更不相似了。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.chaima.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“他们要我鉴定一份手稿的真伪。关于‘无拘之眼’的神秘插画。我需要做些交叉核验。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.corso.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“到处都是法条，法律和法则。其中之一条法则就是这世界上只能有那么多的长生者。这条法则的大部分执行者的级别都比我高。<i>高得多</i>。但我被吩咐来调查一下这件事。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.douglas.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“这大有裨益，图书管理员。谢谢你愿意掺和到我们这愚蠢的游戏之中。”",
+			"id":"talk.visitor.incident.success.azita.stalk.mystery.edge",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“无形歌剧。我建议过他们最好在黑暗中表演它。很少有人听得进我说的话。他们总是以为我在开玩笑。”[尝试放入一本具有足够的奥秘： <sprite name=moth> ，且匹配访客对 <sprite name=moth> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arun.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“每当天象再现之时，介壳种的远行诸族就会拜访它们昔日的家园。它们很谨慎——它们从不会待太久。这种情况很少发生，但确实发生过。每次，我那些更容易激动的同僚们都会相信它们已经回归，而且一切都将发生变化，我们内在的介壳种将会外显。这种事从未发生过。但我不认为它永远不会发生。我觉得这次我可能有必要横渡那片大洋……”",
+			"id":"talk.visitor.incident.success.aladim.observe.scaly.mystery.scale",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“你肯定知道，圣滕特雷托从未被教会正式承认过。但这些传统可以追溯到罗马甚至更早的时代，遍布在各个岛屿和各大洋的沿岸……”[尝试放入一本具有足够的奥秘：<sprite name=scale>，且匹配访客对<sprite name=scale>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.fraser.observe.scaly",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“是的，我来这里是为了在马拉喀什发生的那件麻烦事。没人会付我钱，至少这次没有。我和阿贝卡西斯曾有些旧交。如果可以的话，我会帮助他。如果有必要，我也会让他解脱。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.chaima.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“碧翠真人们早就对那些学说感兴趣了，但是吸器却一直不愿意与他们分享。所以真人们疑心这次可能是吸器的陷阱。我怀疑他们只是过于谨慎；但多年来，我已经学会了要重视他们的直觉。”[尝试放入一本具有足够的奥秘： <sprite name=nectar> ，且匹配访客对 <sprite name=nectar> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.stanislav.rite.renewal",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“他们坚信我会是他们注定的领袖。而我则坚信我不是，但他们非常地坚持。他们对我家族的传说一直念念不忘……”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.yvette.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“不，图书管理员，我的教团——它已所剩无几！——不被教会认可。但是，教义分歧双方中的理智者，都知道应该保持开放的沟通……抱歉，每次谈到教会大合一的时候，我就忍不住这样。我认识一个人，那人认识一位更权威的人。”[尝试放入一本具有足够的奥秘： <sprite name=nectar> ，且匹配访客对 <sprite name=nectar> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.stanislav.rite.awakening",
+			"label":"关于檀木圣徒"
+		},
+		{
+			"startdescription":"“我和防剿局曾有些分歧……但总体来说，我很高兴相关机构坚守了自己的立场……但这件事……这件事的情况非常，非常糟糕。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.ehsan.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“我想确定哪些礼物最<i>适合</i>这部歌剧的主题……”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.hokobald.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“今年英格兰被各种各样的预言包围和刺痛着。有的让我害怕。有的让我生疑。我希望在噤声居屋能找到些指引。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arthur.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“这样我就放心了。或许，最终不会刮起风暴；或许每个人都只是享受了一个美好的夜晚。这是迟早的事。”",
+			"id":"talk.visitor.incident.success.ehsan.opera.apollo.mystery.sky",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“好吧，你瞧，我不能假装自己明白那里发生了什么，但我会告诉上头你帮忙搞清楚了一点情况。只是个玩笑。我一向说到做到。”",
+			"id":"talk.visitor.incident.success.douglas.omen.dawn.mystery.lantern",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“狻猊只吃从天空中猎取的食物。而阿贝卡西斯，似乎转变了他的饮食习惯。重要的是，我得明白这如何发生……”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.aladim.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“当年我认识一个姑娘，就在克卢日-纳波卡。迷人的花园。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.dagmar.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我依然希望能安全启动那个装置。但我想要有绝对的把握。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.yvette.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“圣米哈尔之棺完全是无稽之谈……我来这里是为了另一位圣人。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.yvette.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我不会再回弥阿。已经说过了。但是那个可怜人为之而死的玫瑰。黑白相间的那朵，你看到了吗？敲敲钟，挠挠神经，拍拍老头骨……”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.dagmar.lost.find",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“你知道的，他们有次带我参观了奥里弗拉姆拍卖行的保险库。我不相信真的有人能闯进去。乐子超乎预料，乱子也超乎预料。”[尝试放入一本具有足够的奥秘：<sprite name=knock>，且匹配访客对<sprite name=knock>的兴趣的书籍。]",
+			"id":"talk.visitor.intro.coquille.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“‘开启’。他只是，你知道的，单纯地敞开吗？还是说他更可能向某些其他存在敞开？”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.douglas.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“我知道那把钥匙。我只需要它的名字。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.zachary.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我受委托作一首追悼曲……主题很复杂。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.agdistis.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“我无法想象任何人能治疗他的肉体。但如果他决定和我谈谈的话，我现在对我可能需要理解的内容有点概念了。谢谢你。”",
+			"id":"talk.visitor.incident.success.yvette.wound.mystery.winter",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“这场愚蠢的冲突已经威胁到了我在考纳斯的利益……”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.azita.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“迈哈德告诉我，美杜莎已经愈发堂而皇之地在布达佩斯行走了。我们将一起寻找她。先从她袍子上剪下一小块布的人就是赢家。当然，过程中可能免不了会有场打斗。我倒是能对付迈哈德，但美杜莎是另一回事。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.azita.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“你应该已经听说过了那位雕塑家的死讯了吧？这不是我们份内的事……但这事似乎已经自己找上门来了。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.connie.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“这不是我原本期望的。但如果是的话，它就不能称之为灵感了，不是吗？谢谢你，我的小图书管理员。”",
+			"id":"talk.visitor.incident.success.morgen.opera.apollo.mystery.sky",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“我自己也搞了一样来自格吕内瓦尔德的物品，你知道的……一尊蜡像。事实证明，它比大多数蜡像更不安分一点。幸运的是，我早就学会了不要相信防剿局会替我做事。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.stanislav.curse",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“我来这儿是为了一个梦。我知道那句话：医者难自医。这次就请纵容我吧。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.yvette.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“那是介壳种，对吧？在这么多年过去之后，我居然还能发现我和迈哈德的不同之处。简直太浪漫了！这都要归功于你，图书管理员。”",
+			"id":"talk.visitor.incident.success.azita.observe.scaly.mystery.sky",
+			"label":"关于利爪云霄"
+		},
+		{
+			"startdescription":"“有人给了我一份工作——去布达佩斯，跟踪美杜莎。跟踪，不是狩猎！我可不是傻瓜。”[尝试放入一本具有足够的奥秘：<sprite name=edge>或奥秘：<sprite name=rose>，且匹配访客相应兴趣的书籍。]",
+			"id":"talk.visitor.intro.chaima.stalk",
+			"label":"关于缺席友人"
+		},
+		{
+			"startdescription":"“我想那会起作用的。谢谢你，图书管理员。我猜，我该去看看那门关动物园了……”",
+			"id":"talk.visitor.incident.success.corso.revolution.mystery.grail",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"““我早该学会不要妄下论断了。那根本不是守夜人的具名者。我觉得它<i>大抵就是</i>制烛人的具名者。我听说其中的一位正在外界捣乱……当然我得去确认一下。谢谢你。”",
+			"id":"talk.visitor.incident.success.serena.omen.dawn.mystery.lantern",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“‘两根蜡烛投下的影子，随拂晓一同消逝之人。’你听说过这个吗，图书管理员？这是未经批准版《西莉亚祷文》中的一段。相当未经批准。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.corso.mystical",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“……我和伊娃女士分享的欢愉。我们共同的喜悦……”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.franklin.numa.grail.a",
+			"label":"关于庇护饮剂"
+		},
+		{
+			"startdescription":"“狻猊们一直很受群狮迷宫欢迎。阿贝卡西斯自己也在不久之前拜访过那里。而当他们对狮子匠失信的时候，这份义务总会落到我和我的同伴们身上——将他们带回迷宫领罚的义务。”[尝试放入一本具有足够的奥秘： <sprite name=edge> ，且匹配访客对 <sprite name=edge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.arthur.hunt.changing",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“我本来打算明年秋天再去看看祖斯……而我现在再也没有机会了。不管一个人活了多久，他都没法完全习惯不期而至的死亡。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.ehsan.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“……玫瑰的阴谋。这世上还有更甚于爱情的欲望……”[尝试放入一本具有足够的奥秘：<sprite name=grail>，且匹配访客对<sprite name=grail>的兴趣的书籍。]",
+			"id":"talk.visitor.numa.intro.franklin.numa.grail.b",
+			"label":"关于寥寥宴客"
+		},
+		{
+			"startdescription":"“那么，应当向外。再见，图书管理员。”",
+			"id":"talk.visitor.incident.success.zachary.intrusion.mystery.knock",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“比起艺术，我对其疗养的方面更感兴趣。但是那里似乎有些东西……怎么说呢，拽住了我思想的衣襟。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.ehsan.pan",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“翠仙苑请我来调查此事……”[尝试放入一本具有足够的奥秘： <sprite name=nectar> ，且匹配访客对 <sprite name=nectar> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.stanislav.rite.renewal",
+			"label":"关于修士织幔"
+		},
+		{
+			"startdescription":"“他们需要步枪，他们需要靴子。他们还想要镍纹石制的……小刀，而不是子弹。我手头没有镍纹石小刀，但我有个主意。”[尝试放入一本具有足够的奥秘：<sprite name=edge>，且匹配访客对<sprite name=edge>的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.azita.revolution",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“伊苏藏于波涛之外。这是众所周知的事实。但我的雇主怀疑他们的使者已经横渡大海来到了这里，来到了岸边……”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.chaima.omen.horizon",
+			"label":"关于别样地平线"
+		},
+		{
+			"startdescription":"“我几乎已经明白发生了什么。真正意义上的、确切发生过了什么。只差一点小细节了。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.zachary.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“祝我好运吧，图书管理员。但也别太好运了。这次狩猎——兴许我宁愿失手。”",
+			"id":"talk.visitor.incident.success.chaima.hunt.changing.mystery.edge",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“失窃？奥里弗拉姆拍卖行？胡说八道。赝品？更是胡说八道。但整个局里都在到处逮人。比奥尔图基奥那会儿还糟。真该死——抱歉——真是该死我那倒霉的后身又该死地疼起来了真抱歉。”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.dagmar.heist",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“我首先是个园丁，其次才是祭司，而作为医者则更在之后。我知道自己的极限。兴许你可以帮些忙。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.stanislav.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“我们何以知晓‘此刻’？是通过太阳的角度。我们在晚上还能知晓‘此刻’吗？我们自认可行，实则不然。你肯定在疑惑我是不是故弄玄虚。那就让我们一探究竟吧。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.arun.rising",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“当我在这里担任护理理事时，减轻他人的痛苦是我的首要职责。如今，它只是我的首要偏好……”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.ehsan.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“‘历史杂合；永恒纯净。’我希望我能保护阿贝卡西斯。我很想和他谈谈……”",
+			"id":"talk.visitor.incident.success.fraser.hunt.changing.mystery.scale",
+			"label":"关于第二覆皮"
+		},
+		{
+			"startdescription":"“通往伊苏的航路是遭禁的……遭禁得如此彻底，甚至连规定此事的法则都罕有人知。但总有例外。我猜守夜人之树的图书管理员会知道些例外。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.aladim.omen.horizon",
+			"label":"关于别样地平线"
+		},
+		{
+			"startdescription":"“惊悚与惊奇的界限总是模糊不清，不是吗？亲爱的。但我觉得这个还应该算在合适的界限内。”",
+			"id":"talk.visitor.incident.success.coquille.opera.apollo.mystery.grail",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“你已经听说过可怜的祖斯的死讯了吧？我很久以前在阿尔及尔认识了他。他太讨人喜欢了。那时我就已经知道，他将会是位了不起的大师……”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.olympe.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“我对这个人感到同情。真的。但他已经不再算是一个‘人’了。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.douglas.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“行吧；我把那则神谕告诉你。‘大贬质不是大赝身’。当听到这个的时候，我觉得这不算什么——一则笑话，或是恶作剧。但越是深入挖掘，我就越不喜欢这预言。局里一直以来都试图置身政治之外……但我不知道这种情况还能维持多久。”",
+			"id":"talk.visitor.incident.success.connie.rising.mystery.moon",
+			"label":"关于冉升之时"
+		},
+		{
+			"startdescription":"“防剿局不会把业务拓展到离他们本部这么远的地方。但地方当局已经向我们求援了。”[尝试放入一本具有足够的奥秘： <sprite name=moon> ，且匹配访客对 <sprite name=moon> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.connie.mob",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“一部歌颂圣杯的歌剧即将在巴黎上演。我打算给演员们带一些合适的礼物。”[尝试放入一本具有足够的奥秘： <sprite name=grail> ，且匹配访客对 <sprite name=grail> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.hokobald.opera.apollo",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“于暗中秉火的存在；自从未进入之处离去的存在；无人能置之不理的存在。这听起来像是一位制烛人的具名者。这些东西应该根本不存在才对——而如今，光是今年我就听说了至少两次……图书管理员，就把这件事当做我们之间的秘密吧。谢谢。”",
+			"id":"talk.visitor.incident.success.connie.box.mystery.moon",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“那儿没什么特别危险的东西。唉，世上的艺术家越来越多了。要我说单单这种现象就够危险了。但我认为这对防剿局倒没什么。谢谢。”",
+			"id":"talk.visitor.incident.success.douglas.pan.mystery.heart",
+			"label":"关于林地之神"
+		},
+		{
+			"startdescription":"“只有些线索与炉边故事。但足以为我的调查提供方向了。我很可能一无所获，但我不喜欢半途而废。”",
+			"id":"talk.visitor.incident.success.chaima.omen.horizon.mystery.rose",
+			"label":"关于别样地平线"
+		},
+		{
+			"startdescription":"“我觉得这些就够了。我现在就动身去弥阿。谢谢你。”",
+			"id":"talk.visitor.incident.success.chaima.lost.find.mystery.rose",
+			"label":"关于斑驳玫瑰"
+		},
+		{
+			"startdescription":"“斯特拉斯堡的教堂内有尊雕像，它激起了人们的飞行之梦——受祝转变之梦。我称之为精神上的进步。我担心教会可能意见相左。”[尝试放入一本具有足够的奥秘： <sprite name=scale> ，且匹配访客对 <sprite name=scale> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.fraser.rite.awakening",
+			"label":"关于檀木圣徒"
+		},
+		{
+			"startdescription":"“我算是个还说得过去的夜游术学者，你不知道吗？也就说得过去吧。我知道在边境上下进出的路。而伊苏是特别的。我需要一本特别的好书。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.dagmar.omen.horizon",
+			"label":"关于别样地平线"
+		},
+		{
+			"startdescription":"“如果有个布兰库格居民在四十九岁时生了个孩子，那么这些记录<i>就是</i>与之一致的。如果她向清算人买了额外寿命的话，这就有可能了！但这带来的问题比它回答的还多……但我想我可能已经知道一半的答案了。”",
+			"id":"talk.visitor.incident.success.yvette.mob.mystery.moon",
+			"label":"关于可恕之债"
+		},
+		{
+			"startdescription":"“我想推心置腹地和你谈谈，图书管理员。我一直被眼之梦困扰。”[尝试放入一本具有足够的奥秘： <sprite name=lantern> ，且匹配访客对 <sprite name=lantern> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.fraser.omen.dawn",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“无物可抵御无物，对吧，图书管理员？但我希望我现在知道该如何保护自己。”",
+			"id":"talk.visitor.incident.success.ehsan.curse.mystery.heart",
+			"label":"关于格吕内瓦尔德条款"
+		},
+		{
+			"startdescription":"“我倾向于相信这或可被视作预言的应验。我曾几乎希望它不是，图书管理员。当世界发生变革时，将会翻天覆地。”",
+			"id":"talk.visitor.incident.success.arthur.omen.dawn.mystery.lantern",
+			"label":"关于无拘之眼"
+		},
+		{
+			"startdescription":"“很有用。谢谢你，图书管理员。拿着吧，辛苦你了。”",
+			"id":"talk.visitor.incident.success.chaima.revolution.mystery.edge",
+			"label":"关于门关革命"
+		},
+		{
+			"startdescription":"“谢了，图书管理员。我知道该读什么了。你会把这件事当做我们之间的秘密，对吧？我希望我能买下那本书，但它所有者的名声很，呃，他并不总是很合作，你明白吧？”",
+			"id":"talk.visitor.incident.success.corso.opera.apollo.mystery.grail",
+			"label":"关于《阿波罗与马西亚斯》"
+		},
+		{
+			"startdescription":"“我不了解祖斯马林·齐达内。但我很了解为他哀悼的人。”[尝试放入一本具有足够的奥秘： <sprite name=sky> ，且匹配访客对 <sprite name=sky> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.agdistis.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“齐达内使用了几种不太常见的材料。如果要接手他的工作，我得先更好地了解它们的性质。”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.hokobald.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“我从没去过伊苏。但一直想去。恐怕我不该这么想。我非常想去。恐怕我不该这么想。”[尝试放入一本具有足够的奥秘： <sprite name=rose> ，且匹配访客对 <sprite name=rose> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.dagmar.omen.horizon",
+			"label":"关于别样地平线"
+		},
+		{
+			"startdescription":"“他使用了某些不同寻常的合金——以及不同寻常的技术。我想借阅这里的藏书来进一步丰富我的理论……”[尝试放入一本具有足够的奥秘： <sprite name=forge> ，且匹配访客对 <sprite name=forge> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.serena.project.ingenious",
+			"label":"关于未完工的百灵鸟"
+		},
+		{
+			"startdescription":"“最好把它埋起来。我怀疑它可能是某类种子。若是如此，就让它生长吧。这需要时间。‘凡事都有定期，地下万务都有定时。’我会转告我的建议。”",
+			"id":"talk.visitor.incident.success.stanislav.rite.awakening.mystery.nectar",
+			"label":"关于檀木圣徒"
+		},
+		{
+			"startdescription":"“你听说过他们打算排演无形歌剧了吗？在威尼斯？剧团的总指挥——他是我的朋友。我希望他当时听进去了我的话。”[尝试放入一本具有足够的奥秘： <sprite name=moth> ，且匹配访客对 <sprite name=moth> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.olympe.opera.wings",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“我想要明白这位‘开启牧师’身上发生了什么，如此，我就能明白他可能希望自己身上发生点什么。”[尝试放入一本具有足够的奥秘： <sprite name=heart> ，且匹配访客对 <sprite name=heart> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.agdistis.wound",
+			"label":"关于开启牧师"
+		},
+		{
+			"startdescription":"“它原先打开过一次。在他们把他关起来的时候……”[尝试放入一本具有足够的奥秘： <sprite name=knock> ，且匹配访客对 <sprite name=knock> 的兴趣的书籍。]",
+			"id":"talk.visitor.intro.zachary.box",
+			"label":"关于信使灵柩"
+		},
+		{
+			"startdescription":"“我找到了一些东西。也许这些就足够了。图书管理员，万事开头难，不是吗？总之谢谢你了。”",
+			"id":"talk.visitor.incident.success.olympe.opera.wings.mystery.moth",
+			"label":"关于无形歌剧"
+		},
+		{
+			"startdescription":"“你知道吗，所有的故事似乎都把艾布雷赫剑放在克拉科夫……现在我开始觉得那有些道理了。谢谢你，我亲爱的！”",
+			"id":"talk.visitor.incident.success.coquille.intrusion.mystery.knock",
+			"label":"关于无穷来客"
+		},
+		{
+			"startdescription":"“谢谢你。我下周和我认为可以信任的人在那里安排了一次会面。而现在，我希望我已经掌握了足以让他认真对待我的材料。”",
+			"id":"talk.visitor.incident.success.serena.heist.mystery.forge",
+			"label":"关于奥里弗拉姆失窃"
+		},
+		{
+			"startdescription":"“我有些发现，图书管理员。你听说过制烛人吗？可能是一位司辰，也可能是种杜撰。反正教会也不承认。我从来不曾将其与日落西莉亚联系起来。我好奇大主教会不会付钱要我向他解释此事……或是付钱让我不这么做。”",
+			"id":"talk.visitor.incident.success.corso.mystical.mystery.lantern",
+			"label":"关于离奇秘氛"
+		},
+		{
+			"startdescription":"“在这方面的事情上我还是个新手——但我逐渐意识到，其实我们大多数人在大多数情况下都是新手。所以我希望这儿的藏书中有些适合我的东西。”[尝试放入一本具有足够的奥秘： <sprite name=winter> ，且匹配访客对 <sprite name=winter> 的兴趣的书籍。]",
+			"id":"talk.visitor.incident.failure.yvette.wound",
+			"label":"关于开启牧师"
+		}
+	]
+}

@@ -1,0 +1,238 @@
+﻿{"recipes": [
+
+   {"id":"open.cache.bright.rarities",
+   "actionid": "*consider",
+   "reqs": {"ability":1, "cache.bright.rarities":1},
+   "label":"Нечто блистающее",
+   "startdescription":"Что за полуденная драгоценность?",
+   "desc":".", "aspects":{"fatiguing.ability":1},
+   "effects":{"cache.bright.rarities":-1},
+   "deckeffects": {"bright.rarities":1},
+   "warmup":60,
+   "craftable":true
+},
+
+{"id":"open.cache.night.rarities",
+"actionid": "*consider",
+"reqs": {"ability":1, "cache.night.rarities":1},
+"label":"Нечто тёмное",
+"startdescription":"Что за полуночный дар?",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"cache.night.rarities":-1},
+"deckeffects": {"night.rarities":1},
+"warmup":60,
+"craftable":true
+},
+
+{"id":"open.cache.unregarded.rarities",
+"actionid": "*consider",
+"reqs": {"ability":1, "cache.unregarded.rarities":1},
+"label":"Нечто малоизвестное",
+"startdescription":"Что за неизведанная услада?",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"cache.unregarded.rarities":-1},
+"deckeffects": {"unregarded.rarities":1},
+"warmup":60,
+"craftable":true
+},
+
+{"id":"open.cache.sovereign.rarities",
+"actionid": "*consider",
+"reqs": {"ability":1, "cache.sovereign.rarities":1},
+"label":"Нечто возвышенное",
+"startdescription":"Что за превосходное чудо?",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"cache.sovereign.rarities":-1},
+"deckeffects": {"sovereign.rarities":1},
+"warmup":60,
+"craftable":true
+},
+
+
+
+   {"id":"open.cache.flotsam",
+   "actionid": "*consider",
+   "reqs": {"ability":1, "contraband.flotsam":1},
+   "label":"Нечто выброшенное на берег",
+   "startdescription":"Что за корабль это нёс?",
+   "desc":".", "aspects":{"fatiguing.ability":1},
+   "effects":{"contraband.flotsam":-1},
+   "deckeffects": {"beach.oddity":1},
+   "warmup":60,
+   "craftable":true
+},
+
+{"id":"open.cache.jetsam",
+"actionid": "*consider",
+"reqs": {"ability":1, "contraband.jetsam":1},
+"label":"Нечто отвергнутое",
+"startdescription":"Кто предал это волнам?",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"contraband.jetsam":-1},
+"deckeffects": {"beach.rarity":1},
+"warmup":60,
+"craftable":true
+},
+
+
+    {"id":"open.cache.bureau",
+    "actionid": "*consider",
+    "reqs": {"ability":1, "suitcase.sb":1},
+    "label":"Нечто изъятое",
+    "startdescription":"Откройте упаковку, порадуйтесь находке.",
+    "desc":".", "aspects":{"fatiguing.ability":1},
+    "effects":{"suitcase.sb":-1},
+    "deckeffects": {"cache.bureau":1},
+    "warmup":60,
+    "craftable":true
+ },
+
+    {"id":"open.cache.hardware",
+    "actionid": "*consider",
+    "reqs": {"ability":1, "crate.supplies":1},
+    "label":"Нечто полезное",
+    "startdescription":"Откройте упаковку, порадуйтесь находке.",
+    "desc":".", "aspects":{"fatiguing.ability":1},
+    "effects":{"crate.supplies":-1},
+    "deckeffects": {"cache.hardware":1},
+    "warmup":60,
+    "craftable":true
+ },
+
+ {"id":"open.cache.household",
+ "actionid": "*consider",
+ "reqs": {"ability":1, "packages.abandoned":1},
+ "label":"Нечто забытое",
+ "startdescription":"Откройте упаковку, порадуйтесь находке.",
+ "desc":".", "aspects":{"fatiguing.ability":1},
+ "effects":{"packages.abandoned":-1},
+ "deckeffects": {"cache.household":1},
+ "warmup":60,
+ "craftable":true
+},
+
+{"id":"open.cache.provisions",
+"actionid": "*consider",
+"reqs": {"ability":1, "parcel.tall":1},
+"label":"Нечто аппетитное",
+"startdescription":"Откройте упаковку, порадуйтесь находке.",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"parcel.tall":-1},
+"deckeffects": {"cache.provisions":1},
+"warmup":60,
+"craftable":true
+},
+
+{"id":"open.cache.provisions.oddity",
+"actionid": "*consider",
+"reqs": {"ability":1, "parcel.slim":1},
+"label":"Нечто особенно аппетитное",
+"startdescription":"Откройте упаковку, порадуйтесь находке.",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"parcel.slim":-1},
+"deckeffects": {"cache.provisions.oddity":1},
+"warmup":60,
+"craftable":true
+},
+
+
+{"id":"open.cache.oddity",
+"actionid": "*consider",
+"reqs": {"ability":1, "bag.tricks":1},
+"label":"Нечто обманчивое",
+"startdescription":"Откройте упаковку, порадуйтесь находке.",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"bag.tricks":-1},
+"deckeffects": {"cache.oddity":1},
+"warmup":60,
+"craftable":true
+},
+
+{"id":"open.cache.large",
+"actionid": "*consider",
+"reqs": {"ability":1, "packages.lost":1},
+"label":"Нечто утраченное",
+"startdescription":"Откройте упаковку, порадуйтесь находке.",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"packages.lost":-1},
+"deckeffects": {"cache.large":1},
+"warmup":60,
+"craftable":true
+},
+
+{"id":"open.cache.large.oddity",
+"actionid": "*consider",
+"reqs": {"ability":1, "packages.forsaken":1},
+"label":"Нечто диковинное",
+"startdescription":"Откройте упаковку, порадуйтесь находке.",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"packages.forsaken":-1},
+"deckeffects": {"cache.large.oddity":1},
+"warmup":60,
+"craftable":true
+},
+
+{"id":"open.cache.souvenirs",
+"actionid": "*consider",
+"reqs": {"ability":1, "chest.souvenirs":1},
+"label":"Нечто памятное",
+"startdescription":"Откройте упаковку, порадуйтесь находке.",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"chest.souvenirs":-1},
+"deckeffects": {"cache.large.oddity":1},
+"warmup":60,
+"craftable":true
+},
+
+
+{"id":"open.cache.large.rarity",
+"actionid": "*consider",
+"reqs": {"ability":1, "abandoned.luggage":1},
+"label":"Нечто редкостное",
+"startdescription":"Откройте упаковку, порадуйтесь находке.",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"abandoned.luggage":-1},
+"deckeffects": {"cache.large.rarity":1},
+"warmup":60,
+"craftable":true
+},
+
+	
+{"id":"open.cache.small.oddity",
+"actionid": "*consider",
+"reqs": {"ability":1, "box.oddities":1},
+"label":"Нечто небольшое и любопытное",
+"startdescription":"Откройте упаковку, порадуйтесь находке.",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"box.oddities":-1},
+"deckeffects": {"cache.small.oddity":1},
+"warmup":60,
+"craftable":true
+},
+
+{"id":"open.cache.small.rarity",
+"actionid": "*consider",
+"reqs": {"ability":1, "box.rarities":1},
+"label":"Нечто небольшое и редкостное",
+"startdescription":"Откройте упаковку, порадуйтесь находке.",
+"desc":".", "aspects":{"fatiguing.ability":1},
+"effects":{"box.rarities":-1},
+"deckeffects": {"cache.small.rarity":1},
+"warmup":60,
+"craftable":true
+},
+
+{"id":"open.delivery",
+"actionid": "*consider",
+"reqs": {"delivery":1},
+"label":"Распаковать",
+"startdescription":"Любопытство? Стяжательство? Безрассудство?",
+"desc":".", "aspects":{"unwrapping":1},
+"warmup":30,
+"craftable":true
+}
+
+
+
+ ]
+}

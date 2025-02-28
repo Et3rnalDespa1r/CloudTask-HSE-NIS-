@@ -1,0 +1,61 @@
+﻿{"recipes": [
+ 
+    {"id": "talk.handle.beast",
+    "label": "Моё общество",
+    "actionid": "talk",
+    "reqs":{"beast":1,"ability":1,"sustenance":-1,"cooperative":1},
+    "startdescription": "Я могу предложить этому существу мою компанию. Кто знает? быть может, оно предложит что-то взамен.",
+    "desc": "Ну а теперь оно намекает, что пришло время перекусить.",
+    "warmup":60,
+    "aspects":{"fatiguing.ability":1,"dist":1},
+    "craftable":true
+    },
+
+{"id": "talk.feed.beast",
+"label": "Накормить существо",
+"actionid": "talk",
+"reqs":{"beast":1,"sustenance":1,"ability":1,"cooperative":-1},
+"startdescription": "Удовлетворить аппетит моего спутника. [Еда сделает оголодавшее или дикое существо благосклоннее.]",
+"desc": "Сытый друг лучше голодного. [Теперь это существо согласится помочь.]",
+"warmup":60,
+"aspects":{"fatiguing.ability":1,"fatiguing.ingredients":1, "recovering":1},
+"craftable":true
+},
+
+
+{"id": "talk.feed.beast.hint",
+"label": "Накормить существо?",
+"actionid": "talk",
+"reqs":{"beast":1,"sustenance":-1,"cooperative":-1},
+"startdescription": "Используйте карту души и подходящую пищу. [Еда сделает оголодавшее или дикое существо благосклоннее.]",
+"hintonly":true
+},
+
+{"id": "talk.feed.beast.hint.ability",
+"label": "Накормить существо?",
+"actionid": "talk",
+"reqs":{"beast":1,"sustenance":1,"ability":-1,"cooperative":-1},
+"startdescription": "Используйте карту души и подходящую пищу. [Еда сделает оголодавшее или дикое существо благосклоннее.]",
+"hintonly":true
+},
+
+
+
+{"id": "talk.full.beast.hint",
+"label": "Существо сыто?",
+"actionid": "talk",
+"reqs":{"beast":1,"cooperative":1,"sustenance":1},
+"startdescription": "Сейчас его не интересует еда.",
+"hintonly":true
+},
+
+{"id": "talk.handle.beast.hint",
+"label": "Моё общество?",
+"actionid": "talk",
+"reqs":{"beast":1,"cooperative":1,"ability":-1},
+"startdescription": "[Добавьте карту души, если хотите что-нибудь сделать с существом.]",
+"hintonly":true
+}
+
+]
+}

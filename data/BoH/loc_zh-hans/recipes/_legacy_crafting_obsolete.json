@@ -1,0 +1,52 @@
+{
+	"recipes":[
+		{
+			"Desc":"[加入秘授级的<b>月</b>——而非<b>冬</b>——阿苏麦便可黯化为黑刚玉。]",
+			"Label":"制作：阿苏麦",
+			"id":"craft.scholar.ouranoscopy_lens_asimel_winter",
+			"StartDescription":"调制银色的月之墨水。\n\n[“窥天术”加上学者级的<sprite name=winter>，以及<b>透镜</b>，可制作阿苏麦。]"
+		},
+		{
+			"Desc":"[此乃一种<i>终刻墨</i>：伟大墨水之一。用它在你的日记上记录一重历史，并达成你来到噤声居屋的目的……如果你想的话。]",
+			"Label":"制作：贵紫",
+			"id":"craft.keeper.auroralcontemplations_rose_ichor.auroral_porphyrine",
+			"StartDescription":"将这灵液浓缩为一种名为贵紫的<i>终刻墨</i>。\n\n[“曙光的静观”加上秘授级的<sprite name=rose>，以及曙光灵液，可制作贵紫。]"
+		},
+		{
+			"Desc":"慎用。昕旦出于自己的理由容忍了噤声居屋，我们还是别试探她的耐性为妙……",
+			"Label":"制作：年岁账簿",
+			"id":"craft.keeper.ouranoscopy_winter_essential.periost_year-tally",
+			"StartDescription":"极其小心地描画，凭借居屋的古老特权以使<b>冬</b>外显。\n\n[“窥天术”加上秘授级的<sprite name=winter>，以及骨本精华，可制作年岁账簿。]"
+		},
+		{
+			"Desc":"[加入秘授级的<b>蛾</b>，我兴许可诱导它继续成长——只要它饱腹。]",
+			"Label":"制作：混种幼虫",
+			"id":"craft.scholar.insects.nectars_egg_larva.chimeric_moth",
+			"StartDescription":"孵化一只没有眼睛、涌动蛾之潜能的幼虫。\n\n[“昆虫与花蜜”加上学者级的<sprite name=moth>，加上一枚<b>卵</b>，会创造出混种幼虫。]"
+		},
+		{
+			"Desc":"一只湿漉漉的翅膀展开；然后是另一只，紧接着它将它们抖干；从今往后，它将一直如此惹人注目……",
+			"Label":"制作：凶匿成虫",
+			"id":"craft.keeper.insects.nectars_moth_larva.chimeric_perilous imago",
+			"StartDescription":"在暮色的庇佑下，诱导幼虫发育成为更具力量的蛾之兽类。\n\n[“昆虫与花蜜”加上秘授级的<sprite name=moth>，以及混种幼虫，可制作凶匿成虫。]"
+		},
+		{
+			"Desc":"这粒污点不应暴露于阳光下，但主要是因为它在阳光下丑得骇人。",
+			"Label":"制作：午夜污点",
+			"id":"craft.insects.nectars_midnight.mark_moth",
+			"StartDescription":"将夜间的共鸣集中在一个小心绘制的印记内。\n\n[“昆虫与花蜜”加上入门级的<sprite name=moth>可制作午夜污点。若想完成学者级制作，可以尝试如下配方：将其施加于一枚<b>卵</b>，以孵化出某种没有眼睛，却涌动着潜能的存在。]"
+		},
+		{
+			"Desc":"[加入秘授级的<b>启</b>与这一技艺，透指毒素便可作为斫解石圣餐的前体。]",
+			"Label":"制作：斫解石圣餐",
+			"id":"craft.scholar.stonestories_liquid_sacrament.ascite_nectar",
+			"StartDescription":"调制一份启之圣餐。\n\n[“岩石的故事”加上学者级的<sprite name=nectar>，以及<b>液体</b>，可制作斫解石圣餐。]"
+		},
+		{
+			"Desc":"“一口入眠，两口醒转，眼睑除了作为双目的表皮外还有何用？”",
+			"Label":"制作：剥皮蜜酒",
+			"id":"craft.keeper.insects.nectars_moth_honey.cuckoo_skinshuck mead",
+			"StartDescription":"用蜂蜜酿造一瓶蛾之液体。\n\n[“昆虫与花蜜”加上秘授级的<sprite name=moth>，以及杜鹃蜜，可制作剥皮蜜酒。]"
+		}
+	]
+}

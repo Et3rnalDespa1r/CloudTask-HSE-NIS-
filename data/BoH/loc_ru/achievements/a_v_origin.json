@@ -1,0 +1,51 @@
+﻿{"achievements": [
+
+  { "isCategory": true, "id": "A_CATEGORY_V_ORIGIN", "label": "Цель жизни персонажа выполнена", "iconUnlocked": "history" },
+
+  { "id": "A_V_ORIGIN_SYMURGIST", "category": "A_CATEGORY_V_ORIGIN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Песни Каэр Адара",
+    "descriptionunlocked": "Я подслушал разговоры крылатых Часов и выжил, и теперь пою их песни."
+  },
+  { "id": "A_V_ORIGIN_MAGNATE", "category": "A_CATEGORY_V_ORIGIN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "«Но где же прошлогодний снег?»",
+    "descriptionunlocked": "Ни порфира, ни рубище не успокоили моей души. Но я нашёл покой в Доме безмолвия."
+  },
+  { "id": "A_V_ORIGIN_REVOLUTIONARY", "category": "A_CATEGORY_V_ORIGIN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "«Взгляните на мои великие деянья, владыки всех времён!»",
+    "descriptionunlocked": "Я произнёс имя «Калиптра» и остался безнаказанным. Я взбунтовался против высших властей и теперь свободен."
+  },
+  { "id": "A_V_ORIGIN_EXECUTIONER", "category": "A_CATEGORY_V_ORIGIN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Принятое раскаяние",
+    "descriptionunlocked": "Руки, органы, пропорции, чувства, настроения, страсти – всё это было и у них тоже. Теперь я знаю. Моё покаяние свершено."
+  },
+  { "id": "A_V_ORIGIN_TWICEBORN", "category": "A_CATEGORY_V_ORIGIN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Третий путь",
+    "descriptionunlocked": "Я ходил под солнцем, я ходил во плоти. И наконец нашёл свой дом."
+  },
+  { "id": "A_V_ORIGIN_PRODIGAL", "category": "A_CATEGORY_V_ORIGIN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Вечно отложенная расплата",
+    "descriptionunlocked": "Я скрывался. Мне было страшно. Но теперь я в безопасности, и я вооружён."
+  },
+  { "id": "A_V_ORIGIN_CARTOGRAPHER", "category": "A_CATEGORY_V_ORIGIN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Карта империи",
+    "descriptionunlocked": "Я измерил глубины. Я описал невозможное. Я свершил свой труд и покорил саму Обитель."
+  },
+  { "id": "A_V_ORIGIN_ARTIST", "category": "A_CATEGORY_V_ORIGIN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Совершенное чудовище",
+    "descriptionunlocked": "Сходящий в недра земли знает, что ему грозит. Прочитывающий символ знает, что ему грозит. Я был там, и я познал всё."
+  },
+  { "id": "A_V_ORIGIN_ARCHAEOLOGIST", "category": "A_CATEGORY_V_ORIGIN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Тень, знай своё имя",
+    "descriptionunlocked": "Я взглянул в лицо тому, что сотворил, и проклятию, которое тем высвободил. Я наконец-то исцелён."
+  }
+
+]}

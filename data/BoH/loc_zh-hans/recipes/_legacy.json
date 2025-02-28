@@ -1,0 +1,14 @@
+{
+	"recipes":[
+		{
+			"startdescription":"[这是一个非法槽位。点击开始键，问题就会自动、一劳永逸地解决。你可能需要添加魂质才能点击开始键，但不会消耗或耗竭任何卡。]",
+			"id":"world.corals.deeplight.delegacizing",
+			"label":"仁慈的替换"
+		},
+		{
+			"startdescription":"天气预报：闰时",
+			"id":"daily.weather.numa",
+			"label":"每日气象：闰时"
+		}
+	]
+}

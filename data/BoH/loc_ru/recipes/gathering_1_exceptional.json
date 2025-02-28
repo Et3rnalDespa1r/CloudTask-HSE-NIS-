@@ -1,0 +1,98 @@
+﻿{"recipes": [
+
+     {"id": "_gather.retrieve.key",
+"label": "Нечто знакомое",
+"extantreqs":{"key.hush.house":-1},
+"aspects":{"fatiguing.ability":1},
+"reqs": {"ability":1,"skill":1},
+"effects":{"key.hush.house":1},
+"warmup":90,
+"craftable":true},
+
+
+{"id": "gather.garden.plot.key",
+"actionid": "garden.plot.*",
+"startdescription": "Из почвы торчит краешек металлического предмета...",
+"desc": "И вот он вновь, ключ от Дома безмолвия, слегка присыпанный садовой землёй.",
+"inherits":"_gather.retrieve.key"},
+
+
+{"id": "gather.beachcombing.key",
+"actionid": "world.beachcombing",
+"startdescription": "Нечто закопанное в песке...",
+"desc": "Волна вынесла на пляж знакомый железный ключ.",
+"inherits":"_gather.retrieve.key"},
+
+{"id": "gather.nests.key",
+"actionid": "world.nests",
+"startdescription": "Яркий металлический блеск...",
+"desc": "Знакомый железный ключ застрял в расщелине.",
+"inherits":"_gather.retrieve.key"},
+
+
+{"id": "gather.caves.key",
+"actionid": "world.caves",
+"startdescription": "Яркий металлический блеск...",
+"desc": "Знакомый железный ключ лежит в мелкой заводи среди камней.",
+"inherits":"_gather.retrieve.key"},
+
+
+{"id": "gather.well.key",
+"actionid": "library.well",
+"label": "Набрать воды",
+"extantreqs":{"key.hush.house":-1},
+"reqs": {"ability":1},
+"aspects":{"fatiguing.ability":1},
+"effects":{"key.hush.house":1},
+"startdescription": "Из колодца доносится приглушенный стук...",
+"desc": "В ведре лежит знакомый железный ключ.",
+"warmup":90,
+"craftable":true},
+
+{"id": "gather.echidna.moor",
+"actionid": "world.moor",
+"label":"Пригласить на Бранкраг Ехидну, Мать чудовищ",
+"startdescription": "Призыв должен свершаться там, где его не услышат непосвящённые – и где ни одна живая душа не сможет прийти мне на помощь.",
+"desc": "Я лью на землю широким кругом молоко и вижу, как вбирает его бурая земля. Из зарослей колючего дрока глядят зелёные глаза змей; с шипением вздымается сбивающий с ног ветер; дождь обрушивается с неба. Я привлёк к себе внимание.",
+"reqs":{"ability":1,"technique.summon.echidna":1,"scale":7,"serpentmilk":1},
+"aspects":{"fatiguing":1},
+"preslots": [{"id": "serpentmilk","label":"Змеиное молоко","essential":{"serpentmilk":1}}],
+"warmup":60,
+"craftable":true,
+"linked":[{"id":"echidna.summon.normal"},
+{"id":"echidna.summon.persistent"}]
+},
+
+{"id": "echidna.summon.normal",
+"extantreqs":{"echidna.inspired":-1},
+"effects":{"echidna.enroute":1}
+},
+
+{"id": "echidna.summon.persistent",
+"extantreqs":{"echidna.inspired":1},
+"effects":{"echidna.enroute.persistent":1}
+},
+
+
+{"id": "gather.echidna.moor.hint",
+"actionid": "world.moor",
+"label":"Совершить призыв или собрать дары?",
+"startdescription": "[Чтобы призвать Ехидну, добудьте змеиное молоко и не менее 7-й ступени <sprite name=scale>, – либо оставьте эту затею и просто поглядите, не найдётся ли на пустошах чего интересного.]",
+"reqs":{"ability":1,"technique.summon.echidna":1},
+"aspects":{"fatiguing":1},
+"preslots": [{"id": "serpentmilk","label":"Змеиное молоко","essential":{"serpentmilk":1}}],
+"craftable":true,
+"linked":"gather.moor.*"
+}
+
+
+
+
+
+
+
+
+  
+]
+}
+    

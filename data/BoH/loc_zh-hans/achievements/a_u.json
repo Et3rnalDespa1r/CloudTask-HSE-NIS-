@@ -1,0 +1,14 @@
+{
+	"achievements":[
+		{
+			"descriptionunlocked":"我跟随了所罗门·赫舍的脚步。",
+			"id":"A_U_WINTER",
+			"label":"万物表观之智识"
+		},
+		{
+			"descriptionunlocked":"作为噤声居屋的图书管理员，我过着平静的日子；并且我很快乐。",
+			"id":"A_U_EVENING",
+			"label":"夜幕落下"
+		}
+	]
+}

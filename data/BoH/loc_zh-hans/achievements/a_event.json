@@ -1,0 +1,19 @@
+{
+	"achievements":[
+		{
+			"descriptionunlocked":"我为噤声居屋的历任图书管理员策划了一场完美的展览。",
+			"id":"A_EVENT_BUSTMASTER",
+			"label":"失去的虽多……然而吾等仍存"
+		},
+		{
+			"descriptionunlocked":"我发现了烧毁噤声居屋的那场大火的源头。",
+			"id":"A_EVENT_FIREFIGHTER",
+			"label":"灯芯的苏醒"
+		},
+		{
+			"descriptionunlocked":"我把我的书沉入水中。",
+			"id":"A_EVENT_PROSPERO",
+			"label":"……投向深不可测的海心"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+﻿{"achievements": [
+
+
+  { "id": "A_U_WINTER", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Без лишних слов",
+    "descriptionunlocked": "Я последовал по стопам Соломона Хашера."
+  },
+
+  { "id": "A_U_EVENING", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "Наступает вечер",
+  "descriptionunlocked": "Я прожил свой век в качестве библиотекаря Дома безмолвия, и я был счастлив."
+}
+  
+
+]}

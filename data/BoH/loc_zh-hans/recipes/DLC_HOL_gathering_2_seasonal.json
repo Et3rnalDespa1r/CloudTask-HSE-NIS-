@@ -1,0 +1,24 @@
+{
+	"recipes":[
+		{
+			"startdescription":"如果我足够小心，就能采集到蜂蜜或者蜂蜡。如果绽莓族来拜访过他们的稚幼贵族，就能收获杜鹃蜜。",
+			"id":"gather.garden.beehive.liselotte.summer"
+		},
+		{
+			"startdescription":"如果我足够小心，就能采集到蜂蜜或者蜂蜡。如果绽莓族来拜访过他们的稚幼贵族，就能收获杜鹃蜜。",
+			"id":"gather.garden.beehive.liselotte.spring"
+		},
+		{
+			"startdescription":"每年的这个时候，我都不太可能从蜂巢里收获太多东西，但有时就连风的驳斥也无法盖过绽莓族哀唱的挽歌。",
+			"id":"gather.garden.beehive.liselotte.winter"
+		},
+		{
+			"startdescription":"每年的这个时候，我都不太可能从蜂巢里收获太多东西，但有时就连风的驳斥也无法盖过绽莓族哀唱的挽歌。",
+			"id":"gather.garden.beehive.liselotte.autumn"
+		},
+		{
+			"startdescription":"在闰时，我可以采集到蜂蜜、蜂蜡，或是意料之外的奇物。绽莓族通常会在路过此地时，特意来向他们的稚幼贵族致敬，并留下杜鹃之礼。",
+			"id":"gather.garden.beehive.liselotte.numa"
+		}
+	]
+}

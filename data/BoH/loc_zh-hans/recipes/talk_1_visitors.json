@@ -1,0 +1,37 @@
+{
+	"recipes":[
+		{
+			"slots":[
+				{
+					"description":"合乎访客兴趣的书籍——或是一枚作为酬劳的斯宾特里亚古币。",
+					"id":"v",
+					"label":"给予或拿取"
+				}
+			],
+			"startdescription":"我可以确认访客的兴趣，并用适当的书籍来满足他们。或者，如果他们懂得一门我欲习得的语言，我可以向他们提供报酬。[不守信用的访客偶尔会携书潜逃。]",
+			"id":"talk.visitor.show.slot.generic",
+			"desc":"我的访客没有学到任何东西。"
+		},
+		{
+			"startdescription":"若我接受此人的报价，便能雇佣他一日。",
+			"id":"talk.visitor.hire.hint",
+			"label":"雇佣一位过路客？"
+		},
+		{
+			"slots":[
+				{
+					"description":"合乎访客兴趣的书籍。",
+					"id":"v",
+					"label":"书籍"
+				}
+			],
+			"id":"talk.visitor.show.slot.specific"
+		},
+		{
+			"startdescription":"我要雇佣此人一日。",
+			"id":"talk.visitor.hire",
+			"label":"雇佣一位过路客",
+			"desc":"已雇佣。"
+		}
+	]
+}

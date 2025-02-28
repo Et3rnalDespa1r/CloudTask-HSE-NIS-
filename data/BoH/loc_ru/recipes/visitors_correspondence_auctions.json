@@ -1,0 +1,399 @@
+﻿ {"recipes": [
+ 
+      {
+            "id": "incident.setup",
+            "label": "Последние новости",
+            "actionid": "incident.base",
+            "extantreqs":{"status.rhonwen.open":1},
+            "startdescription": "Что происходит в мире? Кого занесёт судьба на Бранкраг?\n\n [Тянет карту нового происшествия, ищет подходящего посетителя для текущего, или отбрасывает карту происшествия, если список подходящих посетителей исчерпан.]",
+                  "warmup": 60,
+                  "comments":"This warmup just prevents the incident from firing at the same time as season-beginning events..",
+                  "slots": [{
+                        "id": "i",
+                        "required": {"incident":1},
+                        "forbidden":{"numatic":1,"finished":1},
+                        "greedy":true
+                          }],   
+            "craftable": false,
+            "linked":[ {"id":"incident.new"},
+                  {"id":"visitor.for.*","topath":"~/arrivalverbs"}
+           ]
+    },
+
+
+    {
+      "id": "incident.retire",
+      "label": "Конец истории",
+      "actionid": "incident.base",
+      "reqs": {"incident":1,"visitor":-1},
+      "startdescription": "«У повести нет ни начала, ни конца, и мы произвольно выбираем миг, из которого смотрим вперёд или назад» (Грэм Грин).\n\n [Все, кому это было нужно, отреагировали на происшествие, и теперь оно исчерпало себя. Новое происшествие появится ещё через какое-то время. А пока что посетители будут прибывать к вам просто за консультацией.]",
+      "craftable": false,
+      "warmup":5,
+      "linked":[
+            {"id":"incident.mark.finished","additional":true,"topath":"~/incidents.offstage","outputpath":"^","expulsion":{"limit": 1,"filter": {"incident": 1}}},
+            {"id":"incident.draw.consultation"}]
+},
+{
+      "id":"incident.mark.finished",
+      "actionid": "incident.expulsion.finisher",
+      "label": "Готово!",
+      "warmup":1,
+      "mutations":[{"mutate":"finished","filter":"incident","level":1}]
+
+},
+{
+      "id": "incident.draw.consultation",
+      "label": "Консультация",
+      "actionid": "incident.base",
+      "startdescription": "Ничего особенного не происходит. В ближайшее время посетители будут прибывать к вам за консультацией общего свойства.",
+      "effects":{"incident.consultation":1},
+      "warmup":5,
+      "linked":[{"id":"visitor.for.*","topath":"~/arrivalverbs"}]
+},
+
+
+
+{
+        "id": "incident.new",
+        "label": "История о...",
+        "actionid": "incident.base",
+        "reqs": {"incident":-1},
+        "startdescription": "Что происходит в этом мире. [Тянем карту нового происшествия.]",
+        "craftable": false,
+        "deckeffects":{"incidents":1},
+        "warmup":5,
+        "linked":[{"id":"visitor.for.*","topath":"~/arrivalverbs"}]
+},
+
+{
+      "id": "incident.setup.numa",
+      "label": "Река, колесо, пламя",
+      "actionid": "numa.incident.base",
+      "startdescription": "Время. Кто-то сравнивает его с колесом, но в моей семье всегда считали, что оно сродни пламени: чем ближе к краю, тем безжалостнее... [Тянет карту нового происшествия нумы, ищет подходящего посетителя для текущего, или отбрасывает карту происшествия нумы, если список подходящих посетителей исчерпан.]",
+            "warmup": 5,
+            "slots": [{
+                  "id": "i",
+                  "essential": {"incident":1,"numatic":1},
+                  "forbidden":{"finished":1},
+                  "greedy":true
+                    }],   
+      "craftable": false,
+      "linked":[ {"id":"incident.new.numa"},
+            {"id":"visitor.for.*","topath":"~/arrivalverbs"}
+     ]
+},
+
+{
+      "id": "incident.retire.numa",
+      "label": "Вопрос исчерпан. Что осталось?",
+      "actionid": "numa.incident.base",
+      "reqs": {"incident":1,"visitor":-1},
+      "startdescription": "«Часы бегут, вперёд несутся звезды, уходит время» (Марлоу).\n\n [Все, кому это было нужно, отреагировали на происшествие, и теперь оно исчерпало себя. Других происшествий до окончания нумы не предвидится. Дальнейшие гости из тумана будут прибывать к вам просто за консультацией.]",
+      "craftable": false,
+      "warmup":5,
+      "linked":[
+            {"id":"incident.mark.finished","additional":true,"topath":"~/incidents.offstage","outputpath":"^","expulsion":{"limit": 1,"filter": {"incident": 1}}},
+            {"id":"incident.draw.consultation"}]
+},
+{
+      "id": "incident.new.numa",
+      "label": "Вопрос о...",
+      "actionid": "numa.incident.base",
+      "reqs": {"incident":-1},
+      "startdescription": "Что затаилось в тумане? [Тянем карту нового происшествия нумы.]",
+      "craftable": false,
+      "deckeffects":{"incidents.numa":1},
+      "warmup":5,
+      "linked":[{"id":"visitor.for.*","topath":"~/arrivalverbs"}]
+},
+
+
+{"id": "visitor.for.revolution","label": "Посетитель, интересующийся мятежами", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.revolution","reqs": {"incident.revolution":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.revolution","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.edge":1,"interest.grail":1},  "forbidden":{"numatic":1,"v.revolution":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.heist","label": "Посетитель, интересующийся преступлениями", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.heist","reqs": {"incident.heist":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.heist","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.knock":1,"interest.forge":1},   "forbidden":{"numatic":1,"v.heist":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.stalk","label": "Посетитель, интересующийся прохожими", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.stalk","reqs": {"incident.stalk":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.stalk","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.edge":1,"interest.rose":1},   "forbidden":{"numatic":1,"v.stalk":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.wound","label": "Посетитель, интересующийся увечьями", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.wound","reqs": {"incident.wound":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.wound","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.heart":1,"interest.winter":1},   "forbidden":{"numatic":1,"v.wound":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.intrusion","label": "Посетитель, интересующийся вторжениями", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.intrusion","reqs": {"incident.intrusion":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.intrusion","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.knock":1,"interest.winter":1},   "forbidden":{"numatic":1,"v.intrusion":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.pan","label": "Посетитель, интересующийся дикостью", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.pan","reqs": {"incident.pan":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.pan","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.heart":1,"interest.nectar":1},   "forbidden":{"numatic":1,"v.pan":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.curse","label": "Посетитель, интересующийся проклятьями", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.curse","reqs": {"incident.curse":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.curse","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.heart":1,"interest.winter":1},   "forbidden":{"numatic":1,"v.curse":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.omen.dawn","label": "Посетитель, интересующийся пророчествами о рассвете", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.omen.dawn","reqs": {"incident.omen.dawn":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.omen.dawn","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.lantern":1},   "forbidden":{"numatic":1,"v.omen.dawn":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.omen.horizon","label": "Посетитель, интересующийся пророчествами о сокрытых землях", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.omen.horizon","reqs": {"incident.omen.horizon":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.omen.horizon","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.rose":1},   "forbidden":{"numatic":1,"v.omen.horizon":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.mob","label": "Посетитель, интересующийся считальцами", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.mob","reqs": {"incident.mob":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.mob","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.moon":1,"interest.edge":1},   "forbidden":{"numatic":1,"v.mob":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.rising","label": "Посетитель, интересующийся грядущим", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.rising","reqs": {"incident.rising":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.rising","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.moon":1,"interest.scale":1},   "forbidden":{"numatic":1,"v.rising":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.lost.find","label": "Посетитель, интересующийся вновь обретённым", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.lost.find","reqs": {"incident.lost.find":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.lost.find","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.rose":1,"interest.moth":1},   "forbidden":{"numatic":1,"v.lost.find":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.project.ingenious","label": "Посетитель, интересующийся оригинальными проектами", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.project.ingenious","reqs": {"incident.project.ingenious":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.project.ingenious","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.sky":1,"interest.forge":1},   "forbidden":{"numatic":1,"v.project.ingenious":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.project.solar","label": "Посетитель, интересующийся солнечными проектами", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.project.solar","reqs": {"incident.project.solar":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.project.solar","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.forge":1,"interest.lantern":1},   "forbidden":{"numatic":1,"v.project.solar":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.mystical","label": "Посетитель, интересующийся всем таинственным", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.mystical","reqs": {"incident.mystical":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.mystical","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.winter":1,"interest.lantern":1},   "forbidden":{"numatic":1,"v.mystical":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.opera.apollo","label": "Посетитель, интересующийся оперой", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.opera.apollo","reqs": {"incident.opera.apollo":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.opera.apollo","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.sky":1,"interest.grail":1},   "forbidden":{"numatic":1,"v.opera.apollo":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.opera.wings","label": "Посетитель, интересующийся рискованной оперой", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.opera.wings","reqs": {"incident.opera.wings":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.opera.wings","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.grail":1,"interest.moth":1},   "forbidden":{"numatic":1,"v.opera.wings":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.box","label": "Посетитель, интересующийся гробами", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.box","reqs": {"incident.box":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.box","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.knock":1,"interest.moon":1},   "forbidden":{"numatic":1,"v.box":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.rite.renewal","label": "Посетитель, интересующийся обрядами, дающими вторую жизнь", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.rite.renewal","reqs": {"incident.rite.renewal":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.rite.renewal","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.nectar":1,"interest.moon":1},   "forbidden":{"numatic":1,"v.rite.renewal":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.rite.awakening","label": "Посетитель, интересующийся обрядами пробуждения", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.rite.awakening","reqs": {"incident.rite.awakening":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.rite.awakening","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.nectar":1,"interest.scale":1},   "forbidden":{"numatic":1,"v.rite.awakening":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.hunt.changing","label": "Посетитель, интересующийся охотой", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.hunt.changing","reqs": {"incident.hunt.changing":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.hunt.changing","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.edge":1,"interest.scale":1},   "forbidden":{"numatic":1,"v.hunt.changing":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+{"id": "visitor.for.observe.scaly","label": "Посетитель, интересующийся наблюдениями", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.observe.scaly","reqs": {"incident.observe.scaly":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.observe.scaly","level":1}],"warmup":5,"slots": [{   "id": "v",     "required":{"interest.sky":1,"interest.scale":1},   "forbidden":{"numatic":1,"v.observe.scaly":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire"}]},
+
+{"id": "visitor.for.numa.grail.a","label": "Посетитель, интересующийся утешением", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.numa.grail.a","reqs": {"incident.numa.grail.a":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.numa.grail.a","level":1}],"warmup":5,"slots": [{   "id": "v",    "essential":{"numatic":1}, "required":{"interest.grail":1},   "forbidden":{"v.numa.grail.a":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire.numa"}]},
+{"id": "visitor.for.numa.grail.b","label": "Посетитель, интересующийся пирами", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.numa.grail.b","reqs": {"incident.numa.grail.b":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.numa.grail.b","level":1}],"warmup":5,"slots": [{   "id": "v",   "essential":{"numatic":1},  "required":{"interest.grail":1},   "forbidden":{"v.numa.grail.b":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire.numa"}]},
+{"id": "visitor.for.numa.moon.a","label": "Посетитель, интересующийся воспоминаниями", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.numa.moon.a","reqs": {"incident.numa.moon.a":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.numa.moon.a","level":1}],"warmup":5,"slots": [{   "id": "v",   "essential":{"numatic":1},  "required":{"interest.moon":1},   "forbidden":{"v.numa.moon.a":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire.numa"}]},
+{"id": "visitor.for.numa.moon.b","label": "Посетитель, интересующийся полуночью", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.numa.moon.b","reqs": {"incident.numa.moon.b":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.numa.moon.b","level":1}],"warmup":5,"slots": [{   "id": "v",   "essential":{"numatic":1},  "required":{"interest.moon":1},   "forbidden":{"v.numa.moon.b":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire.numa"}]},
+{"id": "visitor.for.numa.winter.a","label": "Посетитель, интересующийся холодом", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.numa.winter.a","reqs": {"incident.numa.winter.a":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.numa.winter.a","level":1}],"warmup":5,"slots": [{   "id": "v",  "essential":{"numatic":1},   "required":{"interest.winter":1},   "forbidden":{"v.numa.winter.a":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire.numa"}]},
+{"id": "visitor.for.numa.wood","label": "Посетитель, интересующийся хитросплетениями", "startdescription":"Кто-то собирается посетить Дом безмолвия?","actionid": "visitor.for.numa.wood","reqs": {"incident.numa.wood":1},"aspects":{"arriving":1},"mutations":[{"filter":"visitor","mutate":"v.numa.wood","level":1}],"warmup":5,"slots": [{   "id": "v", "essential":{"numatic":1},    "required":{"interest.grail":1,"interest.nectar":1},   "forbidden":{"v.numa.wood":1},      "greedy":true,      "frompath":"~/visitors.offstage"    }],    "linked":[{"id":"incident.retire.numa"}]},
+
+
+
+
+{"id": "visitor.for.consultation",
+"label": "Консультация",
+"actionid": "visitor.for.consultation",
+"reqs": {"incident.consultation":1},
+"extantreqs":{"season.numa":-1},
+"effects":{"incident.consultation":-1},
+"comments":"Consultations don't care about v. tracking and always just retire.",
+"warmup":15,
+"slots": [{
+      "id": "v",
+      "forbidden":{"numatic":1},
+      "required": {"visitor":1},
+            "greedy":true,
+            "frompath":"~/visitors.offstage"
+        }]
+},
+{"id": "visitor.for.consultation.numa",
+"label": "Консультация в нуму",
+"actionid": "visitor.for.consultation.numa",
+"startdescription": "В эту нуму не происходит ничего сверх необычного. Возможно, кто-нибудь захочет получить у вас консультацию общего свойства.",
+"reqs": {"incident.consultation":1},
+"extantreqs":{"season.numa":1},
+"effects":{"incident.consultation":-1},
+"aspects":{"arriving":1},
+"warmup":15,
+"slots": [{
+      "id": "v",
+      "essential":{"numatic":1},
+      "required": {"visitor":1},
+            "greedy":true,
+            "frompath":"~/visitors.offstage"
+        }]
+},
+
+{"id": "visitorpatrol",
+"actionid": "visitorpatrol",
+"label":"Посетительский патруль",
+"startdescription":"Раз в полминуты захватывает отправляющихся в путь посетителей",
+"warmup":30,
+"comments":"Now that embarking visitors should never be offstage, we can grab more widely. If that changes, the grab will need to be more selective again!",
+"slots": [{
+      "id": "v",
+      "required": {"visitor.embarking":1},
+            "greedy":true
+        }],
+        "linked":[{"id":"visitor.embarking.sendoffstage","additional":true, "topath":"~/incidents.offstage","outputpath":"~/visitors.offstage",
+         "expulsion": {"limit": 99,"filter": {"visitor.embarking": 1}}},
+      {"id":"visitorpatrol"}]
+},
+
+{"id": "visitor.embarking.sendoffstage",
+"actionid": "visitor.embarking.sendoffstage",
+"comments":"running as warmup 0 caused nasty transition snarlups, so it now runs in the time-passing incidents sphere.",
+"reqs": {"visitor.embarking":1},
+"aspects":{"arriving":1},
+"warmup":1},
+
+
+{"id": "wc.send.basegame",
+"label": "Подарок от доктора Блэквуд",
+"actionid": "wc.setup",
+"startdescription":"[временно отключено]",
+"extantreqs":{"wc":-1,"status.rhonwen.open":99},
+"effects":{"wc":1},
+"warmup":10
+},
+
+{"id": "ch.orderform.send",
+"label": "Рекламная брошюра «Кейтер и Хиро»",
+"actionid": "ch.setup",
+"startdescription":"Предприимчивые «Кейтер и Хиро» прислали мне плохо отпечатанный на газетной бумаге каталог своей продукции. Письмо было адресовано «Ьиблиотекаою».",
+"extantreqs":{"form.order.ch":-1,"delivery.ch":-1},
+"effects":{"form.order.ch":1},
+"warmup":10
+},
+
+
+{"id":"ch.respond.begin",
+"actionid": "ch",
+"warmup":600,
+"aspects":{"wrapping":1},
+"linked":[{"id":"ch.respond.provision"}]},
+
+{"id": "ch.respond.provision",
+"actionid": "ch",
+"label":"Сбор заказа «Кейтер и Хиро»",
+"startdescription":"Активирует xtrigger для заказов",
+"warmup":30,
+"aspects":{"provisioning":1},
+"linked":[{"id":"ch.respond.reset"}]
+},
+ 
+{"id": "ch.respond.reset",
+"actionid": "ch",
+"label":"Обнуление «Кейтер и Хиро»",
+"startdescription":"Подчищаем заказы и цены",
+"warmup":30,
+"aspects":{"provisioning":1},
+"mutations":[{"mutate":"order*","filter":"delivery.ch", "level":-1,"additive":false},
+{"mutate":"cost.pence","filter":"delivery.ch","level":-1,"additive":false},
+{"mutate":"post.ready","filter":"delivery.ch","level":-1,"additive":false}]
+},
+
+{"id": "trn.orderform.send",
+"label": "Приглашение от T.R.N. Ltd.",
+"actionid": "trn.setup",
+"startdescription":"Я получил по почте небольшой каталог продукции компании T.R.N. Ltd., отпечатанный на роскошной бумаге кремового цвета. В сопроводительном письме говорится, что они будут рады приветствовать меня в числе своих клиентов.",
+"extantreqs":{"form.order.trn":-1,"delivery.trn":-1},
+"effects":{"form.order.trn":1},
+"warmup":10
+},
+
+{"id":"trn.respond.begin",
+"actionid": "trn",
+"warmup":500,
+"aspects":{"wrapping":1},
+"linked":[{"id":"trn.respond.provision"}]},
+
+{"id": "trn.respond.provision",
+"actionid": "trn",
+"label":"Сбор заказа T.R.N.",
+"startdescription":"Активирует xtrigger для заказов",
+"warmup":30,
+"aspects":{"provisioning":1},
+"linked":[{"id":"trn.respond.reset"}]
+},
+ 
+{"id": "trn.respond.reset",
+"actionid": "trn",
+"label":"Обнуление T.R.N.",
+"startdescription":"Подчищаем заказы и цены",
+"warmup":30,
+"aspects":{"provisioning":1},
+"mutations":[{"mutate":"order*","filter":"delivery.trn", "level":-1,"additive":false},
+{"mutate":"cost.pence","filter":"delivery.trn","level":-1,"additive":false},
+{"mutate":"post.ready","filter":"delivery.trn","level":-1,"additive":false}]
+},
+
+
+
+{"id": "rhonwen.reminder.trysend",
+"label": "Письмо с напоминанием от фонда Св. Ронвен",
+"actionid": "rhonwen.reminder.trysend",
+"extantreqs":{"status.rhonwen.open":-1},
+"warmup":1,
+"linked":[{"id":"rhonwen.reminder.send","additional":true,"topath":"~/arrivalverbs"}]
+},
+
+{"id": "rhonwen.reminder.send",
+"label": "Напоминание",
+"actionid": "rhonwen.correspondence",
+"startdescription": "Мне пришло письмо из фонда Св. Ронвен.",
+"effects":{"reminder.rhonwen.act1":1},
+"warmup":5
+},
+
+{"id": "rhonwen.correspondence.trysend",
+"label": "Письмо из Фонда",
+"actionid": "rhonwen.setup",
+"startdescription": "Варианты текста",
+"extantreqs":{"status.rhonwen.open":1},
+"warmup":1,
+"linked":[{"id":"rhonwen.stipend","additional":true,"topath":"~/arrivalverbs"}]
+},
+
+{"id": "rhonwen.stipend",
+"label": "Денежное содержание",
+"actionid": "rhonwen.correspondence",
+"startdescription": "Пришло денежное содержание, назначенное мне фондом Св. Ронвен. Как обычно, в сопроводительном письме попечители рекомендуют потратить его с умом.",
+"effects":{"poundnote":1,"spintria.iron":1},
+"warmup":5
+},
+
+{"id": "lot.oriflammes.setup",
+"label": "Письмо из «Орифламмы»",
+"actionid": "oriflammes.setup",
+"startdescription": "Закладываем почву для их предложения",
+"extantreqs":{"status.rhonwen.open":1},
+"reqs":{"cost.tally":-1},
+"warmup":720,
+"slots": [{
+      "id": "p",
+      "required": {"cost.tally":1},
+            "greedy":true,
+            "frompath":"~/purchases.europe"
+        }],
+        "linked":[{"id":"lot.oriflammes.offer.*", "additional":true, "topath":"~/arrivalverbs","expulsion": {"limit": 1,"filter": {"cost.tally": 1}} },
+        {"id":"lot.oriflammes.draw","topath":"~/purchases.europe","outputpath":"^","additional":true}
+        ]
+},
+
+{"id": "lot.oriflammes.draw",
+"label": "Предложение от «Орифламмы»: сдача карты",
+"actionid": "oriflammes.draw",
+"startdescription": "«Орифламма»: тянем карту новой книги. Базовая колода книг на случай, если игрок всё время отказывается от исходно предложенной.",
+"reqs": {"cost.tally":-1},
+"warmup":1,
+"deckeffects":{"d.books.divers":5}
+},
+
+
+
+{"id": "_lot.oriflammes.offer",
+"label": "Предложение от «Орифламмы»",
+"actionid": "oriflammes.offer",
+"startdescription": "ОРИФЛАММА. ЗАПАХИ – ЗНАКИ – ЗНАНИЕ. Многоуважаемый библиотекарь! Предлагаем вашему вниманию следующий том...» [Смотрите значок книги справа.]",
+"desc": "«Аукционный дом «Орифламма» благодарит вас за уделённое внимание. [Книгу ещё могут выставить на продажу повторно.]»",
+"warmup":180, 
+"alt":[{"id":"lot.oriflammes.purchase"}],
+"linked":[ {"id":"lot.oriflammes.pass","additional":true,
+"topath":"~/purchases.europe",
+"outputpath":"^",
+ "expulsion": {"limit": 99,"filter": {"cost.tally": 1}}}]
+},
+
+{"id": "lot.oriflammes.offer.5",
+"inherits":"_lot.oriflammes.offer",
+"reqs":{"cost.tally":5},
+"slots": [{"id": "t", "required": {"tally":5}        }]
+},
+{"id": "lot.oriflammes.offer.4",
+"inherits":"_lot.oriflammes.offer",
+"reqs":{"cost.tally":4},
+"slots": [{"id": "t", "required": {"tally":4}        }]
+},
+{"id": "lot.oriflammes.offer.3",
+"inherits":"_lot.oriflammes.offer",
+"reqs":{"cost.tally":3},
+"slots": [{"id": "t", "required": {"tally":3}        }]
+},
+{"id": "lot.oriflammes.offer.2",
+"inherits":"_lot.oriflammes.offer",
+"reqs":{"cost.tally":2},
+"slots": [{"id": "t", "required": {"tally":2}        }]
+},
+{"id": "lot.oriflammes.offer.1",
+"inherits":"_lot.oriflammes.offer",
+"reqs":{"cost.tally":1},
+"slots": [{"id": "t", "required": {"tally":1}        }]
+},
+{"id": "lot.oriflammes.purchase",
+"reqs":{"tally":"cost.tally"},
+"startdescription":"«Аукционный дом «Орифламма» благодарит вас за покупку».",
+"effects":{"tally":"-cost.tally"}
+},
+{"id": "lot.oriflammes.pass",
+"actionid":"oriflammes.pass",
+"startdescription":"Я пас!",
+"comments":"assumes no tally can have been placed in here.",
+"warmup":5
+}
+
+
+
+]
+}

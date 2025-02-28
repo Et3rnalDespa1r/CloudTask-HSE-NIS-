@@ -1,0 +1,36 @@
+{
+	"recipes":[
+		{
+			"startdescription":"满足这个生物的食欲。[食物会使饥饿的或野生的兽类变得合作。]",
+			"id":"talk.feed.beast",
+			"label":"喂食兽类",
+			"desc":"饱腹成友。[这小家伙现在愿意提供协助了。]"
+		},
+		{
+			"startdescription":"使用魂质卡和合适的食物。[食物会使饥饿的或野生的兽类变得合作。]",
+			"id":"talk.feed.beast.hint",
+			"label":"喂食兽类？"
+		},
+		{
+			"startdescription":"[添加一张魂质卡与兽类互动。]",
+			"id":"talk.handle.beast.hint",
+			"label":"与兽类共享时光？"
+		},
+		{
+			"startdescription":"它现在已经对食物没有兴趣了。",
+			"id":"talk.full.beast.hint",
+			"label":"饱腹的兽类？"
+		},
+		{
+			"startdescription":"使用魂质卡和合适的食物。[食物会使饥饿的或野生的兽类变得合作。]",
+			"id":"talk.feed.beast.hint.ability",
+			"label":"喂食兽类？"
+		},
+		{
+			"startdescription":"让我来陪会儿这兽类。也许它会提供一些回报。谁说得准呢？",
+			"id":"talk.handle.beast",
+			"label":"与兽类共享时光",
+			"desc":"现在，它表示，一顿美餐就可欣然满足。"
+		}
+	]
+}

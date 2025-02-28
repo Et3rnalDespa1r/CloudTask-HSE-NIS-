@@ -1,0 +1,22 @@
+﻿{"achievements": [
+
+
+  { "id": "A_EVENT_BUSTMASTER", "category": "A_CATEGORY_EVENTS", "iconUnlocked": "trophy",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Многих нет... Но многие доныне пребывают.",
+    "descriptionunlocked": "Я расставил бюсты библиотекарей Дома безмолвия в идеальном порядке."
+  },
+
+  { "id": "A_EVENT_FIREFIGHTER", "category": "A_CATEGORY_EVENTS", "iconUnlocked": "trophy",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "Возгорание Вика",
+  "descriptionunlocked": "Я обнаружил источник пожара, приключившегося в Доме безмолвия."
+},
+{ "id": "A_EVENT_PROSPERO", "category": "A_CATEGORY_EVENTS", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "«Глубже, чем измерить можно лотом...»",
+"descriptionunlocked": "Я утопил свою магическую книгу."
+}
+  
+
+]}

@@ -1,0 +1,34 @@
+{
+	"decks":[
+		{
+			"id":"d.chat.craftsman",
+			"label":"一场与匠人的谈话",
+			"desc":"好吧，你知道些什么？"
+		},
+		{
+			"id":"d.chat.denzil",
+			"label":"一场与邓齐尔的谈话",
+			"desc":"好吧，你知道些什么？"
+		},
+		{
+			"id":"d.chat.scholar",
+			"label":"一场与学者的谈话",
+			"desc":"好吧，你知道些什么？"
+		},
+		{
+			"id":"d.chat.generic",
+			"label":"偶然的谈话",
+			"desc":"好吧，你知道些什么？"
+		},
+		{
+			"id":"d.chat.sweetbones",
+			"label":"在甜美的骨头里找人谈话。",
+			"desc":"我会问问布兰库格村民……"
+		},
+		{
+			"id":"d.chat.traveller",
+			"label":"一场与旅者的谈话",
+			"desc":"好吧，你知道些什么？"
+		}
+	]
+}

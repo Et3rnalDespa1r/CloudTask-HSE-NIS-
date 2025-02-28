@@ -1,0 +1,21 @@
+﻿{"recipes": [
+ 
+
+
+
+{
+  "id":"talk.incident.irrelevant",
+  "label": "«Прошу прощения?..»",
+  "actionid":"talk",
+  "reqs":{"incident":1,"visitor":1},
+  "startdescription": "[Посетитель находит эту тему скучной. Вам стоит обсудить её с кем-то, кто проявляет чуть больший интерес.]",
+  "hintonly":true
+}
+
+
+
+
+
+
+]
+}

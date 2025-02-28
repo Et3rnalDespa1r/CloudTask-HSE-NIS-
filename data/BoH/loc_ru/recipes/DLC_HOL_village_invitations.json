@@ -1,0 +1,119 @@
+﻿{"recipes": [
+
+
+    {
+        "id":"village.invite.timothy",
+         "label": "Пригласить на приём Священника",
+         "actionid": "village.rectory.open*",
+         "startdescription":"Пригласить о. Тимоти в Дом безмолвия.",
+         "desc": "О. Тимоти чуть не утратил от восторга дар речи... Но всё-таки не утратил. [Священник отправил вам подарок.]",
+         "reqs":{"wc":1},
+         "extantreqs":{"salon.past":-1,"visitor.villager":-1},
+         "effects":{"visiting.timothy":1},
+         "internaldeck": {
+            "spec": [
+                  "plums",
+                  "plums",
+                  "veg.basket.apples",
+                  "veg.basket.apples",
+                  "fruit.bowl.pears",
+                  "fruit.bowl.pears",
+                  "jam.blackberry"
+            ],
+            "draws": 1,
+            "defaultcard": "jam.blackberry",
+            "resetonexhaustion": true
+                        },   
+         "aspects":{"fatiguing.ability":1},
+               "warmup": 7
+     },
+     {
+        "id":"village.invite.denzil",
+         "label": "Пригласить в гости Кузнеца",
+         "actionid": "village.smithy.open*",
+         "startdescription":"Пригласить Дензила в Дом безмолвия.",
+         "desc": "Дензил благодарно кивает. [Кузнец отправил вам подарок.]",
+         "reqs":{"wc":1},
+         "extantreqs":{"salon.past":-1,"visitor.villager":-1},
+         "effects":{"visiting.denzil":1},
+         "internaldeck": {
+            "spec": [
+                  "butter",
+                  "pheasant",
+                  "pheasant",
+                  "potatoes",
+                  "milk",
+                  "mushrooms"
+            ],
+            "draws": 1,
+            "defaultcard": "mushrooms",
+            "resetonexhaustion": true
+                        },   
+         "aspects":{"fatiguing.ability":1},
+               "warmup": 5
+     },
+     {
+        "id":"village.invite.killes",
+         "label": "Пригласить в гости супругов Килле",
+         "actionid": "village.killes.open*",
+         "startdescription": "Пригласить супругов Килле в Дом безмолвия.",
+         "desc": "Мистер Килле взволнован, но учтив. Миссис Килле учтива и, возможно, даже взволнована: как и всегда, по ней трудно сказать. [Супруги Килле отправили вам подарок.]",
+         "reqs":{"wc":1},
+         "extantreqs":{"salon.past":-1,"visitor.villager":-1},
+         "effects":{"visiting.killes":1},
+         "internaldeck": {
+            "spec": [
+                  "veg.marrow.acrid",
+                  "veg.marrow.dark",
+                  "veg.marrow.golden",
+                  "veg.marrow.pale",
+                  "pheasant",
+                  "pumpkin",
+                  "pumpkin.amber",
+                  "bottle.dandelionwine"
+            ],
+            "draws": 1,
+            "defaultcard": "pumpkin",
+            "resetonexhaustion": true
+                        },   
+         "aspects":{"fatiguing.ability":1},
+               "warmup": 5
+     },
+
+
+
+     {
+      "id":"village.invite.timothy.block.hint",
+       "label": "Только не сейчас ",
+       "actionid": "village.rectory.open*",
+       "startdescription":"[Священника нельзя пригласить, если вы уже звали местного жителя или устраивали приём в этом сезоне.]",
+      "hintonly":true,
+       "reqs":{"wc":1}
+   },
+
+   {
+      "id":"village.invite.killes.block.hint",
+       "label": "Только не сейчас ",
+       "actionid": "village.killes.open*",
+       "startdescription":"[Супругов Килле нельзя пригласить, если вы уже звали местного жителя или устраивали приём в этом сезоне.]",
+      "hintonly":true,
+       "reqs":{"wc":1}
+   },
+
+   {
+      "id":"village.invite.denzil.block.hint",
+       "label": "Только не сейчас ",
+       "actionid": "village.smithy.open*",
+       "startdescription":"[Дензила нельзя пригласить, если вы уже звали местного жителя или устраивали приём в этом сезоне.]",
+      "hintonly":true,
+       "reqs":{"wc":1}
+   }
+    
+
+    
+
+    
+    
+    ]
+    }
+    

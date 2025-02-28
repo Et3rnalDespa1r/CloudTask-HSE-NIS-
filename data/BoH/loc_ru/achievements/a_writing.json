@@ -1,0 +1,23 @@
+﻿{"achievements": [
+
+  { "isCategory": true, "id": "A_CATEGORY_WRITING", "label": "Достижение писателя", "iconUnlocked": "clue" },
+
+
+  { "id": "A_WRITE_MANUSCRIPT", "category": "A_CATEGORY_WRITING", "iconUnlocked": "clue",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Память, над которой смерть не властна",
+    "descriptionunlocked": "Я закончил авторскую монографию."
+  },
+
+  { "id": "A_WRITE_INVITATION", "category": "A_CATEGORY_WRITING", "iconUnlocked": "clue",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "Последний домашний приют",
+  "descriptionunlocked": "Я отправил одному из посетителей приглашение."
+}
+
+
+
+ 
+  
+
+]}

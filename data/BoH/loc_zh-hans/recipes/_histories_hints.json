@@ -1,0 +1,34 @@
+{
+	"recipes":[
+		{
+			"startdescription":"[添加一张能力卡以赢取胜利，亦或在你的日记中写就一重历史以赢取更大的胜利。]",
+			"id":"h.present.ability.hint",
+			"label":"提交何物？"
+		},
+		{
+			"startdescription":"我就站立于此。还有何物将失落？[你已确立历史。准备好在伯爵紫杉前将其呈上了吗？]",
+			"id":"h.present.ability.history.hint",
+			"label":"提交一重历史？"
+		},
+		{
+			"startdescription":"我可以试着写就一重历史——一种连司辰本身都兴许会尊重与承认的真理，但这并非易事。[要写就一重历史，需要提供一个闰识，以及至少25点对应的性相。如果你已做出至少一种相称的决断，这么做会更容易些。]",
+			"id":"h.record.aspect.hint",
+			"label":"更多？"
+		},
+		{
+			"startdescription":"我已写就一重历史。我应当将其献给海洋，天空与大地，在布莱恩伯爵甸中……在闰时。",
+			"id":"h.record.already",
+			"label":"这重历史"
+		},
+		{
+			"startdescription":"假如我希望确立一重历史，那么当闰时来临时，我可以带着这本日记回到这里。",
+			"id":"h.present.journal.season.hint",
+			"label":"当闰时来临……"
+		},
+		{
+			"startdescription":"它就矗立于此。还有何物将留存？[确立一重历史，并将它带至伯爵紫杉前。]",
+			"id":"h.present.journal.hint",
+			"label":"站立于树前？"
+		}
+	]
+}

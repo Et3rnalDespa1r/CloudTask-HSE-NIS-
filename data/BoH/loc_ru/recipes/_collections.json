@@ -1,0 +1,22 @@
+﻿{"recipes": [
+ 
+{"id": "collection.busts",
+"label": "Библиотекари прошлого, настоящего, будущего",
+"actionid": "collection.busts",
+"startdescription": "Я – двенадцатый библиотекарь Дома безмолвия...",
+"desc": "Я – двенадцатый библиотекарь Дома безмолвия, и тоже оставлю о себе память.",
+"craftable":true,
+"effects":{"xwis":1},
+"warmup":30,
+"achievements":["A_EVENT_BUSTMASTER"]
+},
+{"id": "collection.test",
+"label": "Р-р-р",
+"actionid": "collection.test",
+"startdescription": "!",
+"craftable":true,
+"effects":{"cat.tame":1},
+"warmup":2
+}
+]
+}

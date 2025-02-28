@@ -1,0 +1,56 @@
+{
+	"recipes":[
+		{
+			"startdescription":"瞬间恢复，只是加上拂晓（内部文本？）",
+			"id":"d_dawn",
+			"label":"<b>拂晓</b>！（内部文本？）"
+		},
+		{
+			"startdescription":"This should only ever occur on alternate executions (when marked craftable)",
+			"id":"d_cons_setup_imp",
+			"label":"Consider (Setup): impromptu",
+			"desc":"Added aspect"
+		},
+		{
+			"id":"av",
+			"label":"AV"
+		},
+		{
+			"id":"inspire_b",
+			"label":"Inspire b"
+		},
+		{
+			"id":"inspire_a",
+			"label":"Inspire a"
+		},
+		{
+			"startdescription":"！",
+			"id":"wildreqtest",
+			"label":"wild!"
+		},
+		{
+			"id":"d_pack",
+			"label":"去！（内部文本？）"
+		},
+		{
+			"startdescription":"This should only ever occur on alternate executions (when marked craftable)",
+			"id":"d_cons_imp",
+			"label":"Consider: impromptu",
+			"desc":"Added aspect"
+		},
+		{
+			"id":"av2",
+			"label":"AV"
+		},
+		{
+			"id":"d_go",
+			"label":"去！（内部文本？）"
+		},
+		{
+			"startdescription":"Track-marked",
+			"id":"d_cons_imp2",
+			"label":"Consider: impromptu done",
+			"desc":"that's it"
+		}
+	]
+}

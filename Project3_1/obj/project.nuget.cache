@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y3ZGaA00fuE=",
+  "success": true,
+  "projectFilePath": "/Users/zagruykodaniilmail.ru/Desktop/Project3_1(нис)/Project3_1/Project3_1.csproj",
+  "expectedPackageFiles": [
+    "/Users/zagruykodaniilmail.ru/.nuget/packages/nstack.core/1.1.1/nstack.core.1.1.1.nupkg.sha512",
+    "/Users/zagruykodaniilmail.ru/.nuget/packages/system.codedom/8.0.0/system.codedom.8.0.0.nupkg.sha512",
+    "/Users/zagruykodaniilmail.ru/.nuget/packages/system.management/8.0.0/system.management.8.0.0.nupkg.sha512",
+    "/Users/zagruykodaniilmail.ru/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/Users/zagruykodaniilmail.ru/.nuget/packages/terminal.gui/1.17.1/terminal.gui.1.17.1.nupkg.sha512"
+  ],
+  "logs": []
+}

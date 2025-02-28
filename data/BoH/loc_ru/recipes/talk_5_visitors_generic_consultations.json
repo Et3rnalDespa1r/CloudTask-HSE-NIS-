@@ -1,0 +1,162 @@
+﻿{"recipes": [
+ 
+
+{"id": "talk.visitor.consultation.edge.reading.success",
+"label": "Грань: подходящая книга",
+"actionid": "talk",
+"startdescription": "Моего гостя интересует насилие. В моей коллекции есть книги по этой теме.",
+"desc": "«Как восхитительно». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.edge":1,"mystery.edge":"interest.edge"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.edge","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+
+{"id": "talk.visitor.consultation.forge.reading.success",
+"label": "Кузня: подходящая книга",
+"actionid": "talk",
+"startdescription": "У моего гостя есть вопросы об искусствах созидания и преображения. В моей коллекции есть ответы.",
+"desc": "«Как... увлекательно». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.forge":1,"mystery.forge":"interest.forge"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.forge","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.grail.reading.success",
+"label": "Чаша: подходящая книга",
+"actionid": "talk",
+"startdescription": "У моего гостя есть вопросы о крови, рождении или и том, и другом. В моей коллекции есть ответы.",
+"desc": "«Как чувственно». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.grail":1,"mystery.grail":"interest.grail"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.grail","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+
+{"id": "talk.visitor.consultation.heart.reading.success",
+"label": "Сердце: подходящая книга",
+"actionid": "talk",
+"startdescription": "У моего гостя есть вопросы о благословениях, защитных чарах или жизни. В моей коллекции есть ответы.",
+"desc": "«Как ободряюще». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.heart":1,"mystery.heart":"interest.heart"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.heart","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.knock.reading.success",
+"label": "Стук: подходящая книга",
+"actionid": "talk",
+"startdescription": "Моему гостю нужно что-то отворить или запечатать. В моей коллекции есть книги по этой теме.",
+"desc": "«Как многообещающе». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.knock":1,"mystery.knock":"interest.knock"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.knock","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.lantern.reading.success",
+"label": "Лампада: подходящая книга",
+"actionid": "talk",
+"startdescription": "Мой гость ищет откровений. В моей коллекции могут найтись ответы.",
+"desc": "«Как поучительно». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.lantern":1,"mystery.lantern":"interest.lantern"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.lantern","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.moon.reading.success",
+"label": "Луна: подходящая книга",
+"actionid": "talk",
+"startdescription": "У моего гостя есть вопросы о скрытых вещах. В моей коллекции могут найтись ответы.",
+"desc": "«Как неожиданно». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.moon":1,"mystery.moon":"interest.moon"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.moon","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.moth.reading.success",
+"label": "Мотылёк: подходящая книга",
+"actionid": "talk",
+"startdescription": "Вопросы моего гостя ставят в тупик. Как и большинство книг в моей коллекции.",
+"desc": "«Как увлекательно». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.moth":1,"mystery.moth":"interest.moth"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.moth","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.nectar.reading.success",
+"label": "Нектар: подходящая книга",
+"actionid": "talk",
+"startdescription": "Моего гостя интересует растениеводство. В моей коллекции могут найтись ответы.",
+"desc": "«Как плодотворно». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.nectar":1,"mystery.nectar":"interest.nectar"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.nectar","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.rose.reading.success",
+"label": "Роза: подходящая книга",
+"actionid": "talk",
+"startdescription": "Мой гость хочет поговорить о горизонтах и надежде. В моей коллекции могут найтись ответы.",
+"desc": "«Как любопытно!» [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.rose":1,"mystery.rose":"interest.rose"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.rose","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.scale.reading.success",
+"label": "Чешуя: подходящая книга",
+"actionid": "talk",
+"startdescription": "У моего гостя есть вопросы о вещах, которые обычно лежат в земле. В моей коллекции могут найтись ответы.",
+"desc": "«Как... глубоко». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.scale":1,"mystery.scale":"interest.scale"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.scale","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.sky.reading.success",
+"label": "Небо: подходящая книга",
+"actionid": "talk",
+"startdescription": "У моего гостя есть вопросы об искусствах нижних небес. В моей коллекции есть ответы.",
+"desc": "«Как многообещающе». [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.sky":1,"mystery.sky":"interest.sky"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.sky","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+{"id": "talk.visitor.consultation.winter.reading.success",
+"label": "Зима: подходящая книга",
+"actionid": "talk",
+"startdescription": "Моего гостя интересует чей-то конец. В моей коллекции есть ответы.",
+"desc": "«...» [Вы удовлетворили интерес посетителя и заслужили вознаграждение. Но имейте в виду: чем больше будут узнавать ваши гости, тем трудней будет помочь им в следующий раз.]",
+"reqs": {"interest.winter":1,"mystery.winter":"interest.winter"},
+"effects":{"spintria.iron":1},"aspects":{"satisfying":1},
+"mutations":[{"filter":"visitor","mutate":"interest.winter","level":1}],
+"linked":[{"id":"talk.visitor.offer.callingcard.*"}]
+},
+
+
+
+{"id": "talk.visitor.reading.failure",
+"label": "Неподходящая книга",
+"actionid": "talk",
+"startdescription": "«Я так не думаю...» [Вам нужна книга, чья тайна удовлетворит интерес посетителя.]",
+"desc": "[Вы не нашли в своей коллекции ничего подходящего – или решили не помогать.] ",
+"aspects":{"dissatisfying":1}
+}
+
+
+
+]
+}

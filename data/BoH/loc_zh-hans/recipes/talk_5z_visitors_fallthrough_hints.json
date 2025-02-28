@@ -1,0 +1,9 @@
+{
+	"recipes":[
+		{
+			"startdescription":"[这位来访者对此不感兴趣。找一位兴趣相投的访客吧。]",
+			"id":"talk.incident.irrelevant",
+			"label":"……？"
+		}
+	]
+}

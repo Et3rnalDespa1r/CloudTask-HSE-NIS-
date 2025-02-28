@@ -1,0 +1,234 @@
+﻿{"recipes": [
+
+    {"id": "_talk.visitor.intro",
+    "actionid": "talk",
+    "reqs":{"incident":-1},
+    "linked":[{"id":"talk.visitor.show.slot.generic"}],
+    "warmup":1
+    },
+
+    {"id": "talk.visitor.agdistis.intro",
+    "label": "Разговор с господином Агдистисом",
+    "actionid": "talk",
+    "startdescription": "«Здравствуйте, библиотекарь. Я жажду вашей подмоги». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"agdistis":1},
+    "inherits":"_talk.visitor.intro","craftable":true 
+},
+    
+    {"id": "talk.visitor.aladim",
+    "label": "Разговор с Алеппинцем",
+    "actionid": "talk",
+    "startdescription": "«Мир вам. Я пришёл под сень вашего Дома». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"aladim":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.arthur",
+    "label": "Разговор с лейтенантом Муром",
+    "actionid": "talk",
+    "startdescription": "«Доброго дня. Можно войти?» [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"arthur":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.arun",
+    "label": "Разговор с доктором Пилом",
+    "actionid": "talk",
+    "startdescription": "«День, ночь, а потом снова день. И это день нашей встречи. Прекрасно». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"arun":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.auntmopsy",
+    "label": "Разговор с доброй тётушкой",
+    "actionid": "talk",
+    "startdescription": "«Тебе необязательно приглашать меня войти, дорогуша. Тебя уже кто-то опередил». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"auntmopsy":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+
+    {"id": "talk.visitor.azita",
+    "label": "Разговор с Азитой Бухара",
+    "actionid": "talk",
+    "startdescription": "«Здравствуйте, библиотекарь. У меня есть вопросы. За ответы я заплачу». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"azita":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+    
+    {"id": "talk.visitor.chaima",
+    "label": "Разговор с Лаллой Хаима",
+    "actionid": "talk",
+    "startdescription": "«Мне нужно кое-что знать». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"chaima":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.connie",
+    "label": "Разговор с младшим констеблем-окулянтом Конни Ли",
+    "actionid": "talk",
+    "startdescription": "«Библиотекарь. Я здесь по делам Бюро». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"connie":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.coquille",
+    "label": "Разговор с княжной",
+    "actionid": "talk",
+    "startdescription": "«Привет, моя радость! Хочу попросить о крошечном одолжении...» [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"coquille":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.corso",
+    "label": "Разговор с синьором Корсо",
+    "actionid": "talk",
+    "startdescription": "«Мне ведь не нужно было предупреждать о визите?» [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"corso":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.dagmar",
+    "label": "Разговор с Гризельдой",
+    "actionid": "talk",
+    "startdescription": "«Здравствуй, мой сладкий. Боюсь, это всего лишь я». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"dagmar":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.douglas",
+    "label": "Разговор с очень усталым детективом",
+    "actionid": "talk",
+    "startdescription": "«Всё хорошо?» [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"douglas":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.ehsan",
+    "label": "Разговор с Эхсаном Фекри",
+    "actionid": "talk",
+    "startdescription": "«Я рад снова сюда вернуться. Спасибо, что согласились меня принять». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"ehsan":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.franklin",
+    "label": "Разговор лордом Банкрофтом",
+    "actionid": "talk",
+    "startdescription": "«...отличная погода для этой поры. Это всё погода...» [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"franklin":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.fraser",
+    "label": "Разговор с Фрейзером Стрэткойном",
+    "actionid": "talk",
+    "startdescription": "«Библиотекарь. У меня к вам срочное дело». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"fraser":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+    {"id": "talk.visitor.hokobald.summer",
+    "label": "Разговор с магистром Хокобальдом",
+    "actionid": "talk",
+    "startdescription": "«И это, по-вашему, лето? Просто омерзительно. Я долго буду стоять в дверях?» [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"hokobald":1},
+    "extantreqs":{"season.summer":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+
+
+    {"id": "talk.visitor.hokobald",
+    "label": "Разговор с магистром Хокобальдом",
+    "actionid": "talk",
+    "startdescription": "«Какой унылый и холодный край. Надеюсь, меня ждёт достойный приём». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"hokobald":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+
+    {"id": "talk.visitor.julian",
+    "label": "Разговор с Джулианом Косли",
+    "actionid": "talk",
+    "startdescription": "«...Если Соломон нас покинул... Если Соломон остался...» [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"julian":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.morgen",
+    "label": "Разговор с мадемуазель Матутин",
+    "actionid": "talk",
+    "startdescription": "«Может, мне стоило представиться как «Сафир», <i>ла?</i>» [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"morgen":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.olympe",
+    "label": "Разговор с мадам Беше",
+    "actionid": "talk",
+    "startdescription": "«Мне тоже очень приятно, библиотекарь». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"olympe":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.rowena",
+    "label": "Разговор с Ровеной",
+    "actionid": "talk",
+    "startdescription": "«Я здесь... наверное». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"rowena":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.serena",
+    "label": "Разговор с доктором Блэквуд",
+    "actionid": "talk",
+    "startdescription": "«Возвращаться всегда так странно. Ещё раз спасибо, что взялись приглядеть за этим местом». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"serena":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+    {"id": "talk.visitor.stanislav",
+    "label": "Разговор с о. Станиславом",
+    "actionid": "talk",
+    "startdescription": "«Благослови Господь и вас, и Дом, которому вы служите». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"stanislav":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.yvette",
+    "label": "Разговор с Иветтой",
+    "actionid": "talk",
+    "startdescription": "«Привет. Есть минутка?» [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"yvette":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    },
+    
+
+    {"id": "talk.visitor.zachary",
+    "label": "Разговор с Уэйкфилдом",
+    "actionid": "talk",
+    "startdescription": "«Библиотекарь. Я вас вижу». [Если у вас есть карта происшествия, вы можете обсудить его – или оставить эту ячейку пустой, чтобы предложить консультацию.]",
+"reqs": {"zachary":1},
+   "inherits":"_talk.visitor.intro","craftable":true 
+    }
+    
+
+
+
+]
+}

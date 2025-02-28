@@ -1,0 +1,150 @@
+﻿{"recipes": [
+
+  {"id":"unveil.altar.lady.serpentroot.hillhollow",
+  "actionid":"library.altar.lady",
+  "label":"Явить одно из сокровищ Дома",
+  "startdescription":"Сказать надлежащие слова. Явить сокровище Дома, воззвав к подземным силам.",
+  "desc":"В подножье жертвенника есть углубление. Внутри – будто змея, но неподвижно – свернулось нечто.",
+  "extantreqs":{"t.serpentroot":-1},
+  "reqs":{"s.hill.hollow":1,"ability":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.serpentroot":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+
+  {"id":"unveil.altar.lady.serpentroot.tridesmahiera",
+  "actionid":"library.altar.lady",
+  "label":"Явить одно из сокровищ Дома",
+  "startdescription":"Сказать надлежащие слова. Явить сокровище Дома, воззвав к Троим.",
+  "desc":"В подножье жертвенника есть углубление. Внутри – будто змея, но неподвижно – свернулось нечто.",
+  "extantreqs":{"t.serpentroot":-1},
+  "reqs":{"s.tridesmahiera":1,"ability":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.serpentroot":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+
+  {"id":"unveil.oubliette.thesunsdesign.scar",
+  "actionid":"library.oubliette",
+  "label":"Открыть одно из сокровищ Дома",
+  "startdescription":"Перечесть шрамы железа и ночи, чтобы открыть сокровище Дома.",
+  "desc":"Немыслимое, сбережённое от тлена шрамами, которые оставил тот, кто прежде был здесь заточён.",
+  "extantreqs":{"t.thesunsdesign":-1},
+  "reqs":{"s.disciplines.thescar":1,"ability":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.thesunsdesign":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+
+  {"id":"unveil.oubliette.thesunsdesign.hammer",
+  "actionid":"library.oubliette",
+  "label":"Открыть одно из сокровищ Дома",
+  "startdescription":"Понудить воздух и огонь сойтись, чтобы открыть сокровище Дома.",
+  "desc":"Немыслимое, сбережённое от тлена темницей того, кто прежде был здесь заточён.",
+  "extantreqs":{"t.thesunsdesign":-1},
+  "reqs":{"s.disciplines.thehammer":1,"ability":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.thesunsdesign":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+
+  {"id":"unveil.altar.chancel.thesundisfigured.sacralimiae",
+  "actionid":"library.altar.chancel*",
+  "label":"Явить одно из сокровищ Дома",
+  "startdescription":"Произнести должные слова. Явить сокровище Дома, воззвав к Троим.",
+  "desc":"В узкой щели под верхней кромкою престола сгустилась тьма. В ней что-то есть.",
+  "extantreqs":{"t.thesundisfigured":-1},
+  "reqs":{"s.sacralimiae":1,"ability":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.thesundisfigured":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+
+  
+  {"id":"unveil.altar.chancel.thesundisfigured.sickle.eclipse",
+  "actionid":"library.altar.chancel*",
+  "label":"Явить одно из сокровищ Дома",
+  "startdescription":"Сказать давно запретные слова. Явить сокровище Дома, воззвав к Троим.",
+  "desc":"В узкой щели под верхней кромкою престола сгустилась чернота. В ней что-то есть.",
+  "extantreqs":{"t.thesundisfigured":-1},
+  "reqs":{"s.sickle.eclipse":1,"ability":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.thesundisfigured":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+
+  {"id":"unveil.rowenarium.towardsafundamentalaestheticsecondedition",
+  "actionid":"library.rowenarium*",
+  "label":"Явить одно из сокровищ Дома",
+  "startdescription":"Если я вставлю подходящий ключ...",
+  "desc":"Среди отражений Ровенария трудно понять, кто открыл что и кем он был – но я хорошо вижу представшую перед моими глазами находку.",
+  "extantreqs":{"t.towardsafundamentalaestheticsecondedition":-1},
+  "reqs":{"knock":3,"winter":3,"key":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.towardsafundamentalaestheticsecondedition":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+
+  {"id":"unveil.altar.tentreto.thewritingonthewall.preliminal",
+  "actionid":"library.altar.tentreto*",
+  "label":"Постичь прозрение прошедших эпох",
+  "startdescription":"Внушив себе, что знаю, что творю – или признав, что ничего не знаю – я мог бы погрузиться в сон под тенью изваянья и узнать, что за секрет всплывёт в том хладном сне.",
+  "desc":"Я помню, как во сне внимал шуршанию воздетых крыл. Я помню, как во сне слагал персты, вторя внушённым очертаниям. Я помню, как во сне писал черты и резы тайн, нашёптанных иному самому себе. И вот они – в моих руках.",
+  "extantreqs":{"t.thewritingonthewall":-1},
+  "reqs":{"s.preliminalmeter":1,"ability":1,"ink":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.thewritingonthewall":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+  {"id":"unveil.altar.tentreto.resurgences",
+  "actionid":"library.altar.tentreto*",
+  "label":"Постичь прозрение прошедших эпох",
+  "startdescription":"Внушив себе, что знаю, что творю – или признав, что ничего не знаю – я мог бы погрузиться в сон под тенью изваянья и узнать, что за секрет всплывёт в том хладном сне.",
+  "desc":"Я помню, как во сне внимал шуршанию воздетых крыл. Я помню, как во сне слагал персты, вторя внушённым очертаниям. Я помню, как во сне писал черты и резы тайн, нашёптанных иному самому себе. И вот они – в моих руках.",
+  "extantreqs":{"t.thewritingonthewall":-1},
+  "reqs":{"s.resurgences.emergences":1,"ability":1,"ink":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.thewritingonthewall":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+
+
+  {"id":"unveil.bed.stone.threeandthethreestchiavi.inviolable",
+  "actionid":"library.bed.*",
+  "label":"Отыскать одно из утраченных сокровищ Дома",
+  "startdescription":"Уснуть, взяв в качестве подушки Камень. Не знаю почему, но мне теперь известно, что было связано и что разрешено Калиптрой.",
+  "desc":"Раскрыв объятья младшему брату смерти, я просыпаюсь – баюкая в своих руках книгу.",
+  "extantreqs":{"t.thethreeandthethreestchiavimanuscript":-1},
+  "reqs":{"s.edictsinviolable":1,"ability":1,"stone.indecipherable":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.thethreeandthethreestchiavimanuscript":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  },
+
+  {"id":"unveil.bed.stone.threeandthethreestchiavi.liminal",
+  "actionid":"library.bed.*",
+  "label":"Отыскать одно из утраченных сокровищ Дома",
+  "startdescription":"Уснуть, взяв в качестве подушки Камень. Не знаю почему, но мне теперь известно, что было связано и что разрешено Калиптрой.",
+  "desc":"Раскрыв объятья младшему брату смерти, я просыпаюсь – баюкая в своих руках книгу.",
+  "extantreqs":{"t.thethreeandthethreestchiavimanuscript":-1},
+  "reqs":{"s.edictsliminal":1,"ability":1,"stone.indecipherable":1},
+  "aspects":{"fatiguing":1},
+  "effects":{"t.thethreeandthethreestchiavimanuscript":1},
+  "warmup":60,
+  "craftable":true,"ambittable":false
+  }
+
+
+
+]
+}

@@ -1,0 +1,37 @@
+{
+	"recipes":[
+		{
+			"startdescription":"邀请邓齐尔到噤声居屋",
+			"id":"village.invite.denzil",
+			"label":"邀请铁匠到噤声居屋",
+			"desc":"邓齐尔低下头颅表示感谢。[邓齐尔已经提前送来了一份礼物。]"
+		},
+		{
+			"startdescription":"邀请基尔夫妇到噤声居屋。",
+			"id":"village.invite.killes",
+			"label":"邀请基尔夫妇到噤声居屋",
+			"desc":"基尔先生显而易见地心情激动，但仍然彬彬有礼。基尔夫人彬彬有礼，或许也心情激动：但一如既往，很难说得清。[基尔夫妇已经提前送来了一份礼物。]"
+		},
+		{
+			"startdescription":"[如果你已经邀请了村民，或者本时节已经举办过沙龙，则无法邀请提摩西参加沙龙。]",
+			"id":"village.invite.timothy.block.hint",
+			"label":"现在不行——"
+		},
+		{
+			"startdescription":"[如果你已经邀请了村民，或者本时节已经举办过沙龙，则无法邀请邓齐尔参加沙龙。]",
+			"id":"village.invite.denzil.block.hint",
+			"label":"现在不行——"
+		},
+		{
+			"startdescription":"[如果你已经邀请了村民，或者本时节已经举办过沙龙，则无法邀请基尔夫妇参加沙龙。]",
+			"id":"village.invite.killes.block.hint",
+			"label":"现在不行——"
+		},
+		{
+			"startdescription":"邀请提摩西牧师到噤声居屋。",
+			"id":"village.invite.timothy",
+			"label":"邀请提摩西牧师参加沙龙。",
+			"desc":"提摩西牧师激动得近乎语塞……近乎。[提摩西已经提前送来了一份礼物。]"
+		}
+	]
+}

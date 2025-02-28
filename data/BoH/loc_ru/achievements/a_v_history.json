@@ -1,0 +1,73 @@
+﻿{"achievements": [
+
+  { "isCategory": true, "id": "A_CATEGORY_VICTORY", "label": "Победа", "iconUnlocked": "history" },
+
+
+  { "id": "A_V_HISTORY_WHEELOFFORTUNE", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Судьба",
+    "descriptionunlocked": "Я открыл карту «Фортуна»."
+  },
+  { "id": "A_V_HISTORY_FOOL", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Безумие и мания",
+    "descriptionunlocked": "Я открыл карту «Шут»."
+  },
+  { "id": "A_V_HISTORY_WORLD", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Гарантированный успех",
+    "descriptionunlocked": "Я открыл карту «Мир»."
+  },
+  { "id": "A_V_HISTORY_MOON", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Таинственные силы",
+    "descriptionunlocked": "Я открыл карту «Луна»."
+  },
+  { "id": "A_V_HISTORY_DEVIL", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Предречённое",
+    "descriptionunlocked": "Я открыл карту «Дьявол»."
+  },
+  { "id": "A_V_HISTORY_STAR", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Надежды и чаяния",
+    "descriptionunlocked": "Я открыл карту «Звезда»."
+  },
+  { "id": "A_V_HISTORY_DEATH", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "Развязка и конец",
+  "descriptionunlocked": "Я открыл карту «Смерть»."
+},
+{ "id": "A_V_HISTORY_EMPRESS", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Неведомое",
+"descriptionunlocked": "Я открыл карту «Императрица»."
+},
+{ "id": "A_V_HISTORY_JUDGEMENT", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Призыв и перерождение",
+"descriptionunlocked": "Я открыл карту «Суд»."
+},
+{ "id": "A_V_HISTORY_HERMIT", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Бдительность и предательство",
+"descriptionunlocked": "Я открыл карту «Отшельник»."
+},
+{ "id": "A_V_HISTORY_SUN", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Материальное довольство",
+"descriptionunlocked": "Я открыл карту «Солнце»."
+},
+{ "id": "A_V_HISTORY_TOWER", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "КАТАСТРОФА",
+"descriptionunlocked": "Я открыл карту «Башня»."
+},
+{ "id": "A_V_HISTORY_TEMPERANCE", "category": "A_CATEGORY_VICTORY", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Компромисс и приспособление",
+"descriptionunlocked": "Я открыл карту «Умеренность»."
+}
+  
+
+]}

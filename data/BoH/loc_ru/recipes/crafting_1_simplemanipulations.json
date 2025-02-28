@@ -1,0 +1,228 @@
+﻿{"recipes": [
+    {"id":"hatch.egg.gull.fireplace",
+    "actionid": "library.fireplace.*",
+    "reqs": {"egg":1,"brewable":1,"ability":1},
+    "label":"Вывести яйцо",
+    "startdescription":"Тепло огня пробудит в яйце жизнь, но на это уйдёт весь день.",
+    "desc":"Новая жизнь!",
+    "aspects":{"fatiguing.ability":1,"dist":1},
+    "warmup":360,
+    "craftable":true
+ },
+ {"id":"hatch.egg.gull.kitchen",
+ "actionid": "library.kitchen.*",
+ "reqs": {"egg":1,"brewable":1,"ability":1},
+ "label":"Вывести яйцо",
+ "startdescription":"Тепло очага пробудит в яйце жизнь, но на это уйдёт весь день.",
+ "desc":"Новая жизнь!",
+ "aspects":{"fatiguing.ability":1,"dist":1},
+ "warmup":360,
+ "craftable":true
+},
+
+    {"id":"distributable.serve",
+    "actionid": "station.serving.*",
+    "reqs": {"distributable":1},
+    "label":"Разлить по бокалам",
+    "startdescription":"Всего одна порция – ",
+    "desc":"– готово.",
+    "aspects":{"dist":1},
+    "warmup":3,
+    "craftable":true
+ },
+ {"id":"brew.fireplace",
+ "actionid": "library.fireplace.*",
+ "label":"Заварить над огнём",
+ "reqs": {"brewable":1,"ability":1,"skill":-1,"memory":-1},
+ "startdescription":"Вскипятить воду – дать скрытой сущности проявить себя –",
+ "desc":"– вдохнуть ароматный пар. Готово.",
+ "aspects":{"dist":1,"fatiguing.ability":1},
+ "warmup":30,
+ "craftable":true
+},
+
+{"id":"brew.kitchen",
+"actionid": "library.kitchen.*",
+"label":"Заварить на плите",
+"reqs": {"brewable":1,"ability":1,"skill":-1,"memory":-1},
+"startdescription":"Достаточно будет вскипятить воду –",
+ "desc":"– готово.",
+ "aspects":{"dist":1,"fatiguing.ability":1},
+"warmup":30,
+"craftable":true
+},
+
+
+{"id":"pumps.run.upper",
+"actionid": "pumps.upper",
+"label":"Отремонтировать верхний насос",
+"reqs": {"skill":1,"ability":1,"metal":2,"liquid":1,"fuel":1,"forge":"difficulty.prentice"},
+"startdescription":"Машина с рёвом оживает. Вода журчит и грохочет. Придётся набраться терпения.",
+ "desc":"Насос испускает последний хриплый вздох, но дело уже сделано.",
+ "aspects":{"fatiguing":1},
+"effects":{"circ.waters.receding":1},
+"warmup":360,
+"craftable":true
+},
+
+{"id":"pumps.run.lower",
+"actionid": "pumps.lower",
+"label":"Отремонтировать нижний насос",
+"reqs": {"skill":1,"ability":1,"metal":2,"liquid":1,"fuel":1,"forge":"difficulty.scholar"},
+"startdescription":"Машина с рёвом оживает. Летят искры. Придётся набраться терпения.",
+ "desc":"Насос испускает последний хриплый вздох, но дело уже сделано.",
+"aspects":{"fatiguing":1},
+"effects":{"circ.depths.uncovered":1},
+"warmup":360,
+"craftable":true
+},
+
+{
+    "id": "disassemble.wooden.workbench",
+    "label": "Разбить деревянный предмет",
+    "actionid": "library.workbench.*",
+    "startdescription": "Взять нечто неповторимое и превратить в нечто нужное. [От предмета останутся только щепки.]",
+        "reqs": {"wooden":1,"ability":1},
+    "effects":{"wooden":-1,"scraps.wood":1},
+    "aspects":{"fatiguing.ability":true},
+          "craftable":true,
+          "warmup":60
+},
+{
+    "id": "disassemble.woven.workbench",
+    "label": "Распустить тканый предмет",
+    "actionid": "library.workbench.*",
+    "startdescription": "Взять нечто неповторимое и превратить в нечто нужное. [От предмета останутся только тряпки.]",
+        "reqs": {"woven":1,"ability":1},
+    "effects":{"woven":-1,"rags":1},
+    "aspects":{"fatiguing.ability":true},
+          "craftable":true,
+          "warmup":60
+},
+
+
+{
+    "id": "disassemble.carcass.necropsy",
+    "label": "Разделать тушу",
+    "actionid": "library.table.necropsy",
+    "startdescription": "Взять нечто неповторимое и превратить в нечто нужное. [От туши останутся только кости.]",
+        "reqs": {"carcass":1,"ability":1},
+    "effects":{"carcass":-1,"animal.bones":1},
+    "aspects":{"fatiguing.ability":true},
+          "craftable":true,
+          "warmup":60
+},
+
+{
+    "id": "draw.wire.spintria.gold",
+    "label": "Выволочь золотую проволоку",
+    "actionid": "library.workbench.*",
+    "startdescription": "Поступать так с монетами Его Величества было бы незаконно... но спинтрии определённо ими не являются. [Это превратит обе спинтрии в одну катушку золотой проволоки.]",
+        "reqs": {"spintria.gold":2,"ability":1},
+    "effects":{"spintria.gold":-2,"wire.gold":1},
+    "aspects":{"fatiguing.ability":true},
+          "craftable":true,
+          "warmup":60
+},
+{
+    "id": "draw.wire.spintria.silver",
+    "label": "Выволочь серебряную проволоку",
+    "actionid": "library.workbench.*",
+    "startdescription": "Поступать так с монетами Его Величества было бы незаконно... но спинтрии определённо ими не являются. [Это превратит обе спинтрии в одну катушку серебряной проволоки.]",
+        "reqs": {"spintria.silver":2,"ability":1},
+    "effects":{"spintria.silver":-2,"wire.silver":1},
+    "aspects":{"fatiguing.ability":true},
+          "craftable":true,
+          "warmup":60
+},
+{
+    "id": "draw.wire.spintria.tin",
+    "label": "Выволочь оловянную проволоку",
+    "actionid": "library.workbench.*",
+    "startdescription": "Поступать так с монетами Его Величества было бы незаконно... но спинтрии определённо ими не являются. [Это превратит обе спинтрии в одну катушку оловянной проволоки.]",
+        "reqs": {"spintria.tin":2,"ability":1},
+    "effects":{"spintria.tin":-2,"wire.tin":1},
+    "aspects":{"fatiguing.ability":true},
+          "craftable":true,
+          "warmup":60
+},
+{
+    "id": "draw.wire.spintria.bronze",
+    "label": "Выволочь медную проволоку",
+    "actionid": "library.workbench.*",
+    "startdescription": "Поступать так с монетами Его Величества было бы незаконно... но спинтрии определённо ими не являются. [Это превратит обе спинтрии в одну катушку медной проволоки.]",
+        "reqs": {"spintria.bronze":2,"ability":1},
+    "effects":{"spintria.bronze":-2,"wire.copper":1},
+    "aspects":{"fatiguing.ability":true},
+          "craftable":true,
+          "warmup":60
+},
+
+{
+    "id": "draw.wire.spintria.iron",
+    "label": "Выволочь стальную проволоку",
+    "actionid": "library.workbench.*",
+    "startdescription": "Поступать так с монетами Его Величества было бы незаконно... но спинтрии определённо ими не являются. [Это превратит обе спинтрии в одну катушку стальной проволоки.]",
+        "reqs": {"spintria.iron":2,"ability":1},
+    "effects":{"spintria.iron":-2,"wire.steel":1},
+    "aspects":{"fatiguing.ability":true},
+          "craftable":true,
+          "warmup":60
+},
+
+{
+    "id": "draw.wire.hint",
+    "label": "Вытянуть проволоку?",
+    "actionid": "library.workbench.*",
+    "startdescription": "Из двух одинаковых пластичных предметов можно вытянуть проволоку.",
+        "reqs": {"ductile":1},
+          "hintonly":true,
+          "warmup":60
+},
+
+{
+    "id": "dry.book.fireplace",
+    "label": "Просушить книгу",
+    "actionid": "library.fireplace.*",
+    "startdescription": "Очень осторожно...",
+    "desc": "Ещё одно спасённое из моря сокровище.",
+    "reqs": {"readable":1,"soaked":1,"ability":1},
+    "aspects": {"drying":1,"fatiguing":1},
+          "warmup": 60,
+          "linked":[{"id":"dry.journal.generic.start.*"}],
+          "craftable":true
+},
+{
+    "id": "dry.book.fireplace.hint",
+    "label": "Просушить книгу?",
+    "actionid": "library.fireplace.*",
+    "startdescription": "[Это потребует заботы, тепла и времени; добавьте карту души.]",
+    "reqs": {"readable":1,"soaked":1},
+          "hintonly":true
+},
+
+{
+    "id": "dry.thing.fireplace",
+    "label": "Просушить что-нибудь",
+    "actionid": "library.fireplace.*",
+    "startdescription": "Осторожно...",
+    "desc": "К небесам восходит еле заметный пар.",
+    "reqs": {"readable":-1,"soaked":1,"ability":1},
+    "aspects": {"dissipating":1,"fatiguing.ability":1},
+    "comments":"Using dissipating, not drying, because we (currently) have no generic xtrigger column on the sheet",
+          "warmup": 30,
+          "craftable":true
+},
+{
+    "id": "dry.thing.fireplace.hint",
+    "label": "Просушить книгу?",
+    "actionid": "library.fireplace.*",
+    "startdescription": "[Это потребует заботы, тепла и времени; добавьте карту души.]",
+        "reqs": {"readable":-1,"soaked":1},
+          "hintonly":true
+}
+
+
+
+ ]
+}

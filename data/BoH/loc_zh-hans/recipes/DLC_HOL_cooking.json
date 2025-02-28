@@ -1,0 +1,474 @@
+{
+	"recipes":[
+		{
+			"startdescription":"一道含有<sprite name=grail><sprite name=heart><sprite name=nectar>的菜肴。",
+			"id":"cook.bowls.kitchen.plums.egg",
+			"label":"做西梅糕"
+		},
+		{
+			"startdescription":"一道含有<sprite name=nectar><sprite name=sky><sprite name=winter>的热饮。",
+			"id":"cook.blue.crown",
+			"label":"做蓝冠花茶"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=lantern><sprite name=nectar>的菜肴。",
+			"id":"cook.knife.veg.marrow.golden",
+			"label":"烤酿馅黄金西葫芦"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=nectar><sprite name=rose>的菜肴。",
+			"id":"cook.veg.basket",
+			"label":"做炖蔬菜"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=moon><sprite name=nectar><sprite name=scale>的菜肴。（用新鲜的或者至少罐装的沙丁鱼会更美味，但这样也可以。）",
+			"id":"cook.pilchards.pickled.bread",
+			"label":"做沙丁鱼吐司"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=moon><sprite name=nectar>的菜肴。",
+			"id":"cook.veg.basket.leeks.dripping",
+			"label":"做韭葱汤"
+		},
+		{
+			"startdescription":"为了更高用途的原料……",
+			"id":"cook.bowls.kitchen.butter.flour",
+			"label":"揉面团"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=heart><sprite name=moon>的菜肴。",
+			"id":"cook.mackerel",
+			"label":"煮鲭鱼"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=edge> <sprite name=forge> <sprite name=heart> <sprite name=scale> <sprite name=sky>的配菜。",
+			"id":"cook.egg.bread",
+			"label":"做苏格兰蛋"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=moon><sprite name=nectar><sprite name=scale>的菜肴。",
+			"id":"cook.pilchards.bread",
+			"label":"做沙丁鱼吐司"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart> <sprite name=scale> <sprite name=sky> <sprite name=winter>的菜肴。",
+			"id":"cook.egg",
+			"label":"煮蛋"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge> <sprite name=heart> <sprite name=nectar>的菜肴。",
+			"id":"cook.ham.canned.potatoes",
+			"label":"做火腿烤土豆"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=heart><sprite name=knock><sprite name=moon><sprite name=moth><sprite name=nectar><sprite name=scale>的菜肴。",
+			"id":"cook.pumpkin.amber.x.dripping",
+			"label":"做蜜魇南瓜汤"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=scale><sprite name=sky>的菜肴，适合作为前菜，常被认为是野餐时必不可少的。",
+			"id":"cook.knife.egg.bread",
+			"label":"做鸡蛋三明治"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=knock><sprite name=nectar><sprite name=winter>的菜肴。",
+			"id":"cook.spicing.meringue.pyrus.auricalcinus",
+			"label":"做“伊苏之墙”"
+		},
+		{
+			"startdescription":"一道含有<sprite name=winter>的菜肴。",
+			"id":"cook.spicing.meringue.mushrooms",
+			"label":"烤蘑菇蛋白酥"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=moon><sprite name=moth><sprite name=nectar><sprite name=scale>的菜肴。",
+			"id":"cook.spicing.moly.butter",
+			"label":"做蘸汁摩吕"
+		},
+		{
+			"startdescription":"为了更高用途的原料……",
+			"id":"cook.bowls.kitchen.egg.sugar",
+			"label":"做蛋白酥"
+		},
+		{
+			"startdescription":"为了更高用途的原料……",
+			"id":"cook.bowls.kitchen.milk.flour",
+			"label":"揉面团"
+		},
+		{
+			"startdescription":"为了更高用途的原料……",
+			"id":"cook.flour.water",
+			"label":"制作面糊"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=forge><sprite name=grail><sprite name=heart>的菜肴。",
+			"id":"cook.potatoes.dripping",
+			"label":"烤极致美味土豆"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge> <sprite name=forge> <sprite name=heart> <sprite name=nectar>的菜肴。",
+			"id":"cook.dough",
+			"label":"烤面包"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge> <sprite name=forge> <sprite name=heart>的菜肴。",
+			"id":"cook.knife.bread.veg.basket.leeks",
+			"label":"做焙烤韭葱"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=heart><sprite name=nectar><sprite name=rose>的菜肴。",
+			"id":"cook.dough.veg.basket",
+			"label":"做清蒸春蔬派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge> <sprite name=forge> <sprite name=heart> <sprite name=knock> <sprite name=moth> <sprite name=nectar> <sprite name=scale>的菜肴。",
+			"id":"cook.spicing.pumpkin.amber.x.dough",
+			"label":"烤蜜魇南瓜派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge> <sprite name=forge> <sprite name=grail> <sprite name=heart> <sprite name=scale>的菜肴。",
+			"id":"cook.beef.marinated",
+			"label":"烤腌牛肉"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=heart><sprite name=moon><sprite name=scale>的菜肴。",
+			"id":"cook.mackerel.intoxicating",
+			"label":"做腌渍鲭鱼"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=grail><sprite name=heart><sprite name=rose><sprite name=scale><sprite name=sky>的菜肴。",
+			"id":"cook.pheasant.butter",
+			"label":"做罐焖野鸡"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=nectar><sprite name=winter>的菜肴。",
+			"id":"cook.knife.veg.marrow.pale",
+			"label":"烤酿馅苍白西葫芦"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=heart>的菜肴。",
+			"id":"cook.knife.ham.canned.bread",
+			"label":"做火腿芝士吐司"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=nectar><sprite name=winter>的菜肴。",
+			"id":"cook.spicing.meringue.veg.basket.apples",
+			"label":"烤苹果蛋白酥"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge> <sprite name=heart> <sprite name=knock> <sprite name=moth> <sprite name=rose> <sprite name=scale> <sprite name=sky>的菜肴。",
+			"id":"cook.pheasant.dough",
+			"label":"烤野味派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart> <sprite name=moon> <sprite name=nectar> <sprite name=scale>的菜肴。",
+			"id":"cook.mushrooms.potatoes",
+			"label":"做蘑菇烤土豆"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=nectar><sprite name=rose>的点心。",
+			"id":"cook.rosehips.sugar",
+			"label":"做玫瑰果酱"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=moon><sprite name=nectar>的菜肴。",
+			"id":"cook.pumpkin.dripping",
+			"label":"做南瓜汤"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge>的菜肴。",
+			"id":"cook.dough.beef",
+			"label":"烤海味派"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=edge> <sprite name=forge> <sprite name=heart> <sprite name=scale>的菜肴。",
+			"id":"cook.beef",
+			"label":"烤一大块牛肉"
+		},
+		{
+			"startdescription":"一道含有<sprite name=grail> <sprite name=heart> <sprite name=lantern> <sprite name=moth>的菜肴。",
+			"id":"cook.spicing.dough.cake.almonds",
+			"label":"烤马德拉蛋糕"
+		},
+		{
+			"startdescription":"为了更高用途的原料……",
+			"id":"cook.bowls.kitchen.butter.sugar",
+			"label":"搅拌打发糖霜"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=lantern><sprite name=moon><sprite name=nectar>的菜肴。",
+			"id":"cook.pumpkin.amber.dripping",
+			"label":"做珀色南瓜汤"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=forge><sprite name=heart><sprite name=lantern><sprite name=nectar>的菜肴。",
+			"id":"cook.pumpkin.amber.dough",
+			"label":"烤珀色南瓜派"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=grail> <sprite name=heart> <sprite name=nectar>的菜肴。",
+			"id":"cook.knife.plums.bread",
+			"label":"做西梅面包丁"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=heart><sprite name=moon><sprite name=scale>的菜肴。",
+			"id":"cook.pilchards.intoxicating",
+			"label":"腌沙丁鱼"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=knock><sprite name=lantern><sprite name=nectar><sprite name=rose><sprite name=sky>的菜肴。",
+			"id":"cook.dough.aglaophotis",
+			"label":"做阿格劳福提斯花舒芙蕾"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart>的菜肴。",
+			"id":"cook.marinade.onion.mackerel",
+			"label":"做醋渍鲭鱼"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=heart><sprite name=nectar><sprite name=rose>的菜肴。",
+			"id":"cook.dough.sack.vegetables",
+			"label":"做清蒸春蔬派"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=grail>的菜肴。",
+			"id":"cook.sugar.creamed",
+			"label":"做乳脂软糖"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=moon><sprite name=nectar><sprite name=scale>的菜肴。",
+			"id":"cook.knife.mushrooms.bread",
+			"label":"做煎蘑菇吐司"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=heart><sprite name=rose><sprite name=scale><sprite name=sky>的菜肴。",
+			"id":"cook.pheasant",
+			"label":"烤野鸡"
+		},
+		{
+			"startdescription":"一道含有<sprite name=grail><sprite name=nectar>的热饮。",
+			"id":"cook.fragrant.chalice",
+			"label":"做香盏花茶"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=scale>的菜肴。",
+			"id":"cook.beef.potatoes",
+			"label":"做牧羊人派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=grail><sprite name=nectar><sprite name=rose>的菜肴。",
+			"id":"cook.grapes",
+			"label":"做葡萄沙拉"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge> <sprite name=heart> <sprite name=nectar>的菜肴。",
+			"id":"cook.spicing.pumpkin.dough",
+			"label":"烤南瓜派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=heart><sprite name=nectar>的菜肴。",
+			"id":"cook.spicing.dough.veg.basket.apples",
+			"label":"烤苹果派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=grail> <sprite name=heart> <sprite name=nectar> <sprite name=rose>的菜肴。",
+			"id":"cook.dough.cake.jam.blackberry",
+			"label":"烤黑莓酱海绵蛋糕"
+		},
+		{
+			"startdescription":"为了更高用途的原料……",
+			"id":"cook.bowls.kitchen.dough.egg",
+			"label":"搅拌蛋糕糊"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=forge><sprite name=heart><sprite name=winter>的菜肴。",
+			"id":"cook.potatoes",
+			"label":"烤土豆"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=heart><sprite name=moon><sprite name=nectar>的菜肴。",
+			"id":"cook.veg.basket.onions.dripping",
+			"label":"做洋葱汤"
+		},
+		{
+			"startdescription":"一道含有<sprite name=grail> <sprite name=heart> <sprite name=rose> <sprite name=sky>的菜肴。",
+			"id":"cook.meringue.milk",
+			"label":"制作浮岛酥"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=nectar><sprite name=rose>的菜肴。",
+			"id":"cook.sack.vegetables",
+			"label":"做炖蔬菜"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge> <sprite name=forge> <sprite name=heart> <sprite name=knock>的菜肴。",
+			"id":"cook.knife.potatoes.dripping",
+			"label":"做野味薯条"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=knock><sprite name=lantern><sprite name=nectar><sprite name=winter>的热饮。",
+			"id":"cook.agave.aeterna.pot.tea.assam",
+			"label":"浓甜阿萨姆茶"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=heart> <sprite name=lantern> <sprite name=moth>的菜肴。",
+			"id":"cook.dough.cake.honey",
+			"label":"烤康沃尔蜂蜜蛋糕"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=heart><sprite name=lantern>的菜肴。",
+			"id":"cook.spicing.almonds.sugar",
+			"label":"做橘色甜饼"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=moon><sprite name=nectar>的菜肴。",
+			"id":"cook.knife.veg.marrow.dark",
+			"label":"烤酿馅深色西葫芦"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=heart><sprite name=knock><sprite name=lantern><sprite name=moth><sprite name=nectar><sprite name=scale>的菜肴。",
+			"id":"cook.spicing.pie.sea.fruit.bowl.pears",
+			"label":"做王运派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=moon><sprite name=nectar><sprite name=scale>的菜肴。（用新鲜蘑菇会更美味，但这样也可以。）",
+			"id":"cook.knife.mushrooms.pickled.bread",
+			"label":"做煎蘑菇吐司"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=grail><sprite name=heart>的菜肴。",
+			"id":"cook.sugar.creamed.bread",
+			"label":"做黏太妃糖布丁"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=heart><sprite name=nectar>的菜肴。",
+			"id":"cook.knife.veg.marrow.acrid",
+			"label":"烤酿馅苦西葫芦"
+		},
+		{
+			"startdescription":"一道含有<sprite name=grail> <sprite name=heart> <sprite name=nectar> <sprite name=rose>的菜肴。",
+			"id":"cook.spicing.veg.basket.apples.bread",
+			"label":"烤苹果夏洛特蛋糕"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=heart><sprite name=nectar>的菜肴。",
+			"id":"cook.spicing.dough.fruit.bowl.pears",
+			"label":"烤梨派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=heart><sprite name=moon>的菜肴。",
+			"id":"cook.egg.mackerel",
+			"label":"做英式鲭鱼咖喱饭"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=grail> <sprite name=heart> <sprite name=scale> <sprite name=sky>的菜肴。",
+			"id":"cook.butter.egg",
+			"label":"做炒蛋"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=nectar>的菜肴。",
+			"id":"cook.bowls.kitchen.batter.dripping",
+			"label":"做约克郡布丁"
+		},
+		{
+			"startdescription":"一道含有<sprite name=grail><sprite name=heart><sprite name=nectar><sprite name=rose><sprite name=sky>的菜肴。",
+			"id":"cook.grapes.pheasant",
+			"label":"做冷切野鸡配葡萄沙拉"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=heart><sprite name=moon><sprite name=nectar><sprite name=rose><sprite name=scale><sprite name=winter>的菜肴。",
+			"id":"cook.pilchards.dough",
+			"label":"做仰望星空派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=grail><sprite name=heart><sprite name=moon><sprite name=nectar>的菜肴。",
+			"id":"cook.fruit.bowl.pears",
+			"label":"做梨海伦"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=forge><sprite name=heart><sprite name=nectar>的菜肴。",
+			"id":"cook.knife.bread.veg.basket.onions",
+			"label":"做洋葱烤菜"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=nectar><sprite name=rose>的热饮。",
+			"id":"cook.honeyscar.jasmine",
+			"label":"做蜜痂茶"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=heart><sprite name=nectar>的菜肴。",
+			"id":"cook.spicing.pyrus.auricalcinus",
+			"label":"做伊苏之梨"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=heart><sprite name=moon><sprite name=nectar>的菜肴。",
+			"id":"cook.mushrooms.intoxicating",
+			"label":"做腌渍蘑菇"
+		},
+		{
+			"startdescription":"一道含有<sprite name=edge><sprite name=grail><sprite name=heart><sprite name=nectar>的菜肴。",
+			"id":"cook.knife.batter.veg.basket.onions",
+			"label":"做洋葱圈"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=grail> <sprite name=heart> <sprite name=scale> <sprite name=sky>的菜肴。",
+			"id":"cook.bowls.kitchen.egg.bread",
+			"label":"做法国吐司"
+		},
+		{
+			"startdescription":"一道含有 <sprite name=edge> <sprite name=grail> <sprite name=heart> <sprite name=lantern> <sprite name=moth> <sprite name=nectar> <sprite name=scale>的菜肴。",
+			"id":"cook.dough.cake.honey.cuckoo",
+			"label":"烤纽结蛋糕"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=heart><sprite name=nectar>的菜肴。",
+			"id":"cook.spicing.dough.pyrus.auricalcinus",
+			"label":"烤梨派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge> <sprite name=heart> <sprite name=moth> <sprite name=scale> <sprite name=sky>的菜肴。",
+			"id":"cook.ham.canned.egg",
+			"label":"做火腿焗蛋"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=heart><sprite name=knock><sprite name=lantern><sprite name=moth><sprite name=nectar><sprite name=scale>的菜肴。",
+			"id":"cook.pie.pears.beef.roast",
+			"label":"做王运派"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=moon><sprite name=scale><sprite name=sky>的菜肴。",
+			"id":"cook.mackerel.egg.boiled",
+			"label":"做蒙特卡洛鲭鱼"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge><sprite name=grail><sprite name=moon><sprite name=nectar><sprite name=winter>的菜肴。",
+			"id":"cook.spicing.meringue.fruit.bowl.pears",
+			"label":"烤梨子蛋白酥"
+		},
+		{
+			"startdescription":"一道含有<sprite name=heart><sprite name=rose>的菜肴。",
+			"id":"cook.dough.cake.jam.rosehip",
+			"label":"烤玫瑰果酱海绵蛋糕"
+		},
+		{
+			"startdescription":"一道含有<sprite name=grail><sprite name=heart><sprite name=nectar><sprite name=rose>的点心。",
+			"id":"cook.blackberries.sugar",
+			"label":"做黑莓酱"
+		},
+		{
+			"startdescription":"一道含有<sprite name=forge> <sprite name=lantern> <sprite name=nectar> <sprite name=sky> <sprite name=winter>的热饮。",
+			"id":"cook.agave.aeterna.pot.tea.lapsang",
+			"label":"浓甜正山小种"
+		},
+		{
+			"startdescription":"为了更高用途的原料……",
+			"id":"cook.intoxicating.veg.basket.onions",
+			"label":"腌制洋葱"
+		},
+		{
+			"startdescription":"为了更高用途的原料……",
+			"id":"cook.beef.intoxicating",
+			"label":"腌制一大块牛肉"
+		}
+	]
+}

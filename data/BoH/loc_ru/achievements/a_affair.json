@@ -1,0 +1,124 @@
+﻿{"achievements": [
+
+
+
+  { "id": "A_AFFAIR_CASKET", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "История о саркофаге посланника",
+  "descriptionunlocked": "В потаённом горном ущелье близ городка Клуж хранится загадочная реликвия — её называют саркофагом святого Михала..."
+},
+{ "id": "A_AFFAIR_GRUNEWALD", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История об особом аукционе",
+"descriptionunlocked": "Бюро продало имущество оседлого цирка Груневальд с закрытого аукциона. Теперь уже ясно, что лучше было этого не делать."
+},
+{ "id": "A_AFFAIR_HEIST", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История об ограблении «Орифламмы»",
+"descriptionunlocked": "Аукционный дом «Орифламма» ограбить невозможно. Но что, если это неправда?"
+},
+{ "id": "A_AFFAIR_SKIN", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о второй коже",
+"descriptionunlocked": "С лабитом Абекассием стали происходить резкие и пугающие метаморфозы..."
+},
+{ "id": "A_AFFAIR_GUEST", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о нескончаемом госте",
+"descriptionunlocked": "Проникновение Червей – дело нешуточное..."
+},
+{ "id": "A_AFFAIR_ROSE", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о крапчатой розе",
+"descriptionunlocked": "Ещё один человек погиб, оправившись в пустыню. Он бредил о садах перед смертью, сжимая в руке цветок..."
+},
+{ "id": "A_AFFAIR_DEBT", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о простительном долге",
+"descriptionunlocked": "Две группировки считальцев развязали войну в малоприметном литовском городке Каунас. Зачем? И что такого в Каунасе?"
+},
+{ "id": "A_AFFAIR_MYSTIQUE", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о событиях исключительной таинственности",
+"descriptionunlocked": "Внимание Бюро умолчания привлекла распространяющаяся мода на экзотические – и нередко провидческие – религиозные течения..."
+},
+{ "id": "A_AFFAIR_CLAWCLOUDS", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о когте и облаках",
+"descriptionunlocked": "Из далёкого монастыря Св. Тентрето до нас доходят слухи о необычных посетителях — тех, что приходят из-за неба..."
+},
+{ "id": "A_AFFAIR_EYE", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о раскрепощённом оке",
+"descriptionunlocked": "Мессана: процветающая деревенька в пустыне, сделавшаяся местом паломничества. Недавно там начались крайне необычные происшествия..."
+},
+{ "id": "A_AFFAIR_HORIZON", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о сокрытых землях",
+"descriptionunlocked": "У моряков есть слово, чтобы обозначить причудливое поведение компаса, после которого вскоре возникает Кер-Ис..."
+},
+
+{ "id": "A_AFFAIR_APOLLOMARSYAS", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История об «Аполлоне и Марсии»",
+"descriptionunlocked": "Говорят, к постановке готовится опера с весьма и весьма древней историей..."
+},
+{ "id": "A_AFFAIR_OPERA", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о невидимой опере",
+"descriptionunlocked": "Ещё никому не удавалось поставить «Крылья в крыльях» от начала и до конца. Но кто-то готов попробовать ещё раз..."
+},
+{ "id": "A_AFFAIR_GOD", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о лесном боге",
+"descriptionunlocked": "Модный санаторий привлёк к себе внимание тем, что многие из посетивших его отрыли в себе художественный талант необычного, а подчас и пугающего свойства..."
+},
+{ "id": "A_AFFAIR_LARK", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о незаконченном жаворонке",
+"descriptionunlocked": "Некий скульптор-оккультист долгие годы трудился над шедевром. Но теперь в газетах сообщают, что он мёртв."
+},
+{ "id": "A_AFFAIR_ENDEAVOUR", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о королевском начинании",
+"descriptionunlocked": "Новый король дал высочайшее дозволение направить средства казначейства на смелый промышленный проект..."
+},
+
+{ "id": "A_AFFAIR_REVOLUTION", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о восстании Пределов",
+"descriptionunlocked": "В Лежион дю Сёй набирают чудовищ из Пределов. Но можно ли вообще ему доверять?"
+},
+
+{ "id": "A_AFFAIR_WHILE", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о Грядущем Времени",
+"descriptionunlocked": "Самопровозглашённая пифия проповедует своим приверженцам «пророчество завтрашнего дня». Она разбила шатер в тени храма Семи-Витков, и до сих пор не поглощена..."
+},
+{ "id": "A_AFFAIR_SAINT", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о сандаловой реликвии",
+"descriptionunlocked": "Любопытная статуэтка в одной из страсбургских церквей стала предметом фантастических слухов об исцелениях и неуспокоенных душах. Если дело дойдёт до церковных иерархов, это объявят чудом или ересью... Но кто-то может расследовать происшествие раньше них."
+},
+{ "id": "A_AFFAIR_TAPESTRY", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о гобелене послушника",
+"descriptionunlocked": "Из Гаустория сообщают о краже гобелена, изображавшего некий весьма древний обряд..."
+},
+{ "id": "A_AFFAIR_FRIEND", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История о несуществующем друге",
+"descriptionunlocked": "Лигения Медуза давно мертва. Тем не менее, лунными ночами она бродит по улицам Будапешта, а теперь – впервые за всё это время – её стали видеть и при дневном свете..."
+},
+{ "id": "A_AFFAIR_WOUND", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "История об отворённом патере",
+"descriptionunlocked": "Доктора одной весьма специализированной клиники наблюдают за экстатической агонией пациента, известного лишь как «отворённый патер»."
+},
+{ "id": "A_AFFAIR_NUMA", "category": "A_CATEGORY_AFFAIR", "iconUnlocked": "trophy",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "В тумане",
+"descriptionunlocked": "То, что случилось в нуму, остаётся в нуме. Почти всегда."
+}
+
+]}

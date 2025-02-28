@@ -1,0 +1,156 @@
+﻿{
+    "verbs": [
+      {
+        "id": "nx",
+      "label": "NX: pteifdlc",
+      "multiple":true
+
+
+    },
+
+    {
+        "id": "lighthouse",
+      "label": "За кулисами",
+      "category":"Workstation",
+      "desc":"Курия прекратила существование давным-давно. Когда-то она помогала хранить знания и была тихой гаванью здесь на Бранкраге – а также учредила должность Библиотекаря. Ровена, Непреходящий советник Курии, неоднозначная сущность, которая долго хранила Дом безмолвия, уже не желает и не способна продолжать свою миссию... А значит, Библиотекарю пора вернуть Курии этот долг, в ответ учредив её преемника. [Помогайте посетителям достигать поставленных целей. Когда вы найдёте шестерых вдохновлённых кандидатов по своему вкусу, то сможете предложить им создать тайное общество, чтобы оно стало достойным преемником Курии. Если вам не удастся подыскать достойную кандидатуру на роль Непреходящего советника, Ровена продолжит исполнять её, хотя дни её и сочтены.]",
+      "xtriggers":{"advancing":"lighthouse.convene"},
+      "slots":[
+        {"id":"treasurer","label":"Казначей","description":"Казначей будет заведовать финансами Общества. Это хороший повод попросить о первоначальном взносе, а значит, кандидат должен быть богат.","essential":{"inspired":1},"required":{"fraser":1,"coquille":1,"dagmar":1,"hokobald":1}},
+        {"id":"salvant","label":"Асклепический советник","description":"Асклепический советник будет заведовать вопросами лечения и восстановления.",
+        "essential":{"inspired":1},"required":{"agdistis":1,"ehsan":1,"stanislav":1,"suitable.secretary.salvant.surprise":1}},
+        {"id":"vigilant","label":"Паноптический советник","description":"Паноптический советник будет обеспечивать безопасность Общества.",
+        "essential":{"inspired":1},"required":{"chaima":1,"arthur":1,"azita":1,"douglas":1}},
+        {"id":"enigmatic","label":"Энигматический советник","description":"Энигматический советник будет скрывать или раскрывать тайны Общества.",
+        "essential":{"inspired":1},"required":{"yvette":1,"corso":1,"zachary":1,"arun":1}},
+        {"id":"nunciant","label":"Нунциатический советник","description":"Нунциатический советник будет сообщаться с другими организациями и вести с ними официальные переговоры.",
+        "essential":{"inspired":1},"required":{"aladim":1,"olympe":1,"serena":1,"connie":1,"suitable.secretary.nunciant.surprise":1}},
+        {"id":"persistent","label":"Непреходящий советник","description":"Непреходящему советнику полагается не просто быть бессмертным, он должен ещё и стоять вне провозглашённых Часами законов... А посему стать им может только одна из лигений.","essential":{"inspired":1},"required":{"suitable.secretary.persistent.surprise":1,"morgen":1}},
+        {"id":"journal","label":"Протокол","description":"Библиотекарь занесёт в книгу, кто и когда стал основателем Общества Маяка.","required":{"journal":1}}
+     
+      ]
+    },
+    {
+      "id": "lighthouse.convene",
+    "label": "Условленный сигнал",
+    "category":"Workstation",
+    "desc":"Основатели договорились вернуться в Дом безмолвия, когда придёт время. Быть может, это время настало. [Поместите сюда ваш дневник, чтобы пригласить в Дом основателей Общества. Когда все они прибудут, пригласите их в зал для приёмов по вашему выбору и предложите им лёгкие закуски.]",
+    "slots":[
+      {"id":"ink","label":"Протокол","description":"Библиотекарь осведомлён, кто и когда стал основателем Общества Маяка.","required":{"journal":1}}
+      
+    ]
+
+
+  },
+
+      {
+        "id": "salon.refectory",
+        "category": "Salon",
+      "label": "Приём в обеденной зале",
+        "desc": "Зал, в где когда-то собиралась Курия: подходящее место для приёма. [Днём в этой комнате можно подать ленч, а вечером – обед или ужин. Радушный хозяин предложит гостям первое блюдо, горячее, гарнир и что-нибудь на сладкое.]",
+        "aspects":{"venue.formal":1},
+        "ambits":true,
+        "slots": [   {"id": "g1","label": "Гость", "required":{"visitor":1,"visitor.villager":1}},
+        {"id": "g2","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g3","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g4","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g5","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "p","label": "Непреходящий советник",
+        "description":"В Доме безмолвия одно из мест за столом принято оставлять пустым для Ровены, его защитницы и в прошлом Непреходящего советника Курии. [Если вы когда-нибудь подыщете ей замену, то сможете усадить сюда этого гостя.]",
+        "required":{"appointment.persistent":1}}
+        ],
+        "MaxNotes":9
+      },
+
+      {
+        "id": "salon.division",
+        "category": "Salon",
+      "label": "Приём в Зале расставаний",
+        "desc": "Верните свет в зеркала, где когда-то правила бал леди Эва. [Днём в этой комнате можно подать ленч, а вечером – обед или ужин. Радушный хозяин предложит гостям первое блюдо, горячее, гарнир и что-нибудь на сладкое.]",
+        "aspects":{"venue.formal":1},
+        "ambits":true,
+        "slots": [   {"id": "g1","label": "Гость", "required":{"visitor":1,"visitor.villager":1}},
+        {"id": "g2","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g3","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g4","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g5","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "p","label": "Непреходящий советник",
+        "description":"В Доме безмолвия одно из мест за столом принято оставлять пустым для Ровены, его защитницы и в прошлом Непреходящего советника Курии. [Если вы когда-нибудь подыщете ей замену, то сможете усадить сюда этого гостя.]",
+        "required":{"appointment.persistent":1}}
+        ],
+        "MaxNotes":9
+      },
+     
+      {
+        "id": "salon.voices",
+        "category": "Salon",
+      "label": "Приём в Зале голосов",
+        "desc": "Эксцентричный, но, безусловно, атмосферный выбор. [Утром здесь можно подать лёгкий завтрак, а во второй половине дня предложить гостям послеполуденный чай. Ни в том, ни в другом случае на стол не положено подавать алкогольные напитки.]",
+        "aspects":{"venue.informal":1},
+        "ambits":true,
+        "slots": [   {"id": "g1","label": "Гость", "required":{"visitor":1,"visitor.villager":1}},
+        {"id": "g2","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g3","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g4","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g5","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "p","label": "Непреходящий советник",
+        "description":"В Доме безмолвия одно из мест за столом принято оставлять пустым для Ровены, его защитницы и в прошлом Непреходящего советника Курии. [Если вы когда-нибудь подыщете ей замену, то сможете усадить сюда этого гостя.]",
+        "required":{"appointment.persistent":1}}
+        ],
+        "MaxNotes":9
+      },
+      {
+        "id": "salon.chapter",
+        "category": "Salon",
+      "label": "Приём в Зале для собраний",
+        "desc": "Уютное помещение с превосходной акустикой, хотя иногда по ногам гуляют сквозняки. [Утром здесь можно подать лёгкий завтрак, а во второй половине дня предложить гостям послеполуденный чай. Ни в том, ни в другом случае на стол не положено подавать алкогольные напитки.]",
+        "aspects":{"venue.informal":1},
+        "ambits":true,
+        "slots": [   {"id": "g1","label": "Гость", "required":{"visitor":1,"visitor.villager":1}},
+        {"id": "g2","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g3","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g4","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g5","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "p","label": "Непреходящий советник",
+        "description":"В Доме безмолвия одно из мест за столом принято оставлять пустым для Ровены, его защитницы и в прошлом Непреходящего советника Курии. [Если вы когда-нибудь подыщете ей замену, то сможете усадить сюда этого гостя.]",
+        "required":{"appointment.persistent":1}}
+        ],
+        "MaxNotes":9
+      },
+
+      {
+        "id": "salon.physic",
+        "category": "Salon",
+      "label": "Пикник в Аптекарском саду",
+        "desc": "Покой цветов, негромкий шёпот листьев. [Здесь можно устроить пикник, но только летом или весной.]",
+        "aspects":{"venue.picnicking":1},
+        "ambits":true,
+        "slots": [   {"id": "g1","label": "Гость", "required":{"visitor":1,"visitor.villager":1}},
+        {"id": "g2","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g3","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g4","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g5","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "p","label": "Непреходящий советник",
+        "description":"В Доме безмолвия одно из мест за столом принято оставлять пустым для Ровены, его защитницы и в прошлом Непреходящего советника Курии. [Если вы когда-нибудь подыщете ей замену, то сможете усадить сюда этого гостя.]",
+        "required":{"appointment.persistent":1}}
+        ],
+        "MaxNotes":9
+      },
+      {
+        "id": "salon.gullscry",
+        "category": "Salon",
+      "label": "Пикник в Чаячьей лоджии",
+        "desc": "Печальные беседы там, где коротал дни бедный одинокий Валентин. [Здесь можно устроить пикник, но только летом или весной.]",
+        "aspects":{"venue.picnicking":1},
+        "ambits":true,
+        "slots": [   {"id": "g1","label": "Гость", "required":{"visitor":1,"visitor.villager":1}},
+        {"id": "g2","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}},
+        {"id": "g3","label": "Гость", "required":{"visitor":1},"forbidden":{"visitor.villager":1}}
+        ],
+        "MaxNotes":9
+      }
+
+    
+
+     
+    ]
+}

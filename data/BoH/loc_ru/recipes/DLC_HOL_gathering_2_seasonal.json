@@ -1,0 +1,38 @@
+﻿{"recipes": [
+
+
+{"id": "gather.garden.beehive.liselotte.spring",
+"actionid": "garden.beehive.liselotte",
+"startdescription": "Мёд или воск, если быть очень осторожным. Кукушкин мёд, если бломберендинги заглянули проведать своих венценосных отпрысков.",
+"inherits":"_gather.spring",
+"deckeffects":{"beehive.liselotte.spring":1}},
+
+{"id": "gather.garden.beehive.liselotte.summer",
+"actionid": "garden.beehive.liselotte",
+"startdescription": "Мёд или воск, если быть очень осторожным. Кукушкин мёд, если бломберендинги заглянули проведать своих венценосных отпрысков.",
+"inherits":"_gather.summer",
+"deckeffects":{"beehive.liselotte.summer":1}},
+
+{"id": "gather.garden.beehive.liselotte.autumn",
+"actionid": "garden.beehive.liselotte",
+"startdescription": "Вряд ли я много добьюсь от пчёл в это время года, но иногда плач бломберендингов можно услышать даже сквозь вой осеннего ветра.",
+"inherits":"_gather.autumn",
+"deckeffects":{"beehive.liselotte.autumn":1}},
+
+{"id": "gather.garden.beehive.liselotte.winter",
+"actionid": "garden.beehive.liselotte",
+"startdescription": "Вряд ли я много добьюсь от пчёл в это время года, но иногда плач бломберендингов можно услышать даже сквозь вой зимнего ветра.",
+"inherits":"_gather.winter",
+"deckeffects":{"beehive.liselotte.winter":1}},
+
+{"id": "gather.garden.beehive.liselotte.numa",
+"actionid": "garden.beehive.liselotte",
+"startdescription": "Во время нумы пчёлы могут дать и мёд, и воск, и кое-что ещё. Бломберендинги нередко прилетают сюда, чтобы почтить своих венценосных отпрысков и оставить сладкие дары.",
+"inherits":"_gather.numa",
+"deckeffects":{"beehive.liselotte.numa":1}}
+
+
+  
+]
+}
+    

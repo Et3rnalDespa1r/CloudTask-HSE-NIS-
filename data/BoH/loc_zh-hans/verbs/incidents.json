@@ -1,0 +1,21 @@
+{
+	"verbs":[
+		{
+			"id":"visits",
+			"label":"访问",
+			"desc":"访客来了又去。"
+		},
+		{
+			"id":"postoffice.invitation",
+			"label":"访客将在从邮局发送邀请后到达。我们现在为每位访客使用特定的技艺邀请，所以这个没有使用，但我们保留它，因为如果需要再次使用通用邀请的话这重要。"
+		},
+		{
+			"id":"visit.return",
+			"label":"访客是时候走了"
+		},
+		{
+			"id":"postoffice.delivery",
+			"label":"邮件从邮局寄出"
+		}
+	]
+}

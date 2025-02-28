@@ -1,0 +1,18 @@
+{
+	"achievements":[
+		{
+			"descriptionunlocked":"我给一位访客写下了邀请函。",
+			"id":"A_WRITE_INVITATION",
+			"label":"最后的安适居屋"
+		},
+		{
+			"id":"A_CATEGORY_WRITING",
+			"label":"书写成就"
+		},
+		{
+			"descriptionunlocked":"我撰写了一份原创手稿。",
+			"id":"A_WRITE_MANUSCRIPT",
+			"label":"书籍是不死的记忆"
+		}
+	]
+}

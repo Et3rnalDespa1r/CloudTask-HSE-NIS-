@@ -1,0 +1,99 @@
+{
+	"recipes":[
+		{
+			"startdescription":"只有提供<sprite name=lantern>之饮品时，道格拉斯·摩尔才肯出席。",
+			"id":"salon.pref.bev.block.douglas",
+			"label":"道格拉斯·摩尔的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=forge>之饮品时，霍科博尔德才肯出席。",
+			"id":"salon.pref.bev.block.hokobald",
+			"label":"霍科博尔德的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=lantern>之饮品时，摩尔才肯出席。",
+			"id":"salon.pref.bev.block.arthur",
+			"label":"亚瑟摩尔的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=sky>之饮品时，康妮才肯出席。",
+			"id":"salon.pref.bev.block.connie",
+			"label":"康妮的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=edge>之饮品时，柴玛才肯出席。",
+			"id":"salon.pref.bev.block.chaima",
+			"label":"柴玛的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=grail>之饮品时，科基尔才肯出席。",
+			"id":"salon.pref.bev.block.coquille",
+			"label":"科基尔的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=edge>之饮品时，阿齐塔才肯出席。",
+			"id":"salon.pref.bev.block.azita",
+			"label":"阿齐塔的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=heart>之饮品时，阿格狄斯提斯才肯出席。",
+			"id":"salon.pref.bev.block.agdistis",
+			"label":"阿格狄斯提斯的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=grail>之饮品时，科尔索才肯出席。",
+			"id":"salon.pref.bev.block.corso",
+			"label":"科尔索的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=knock>之饮品时，日魇才肯出席。",
+			"id":"salon.pref.bev.block.dagmar",
+			"label":"日魇的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=heart>之饮品时，斯坦尼斯拉夫神父才肯出席。",
+			"id":"salon.pref.bev.block.stanislav",
+			"label":"斯坦尼斯拉夫神父的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=forge>之饮品时，奥兰普才肯出席。",
+			"id":"salon.pref.bev.block.olympe",
+			"label":"奥兰普的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=winter>之饮品时，扎迦利才肯出席。",
+			"id":"salon.pref.bev.block.zachary",
+			"label":"扎迦利的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=forge>之饮品时，瑟雷娜才肯出席。",
+			"id":"salon.pref.bev.block.serena",
+			"label":"瑟雷娜的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供无酒精饮料时，阿迪姆才肯出席。",
+			"id":"salon.pref.bev.block.aladim",
+			"label":"阿迪姆的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=moon>之饮品时，褪皮才肯出席。",
+			"id":"salon.pref.bev.block.arun",
+			"label":"褪皮的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=scale>之饮品时，斯特拉思科因才肯出席。",
+			"id":"salon.pref.bev.block.fraser",
+			"label":"斯特拉思科因的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=sky>之饮品时，埃桑才肯出席。",
+			"id":"salon.pref.bev.block.ehsan",
+			"label":"埃桑的饮品偏好"
+		},
+		{
+			"startdescription":"只有提供<sprite name=sky>之饮品时，摩根才肯出席。",
+			"id":"salon.pref.bev.block.morgen",
+			"label":"摩根的饮品偏好"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"recipes":[
+		{
+			"startdescription":"是土豆，真叫人惊喜。",
+			"id":"examine.vegetables.potatoes",
+			"label":"看来是土豆"
+		},
+		{
+			"startdescription":"是韭葱，棒极了。",
+			"id":"examine.vegetables.leeks",
+			"label":"看来是韭葱"
+		},
+		{
+			"startdescription":"是南瓜，真稀奇。",
+			"id":"examine.vegetables.pumpkin",
+			"label":"看来是南瓜"
+		},
+		{
+			"startdescription":"是洋葱，非常好。",
+			"id":"examine.vegetables.onions",
+			"label":"看来是洋葱"
+		},
+		{
+			"startdescription":"是西葫芦，有潜力。",
+			"id":"examine.vegetables.marrow",
+			"label":"看来是西葫芦"
+		}
+	]
+}

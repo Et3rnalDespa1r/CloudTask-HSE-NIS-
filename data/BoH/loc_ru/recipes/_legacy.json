@@ -1,0 +1,19 @@
+﻿{"recipes": [
+ 
+{"id": "world.corals.deeplight.delegacizing",
+"label": "Милосердное преображение",
+"actionid": "world.corals.deeplight",
+"startdescription": "[Вы столкнулись с чем-то, чего не должно быть. Нажмите кнопку «Начать», и проблема решится сама собой. Вам может потребоваться элемент души, чтобы она появилась, но элемент не будет израсходован или изнурён.]",
+"aspects":{"delegacizing":1},
+"craftable":"true",
+"warmup":1
+
+},
+
+{"id": "daily.weather.numa",
+"label": "Ежедневная погода: нума",
+"startdescription":"Карта погоды: нума",
+"actionid": "weather",
+"extantreqs":{"season.numa":1}}
+]
+}

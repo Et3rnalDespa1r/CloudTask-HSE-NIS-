@@ -1,0 +1,77 @@
+﻿{"achievements": [
+
+  { "isCategory": true, "id": "A_CATEGORY_V_NUMEN", "label": "Нумен задействован", "iconUnlocked": "history" },
+
+  { "id": "A_V_NUMEN_OLDL", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+    "singleDescription": true, "validateOnStorefront": true,
+    "label": "Нумен: та музыка, которую забыли",
+    "descriptionunlocked": "Все песни, что когда-то были спеты, по-прежнему поют ветра и эхо – наперекор Вечности, что бессильна..."
+  },
+  { "id": "A_V_NUMEN_UNDE", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+  "singleDescription": true, "validateOnStorefront": true,
+  "label": "Нумен: окончательное осознание",
+  "descriptionunlocked": "Вечность и Историю примирить невозможно. Свобода не может быть совершенством – если не осознать парадокс вечного окончания..."
+},
+{ "id": "A_V_NUMEN_BALA", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: на круги своя",
+"descriptionunlocked": "Когда странствующие племена Хитинового Креста уходили за море и в небо, они приготовили почву для своего возвращения..."
+},
+{ "id": "A_V_NUMEN_THRE", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: три закона",
+"descriptionunlocked": "Узнай мы эти тайные законы, мы узнали бы то, что запрещено даже Завесе и Калиптре."
+},
+{ "id": "A_V_NUMEN_LOOP", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: лазейки",
+"descriptionunlocked": "Когда в мир пришла Вечность, наиболее дальновидные из богов оставили в ней лазейки. И эти лазейки можно открыть вновь."
+},
+{ "id": "A_V_NUMEN_DESC", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: немощь Солнца",
+"descriptionunlocked": "Грехами Солнца и его шрамами мы спасены. Но есть и Истории, где они же стали нашей клеткой..."
+},
+{ "id": "A_V_NUMEN_BELL", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: колокола Кер-Ис",
+"descriptionunlocked": "Мастера Кер-Ис отыскали ноту, что способна сотрясти саму Обитель. Отлитый причастным этой тайне колокол мог бы издать тот звук..."
+},
+{ "id": "A_V_NUMEN_SECR", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: Великая подмена",
+"descriptionunlocked": "Солнце-в-Зените и Кузня Дней не могли сойтись. Но Закатная Целия и Король-Лебедь могли бы..."
+},
+
+{ "id": "A_V_NUMEN_WORL", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: хитросплетения мира",
+"descriptionunlocked": "Истории, как говорят, переплетены подобно волосам – или спутаны подобно корням. На что же может быть похож этот узел?"
+},
+{ "id": "A_V_NUMEN_FEAS", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: последнее пиршество",
+"descriptionunlocked": "Голод превратил драконов в Червей. Но без сладкого секрета Хитинового креста одного голода было бы недостаточно..."
+},
+{ "id": "A_V_NUMEN_ALTE", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: немилосердное преображение",
+"descriptionunlocked": "Первородный изъян; манящая уловка; ненависть, что согревает; перемены, что уродуют; шрам, что отворяет врата..."
+},
+{ "id": "A_V_NUMEN_CONF", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: неизбежный плен",
+"descriptionunlocked": "Есть лишь одно место, над которым не властна ни Вечность, ни История, и мало кто хотел бы оказаться в нём..."
+},
+{ "id": "A_V_NUMEN_ASCE", "category": "A_CATEGORY_V_NUMEN", "iconUnlocked": "",
+"singleDescription": true, "validateOnStorefront": true,
+"label": "Нумен: вслед за Солнцем",
+"descriptionunlocked": "Солнце начертало свои пути – пути, что лежат за стенами, лесами и Пределами. Когда мы будем готовы, все мы войдём в Вечность..."
+}
+
+
+
+
+
+
+]}

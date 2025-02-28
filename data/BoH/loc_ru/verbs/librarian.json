@@ -1,0 +1,57 @@
+﻿{
+    "verbs": [
+        {
+            "id": "consider.setup",
+          "label": "Вспомнить",
+            "desc": "Что у меня осталось?",
+			 "slot": {
+                "id": "c",
+                "label":"Останки",
+                "description": "[В эту ячейку подойдёт предмет с перечисленными аспектами.]",
+                "required": {"soaked":1,"memory":1,"ability":1},
+                "forbidden": {}
+            },
+            "xtriggers":{"advancing":"consider"}
+        },
+        {
+            "id": "consider",
+          "label": "Осмотреть",
+          "ambits":true,
+            "desc": "Изучить, оценить, разложить по полочкам.",
+			 "slot": {
+                "id": "consider",
+                "label": "Осмотреть",
+                "description": "Знание – это дорога длиною в жизнь.",
+                "required": {"readable":1,"considerable":1,"skill":1,"lesson":1,"cache":1},
+                "forbidden": {"record.phonograph":1,"film":1,"fixed":1}
+            }
+        },
+        {
+            "id": "talk.setup",
+          "label": "Позвать на помощь?",
+            "desc": "Деревня – где-то там, над скалами. В такую бурю мне туда не дойти, но я мог бы собраться с силами и позвать на помощь... [Нажмите на ячейку, чтобы подсветить предметы и карты, которые можно туда поместить.]",
+			 "slot": {
+                "id": "talk",
+                "description": "Как мне поступить?",
+                "essential": {"ability":1},
+                "required": {"knock":1,"heart":1,"rose":1},
+                "forbidden": {"winter":1}
+            },
+            "xtriggers":{"advancing":"talk"}
+        },
+        {
+            "id": "talk",
+          "label": "Поговорить",
+            "desc": "Завести разговор с посетителем, незнакомцем, другом, помощником...",
+            "ambits":true,
+			 "slot": {
+                "id": "talk",
+                "label": "Поговорить",
+                "description": "Как правило, с кем-то кроме себя.",
+                "required": {"visitor":1,"assistance":1,"employable":1,"beast":1},
+                "forbidden": {}
+            }
+        },
+        { "id": "terrain.unlock", "spontaneous": "true", "category": "roomwork","maxnotes":0}
+    ]
+}

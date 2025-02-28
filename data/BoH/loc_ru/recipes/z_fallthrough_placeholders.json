@@ -1,0 +1,9 @@
+﻿{"recipes": [
+   {
+      "id": "hl.finished.placeholder",
+      "label": "Дальнейшие события",
+      "actionid": "incident.advance",
+      "extantreqs":{"kod":99} }
+]
+}
+    

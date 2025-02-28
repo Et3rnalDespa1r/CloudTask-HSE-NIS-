@@ -1,0 +1,14 @@
+{
+	"decks":[
+		{
+			"id":"d.challenges.consolations",
+			"label":"一些慰藉",
+			"desc":"某种教诲。"
+		},
+		{
+			"id":"d.challenges.opportunities",
+			"label":"成功？",
+			"desc":"这兴许还可挽回。"
+		}
+	]
+}

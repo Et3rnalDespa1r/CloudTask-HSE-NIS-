@@ -1,0 +1,166 @@
+﻿{"decks": [
+ 
+    {
+       "id": "d.chat.generic",
+       "label": "Случайная беседа",
+       "desc": "Только представьте себе...",
+       "spec": [
+        "precursor.mem.dreamt",
+        "precursor.mem.storm",
+        "precursor.mem.gossip",
+        "precursor.mem.gossip",
+        "precursor.mem.gossip",
+        "precursor.mem.gossip",
+        "precursor.mem.fear",
+        "precursor.mem.foresight",
+        "precursor.mem.impulse",
+        "precursor.mem.intuition",
+        "precursor.mem.hindsight",
+        "precursor.mem.revelation",
+        "precursor.mem.regret",
+        "precursor.mem.satisfaction",
+        "precursor.mem.solace",
+        "precursor.mem.solace",
+        "precursor.mem.solace"
+       ],
+      "resetonexhaustion": true
+   },
+   {
+      "id": "d.chat.scholar",
+      "label": "Разговор с учёным",
+      "desc": "Только представьте себе...",
+      "spec": [
+       "precursor.mem.dreamt",
+       "precursor.mem.storm",
+       "precursor.mem.gossip",
+       "precursor.mem.gossip",
+       "precursor.mem.gossip",
+       "precursor.mem.gossip",
+      "precursor.mem.fear",
+      "precursor.mem.foresight",
+       "precursor.mem.impulse",
+       "precursor.mem.intuition",
+       "precursor.mem.hindsight",
+       "precursor.mem.hindsight",
+       "precursor.mem.hindsight",
+       "precursor.mem.hindsight",
+       "precursor.mem.revelation",
+       "precursor.mem.revelation",
+       "precursor.mem.revelation",
+       "precursor.mem.revelation",
+       "precursor.mem.regret",
+       "precursor.mem.solace",
+       "precursor.mem.solace",
+       "precursor.mem.solace",
+       "precursor.mem.solace"
+      ],
+     "resetonexhaustion": true
+  },
+  {
+   "id": "d.chat.craftsman",
+   "label": "Разговор с ремесленником",
+   "desc": "Только представьте себе...",
+   "spec": [
+    "precursor.mem.dreamt",
+    "precursor.mem.storm",
+    "precursor.mem.gossip",
+    "precursor.mem.gossip",
+    "precursor.mem.gossip",
+    "precursor.mem.gossip",
+   "precursor.mem.fear",
+   "precursor.mem.foresight",
+   "precursor.mem.foresight",
+    "precursor.mem.foresight",
+    "precursor.mem.foresight",
+    "precursor.mem.impulse",
+    "precursor.mem.intuition",
+    "precursor.mem.hindsight",
+    "precursor.mem.revelation",
+    "precursor.mem.regret",
+    "precursor.mem.solace"
+   ],
+  "resetonexhaustion": true
+},
+{
+   "id": "d.chat.traveller",
+   "label": "Разговор с путешественником",
+   "desc": "Только представьте себе...",
+   "spec": [
+    "precursor.mem.dreamt",
+    "precursor.mem.storm",
+    "precursor.mem.gossip",
+    "precursor.mem.gossip",
+    "precursor.mem.gossip",
+    "precursor.mem.gossip",
+   "precursor.mem.fear",
+   "precursor.mem.foresight",
+    "precursor.mem.impulse",
+    "precursor.mem.intuition",
+    "precursor.mem.hindsight",
+    "precursor.mem.revelation",
+    "precursor.mem.regret",
+    "precursor.mem.regret",
+    "precursor.mem.regret",
+    "precursor.mem.regret",
+    "precursor.mem.solace",
+    "precursor.mem.solace",
+    "precursor.mem.solace",
+    "precursor.mem.solace",
+    "precursor.mem.satisfaction",
+    "precursor.mem.satisfaction",
+    "precursor.mem.satisfaction",
+    "precursor.mem.satisfaction"
+   ],
+  "resetonexhaustion": true
+},
+{
+   "id": "d.chat.denzil",
+   "label": "Разговор с Дензилом",
+   "desc": "Только представьте себе...",
+   "spec": [
+    "precursor.mem.dreamt",
+    "precursor.mem.storm",
+    "precursor.mem.fear",
+    "precursor.mem.fear",
+    "precursor.mem.fear",
+   "precursor.mem.fear",
+   "precursor.mem.foresight",
+   "precursor.mem.foresight",
+    "precursor.mem.foresight",
+    "precursor.mem.foresight",
+    "precursor.mem.impulse",
+    "precursor.mem.intuition",
+    "precursor.mem.hindsight",
+    "precursor.mem.hindsight",
+    "precursor.mem.hindsight",
+    "precursor.mem.hindsight",
+    "precursor.mem.revelation",
+    "precursor.mem.regret",
+    "precursor.mem.solace"
+   ],
+  "resetonexhaustion": true
+},
+{
+   "id": "d.chat.sweetbones",
+   "label": "Разговоры в «Милых костях»",
+   "desc": "Посмотрим, что скажут мне местные жители...",
+   "spec": [
+      "precursor.mem.gossip",
+      "precursor.mem.gossip",
+      "precursor.mem.gossip",
+      "precursor.mem.fear",
+      "precursor.mem.fear",
+      "precursor.mem.foresight",
+      "precursor.mem.foresight",
+      "precursor.mem.hindsight",
+      "precursor.mem.hindsight",
+      "precursor.mem.regret",
+      "precursor.mem.regret"
+   ],
+  "resetonexhaustion": true
+}
+
+
+      
+]
+}
