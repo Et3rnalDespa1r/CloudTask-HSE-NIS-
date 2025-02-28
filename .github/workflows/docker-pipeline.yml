@@ -21,7 +21,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: .
-          file: src/Dockerfile
+          context: src
+          file: Dockerfile
           push: true
           tags: Et3rnalDespa1r/cloudtask-hse-nis:latest
