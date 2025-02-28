@@ -24,4 +24,4 @@ jobs:
           context: src
           file: src/Dockerfile
           push: true
-          tags: Et3rnalDespa1r/cloudtask-hse-nis:latest
+          tags: et3rnaldespair/cloudtask-hse-nis:latest
