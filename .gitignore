@@ -1,0 +1,30 @@
+# Rider
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.cache
+*.log
+
+# Build 
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+
+# Dependencies
+node_modules/
+packages/
+*.nupkg
+project.lock.json
+
+# OS файлы
+.DS_Store
+Thumbs.db
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
