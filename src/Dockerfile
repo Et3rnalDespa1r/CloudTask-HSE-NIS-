@@ -12,7 +12,7 @@ COPY ["src/BookOfHours/BookOfHours.csproj", "BookOfHours/"]
 
 RUN dotnet restore "Project3_1/Project3_1.csproj"
 
-COPY src/ .  # Копируем весь исходный код проекта
+COPY src/ .
 WORKDIR "/src/Project3_1"
 
 RUN dotnet build "Project3_1.csproj" -c $BUILD_CONFIGURATION -o /app/build
@@ -24,6 +24,6 @@ RUN dotnet publish "Project3_1.csproj" -c $BUILD_CONFIGURATION -o /app/publish /
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish ./
-COPY src/data /app/data  # Копируем папку data с учетом новой структуры
+COPY src/data /app/data
 
 ENTRYPOINT ["dotnet", "Project3_1.dll"]
