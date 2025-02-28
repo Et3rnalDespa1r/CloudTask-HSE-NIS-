@@ -1,17 +1,20 @@
 FROM mcr.microsoft.com/dotnet/runtime:8.0 AS base
 WORKDIR /app
 
-# Обновляем пакеты и устанавливаем libncursesw (возможно, достаточно libncursesw6)
 RUN apt-get update && apt-get install -y libncursesw6
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["Project3_1/Project3_1.csproj", "Project3_1/"]
-COPY ["BookOfHours/BookOfHours.csproj", "BookOfHours/"]
+
+COPY ["src/Project3_1/Project3_1.csproj", "Project3_1/"]
+COPY ["src/BookOfHours/BookOfHours.csproj", "BookOfHours/"]
+
 RUN dotnet restore "Project3_1/Project3_1.csproj"
-COPY . .
+
+COPY src/ .  # Копируем весь исходный код проекта
 WORKDIR "/src/Project3_1"
+
 RUN dotnet build "Project3_1.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
@@ -21,5 +24,6 @@ RUN dotnet publish "Project3_1.csproj" -c $BUILD_CONFIGURATION -o /app/publish /
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish ./
-COPY data /app/data
+COPY src/data /app/data  # Копируем папку data с учетом новой структуры
+
 ENTRYPOINT ["dotnet", "Project3_1.dll"]
