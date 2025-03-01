@@ -11,7 +11,7 @@ _Проект разработан в рамках НИС (Научно-иссл
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com/yourusername/CloudTask-HSE-NIS.git
+   git clone https://github.com/Et3rnalDespa1r/CloudTask-HSE-NIS.git
    cd CloudTask-HSE-NIS
 2. **Соберите Docker-образ:**
    ```bash
@@ -19,3 +19,5 @@ _Проект разработан в рамках НИС (Научно-иссл
 3. **Запустите контейнер:**
    ```bash
    docker run -it cloudtask-hse-nis
+
+
