@@ -7,7 +7,7 @@ _Проект разработан в рамках НИС (Научно-иссл
 
 ##Как запустить?
 
-### Локально
+###Локально
 
 1. **Клонируйте репозиторий:**
    ```bash
@@ -20,4 +20,20 @@ _Проект разработан в рамках НИС (Научно-иссл
    ```bash
    docker run -it cloudtask-hse-nis
 
+###Через Docker Hub
+
+1. **Скачайте образ из Docker Hub:**
+   \`\`\`bash
+   docker pull et3rnaldespair/cloudtask-hse-nis:latest
+   \`\`\`
+
+2. **Запустите контейнер:**
+   \`\`\`bash
+   docker run -it et3rnaldespair/cloudtask-hse-nis:latest
+   \`\`\`
+
+3. **Проверьте список запущенных контейнеров:**
+   \`\`\`bash
+   docker ps
+   \`\`\`
 
